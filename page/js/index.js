@@ -159,41 +159,44 @@ function haversin(x) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_creator__ = __webpack_require__(52);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_creator__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_local__ = __webpack_require__(207);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__src_local__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_matcher__ = __webpack_require__(103);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_2__src_matcher__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_mouse__ = __webpack_require__(208);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_3__src_mouse__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_namespace__ = __webpack_require__(53);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_4__src_namespace__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_namespaces__ = __webpack_require__(54);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_5__src_namespaces__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_point__ = __webpack_require__(33);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_6__src_point__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_select__ = __webpack_require__(209);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_7__src_select__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_selectAll__ = __webpack_require__(237);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_8__src_selectAll__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_selection_index__ = __webpack_require__(7);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_9__src_selection_index__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_selector__ = __webpack_require__(57);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_10__src_selector__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_selectorAll__ = __webpack_require__(104);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_11__src_selectorAll__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_selection_style__ = __webpack_require__(107);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_12__src_selection_style__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_touch__ = __webpack_require__(238);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_13__src_touch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_touches__ = __webpack_require__(239);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_14__src_touches__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_window__ = __webpack_require__(58);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_15__src_window__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_selection_on__ = __webpack_require__(56);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_16__src_selection_on__["c"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_16__src_selection_on__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_create__ = __webpack_require__(207);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_create__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_creator__ = __webpack_require__(33);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_creator__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_local__ = __webpack_require__(236);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_2__src_local__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_matcher__ = __webpack_require__(105);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_3__src_matcher__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_mouse__ = __webpack_require__(237);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_4__src_mouse__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_namespace__ = __webpack_require__(53);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_5__src_namespace__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_namespaces__ = __webpack_require__(54);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_6__src_namespaces__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_point__ = __webpack_require__(34);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_7__src_point__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_select__ = __webpack_require__(103);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_8__src_select__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_selectAll__ = __webpack_require__(238);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_9__src_selectAll__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_selection_index__ = __webpack_require__(7);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_10__src_selection_index__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_selector__ = __webpack_require__(55);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_11__src_selector__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_selectorAll__ = __webpack_require__(104);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_12__src_selectorAll__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_selection_style__ = __webpack_require__(108);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_13__src_selection_style__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_touch__ = __webpack_require__(239);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_14__src_touch__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_touches__ = __webpack_require__(240);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_15__src_touches__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_window__ = __webpack_require__(56);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_16__src_window__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_selection_on__ = __webpack_require__(57);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_17__src_selection_on__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_17__src_selection_on__["a"]; });
+
 
 
 
@@ -256,7 +259,7 @@ function haversin(x) {
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_16__src_pairs__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_permute__ = __webpack_require__(194);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_17__src_permute__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_quantile__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_quantile__ = __webpack_require__(51);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_18__src_quantile__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_range__ = __webpack_require__(98);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_19__src_range__["a"]; });
@@ -388,44 +391,47 @@ function newInterval(floori, offseti, count, field) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_value__ = __webpack_require__(59);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_value__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_array__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_array__ = __webpack_require__(115);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_array__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_basis__ = __webpack_require__(62);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_basis__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_basisClosed__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_basisClosed__ = __webpack_require__(113);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_3__src_basisClosed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_date__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_date__ = __webpack_require__(116);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_4__src_date__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_number__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_number__ = __webpack_require__(35);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_5__src_number__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_object__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_object__ = __webpack_require__(117);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_6__src_object__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_round__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_round__ = __webpack_require__(245);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_7__src_round__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_string__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_string__ = __webpack_require__(118);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_8__src_string__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_transform_index__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_transform_index__ = __webpack_require__(246);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_9__src_transform_index__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_9__src_transform_index__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_zoom__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_zoom__ = __webpack_require__(249);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_10__src_zoom__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_rgb__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_rgb__ = __webpack_require__(112);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_11__src_rgb__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_11__src_rgb__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_11__src_rgb__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_hsl__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_hsl__ = __webpack_require__(250);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_12__src_hsl__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_12__src_hsl__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_lab__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_lab__ = __webpack_require__(251);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_13__src_lab__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_hcl__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_hcl__ = __webpack_require__(252);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_14__src_hcl__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_14__src_hcl__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(253);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_quantize__ = __webpack_require__(253);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_16__src_quantize__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_piecewise__ = __webpack_require__(254);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_16__src_piecewise__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_quantize__ = __webpack_require__(255);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_17__src_quantize__["a"]; });
+
 
 
 
@@ -452,35 +458,37 @@ function newInterval(floori, offseti, count, field) {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return root; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = Selection;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__select__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selectAll__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__filter__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__enter__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__exit__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__merge__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__order__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__sort__ = __webpack_require__(218);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__call__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__nodes__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__node__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__size__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__empty__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__each__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__attr__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__style__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__property__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__classed__ = __webpack_require__(227);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__text__ = __webpack_require__(228);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__html__ = __webpack_require__(229);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__raise__ = __webpack_require__(230);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__lower__ = __webpack_require__(231);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__append__ = __webpack_require__(232);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__insert__ = __webpack_require__(233);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__remove__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__datum__ = __webpack_require__(235);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__on__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__dispatch__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__select__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selectAll__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__filter__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__enter__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__exit__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__merge__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__order__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__sort__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__call__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__nodes__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__node__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__size__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__empty__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__each__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__attr__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__style__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__property__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__classed__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__text__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__html__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__raise__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__lower__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__append__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__insert__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__remove__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__clone__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__datum__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__on__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__dispatch__ = __webpack_require__(235);
+
 
 
 
@@ -550,9 +558,10 @@ Selection.prototype = selection.prototype = {
   append: __WEBPACK_IMPORTED_MODULE_23__append__["a" /* default */],
   insert: __WEBPACK_IMPORTED_MODULE_24__insert__["a" /* default */],
   remove: __WEBPACK_IMPORTED_MODULE_25__remove__["a" /* default */],
-  datum: __WEBPACK_IMPORTED_MODULE_26__datum__["a" /* default */],
-  on: __WEBPACK_IMPORTED_MODULE_27__on__["b" /* default */],
-  dispatch: __WEBPACK_IMPORTED_MODULE_28__dispatch__["a" /* default */]
+  clone: __WEBPACK_IMPORTED_MODULE_26__clone__["a" /* default */],
+  datum: __WEBPACK_IMPORTED_MODULE_27__datum__["a" /* default */],
+  on: __WEBPACK_IMPORTED_MODULE_28__on__["b" /* default */],
+  dispatch: __WEBPACK_IMPORTED_MODULE_29__dispatch__["a" /* default */]
 };
 
 /* harmony default export */ __webpack_exports__["b"] = (selection);
@@ -565,12 +574,14 @@ Selection.prototype = selection.prototype = {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_color__ = __webpack_require__(60);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["e"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["g"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_lab__ = __webpack_require__(242);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["g"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["f"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_lab__ = __webpack_require__(243);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__ = __webpack_require__(244);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__["a"]; });
 
 
@@ -593,7 +604,7 @@ Selection.prototype = selection.prototype = {
 /* harmony export (immutable) */ __webpack_exports__["h"] = set;
 /* harmony export (immutable) */ __webpack_exports__["f"] = get;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_timer__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_timer__ = __webpack_require__(36);
 
 
 
@@ -760,14 +771,14 @@ function create(node, id, self) {
 /* harmony export (immutable) */ __webpack_exports__["b"] = projectionMutator;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_antimeridian__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__clip_circle__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__clip_rectangle__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__clip_rectangle__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__compose__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__rotation__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transform__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__rotation__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transform__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__fit__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__resample__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__resample__ = __webpack_require__(364);
 
 
 
@@ -794,6 +805,34 @@ function transformRotate(rotate) {
   });
 }
 
+function scaleTranslate(k, dx, dy) {
+  function transform(x, y) {
+    return [dx + k * x, dy - k * y];
+  }
+  transform.invert = function(x, y) {
+    return [(x - dx) / k, (dy - y) / k];
+  };
+  return transform;
+}
+
+function scaleTranslateRotate(k, dx, dy, alpha) {
+  var cosAlpha = Object(__WEBPACK_IMPORTED_MODULE_5__math__["g" /* cos */])(alpha),
+      sinAlpha = Object(__WEBPACK_IMPORTED_MODULE_5__math__["t" /* sin */])(alpha),
+      a = cosAlpha * k,
+      b = sinAlpha * k,
+      ai = cosAlpha / k,
+      bi = sinAlpha / k,
+      ci = (sinAlpha * dy - cosAlpha * dx) / k,
+      fi = (sinAlpha * dx + cosAlpha * dy) / k;
+  function transform(x, y) {
+    return [a * x - b * y + dx, dy - b * x - a * y];
+  }
+  transform.invert = function(x, y) {
+    return [ai * x - bi * y + ci, fi - bi * x - ai * y];
+  };
+  return transform;
+}
+
 function projection(project) {
   return projectionMutator(function() { return project; })();
 }
@@ -802,26 +841,25 @@ function projectionMutator(projectAt) {
   var project,
       k = 150, // scale
       x = 480, y = 250, // translate
-      dx, dy, lambda = 0, phi = 0, // center
-      deltaLambda = 0, deltaPhi = 0, deltaGamma = 0, rotate, projectRotate, // rotate
-      theta = null, preclip = __WEBPACK_IMPORTED_MODULE_0__clip_antimeridian__["a" /* default */], // clip angle
-      x0 = null, y0, x1, y1, postclip = __WEBPACK_IMPORTED_MODULE_4__identity__["a" /* default */], // clip extent
-      delta2 = 0.5, projectResample = Object(__WEBPACK_IMPORTED_MODULE_9__resample__["a" /* default */])(projectTransform, delta2), // precision
+      lambda = 0, phi = 0, // center
+      deltaLambda = 0, deltaPhi = 0, deltaGamma = 0, rotate, // pre-rotate
+      alpha = 0, // post-rotate
+      theta = null, preclip = __WEBPACK_IMPORTED_MODULE_0__clip_antimeridian__["a" /* default */], // pre-clip angle
+      x0 = null, y0, x1, y1, postclip = __WEBPACK_IMPORTED_MODULE_4__identity__["a" /* default */], // post-clip extent
+      delta2 = 0.5, // precision
+      projectResample,
+      projectTransform,
+      projectRotateTransform,
       cache,
       cacheStream;
 
   function projection(point) {
-    point = projectRotate(point[0] * __WEBPACK_IMPORTED_MODULE_5__math__["r" /* radians */], point[1] * __WEBPACK_IMPORTED_MODULE_5__math__["r" /* radians */]);
-    return [point[0] * k + dx, dy - point[1] * k];
+    return projectRotateTransform(point[0] * __WEBPACK_IMPORTED_MODULE_5__math__["r" /* radians */], point[1] * __WEBPACK_IMPORTED_MODULE_5__math__["r" /* radians */]);
   }
 
   function invert(point) {
-    point = projectRotate.invert((point[0] - dx) / k, (dy - point[1]) / k);
+    point = projectRotateTransform.invert(point[0], point[1]);
     return point && [point[0] * __WEBPACK_IMPORTED_MODULE_5__math__["h" /* degrees */], point[1] * __WEBPACK_IMPORTED_MODULE_5__math__["h" /* degrees */]];
-  }
-
-  function projectTransform(x, y) {
-    return x = project(x, y), [x[0] * k + dx, dy - x[1] * k];
   }
 
   projection.stream = function(stream) {
@@ -860,6 +898,10 @@ function projectionMutator(projectAt) {
     return arguments.length ? (deltaLambda = _[0] % 360 * __WEBPACK_IMPORTED_MODULE_5__math__["r" /* radians */], deltaPhi = _[1] % 360 * __WEBPACK_IMPORTED_MODULE_5__math__["r" /* radians */], deltaGamma = _.length > 2 ? _[2] % 360 * __WEBPACK_IMPORTED_MODULE_5__math__["r" /* radians */] : 0, recenter()) : [deltaLambda * __WEBPACK_IMPORTED_MODULE_5__math__["h" /* degrees */], deltaPhi * __WEBPACK_IMPORTED_MODULE_5__math__["h" /* degrees */], deltaGamma * __WEBPACK_IMPORTED_MODULE_5__math__["h" /* degrees */]];
   };
 
+  projection.angle = function(_) {
+    return arguments.length ? (alpha = _ % 360 * __WEBPACK_IMPORTED_MODULE_5__math__["r" /* radians */], recenter()) : alpha * __WEBPACK_IMPORTED_MODULE_5__math__["h" /* degrees */];
+  };
+
   projection.precision = function(_) {
     return arguments.length ? (projectResample = Object(__WEBPACK_IMPORTED_MODULE_9__resample__["a" /* default */])(projectTransform, delta2 = _ * _), reset()) : Object(__WEBPACK_IMPORTED_MODULE_5__math__["u" /* sqrt */])(delta2);
   };
@@ -881,10 +923,12 @@ function projectionMutator(projectAt) {
   };
 
   function recenter() {
-    projectRotate = Object(__WEBPACK_IMPORTED_MODULE_3__compose__["a" /* default */])(rotate = Object(__WEBPACK_IMPORTED_MODULE_6__rotation__["b" /* rotateRadians */])(deltaLambda, deltaPhi, deltaGamma), project);
-    var center = project(lambda, phi);
-    dx = x - center[0] * k;
-    dy = y + center[1] * k;
+    var center = scaleTranslateRotate(k, 0, 0, alpha).apply(null, project(lambda, phi)),
+        transform = (alpha ? scaleTranslateRotate : scaleTranslate)(k, x - center[0], y - center[1], alpha);
+    rotate = Object(__WEBPACK_IMPORTED_MODULE_6__rotation__["b" /* rotateRadians */])(deltaLambda, deltaPhi, deltaGamma);
+    projectTransform = Object(__WEBPACK_IMPORTED_MODULE_3__compose__["a" /* default */])(project, transform);
+    projectRotateTransform = Object(__WEBPACK_IMPORTED_MODULE_3__compose__["a" /* default */])(rotate, projectTransform);
+    projectResample = Object(__WEBPACK_IMPORTED_MODULE_9__resample__["a" /* default */])(projectTransform, delta2);
     return reset();
   }
 
@@ -927,23 +971,23 @@ var durationWeek = 6048e5;
 /* harmony export (immutable) */ __webpack_exports__["b"] = transition;
 /* harmony export (immutable) */ __webpack_exports__["c"] = newId;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__attr__ = __webpack_require__(259);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__attrTween__ = __webpack_require__(260);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__delay__ = __webpack_require__(261);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__duration__ = __webpack_require__(262);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ease__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__filter__ = __webpack_require__(264);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__merge__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__on__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__remove__ = __webpack_require__(267);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__select__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__selectAll__ = __webpack_require__(269);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__selection__ = __webpack_require__(270);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__style__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__styleTween__ = __webpack_require__(272);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__text__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__transition__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__tween__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__attr__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__attrTween__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__delay__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__duration__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ease__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__filter__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__merge__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__on__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__remove__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__select__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__selectAll__ = __webpack_require__(271);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__selection__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__style__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__styleTween__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__text__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__transition__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__tween__ = __webpack_require__(37);
 
 
 
@@ -973,14 +1017,14 @@ function Transition(groups, parents, name, id) {
 }
 
 function transition(name) {
-  return Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["l" /* selection */])().transition(name);
+  return Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["m" /* selection */])().transition(name);
 }
 
 function newId() {
   return ++id;
 }
 
-var selection_prototype = __WEBPACK_IMPORTED_MODULE_0_d3_selection__["l" /* selection */].prototype;
+var selection_prototype = __WEBPACK_IMPORTED_MODULE_0_d3_selection__["m" /* selection */].prototype;
 
 Transition.prototype = transition.prototype = {
   constructor: Transition,
@@ -1024,7 +1068,7 @@ function noop() {}
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_path__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_path__ = __webpack_require__(296);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_path__["a"]; });
 
 
@@ -1237,7 +1281,7 @@ function add(adder, a, b) {
 /* harmony export (immutable) */ __webpack_exports__["c"] = hue;
 /* harmony export (immutable) */ __webpack_exports__["b"] = gamma;
 /* harmony export (immutable) */ __webpack_exports__["a"] = nogamma;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(114);
 
 
 function linear(a, d) {
@@ -1381,8 +1425,8 @@ function azimuthalInvert(angle) {
 /* harmony export (immutable) */ __webpack_exports__["a"] = linear;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tickFormat__ = __webpack_require__(411);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tickFormat__ = __webpack_require__(414);
 
 
 
@@ -1534,7 +1578,7 @@ function asin(x) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return circles; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return edges; });
 /* harmony export (immutable) */ __webpack_exports__["d"] = Diagram;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Beach__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Beach__ = __webpack_require__(507);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Cell__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Circle__ = __webpack_require__(173);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Edge__ = __webpack_require__(89);
@@ -1688,6 +1732,40 @@ Diagram.prototype = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__namespace__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__namespaces__ = __webpack_require__(54);
+
+
+
+function creatorInherit(name) {
+  return function() {
+    var document = this.ownerDocument,
+        uri = this.namespaceURI;
+    return uri === __WEBPACK_IMPORTED_MODULE_1__namespaces__["b" /* xhtml */] && document.documentElement.namespaceURI === __WEBPACK_IMPORTED_MODULE_1__namespaces__["b" /* xhtml */]
+        ? document.createElement(name)
+        : document.createElementNS(uri, name);
+  };
+}
+
+function creatorFixed(fullname) {
+  return function() {
+    return this.ownerDocument.createElementNS(fullname.space, fullname.local);
+  };
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (function(name) {
+  var fullname = Object(__WEBPACK_IMPORTED_MODULE_0__namespace__["a" /* default */])(name);
+  return (fullname.local
+      ? creatorFixed
+      : creatorInherit)(fullname);
+});
+
+
+/***/ }),
+/* 34 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony default export */ __webpack_exports__["a"] = (function(node, event) {
   var svg = node.ownerSVGElement || node;
 
@@ -1704,7 +1782,7 @@ Diagram.prototype = {
 
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1716,7 +1794,7 @@ Diagram.prototype = {
 
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1724,9 +1802,9 @@ Diagram.prototype = {
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_timer__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_timer__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__src_timer__["d"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_timeout__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_timeout__ = __webpack_require__(258);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_timeout__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_interval__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_interval__ = __webpack_require__(259);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_interval__["a"]; });
 
 
@@ -1736,7 +1814,7 @@ Diagram.prototype = {
 
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1826,21 +1904,21 @@ function tweenValue(transition, name, value) {
 
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_nest__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_nest__ = __webpack_require__(297);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_nest__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_set__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_set__ = __webpack_require__(298);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__src_set__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_map__ = __webpack_require__(65);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_map__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_keys__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_keys__ = __webpack_require__(299);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__src_keys__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_values__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_values__ = __webpack_require__(300);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_4__src_values__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_entries__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_entries__ = __webpack_require__(301);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__src_entries__["a"]; });
 
 
@@ -1851,7 +1929,7 @@ function tweenValue(transition, name, value) {
 
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1864,7 +1942,7 @@ function tweenValue(transition, name, value) {
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1950,14 +2028,14 @@ function rotationPhiGamma(deltaPhi, deltaGamma) {
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = clipRectangle;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffer__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__line__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__line__ = __webpack_require__(354);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rejoin__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_array__ = __webpack_require__(4);
 
@@ -2131,7 +2209,7 @@ function clipRectangle(x0, y0, x1, y1) {
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2165,7 +2243,7 @@ TransformStream.prototype = {
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2184,7 +2262,7 @@ TransformStream.prototype = {
 
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2312,32 +2390,32 @@ function continuous(deinterpolate, reinterpolate) {
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_interval__ = __webpack_require__(5);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_0__src_interval__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_millisecond__ = __webpack_require__(417);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_millisecond__ = __webpack_require__(420);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_second__ = __webpack_require__(418);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_second__ = __webpack_require__(421);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "V", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "W", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_minute__ = __webpack_require__(419);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_minute__ = __webpack_require__(422);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_3__src_minute__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_3__src_minute__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_hour__ = __webpack_require__(420);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_hour__ = __webpack_require__(423);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__src_hour__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_4__src_hour__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_day__ = __webpack_require__(421);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_day__ = __webpack_require__(424);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__src_day__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__src_day__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_week__ = __webpack_require__(422);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_week__ = __webpack_require__(425);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["g"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["h"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["g"]; });
@@ -2354,22 +2432,22 @@ function continuous(deinterpolate, reinterpolate) {
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_month__ = __webpack_require__(423);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_month__ = __webpack_require__(426);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_7__src_month__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_7__src_month__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_year__ = __webpack_require__(424);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_year__ = __webpack_require__(427);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_8__src_year__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_8__src_year__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__ = __webpack_require__(425);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__ = __webpack_require__(428);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcHour__ = __webpack_require__(426);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcHour__ = __webpack_require__(429);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcHour__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcHour__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_utcDay__ = __webpack_require__(427);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_utcDay__ = __webpack_require__(430);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_11__src_utcDay__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_11__src_utcDay__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__ = __webpack_require__(428);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__ = __webpack_require__(431);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_5", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["g"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_6", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["h"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "X", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["g"]; });
@@ -2386,10 +2464,10 @@ function continuous(deinterpolate, reinterpolate) {
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__ = __webpack_require__(429);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__ = __webpack_require__(432);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_utcYear__ = __webpack_require__(430);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_utcYear__ = __webpack_require__(433);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_7", function() { return __WEBPACK_IMPORTED_MODULE_14__src_utcYear__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_8", function() { return __WEBPACK_IMPORTED_MODULE_14__src_utcYear__["b"]; });
 
@@ -2424,7 +2502,7 @@ function continuous(deinterpolate, reinterpolate) {
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2462,7 +2540,7 @@ Linear.prototype = {
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2470,7 +2548,7 @@ Linear.prototype = {
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2530,7 +2608,7 @@ Basis.prototype = {
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2600,7 +2678,7 @@ Cardinal.prototype = {
 
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports) {
 
 var g;
@@ -2627,7 +2705,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2649,51 +2727,17 @@ module.exports = g;
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_drag__ = __webpack_require__(206);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_drag__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_nodrag__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_nodrag__ = __webpack_require__(109);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_nodrag__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_nodrag__["b"]; });
 
 
-
-
-/***/ }),
-/* 52 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__namespace__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__namespaces__ = __webpack_require__(54);
-
-
-
-function creatorInherit(name) {
-  return function() {
-    var document = this.ownerDocument,
-        uri = this.namespaceURI;
-    return uri === __WEBPACK_IMPORTED_MODULE_1__namespaces__["b" /* xhtml */] && document.documentElement.namespaceURI === __WEBPACK_IMPORTED_MODULE_1__namespaces__["b" /* xhtml */]
-        ? document.createElement(name)
-        : document.createElementNS(uri, name);
-  };
-}
-
-function creatorFixed(fullname) {
-  return function() {
-    return this.ownerDocument.createElementNS(fullname.space, fullname.local);
-  };
-}
-
-/* harmony default export */ __webpack_exports__["a"] = (function(name) {
-  var fullname = Object(__WEBPACK_IMPORTED_MODULE_0__namespace__["a" /* default */])(name);
-  return (fullname.local
-      ? creatorFixed
-      : creatorInherit)(fullname);
-});
 
 
 /***/ }),
@@ -2733,18 +2777,29 @@ var xhtml = "http://www.w3.org/1999/xhtml";
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection_on__ = __webpack_require__(56);
+function none() {}
 
-
-/* harmony default export */ __webpack_exports__["a"] = (function() {
-  var current = __WEBPACK_IMPORTED_MODULE_0__selection_on__["c" /* event */], source;
-  while (source = current.sourceEvent) current = source;
-  return current;
+/* harmony default export */ __webpack_exports__["a"] = (function(selector) {
+  return selector == null ? none : function() {
+    return this.querySelector(selector);
+  };
 });
 
 
 /***/ }),
 /* 56 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = (function(node) {
+  return (node.ownerDocument && node.ownerDocument.defaultView) // node is a Node
+      || (node.document && node) // node is a Window
+      || node.defaultView; // node is a Document
+});
+
+
+/***/ }),
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2860,28 +2915,17 @@ function customEvent(event1, listener, that, args) {
 
 
 /***/ }),
-/* 57 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-function none() {}
-
-/* harmony default export */ __webpack_exports__["a"] = (function(selector) {
-  return selector == null ? none : function() {
-    return this.querySelector(selector);
-  };
-});
-
-
-/***/ }),
 /* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony default export */ __webpack_exports__["a"] = (function(node) {
-  return (node.ownerDocument && node.ownerDocument.defaultView) // node is a Node
-      || (node.document && node) // node is a Window
-      || node.defaultView; // node is a Document
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection_on__ = __webpack_require__(57);
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function() {
+  var current = __WEBPACK_IMPORTED_MODULE_0__selection_on__["c" /* event */], source;
+  while (source = current.sourceEvent) current = source;
+  return current;
 });
 
 
@@ -2891,13 +2935,13 @@ function none() {}
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rgb__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__date__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__object__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__string__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__constant__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rgb__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__array__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__date__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__number__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__object__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__string__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__constant__ = __webpack_require__(114);
 
 
 
@@ -3109,6 +3153,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Color, color, {
   displayable: function() {
     return this.rgb().displayable();
   },
+  hex: function() {
+    return this.rgb().hex();
+  },
   toString: function() {
     return this.rgb() + "";
   }
@@ -3175,6 +3222,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Rgb, rgb, Objec
         && (0 <= this.b && this.b <= 255)
         && (0 <= this.opacity && this.opacity <= 1);
   },
+  hex: function() {
+    return "#" + hex(this.r) + hex(this.g) + hex(this.b);
+  },
   toString: function() {
     var a = this.opacity; a = isNaN(a) ? 1 : Math.max(0, Math.min(1, a));
     return (a === 1 ? "rgb(" : "rgba(")
@@ -3184,6 +3234,11 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Rgb, rgb, Objec
         + (a === 1 ? ")" : ", " + a + ")");
   }
 }));
+
+function hex(value) {
+  value = Math.max(0, Math.min(255, Math.round(value) || 0));
+  return (value < 16 ? "0" : "") + value.toString(16);
+}
 
 function hsla(h, s, l, a) {
   if (a <= 0) h = s = l = NaN;
@@ -3317,12 +3372,12 @@ function basis(t1, v0, v1, v2, v3) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_selection_index__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_selection_index__ = __webpack_require__(256);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_transition_index__ = __webpack_require__(12);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_transition_index__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_active__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_active__ = __webpack_require__(287);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_active__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_interrupt__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_interrupt__ = __webpack_require__(119);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__src_interrupt__["a"]; });
 
 
@@ -3698,7 +3753,7 @@ function responseText(response) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_quadtree__ = __webpack_require__(319);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_quadtree__ = __webpack_require__(321);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_quadtree__["a"]; });
 
 
@@ -3722,19 +3777,19 @@ function responseText(response) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(339);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_locale__ = __webpack_require__(128);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_locale__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__ = __webpack_require__(129);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__ = __webpack_require__(346);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__ = __webpack_require__(347);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__ = __webpack_require__(348);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__["a"]; });
 
 
@@ -3783,7 +3838,7 @@ function responseText(response) {
 /* harmony export (immutable) */ __webpack_exports__["a"] = conicEqualAreaRaw;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conic__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cylindricalEqualArea__ = __webpack_require__(362);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cylindricalEqualArea__ = __webpack_require__(365);
 
 
 
@@ -3909,7 +3964,7 @@ function fitHeight(projection, height, object) {
 /* harmony export (immutable) */ __webpack_exports__["c"] = mercatorRaw;
 /* harmony export (immutable) */ __webpack_exports__["b"] = mercatorProjection;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rotation__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rotation__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(10);
 
 
@@ -3973,17 +4028,17 @@ function mercatorProjection(project) {
 /* harmony export (immutable) */ __webpack_exports__["c"] = hierarchy;
 /* harmony export (immutable) */ __webpack_exports__["b"] = computeHeight;
 /* harmony export (immutable) */ __webpack_exports__["a"] = Node;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__count__ = __webpack_require__(376);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__each__ = __webpack_require__(377);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__eachBefore__ = __webpack_require__(378);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__eachAfter__ = __webpack_require__(379);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sum__ = __webpack_require__(380);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sort__ = __webpack_require__(381);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__path__ = __webpack_require__(382);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ancestors__ = __webpack_require__(383);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__descendants__ = __webpack_require__(384);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__leaves__ = __webpack_require__(385);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__links__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__count__ = __webpack_require__(379);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__each__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__eachBefore__ = __webpack_require__(381);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__eachAfter__ = __webpack_require__(382);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sum__ = __webpack_require__(383);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sort__ = __webpack_require__(384);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__path__ = __webpack_require__(385);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ancestors__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__descendants__ = __webpack_require__(387);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__leaves__ = __webpack_require__(388);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__links__ = __webpack_require__(389);
 
 
 
@@ -4090,7 +4145,7 @@ function required(f) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return phi; });
 /* harmony export (immutable) */ __webpack_exports__["c"] = squarifyRatio;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dice__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(43);
 
 
 
@@ -4186,7 +4241,7 @@ function squarifyRatio(ratio, parent, x0, y0, x1, y1) {
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__src_locale__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_isoFormat__ = __webpack_require__(157);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_isoFormat__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_isoParse__ = __webpack_require__(431);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_isoParse__ = __webpack_require__(434);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__src_isoParse__["a"]; });
 
 
@@ -4241,7 +4296,7 @@ function defaultLocale(definition) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__curve_linear__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__curve_linear__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__point__ = __webpack_require__(85);
 
 
@@ -4323,7 +4378,7 @@ function y(p) {
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = point;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__math__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cardinal__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cardinal__ = __webpack_require__(49);
 
 
 
@@ -5398,6 +5453,37 @@ function length(d) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection_index__ = __webpack_require__(7);
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function(selector) {
+  return typeof selector === "string"
+      ? new __WEBPACK_IMPORTED_MODULE_0__selection_index__["a" /* Selection */]([[document.querySelector(selector)]], [document.documentElement])
+      : new __WEBPACK_IMPORTED_MODULE_0__selection_index__["a" /* Selection */]([[selector]], __WEBPACK_IMPORTED_MODULE_0__selection_index__["c" /* root */]);
+});
+
+
+/***/ }),
+/* 104 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+function empty() {
+  return [];
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (function(selector) {
+  return selector == null ? empty : function() {
+    return this.querySelectorAll(selector);
+  };
+});
+
+
+/***/ }),
+/* 105 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 var matcher = function(selector) {
   return function() {
     return this.matches(selector);
@@ -5423,28 +5509,12 @@ if (typeof document !== "undefined") {
 
 
 /***/ }),
-/* 104 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-function empty() {
-  return [];
-}
-
-/* harmony default export */ __webpack_exports__["a"] = (function(selector) {
-  return selector == null ? empty : function() {
-    return this.querySelectorAll(selector);
-  };
-});
-
-
-/***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = EnterNode;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sparse__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sparse__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(7);
 
 
@@ -5471,7 +5541,7 @@ EnterNode.prototype = {
 
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5481,12 +5551,12 @@ EnterNode.prototype = {
 
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = styleValue;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__window__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__window__ = __webpack_require__(56);
 
 
 function styleRemove(name) {
@@ -5525,19 +5595,19 @@ function styleValue(node, name) {
 
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = yesdrag;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noevent__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noevent__ = __webpack_require__(110);
 
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(view) {
   var root = view.document.documentElement,
-      selection = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["j" /* select */])(view).on("dragstart.drag", __WEBPACK_IMPORTED_MODULE_1__noevent__["a" /* default */], true);
+      selection = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["k" /* select */])(view).on("dragstart.drag", __WEBPACK_IMPORTED_MODULE_1__noevent__["a" /* default */], true);
   if ("onselectstart" in root) {
     selection.on("selectstart.drag", __WEBPACK_IMPORTED_MODULE_1__noevent__["a" /* default */], true);
   } else {
@@ -5548,7 +5618,7 @@ function styleValue(node, name) {
 
 function yesdrag(view, noclick) {
   var root = view.document.documentElement,
-      selection = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["j" /* select */])(view).on("dragstart.drag", null);
+      selection = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["k" /* select */])(view).on("dragstart.drag", null);
   if (noclick) {
     selection.on("click.drag", __WEBPACK_IMPORTED_MODULE_1__noevent__["a" /* default */], true);
     setTimeout(function() { selection.on("click.drag", null); }, 0);
@@ -5563,7 +5633,7 @@ function yesdrag(view, noclick) {
 
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5572,17 +5642,17 @@ function yesdrag(view, noclick) {
 
 
 function nopropagation() {
-  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["d" /* event */].stopImmediatePropagation();
+  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["e" /* event */].stopImmediatePropagation();
 }
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
-  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["d" /* event */].preventDefault();
-  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["d" /* event */].stopImmediatePropagation();
+  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["e" /* event */].preventDefault();
+  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["e" /* event */].stopImmediatePropagation();
 });
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5593,7 +5663,7 @@ var rad2deg = 180 / Math.PI;
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5601,7 +5671,7 @@ var rad2deg = 180 / Math.PI;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return rgbBasisClosed; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__basisClosed__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__basisClosed__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__color__ = __webpack_require__(24);
 
 
@@ -5612,7 +5682,7 @@ var rad2deg = 180 / Math.PI;
   var color = Object(__WEBPACK_IMPORTED_MODULE_3__color__["b" /* gamma */])(y);
 
   function rgb(start, end) {
-    var r = color((start = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["f" /* rgb */])(start)).r, (end = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["f" /* rgb */])(end)).r),
+    var r = color((start = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["h" /* rgb */])(start)).r, (end = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["h" /* rgb */])(end)).r),
         g = color(start.g, end.g),
         b = color(start.b, end.b),
         opacity = Object(__WEBPACK_IMPORTED_MODULE_3__color__["a" /* default */])(start.opacity, end.opacity);
@@ -5638,7 +5708,7 @@ function rgbSpline(spline) {
         b = new Array(n),
         i, color;
     for (i = 0; i < n; ++i) {
-      color = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["f" /* rgb */])(colors[i]);
+      color = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["h" /* rgb */])(colors[i]);
       r[i] = color.r || 0;
       g[i] = color.g || 0;
       b[i] = color.b || 0;
@@ -5661,7 +5731,7 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5682,7 +5752,7 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5694,7 +5764,7 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5719,7 +5789,7 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5732,7 +5802,7 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5763,11 +5833,11 @@ var rgbBasisClosed = rgbSpline(__WEBPACK_IMPORTED_MODULE_2__basisClosed__["a" /*
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(35);
 
 
 var reA = /[-+]?(?:\d+\.?\d*|\.?\d+)(?:[eE][-+]?\d+)?/g,
@@ -5835,7 +5905,7 @@ function one(b) {
 
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5867,7 +5937,7 @@ function one(b) {
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5886,53 +5956,53 @@ function one(b) {
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_linear__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_linear__ = __webpack_require__(277);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_0__src_linear__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_quad__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_quad__ = __webpack_require__(278);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_1__src_quad__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_1__src_quad__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_1__src_quad__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_1__src_quad__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubic__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubic__ = __webpack_require__(279);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubic__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubic__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubic__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubic__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_poly__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_poly__ = __webpack_require__(280);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_3__src_poly__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_3__src_poly__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_3__src_poly__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_3__src_poly__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_sin__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_sin__ = __webpack_require__(281);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_4__src_sin__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_4__src_sin__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_4__src_sin__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_4__src_sin__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_exp__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_exp__ = __webpack_require__(282);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_5__src_exp__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_5__src_exp__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_5__src_exp__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_5__src_exp__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_circle__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_circle__ = __webpack_require__(283);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_6__src_circle__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_6__src_circle__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_6__src_circle__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_6__src_circle__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_bounce__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_bounce__ = __webpack_require__(284);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_7__src_bounce__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_7__src_bounce__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_7__src_bounce__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_7__src_bounce__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_back__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_back__ = __webpack_require__(285);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_8__src_back__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_8__src_back__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_8__src_back__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_8__src_back__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_elastic__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_elastic__ = __webpack_require__(286);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_9__src_elastic__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_9__src_elastic__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_9__src_elastic__["c"]; });
@@ -5959,7 +6029,7 @@ function one(b) {
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5978,17 +6048,17 @@ var max = Math.max;
 
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ascending__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__area__ = __webpack_require__(302);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__constant__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__contains__ = __webpack_require__(303);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__noop__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ascending__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__area__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__constant__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__contains__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__noop__ = __webpack_require__(306);
 
 
 
@@ -6195,7 +6265,7 @@ var cases = [
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6206,7 +6276,7 @@ var slice = array.slice;
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6218,18 +6288,18 @@ var slice = array.slice;
 
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_dsv__ = __webpack_require__(66);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__src_dsv__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_csv__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_csv__ = __webpack_require__(309);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_csv__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_tsv__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_tsv__ = __webpack_require__(310);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_2__src_tsv__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_2__src_tsv__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_2__src_tsv__["a"]; });
@@ -6240,15 +6310,15 @@ var slice = array.slice;
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = x;
 /* harmony export (immutable) */ __webpack_exports__["c"] = y;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_collection__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_timer__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_collection__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_timer__ = __webpack_require__(36);
 
 
 
@@ -6395,17 +6465,19 @@ var initialRadius = 10,
 
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(338);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__formatTypes__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__formatTrim__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__formatTypes__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__formatPrefixAuto__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__identity__ = __webpack_require__(345);
+
 
 
 
@@ -6417,10 +6489,10 @@ var initialRadius = 10,
 var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z","Y"];
 
 /* harmony default export */ __webpack_exports__["a"] = (function(locale) {
-  var group = locale.grouping && locale.thousands ? Object(__WEBPACK_IMPORTED_MODULE_1__formatGroup__["a" /* default */])(locale.grouping, locale.thousands) : __WEBPACK_IMPORTED_MODULE_6__identity__["a" /* default */],
+  var group = locale.grouping && locale.thousands ? Object(__WEBPACK_IMPORTED_MODULE_1__formatGroup__["a" /* default */])(locale.grouping, locale.thousands) : __WEBPACK_IMPORTED_MODULE_7__identity__["a" /* default */],
       currency = locale.currency,
       decimal = locale.decimal,
-      numerals = locale.numerals ? Object(__WEBPACK_IMPORTED_MODULE_2__formatNumerals__["a" /* default */])(locale.numerals) : __WEBPACK_IMPORTED_MODULE_6__identity__["a" /* default */],
+      numerals = locale.numerals ? Object(__WEBPACK_IMPORTED_MODULE_2__formatNumerals__["a" /* default */])(locale.numerals) : __WEBPACK_IMPORTED_MODULE_7__identity__["a" /* default */],
       percent = locale.percent || "%";
 
   function newFormat(specifier) {
@@ -6434,7 +6506,17 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
         width = specifier.width,
         comma = specifier.comma,
         precision = specifier.precision,
+        trim = specifier.trim,
         type = specifier.type;
+
+    // The "n" type is an alias for ",g".
+    if (type === "n") comma = true, type = "g";
+
+    // The "" type, and any invalid type, is an alias for ".12~g".
+    else if (!__WEBPACK_IMPORTED_MODULE_5__formatTypes__["a" /* default */][type]) precision == null && (precision = 12), trim = true, type = "g";
+
+    // If zero fill is specified, padding goes after sign and before digits.
+    if (zero || (fill === "0" && align === "=")) zero = true, fill = "0", align = "=";
 
     // Compute the prefix and suffix.
     // For SI-prefix, the suffix is lazily computed.
@@ -6444,14 +6526,14 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
     // What format function should we use?
     // Is this an integer type?
     // Can this type generate exponential notation?
-    var formatType = __WEBPACK_IMPORTED_MODULE_4__formatTypes__["a" /* default */][type],
-        maybeSuffix = !type || /[defgprs%]/.test(type);
+    var formatType = __WEBPACK_IMPORTED_MODULE_5__formatTypes__["a" /* default */][type],
+        maybeSuffix = /[defgprs%]/.test(type);
 
     // Set the default precision if not specified,
     // or clamp the specified precision to the supported range.
     // For significant precision, it must be in [1, 21].
     // For fixed precision, it must be in [0, 20].
-    precision = precision == null ? (type ? 6 : 12)
+    precision = precision == null ? 6
         : /[gprs]/.test(type) ? Math.max(1, Math.min(21, precision))
         : Math.max(0, Math.min(20, precision));
 
@@ -6470,12 +6552,15 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
         var valueNegative = value < 0;
         value = formatType(Math.abs(value), precision);
 
+        // Trim insignificant zeros.
+        if (trim) value = Object(__WEBPACK_IMPORTED_MODULE_4__formatTrim__["a" /* default */])(value);
+
         // If a negative value rounds to zero during formatting, treat as positive.
         if (valueNegative && +value === 0) valueNegative = false;
 
         // Compute the prefix and suffix.
         valuePrefix = (valueNegative ? (sign === "(" ? sign : "-") : sign === "-" || sign === "(" ? "" : sign) + valuePrefix;
-        valueSuffix = valueSuffix + (type === "s" ? prefixes[8 + __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__["b" /* prefixExponent */] / 3] : "") + (valueNegative && sign === "(" ? ")" : "");
+        valueSuffix = (type === "s" ? prefixes[8 + __WEBPACK_IMPORTED_MODULE_6__formatPrefixAuto__["b" /* prefixExponent */] / 3] : "") + valueSuffix + (valueNegative && sign === "(" ? ")" : "");
 
         // Break the formatted value into the integer “value” part that can be
         // grouped, and fractional or exponential “suffix” part that is not.
@@ -6537,16 +6622,13 @@ var prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z",
 
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = formatSpecifier;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatTypes__ = __webpack_require__(129);
-
-
-// [[fill]align][sign][symbol][0][width][,][.precision][type]
-var re = /^(?:(.)?([<>=^]))?([+\-\( ])?([$#])?(0)?(\d+)?(,)?(\.\d+)?([a-z%])?$/i;
+// [[fill]align][sign][symbol][0][width][,][.precision][~][type]
+var re = /^(?:(.)?([<>=^]))?([+\-\( ])?([$#])?(0)?(\d+)?(,)?(\.\d+)?(~)?([a-z%])?$/i;
 
 function formatSpecifier(specifier) {
   return new FormatSpecifier(specifier);
@@ -6556,36 +6638,17 @@ formatSpecifier.prototype = FormatSpecifier.prototype; // instanceof
 
 function FormatSpecifier(specifier) {
   if (!(match = re.exec(specifier))) throw new Error("invalid format: " + specifier);
-
-  var match,
-      fill = match[1] || " ",
-      align = match[2] || ">",
-      sign = match[3] || "-",
-      symbol = match[4] || "",
-      zero = !!match[5],
-      width = match[6] && +match[6],
-      comma = !!match[7],
-      precision = match[8] && +match[8].slice(1),
-      type = match[9] || "";
-
-  // The "n" type is an alias for ",g".
-  if (type === "n") comma = true, type = "g";
-
-  // Map invalid types to the default format.
-  else if (!__WEBPACK_IMPORTED_MODULE_0__formatTypes__["a" /* default */][type]) type = "";
-
-  // If zero fill is specified, padding goes after sign and before digits.
-  if (zero || (fill === "0" && align === "=")) zero = true, fill = "0", align = "=";
-
-  this.fill = fill;
-  this.align = align;
-  this.sign = sign;
-  this.symbol = symbol;
-  this.zero = zero;
-  this.width = width;
-  this.comma = comma;
-  this.precision = precision;
-  this.type = type;
+  var match;
+  this.fill = match[1] || " ";
+  this.align = match[2] || ">";
+  this.sign = match[3] || "-";
+  this.symbol = match[4] || "";
+  this.zero = !!match[5];
+  this.width = match[6] && +match[6];
+  this.comma = !!match[7];
+  this.precision = match[8] && +match[8].slice(1);
+  this.trim = !!match[9];
+  this.type = match[10] || "";
 }
 
 FormatSpecifier.prototype.toString = function() {
@@ -6597,38 +6660,9 @@ FormatSpecifier.prototype.toString = function() {
       + (this.width == null ? "" : Math.max(1, this.width | 0))
       + (this.comma ? "," : "")
       + (this.precision == null ? "" : "." + Math.max(0, this.precision | 0))
+      + (this.trim ? "~" : "")
       + this.type;
 };
-
-
-/***/ }),
-/* 129 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDefault__ = __webpack_require__(340);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatPrefixAuto__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatRounded__ = __webpack_require__(341);
-
-
-
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  "": __WEBPACK_IMPORTED_MODULE_0__formatDefault__["a" /* default */],
-  "%": function(x, p) { return (x * 100).toFixed(p); },
-  "b": function(x) { return Math.round(x).toString(2); },
-  "c": function(x) { return x + ""; },
-  "d": function(x) { return Math.round(x).toString(10); },
-  "e": function(x, p) { return x.toExponential(p); },
-  "f": function(x, p) { return x.toFixed(p); },
-  "g": function(x, p) { return x.toPrecision(p); },
-  "o": function(x) { return Math.round(x).toString(8); },
-  "p": function(x, p) { return Object(__WEBPACK_IMPORTED_MODULE_2__formatRounded__["a" /* default */])(x * 100, p); },
-  "r": __WEBPACK_IMPORTED_MODULE_2__formatRounded__["a" /* default */],
-  "s": __WEBPACK_IMPORTED_MODULE_1__formatPrefixAuto__["a" /* default */],
-  "X": function(x) { return Math.round(x).toString(16).toUpperCase(); },
-  "x": function(x) { return Math.round(x).toString(16); }
-});
 
 
 /***/ }),
@@ -6750,9 +6784,9 @@ function areaPoint(lambda, phi) {
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = circleStream;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(352);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rotation__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rotation__ = __webpack_require__(40);
 
 
 
@@ -7261,11 +7295,15 @@ var sum = Object(__WEBPACK_IMPORTED_MODULE_0__adder__["a" /* default */])();
 /* harmony default export */ __webpack_exports__["a"] = (function(polygon, point) {
   var lambda = point[0],
       phi = point[1],
+      sinPhi = Object(__WEBPACK_IMPORTED_MODULE_2__math__["t" /* sin */])(phi),
       normal = [Object(__WEBPACK_IMPORTED_MODULE_2__math__["t" /* sin */])(lambda), -Object(__WEBPACK_IMPORTED_MODULE_2__math__["g" /* cos */])(lambda), 0],
       angle = 0,
       winding = 0;
 
   sum.reset();
+
+  if (sinPhi === 1) phi = __WEBPACK_IMPORTED_MODULE_2__math__["l" /* halfPi */] + __WEBPACK_IMPORTED_MODULE_2__math__["i" /* epsilon */];
+  else if (sinPhi === -1) phi = -__WEBPACK_IMPORTED_MODULE_2__math__["l" /* halfPi */] - __WEBPACK_IMPORTED_MODULE_2__math__["i" /* epsilon */];
 
   for (var i = 0, n = polygon.length; i < n; ++i) {
     if (!(m = (ring = polygon[i]).length)) continue;
@@ -7682,30 +7720,33 @@ equirectangularRaw.invert = equirectangularRaw;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__enclose__ = __webpack_require__(147);
 
 
-function place(a, b, c) {
-  var ax = a.x,
-      ay = a.y,
-      da = b.r + c.r,
-      db = a.r + c.r,
-      dx = b.x - ax,
-      dy = b.y - ay,
-      dc = dx * dx + dy * dy;
-  if (dc) {
-    var x = 0.5 + ((db *= db) - (da *= da)) / (2 * dc),
-        y = Math.sqrt(Math.max(0, 2 * da * (db + dc) - (db -= dc) * db - da * da)) / (2 * dc);
-    c.x = ax + x * dx + y * dy;
-    c.y = ay + x * dy - y * dx;
+function place(b, a, c) {
+  var dx = b.x - a.x, x, a2,
+      dy = b.y - a.y, y, b2,
+      d2 = dx * dx + dy * dy;
+  if (d2) {
+    a2 = a.r + c.r, a2 *= a2;
+    b2 = b.r + c.r, b2 *= b2;
+    if (a2 > b2) {
+      x = (d2 + b2 - a2) / (2 * d2);
+      y = Math.sqrt(Math.max(0, b2 / d2 - x * x));
+      c.x = b.x - x * dx - y * dy;
+      c.y = b.y - x * dy + y * dx;
+    } else {
+      x = (d2 + a2 - b2) / (2 * d2);
+      y = Math.sqrt(Math.max(0, a2 / d2 - x * x));
+      c.x = a.x + x * dx - y * dy;
+      c.y = a.y + x * dy + y * dx;
+    }
   } else {
-    c.x = ax + db;
-    c.y = ay;
+    c.x = a.x + c.r;
+    c.y = a.y;
   }
 }
 
 function intersects(a, b) {
-  var dx = b.x - a.x,
-      dy = b.y - a.y,
-      dr = a.r + b.r;
-  return dr * dr - 1e-6 > dx * dx + dy * dy;
+  var dr = a.r + b.r - 1e-6, dx = b.x - a.x, dy = b.y - a.y;
+  return dr > 0 && dr * dr > dx * dx + dy * dy;
 }
 
 function score(node) {
@@ -7802,7 +7843,7 @@ function packEnclose(circles) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(388);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(391);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(circles) {
@@ -8018,7 +8059,7 @@ function constantZero() {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return implicit; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = ordinal;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_collection__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(16);
 
 
@@ -8111,10 +8152,10 @@ function ordinal(range) {
 /* harmony export (immutable) */ __webpack_exports__["a"] = calendar;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_time_format__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__array__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__continuous__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__continuous__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nice__ = __webpack_require__(154);
 
 
@@ -8259,7 +8300,7 @@ function calendar(year, month, week, day, hour, minute, second, millisecond, for
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = formatLocale;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_time__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_time__ = __webpack_require__(45);
 
 
 function localDate(d) {
@@ -8920,7 +8961,7 @@ var formatIso = Date.prototype.toISOString
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_path__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__curve_linear__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__curve_linear__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__line__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__point__ = __webpack_require__(85);
 
@@ -9041,7 +9082,7 @@ var formatIso = Date.prototype.toISOString
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return curveRadialLinear; });
 /* harmony export (immutable) */ __webpack_exports__["b"] = curveRadial;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__linear__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__linear__ = __webpack_require__(46);
 
 
 var curveRadialLinear = curveRadial(__WEBPACK_IMPORTED_MODULE_0__linear__["a" /* default */]);
@@ -9294,8 +9335,8 @@ var c = -0.5,
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = CardinalClosed;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cardinal__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cardinal__ = __webpack_require__(49);
 
 
 
@@ -9365,7 +9406,7 @@ CardinalClosed.prototype = {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = CardinalOpen;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinal__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinal__ = __webpack_require__(49);
 
 
 function CardinalOpen(context, tension) {
@@ -9711,17 +9752,15 @@ function transform(node) {
 /* 175 */
 /***/ (function(module, exports) {
 
-module.exports = [{"path":"../page/data/data/GeorgeFarmer/","person":{"age":"33","name":"George Farmer","sex":"Male","marital_status":"Married","education":"completed high school","social":"Mr. Farmer is married, lives with his wife and 3 children on a 50 acre farm that he owns","ethnicity":"Anglo-Saxon background","race":"White","occupation":"farmer","language":"English","maritalstatus":"married","face":"../page/data/data/GeorgeFarmer/GeorgeFarmer.jpg"},"event":[{"title":"Office Visit #1","elapsed":"0","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Redness and swelling on his lower left leg<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Three days prior to the visit, Mr. Farmer accidentally punctured his lower left leg on a nail protruding from a fence post that he was mending. There was only a minor amount of bleeding. Mr. Farmer did not do anything about it. The next day it was somewhat painful and a little red, but he generally ignored it. Yesterday it was a little worse. Today, the redness and swelling has increased significantly and it feels quite warm to the touch and is somewhat tender. He also finds it uncomfortable to walk. Reports last booster dose of tetanus-diptheria when he served in the Army 15 years ago and has had none since.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p>No sugar, protein, blood, ketones on office urine dipstick. <p><p><p><p>Hematocrit 45.<p>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Puncture wound of left lower leg with erythema and possible cellulitis. Tetanus immunity is not up to date, but patient has had full primary immunization series, so no need for tetanus immune globulin.<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatment: </B>Cephalexin 500 mg. 4x/d for 7 days, tetanus-diphtheria-acellular pertussis (Tdap) booster<p><p><p><p><B>Follow-up and referrals:</B> Return in 1 week for a comprehensive health maintenance examination since he hasn&apos;t had one in many years.<p><p><p><p><B>Patient education:</B> Apply hot compresses to wound frequently and rest leg, elevating it as much as possible. Call back in 1-2 days to report progress. If fever develops or redness enlarges or swelling or pain worsens, come back in for an immediate appointment.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"74"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"80"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"80"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37.2"}],"data":{"title":"Physical Examination","body":"<p>A 7-cm in diameter raised, red, and warm area surrounds a punctate wound on the posterior aspect of the left calf. The erythematous lesion is somewhat tender to firm palpation, but not exquisitely so. The lesion is not fluctuant. No pus can be extruded from the puncture wound site. The color of the rest of his skin is good. Small, nontender, inguinal nodes can be appreciated on the left, not the right. <p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis","state":"start"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Puncture wound (left lower leg)</li>\r\n<li>Erythematous (or red and swollen) lesion (left lower leg) or cellulitis (left lower leg) or infection of left lower leg</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>How long is a tetanus vaccine good for? Is Mr. Farmer up to date?</LI><LI>What is tetanus? What are the mechanisms by which the disease is caused? What about Mr. Farmer&apos;s wound makes him at risk for tetanus?</LI><LI>There are two kinds of vaccines for tetanus: tetanus toxoid and tetanus immune globulin (TIG). How does each work? Should Mr. Farmer receive one or the other or both or neither?</LI><LI>How does antibody-mediated immunity work? Click <A HREF=\"http://www.brown.edu/Programs/Gerontology_Center/tetanus/\" TARGET=\"_blank\"><U>here</U></A> to see a short, fun, very basic overview of how vaccines protect us by eliciting an antibody response.</LI><LI>What bacteria is most likely to be the cause of a wound infection and cellulitis like the one Mr. Farmer has? What are the microbiological characteristics of that bacteria (e.g. how does it Gram stain, shape, appearance, what is the structure of its cell wall, what does it produce that makes it particularly harmful to humans)?</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Farmer.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Administration of tetanus-diphtheria-acellular pertussis vaccine</LI><LI>Administration of an antibiotic</LI><LI>Advise patient to apply hot compresses to wound frequently and to rest leg, elevating it as much as possible</LI><LI>Return or contact by telephone for a check up in a day or two and to report any worsening to you immediately (such as fever, extension of the redness and swelling, worsening pain)</LI><LI>Schedule an extended visit for more comprehensive exam and health maintenance</LI><p><p>","questionindex":3}]}},{"title":"Office Visit #2","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up for cellulitis<p><p><p><p><B>History of Present Illness: </B>Mr. Farmer reports that his leg has gotten much better since his last visit. He took the antibiotics without any problem and kept his leg elevated and applied hot compresses for several days until it had improved considerably. He has resumed his full work schedule and does not have any difficulty walking or doing his job. His major concern now is that he is behind in his work by several days and doesn&apos;t know how he&apos;ll catch up. He reports that the farm has not been doing well financially and he is quite despondent about that. He fears that he will have to sell the farm.<p><p><p><p><B>Past Medical History: </B>Patient received the usual childhood vaccinations against measles, rubella, mumps, polio, tetanus, diphtheria, and pertussis. He received a booster dose of tetanus-diptheria-acellular pertussis at his last visit. As a child, he remembers having chickenpox, occasional ear infections, but no other serious illnesses. He considers himself to be very healthy. He has had no previous surgery, serious injuries, hospitalizations. He has no known allergies. He is taking no medications at present. He does not smoke tobacco. He drinks one or two pints of ale at the local bar with friends once or twice a week on a regular basis and will have an occasional beer at home infrequently. However, he has not been to the bar in over a month because he &quot;didn&apos;t feel up to it.&quot; He will have one or two drinks of whiskey only on rare occasions when he is out to eat at a restaurant or at a social event. He eats a well-rounded diet, but hasn&apos;t had much of an appetite and has lost some weight. He doesn&apos;t do any exercise other than the farm work, which is quite strenuous.<p><p><p><p><B>Family History: </B>Mr. Farmer&apos;s two parents are both alive and well. His father, age 58, is still an active farmer and has no serious medical problems. His mother, age 56, is also well. His paternal grandmother, age 82, lives in the farmhouse with his parents. He doesn&apos;t know her specific medical problems, but says she is frail. Mr. Farmer has two younger brothers and two younger sisters all of whom are well as far as he knows. His 3 children are all in good health.<p><p><p><p><B>Personal and Social History: </B>Mr. Farmer grew up on the farm on which he is now living, which is part of what used to be a larger farm owned by his father and his uncle. He is the only one of his siblings and cousins to go into farming. His uncle retired from farming and his father continues to farm the other 50 acres. His wife, age 30, helps out with the farming and raising their 3 children, age 4, 7, and 10. He describes his financial situation as &quot;not good.&quot; He has health insurance through a farmers&apos; cooperative. He has a life insurance policy and says that he sometimes thinks his family would be better off if he were dead and they collected on the insurance and sold the farm.<p>"},{"title":"Review of Systems","body":"<p><B>General: </B>Patient says that this latest episode with his leg is just the latest of a series of setbacks. He&apos;s very worried about his farm&apos;s financial solvency, which is constantly on his mind. He says that he&apos;s worrying himself sick: his appetite has been poor and he thinks he&apos;s lost weight in the last few months.<p><p><p><p><B>Skin: </B>The puncture wound and cellulitis have nearly completely healed. He has had no rashes, sores, itching. Denies any itching, dryness, excessive sweatiness, change in skin color, hair, or nails.<p><p><p><p><B>Psychiatric: </B>As noted above, patient is very despondent over the farm situation. He says that he can&apos;t see any way out of things and feels quite helpless to turn things around. He feels like a personal failure and feels he has let down his father, especially, not being able to be successful as a farmer. He says that his sleep has been very poor for the last few months. He finds himself awakening at 3 or 4 in the morning and not being able to get back to sleep. He&apos;ll get up and start some of the farm work early just to stop thinking about the problems. His appetite has also been poor. His relationship with his wife has deteriorated and he feels that he has been a failure as a husband as well. They have not had sexual relations in more than a month. He thinks his family would be better off if he were dead. He has thought about suicide, but hasn&apos;t developed a specific plan or timetable. He denies any hallucinations. He denies any having any previous episodes of feeling so depressed, but says that&apos;s because the financial situation has never been so bleak.<p><p><p><p>The remaining review of systems was noncontributory<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p>Urine dipstick:   No sugar, protein, blood, ketones<p><p><p><p>Hematocrit:  45<p>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Major depressive disorder<B></B><p><p><B></B><p><p><B>Investigations: </B>Total cholesterol for screening<B></B><p><p><B></B><p><p><B>Medications and treatments: </B>Fluoxetine 20 mg. once daily<B></B><p><p><B></B><p><p><B>Follow-up and referrals:</B> Return visit in one week<B></B><p><p><B></B><p><p><B>Patient education:</B> Discussed with patient the disease of depression, how it presents, how it will be treated. Asked patient to agree to a contract not to do anything to harm himself between now and when he is seen again. Patient gave permission to discuss situation with his wife. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"72"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"76"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"79"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p><B>General Appearance: </B>Well developed, well nourished man looking his stated age. He appears very sullen. At times, he seems on the verge of tears, though he never cried. His appearance is one of inattentiveness to the way he appears, though he is not dirty or disheveled.<p><p><p><p><B>Skin: </B>The site of the puncture wound can barely be discerned and only a slight degree of redness is apparent where the cellulitis had been around the wound. The color of the rest of his skin is good. No excessive moisture. Not dry. No scaling, no rashes. Hair is full, no alopecia. Nails show no pitting, clubbing, or onycholysis.<p><p><p><p><B>Head:</B> Skull is normal<p><p><p><p><B>Eyes:</B> Vision 20/20. Visual fields full by confrontation. Conjunctiva and sclera clear. Pupils round, regular, equal, reactive to light and accommodation. Extraocular movements intact in cardinal directions. Disc margins sharp, no papilledema. Some arteriolar narrowing, no A-V nicking, hemorrhages, exudates.<p><p><p><p><B>Ears:</B> Both ear canals clear. Tympanic membranes intact, move with pneumotoscopy, no perforations.<p><p><p><p><B>Nose:</B> Septum midline, no discharge, no polyps. No sinus tenderness.<p><p><p><p><B>Mouth and throat:</B> Teeth in good repair. Gums normal. No ulcers, lesions seen in oropharynx. No erythema, exudates, petechiae. Uvula in midline. Tonsils present.<p><p><p><p><B>Chest: </B>Thorax symmetrical, good expansion. Lungs resonant to percussion. Breath sounds normal. No rales, rhonchi, wheezes or rubs heard.<p><p><p><p><B>Abdomen:</B> Flat and symmetric. No scars. Bowel sounds normal. No bruits over aorta, renal arteries, or femoral arteries. Liver is 10 cm by percussion, edge not palpable. No masses palpable. No tenderness to palpation. No CVA tenderness.<p><p><p><p><B>Rectal:</B> No fissures, fistulas, hemorrhoids visible. Normal rectal tone. Prostate not enlarged, nontender, no masses. Stool brown, negative for occult blood.<p><p><p><p><B>Cardiac:</B> Precordium quiet, no heaves. Jugular veins 2 cm over sternal angle at 30&#xB0;. Carotid pulses 2+, no bruits. PMI in 5th intercostal space in midclavicular line, discreet. S1 and S2 normal, no gallops, rubs, or murmurs.<p><p><p><p><B>Genitalia:</B> Penis uncircumcised, foreskin not retracted. No lesions, no discharge visible. Testes 5 cm on right, 3 cm on left, nontender, no masses or varicosities. No hernias.<p><p><p><p><B>Peripheral vasculature: </B>Pulses 2+ and symmetric (radial, femoral, popliteal, dorsalis pedis, and posterior tibial). Good capillary filling. No pallor on elevation of legs, no dependent rubor. No foot ulcerations.<p><p><p><p><B>Musculoskeletal:</B> Full range of motion of shoulders, neck, spine, elbows, hips, knees, ankles. No tenderness, swelling. Good muscle strength throughout.<p><p><p><p><B>Neurological:</B> Cranial nerves: I-not tested; II-visual field intact; III, IV, VI-EOMs intact, no ptosis; V-masseters strong and symmetrical, sensory intact, corneal reflex intact; VII-facial features symmetric, grimace normal; VIII-hearing acute, Weber midline, Rinne negative, no nystagmus; IX, X-uvula in midline, gag reflex present; XI-shoulder shrug equal and strong; XII-tongue movements normal. Gait: normal. Romberg negative. Motor strength 4+ and symmetric in grip, forearm, biceps, lower extremities, feet. No tremor, rigidity. Babinski negative. Reflexes 2+ and symmetric in brachioradialis, biceps, triceps, patellar, and ankle. Light touch, pinprick, and vibratory sensation 2+ in feet. Two-point discrimination grossly normal to 1 cm. in feet. Mental status: patient awake, alert, oriented x3, cooperative. Thought content appears fixated on his failure and inadequacy, though when pressed, he does not offer specific information that would confirm the dire financial straits that he thinks he&apos;s in. Mood is quite sad. Immediate recall intact. Recent and remote memory intact. Able to recite months backwards without error. Speech fluent and appropriate. Abstract reasoning appropriate.<p><p><p><p><B>Lymph Nodes:</B> No cervical, submandibular, epitrochlear, or axillary lymphadenopathy.<p><p><p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"fluoxetine","state":"start","dose":"20 mg once daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis","state":"end"},{"name":"Depression","state":"start"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>depression</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Which neurotransmitters in the brain are thought to be most important in depression?</LI><LI>What are the pharmacological characteristics of selective serotonin receptor inhibitor (SSRI) drugs like fluoxetine (i.e., what is their mechanism of action, how rapidly to they work, what are the major side effects, how effective are they)?</LI><LI>What are the clinical symptoms of depression?</LI><LI>What is the natural history of depression, that is, what happens when no treatment is given?</LI><p><p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Farmer.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Begin the patient on a selective serotonin reuptake inhibitor (SSRI) for depression</LI><LI>Ask the patient for permission to discuss the situation with his wife</LI><LI>Ask the patient to agree to a contract with you that he will not do anything to hurt himself until he next sees you</LI><LI>Arrange for a return appointment in a week or sooner</LI><LI>Discuss with the patient the disease of depression and how it presents itself to the patient and how it will be treated</LI><LI>Health maintenance screening for cholesterol, anticipatory guidance about accident prevention, sun protection</LI><p><p>","questionindex":3}]}},{"title":"Office Visit #3","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up depression<p><p><p><p><B>History of Present Illness: </B>Patient reports that he thinks his sleeping problems may have gotten even worse because he&apos;s now having trouble getting to sleep as well as getting up early in the morning. He also thinks that the pills he&apos;s taking for the depression may be making his appetite worse. He has very little appetite and continues to lose weight. His mood is about the same, he says. Things are better between him and his wife, though. They&apos;ve been talking more about his concerns about the farm and she has agreed to take over paying the bills and managing the books, at least until he&apos;s feeling better. He says that has taken a burden off of him. He says he&apos;s not thinking as much about suicide as he had previously and is certainly not contemplating suicide seriously at this point.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Worsening of insomnia and anorexia probably due to side effects of fluoxetine. Mood seems to stabilized and interpersonal relations and social situation improved. Suicide risk appears diminished.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Add trazodone 100 mg. at bedtime to help with sleep and add to antidepressant effect. <p><p><p><p><B>Follow-up and referrals:</B> Return visit in one week<p><p><p><p><B>Patient education:</B> Discussed with patient the side effects of the drugs. Take fluoxetine in the morning to minimize effect on sleep. Asked patient to renew contract not to do anything to harm himself between now and when he is seen again. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"74"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"76"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood continues to be sullen and he continues to perseverate about the hopelessness of the farm&apos;s situation and his inability to do anything to make things better.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"","data":[{"range":"<200","name":"Cholesterol, total","value":"165","units":"mg/dL"}]}],"visible":true},"druglist":[{"name":"trazadone","state":"start","dose":"100 mg at bedtime"}],"problemlist":[{"name":"Health maintenance"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries <i>or</i></li>\r\n<li>Insomnia and anorexia (either together as one problem or separately)</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Pharmacology of SSRIs (specifically side effects and time course of effect)</LI><p><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Adding a nighttime antidepressant that will help induce sleep</li>\r\n<li>Discussing the side effects with the patient</li>\r\n<li>Scheduling the patient to come back in a week and renewing the contract not to hurt himself in the meantime</li><p>","questionindex":3}]}},{"title":"Office Visit #4","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up depression<p><p><p><p><B>History of Present Illness:</B> Patient reports that he is not having so much trouble getting to sleep with the new medicine. His appetite remains poor, however. He finds it difficult to get through the day. He feels like he&apos;s pushing himself to get anything done and he&apos;s just not as productive as he used to be. He reports that his wife has taken over all the finances and bookkeeping. She keeps telling him that things aren&apos;t so bad, but he knows she&apos;s just saying that to make him feel better. Overall, he says things are just about the same. He says that he&apos;s not in any danger of suicide.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Sleeping improved, rest of symptoms unchanged, as would be expected.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds.<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one week<p><p><p><p><B>Patient education:</B> Reiterated that it usually takes 6 weeks to see benefits from antidepressants. Continued to provide ego-supportive therapy.  Asked patient to renew contract not to do anything to harm himself between now and when he is seen again. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"72"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"74"},{"name":"Weight","units":"kg","ident":"weight","value":"78"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood continues to be sullen. His perceptions of financial problems remain fixed and unshakable.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries </li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression doesn't seem to have improved. Should it be getting better at this point? Should something else be done?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Principles of ego-supportive psychotherapy</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in a week and renewing the contract not to hurt himself in the meantime</li><p>","questionindex":4}]}},{"title":"Office Visit #5","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up depression<p><p><p><p><B>History of Present Illness:</B> Patient reports feeling frustrated that nothing seems to be getting better. He says that everything is the same as it was last visit, though on further probing, he does admit that he may be sleeping somewhat later in the morning. He now gets up around 5 in the morning, which is later than he previously reported. Otherwise, he says that his appetite remains poor and that he&apos;s just forcing himself to eat and that he lacks energy and motivation and &quot;just goes through the motions&quot; of getting through the day.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Sleeping seems to be improving, which is a good sign. <p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one week<p><p><p><p><B>Patient education:</B> Continue ego-supportive therapy. Asked patient to renew contract not to do anything to harm himself between now and when he is seen again. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"72"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"74"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood continues to be sad and his affect is flat. His speech is slow and low in tone. He continues to have poor reality testing as far as his farm&apos;s financial situation which his wife says is solid and stable, but which he insists is on the verge of bankruptcy.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries </li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression doesn't seem to have improved. Is this consistent with the natural history of depression? Should something else be done?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Natural history of depression and time course in response to therapy</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in a week and renewing the contract not to hurt himself in the meantime</li><p>","questionindex":4}]}},{"title":"Office Visit #6","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up depression<p><p><p><p><B>History of Present Illness: </B>Patient reports that he feels that he is beginning to have more energy and is able to do his work better. His sleeping also seems to be better and he is able to sleep later in the morning. He thinks this extra sleep is what accounts for his additional energy. He reports that he is still very pessimistic about the future and is sure that his wife is just hiding the bad news about the farm&apos;s finances from him. Sometimes when he&apos;s alone, he bursts out in tears, which he interprets as a sign of his worthlessness as a man--&quot;strong men don&apos;t cry.&quot; He says that his appetite is better and that he&apos;s eating more and maintaining his weight. Suicidal thoughts still occur to him, but he puts them out of his mind.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Beginning to see signs of general improvement: appetite, sleep, energy, though his mood and thoughts have not improved, though they are often the last things to improve.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one week<p><p><p><p><B>Patient education:</B> Continue ego-supportive therapy. Asked patient to renew contract not to do anything to harm himself between now and when he is seen again. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"74"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood continues to be sullen, though he seems more energized, responding to questions more quickly and his posture seems less slumped. His perceptions of financial problems remain fixed and unshakable.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries </li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression doesn't seem to have improved, even though some of the symptoms have improved. Is this consistent with the natural history of depression? Should something else be done?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Suicide risk appraisal as patient becomes more energized</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in a week and renewing the contract not to hurt himself in the meantime, explaining to patient that this is a critical point in his recovery that carries additional dangers</li><p>","questionindex":4}]}},{"title":"Office Visit #7","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up depression<p><p><p><p><B>History of Present Illness:</B> Patient reports that he is beginning to feel better. He notices that while he can feel quite despondent at times (most of the time, in fact), he also is aware that some of the time he can forget his worries and focus on the here and now. This is especially true when he&apos;s working hard with the farm animals. He says that he now thinks the farm&apos;s finances aren&apos;t quite as dire as he previously thought and is more optimistic that they&apos;ll be able to keep the farm going.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> General improvement in all symptoms and signs of depression.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds<p><p><p><p><B>Follow-up and referrals:</B> Return visit in two weeks<p><p><p><p><B>Patient education:</B> Continue ego-supportive therapy. Asked patient to renew contract not to do anything to harm himself between now and when he is seen again. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"74"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood is distinctly less sullen. His rate of speech is quicker and there is more modulation in tone and expressiveness. His posture is more upright. He even occasionally smiles.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries.</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression seems to be improving. Should there be a change in the dose of his antidepressant medication?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>What signs and symptoms should be monitored to assess improvement in depression?</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in two weeks and renewing the contract not to hurt himself in the meantime</li><p>","questionindex":4}]}},{"title":"Office Visit #8","elapsed":"2 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up depression<p><p><p><p><B>History of Present Illness: </B>Patient reports that he is feeling much better. He says that for all intents and purposes he is feeling the same as he did before all this started, like he felt a year ago. He reports that his appetite and sleep are back to normal. His wife and he have resumed having sexual relations. His energy levels are back to normal and he has resumed keeping the books, although he is now sharing some of those responsibilities with his wife. He no longer has any suicidal ideation and feels generally embarrassed about the way he acted and looked at things during his period of depression.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Depression seems to have remitted.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds<p><p><p><p><B>Follow-up and referrals:</B> Return visit in 3-4 weeks<p><p><p><p><B>Patient education:</B> Explained to patient that he should continue the medications even though he&apos;s feeling better because the chance of a relapse would be high if he discontinued medication now.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"122"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"68"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"76"},{"name":"Weight","units":"kg","ident":"weight","value":"79"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood is quite upbeat and positive. He is animated and smiles often and shows signs of a droll sense of humor.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries </li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression seems to have resolved. Should there be a change in the dose of his antidepressant medication? Should it be stopped?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>What are the recommendations for antidepressant therapy once the signs and symptoms of depression have remitted?</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in 3-4 weeks</li><p>","questionindex":4}]}},{"title":"Office Visit #9","elapsed":"3 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up depression<p><p><p><p><B>History of Present Illness:</B> Patient reports that everything is fine. He expresses gratitude for the help and says he finds it hard to believe that a person&apos;s whole life can be so profoundly altered by depression.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Patient continues in remission of his depression.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one month<p><p><p><p><B>Patient education:</B> Continue ego-supportive therapy. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"122"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"68"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"76"},{"name":"Weight","units":"kg","ident":"weight","value":"79"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood continues to be quite upbeat and shows essentially no signs of residual depression.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression seems to have resolved. Should there be a change in the dose of his antidepressant medication? Should it be stopped?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>What are the recommendations for antidepressant therapy once the signs and symptoms of depression have remitted?</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in a month</li><p>","questionindex":4}]}},{"title":"Office Visit #10","elapsed":"1 month later","data":{"inbox":{"visible":true,"items":[{"title":"Message:","body":"<p>No show for appointment<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>What was the reason the patient missed his appointment?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>What are the reasons for missed appointments? What, if anything, should be done about them?</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Contact the patient to find out the reason why he missed his appointment</li>\r\n<li>Reschedule the appointment</li><p>","questionindex":4}]}},{"title":"Inbox #1","elapsed":"Next day","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Intra-office memo from receptionist:<p><p><p><p>Called Mr. Farmer about missed appointment. Says that some important things came up and he was feeling fine anyway. Apologizes for not calling to let us know. Appointment has been rescheduled.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}},{"title":"Office Visit #11","elapsed":"6 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up depression<p><p><p><p><B>History of Present Illness: </B>Patient reports that everything is great. He has been very busy and apologized for missing his last appointment, but he&apos;s been working on plans to modernize the farm and expand his market. He&apos;s been looking into buying some adjacent land. He reports no depressive symptoms, although he says his sleeping has been less than it was, but that&apos;s due to his working late at night on some of his plans. He just feels too awake to go to sleep at his usual bedtime. He does get to sleep by midnight or 1 A.M. Otherwise, he says that things have never been better.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Patient exhibiting signs of acute mania. Diagnosis should now be bipolar disorder type 2 rather than unipolar depression. Will switch from antidepressants to mood stabilizer.<p><p><p><p><B>Investigations: </B>Obtain lithium level before next visit. Check renal function, electrolytes, thyroid function, CBC. Obtain ECG.<p><p><p><p><B>Medications and treatments: </B>Discontinue antidepressants and start on lithium carbonate 300 mg 4x/d.<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one week<p><p><p><p><B>Patient education:</B> Explained to patient the nature of bipolar disease and the need to not make major decisions, such as changing the nature of his business or making major financial investments. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"128"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"68"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"80"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood actually appears elated. His speech is very rapid and pressured. He quickly goes from one subject to another in rapid succession. He appears somewhat agitated and was pacing the floor when I entered the examination room. When his ideas for improving his farm were probed in detail, they seemed quite grandiose and would require very large amounts of new capital. He believes that ostrich meat is the new trend and wants to convert most of his livestock business to raising ostriches and the food sources for their diet.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"lithium carbonate","state":"start","dose":"300 mg 4x/d"},{"name":"fluoxetine","state":"end","dose":"20 mg once daily"},{"name":"trazadone","state":"end","dose":"100 mg at bedtime"}],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression","state":"end"},{"name":"Bipolar Disorder Type 2","state":"start"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Bipolar illness, manic phase or acute manic (or hypomanic) episode</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient now appears to be exhibiting signs of acute mania. Should this be treated? Should he stop taking his antidepressants?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Psychopathology of bipolar disorder</li>\r\n<li>Pharmacology of mood stabilizers (lithium, valproic acid)</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Start the patient on a mood-stabilizing drug like lithium</li>\r\n<li>Obtain a serum lithium level prior to the next visit</li>\r\n<li>Obtain other tests indicated when starting a patient on lithium (complete blood count, electrocardiogram, electrolytes, blood urea nitrogen [BUN], creatinine, thyroid stimulating hormone [TSH] and thyroxine [T<sub>4</sub>])</li>\r\n<li>Discontinue the antidepressant medication</li>\r\n<li>Scheduling the patient to come back in a week</li>\r\n<li>(For many primary care doctors, consultation or referral to a psychiatrist would be appropriate, but not mandatory, for such a patient.)</li><p>","questionindex":4}]}},{"title":"Office Visit #12","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up bipolar disorder (acute mania)<p><p><p><p><B>History of Present Illness: </B>George Farmer reports that he is sleeping better and is calmer. He reports no side effects that he is aware of. He has a clearer sense that ostrich meat is too risky a venture, but is still exploring the possibility of buying some additional farm land if the price is right. He is back to a normal sleeping pattern, getting to bed before 11 and generally sleeping 7-8 hours a night.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Manic symptoms have abated. Lithium levels in therapeutic range. <p><p><p><p><B>Investigations: </B>Repeat lithium levels prior to next visit.<p><p><p><p><B>Medications and treatments: </B>Maintain current dose of lithium.<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one month<p><p><p><p><B>Patient education:</B> Again cautioned patient about making any major decisions until we&apos;re sure his disease is under good control.<p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"120"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"68"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Weight","units":"kg","ident":"Weight","value":"78"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood appears normal. His speech is no longer pressured and he does not exhibit a flight of ideas. He does not appear agitated or restless, though he remains more animated than may be his baseline level.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Lithium test","data":[{"range":"0.8-1.5","name":"Lithium","value":"1.5","units":"mEq/L"},{"range":"7-18","name":"BUN","value":"8","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"0.9","units":"mg/dL"},{"range":"136-146","name":"Na","value":"140","units":"mmol/L"},{"range":"3.5-5.4","name":"K","value":"4.0","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"24","units":"mmol/L"},{"range":"2-10","name":"Thyroid-stimulating hormone (TSH)","value":"3","units":"&micro;U/mL"},{"range":"5-12","name":"Thyroxin, Total (T4)","value":"7","units":"&micro;g/dL"},{"range":"41-53","name":"Hematocrit","value":"45","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"17.0","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"5.0","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"34","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"90","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"8.6","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"28","units":"%"},{"range":"3-7","name":"Monocytes","value":"5","units":"%"},{"range":"1-3","name":"Eosinophils","value":"3","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"4","units":"%"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"},{"name":"Bipolar Disorder Type 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient now seems to be in a more normal mood state; should the dose of lithium be changed?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pharmacology of mood stabilizers (lithium levels)</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Maintain patient on current dose of lithium</li>\r\n<li>Monitor lithium level prior to next visit</li>\r\n<li>Scheduling the patient to come back in a month</li><p>","questionindex":4}]}},{"title":"Office Visit #13","elapsed":"1 month later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up bipolar disorder (acute mania)<p><p><p><p><B>History of Present Illness:</B> Patient complains that he is feeling weaker than usual and is a little unsteady at times. His mood continues to be good; he is not feeling depressed, just not up to his usual ability to work. He describes this more as a weakness rather than fatigue. It&apos;s been gradually getting worse over the last week to 10 days. <p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Lithium level (2.2 mEq/L) is above the therapeutic level and patient is exhibiting signs of lithium toxicity including muscle weakness and unsteadiness. No signs of significant mental status changes. <p><p><p><p><B>Investigations: </B>Obtain lithium level in 5 days.<p><p><p><p><B>Medications and treatments: </B>Hold lithium dose for 48 hrs, then resume at 600 mg at bedtime.<p><p><p><p><B>Follow-up and referrals:</B> Call in 5 days to report symptoms. Return appointment in 1 month if improved. <p><p><p><p><B>Patient education:</B> Explained nature of lithium toxicity.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"118"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"68"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"70"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood appears normal. Assessment of muscle strength is grossly normal. Romberg test is negative, but patient did sway a bit and was quite apprehensive that he would lose his balance. Gait was normal but patient was a little unsteady walking heel to toe. Deep tendon reflexes 2+.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Lithium test","data":[{"range":"0.8-1.5","name":"Lithium","value":"2.2","units":"mEq/L"}]}],"visible":true},"druglist":[{"name":"lithium carbonate","state":"end","dose":"300 mg 4x/d"},{"name":"lithium carbonate","state":"start","dose":"600 mg at bedtime"}],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"},{"name":"Bipolar Disorder Type 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient now seems to be in a more normal mood state; should the dose of lithium be changed?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pharmacology of mood stabilizers (lithium levels)</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Reduce the dose of lithium</li>\r\n<li>Obtain lithium level in about 5 days, check with patient by telephone when results in</li>\r\n<li>Scheduling the patient to come back in a month</li><p>","questionindex":4}]}},{"title":"Inbox #2","elapsed":"5 days later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Telephone contact with Mr. Farmer to discuss lab results, which show lithium level back in normal range (1.3 mEq/L). Patient says he&apos;s feeling much better; no more muscle weakness, unsteadiness.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[{"name":"testresults","title":"","data":[{"range":"0.8-1.5","name":"Lithium","value":"1.3","units":"mEq/L"}]}],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}},{"title":"Office Visit #14","elapsed":"1 month later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up bipolar disorder (acute mania)<p><p><p><p><B>History of Present Illness:</B> Patient has no complains, feeling well. Taking 600 mg. of lithium at bedtime. His mood is good, sleeping well.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Mood stable, lithium levels in therapeutic range.<p><p><p><p><B>Investigations: </B>Repeat lithium levels just prior to next visit.<p><p><p><p><B>Medications and treatments: </B>Maintain current lithium dosage.<p><p><p><p><B>Follow-up and referrals:</B> Return visit in 3 months.<p><p><p><p><B>Patient education:</B> Explained nature of lithium toxicity.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"72"},{"name":"Weight","units":"kg","ident":"weight","value":"79"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood appears normal. Lithium level 1.0 mEq/L.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Lithium test","data":[{"range":"0.8-1.5","name":"Lithium","value":"1.0","units":"mEq/L"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"},{"name":"Bipolar Disorder Type 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient now seems to be in a more normal mood state; should the dose of lithium be changed?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pharmacology of mood stabilizers (lithium maintenance)</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Maintain the dose of lithium</li>\r\n<li>Repeat lithium level in 3 months prior to next visit</li><p>","questionindex":4}]}},{"title":"Office Visit #15","elapsed":"17 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up bipolar disorder (acute mania)<p><p><p><p><B>History of Present Illness</B>: Patient says he is feeling fine, but is bothered by frequent urination and increased thirst. This is particularly bothersome to him when he&apos;s out in the field working and doesn&apos;t have water easily available. He takes a big jug of water with him, but he finishes that in an hour or two and it seems like it &quot;goes right through&quot; him. He&apos;s also having to get up to urinate 4 or 5 times a night. Taking 600 mg. of lithium at bedtime. His mood is good and he&apos;s sleeping well except for the frequent need to urinate.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p>Urine sample in office has a specific gravity of 1.001, no blood, protein, or sugar.<p>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Polydipsia and polyuria are indicative of nephrogenic diabetes insipidus secondary to lithium<p><p><p><p><B>Investigations: </B>Repeat lithium levels in one week<p><p><p><p><B>Medications and treatments: </B>Reduce lithium dosage to 300 mg one day alternating with 600 mg the other day.<p><p><p><p><B>Follow-up and referrals:</B> Follow up by telephone in a few days, return immediately if symptoms worsen.<p><p><p><p><B>Patient education:</B> Advised patient to keep up fluids until the problem can be controlled better with a lower dose of lithium. Explained nature of problem to him.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"116"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"66"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"78"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood appears normal. Lithium level 1.6 mEq/L. <p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Lithium test","data":[{"range":"0.8-1.5","name":"Lithium","value":"1.6","units":"mEq/L"}]}],"visible":true},"druglist":[{"name":"lithium carbonate","state":"end","dose":"600 mg at bedtime"},{"name":"lithium carbonate","state":"start","dose":"300 mg / 600 mg alternate days"}],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"},{"name":"Bipolar Disorder Type 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Polyuria, polydipsia</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>Are these symptoms related to his lithium?</li>\r\n<li>How should this be treated?</li>\r\n<li>How often should the patient be seen</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pathophysiology of diabetes insipidus (nephrogenic)</li>\r\n<li>Pharmacology of oxytocin, desmopressin</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Reduce the dose of lithium</li>\r\n<li>Repeat lithium level in one week</li>\r\n<li>Advice patient to keep up fluids until the problem can be controlled better with a lower lithium dose</li><p>","questionindex":4}]}},{"title":"Inbox #3","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Telephone contact with Mr. Farmer to discuss lab results, which now show lithium level back in normal range (0.9 mEq/L). Patient says he&apos;s been keeping up fluids more conscientiously and has noticed some improvement in the frequency of urination, especially at night. He&apos;s now getting up only once or twice to urinate. Otherwise feeling fine.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[{"name":"testresults","title":"","data":[{"range":"0.8-1.5","name":"Lithium","value":"0.9","units":"mEq/L"}]}],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}}]},{"path":"../page/data/data/AnabelFaria/","person":{"name":"Anabel Faria","age":"80","sex":"Female","marital":"Married","occupation":"Retired housekeeper","ethnicity":"Portuguese","language":"Portuguese, English as a second language","social":"Married, lives with her husband, Manuel, in their own home","education":"Grade school","maritalstatus":"Married","race":"White","face":"../page/data/data/AnabelFaria/AnabelaFaria.jpg"},"event":[{"title":"Office Visit 1","elapsed":"","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Headache<p><p><p><p><B>History of Present Illness: </B>Her husband reports that the patient fell a couple of weeks ago at home.  Although she insisted she was all right at the time, and refused to go to the hospital emergency department, he noticed the next day that she had a bruise on the left side of her head in the front. For the past week, she has been increasingly difficult to awaken in the morning, and her usual meticulous housekeeping has declined.  In fact, for the first time in their marriage, he has been doing some cooking.  She began to complain of headache this week, and she has been sleeping more than usual. Her husband is very worried about her and he insisted that she be seen. When asked, the patient agrees that she has a bad headache on the left side, which is where her bruise is. Her husband states that she did not lose consciousness after the fall, and she does not complain of nausea or vomiting.  When asked about his wife's fall, he said that she had begun falling occasionally (less than once a month), about a year ago with no obvious cause.  She had not sustained any injuries in the past.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Changes consistent with subdural hemorrhage. <p><p><p><p><B>Investigations:</B> CT scan<p><p><p><p><B>Medications and treatments:</B> none <p><p><p><p><B>Follow-up and referrals: </B>Send to ED for emergency CT imaging of the head and neurosurgical consultation<p><p><p><p><B>Patient education: </B>Explained concerns and reasons for imaging studies and referral<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"130"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"78"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"72"},{"name":"Height","units":"cm","ident":"height","value":"157"},{"name":"Weight","units":"kg","ident":"weight","value":"61"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"","body":"<p>Physical Examination:\tPatient is sitting quietly, appearing somnolent and occasionally groaning softly. Though she responds to her name and will answer questions about her state of health, usually with a yes or no, she cannot draw a clock face and cannot cooperate with a formal mental status examination. A resolving bruise is obvious on the upper temporal forehead and scalp on the left. Pupils are equal and reactive, optic discs are sharp and no hemorrhages evident. Cranial nerve examination is incomplete due to limited responsiveness and cooperation, but no gross defects are noted in eye movements or facial expression. There is definite right upper extremity weakness and hyperreflexia on the right side. The plantar response is equivocal on the right. Patient stands, but with support from her husband, and tends to fall to the right. Romberg test could not be performed.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance","state":"start"},{"name":"headache","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Falling</LI><LI>Head trauma with resulting headache, right-sided weakness, cognitive blunting and obtundation</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Be able to identify and label the coverings of the brain (dura, arachnoid, pia)</LI><LI>What anatomical changes in older persons explain why they are more susceptible to develop a subdural hematoma when they fall?</LI><LI>What are the causes of falling in older adults?</LI><LI></LI><p>Click the link below to learn more about falls in the elderly<p><p><A HREF=\"http://www.brown.edu/Research/Geriatrics/falls_streaming.html\" TARGET=\"_blank\"><B><U>Falls in Older Patients: A Learning Module</U></B></A><p><p><I>The link above requires the </I><A HREF=\"http://www.quicktime.com\" TARGET=\"_blank\"><I><U>Apple Quicktime</U></I></A><I> plugin</I><p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mrs. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Send to the emergency room for emergency CT imaging of the head</LI><LI>Neurosurgical consultation</LI><LI>Notation to evaluate causes for falling after acute episode has resolved</LI>","questionindex":3},{"name":"data","title":"","cdata":"<p>Now look at what the results of the CT imaging showed:<p><p><p><p><A href=\"../page/data/data/AnabelFaria/html/clinical-history/02-hospital-admin.htm\" TARGET=\"_blank\"><B><U>View Results</U></B></A><p><p><p><p>Now look at the following topics<p><p><p><p><A href=\"../page/data/data/AnabelFaria/html/subdural/01-diagnosis.htm\" TARGET=\"_blank\"><B><U>1. Diagnosis of subdural hematoma</U></B></A><p><p><p><p><A href=\"../page/data/data/AnabelFaria/anatomy/ReloadContentPreview.htm\" TARGET=\"_blank\"><B><U>2. Anatomy relevant to subdural hematomas</U></B></A><p><p><p><p><A href=\"../page/data/data/AnabelFaria/complications/ReloadContentPreview.htm\" TARGET=\"_blank\"><B><U>3. Complications of subdural hematomas</U></B></A><p>"}]}},{"title":"Message 1","elapsed":"","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Hospital Discharge Summary <p><p><p><p>Mrs. Anabel Faria, 80, was admitted from the emergency room with a left-sided subdural hematoma evident on CT scan. She had fallen at home approximately three weeks earlier and gradually developed a worsening headache and impaired mental status. Her husband brought her to their family physician, who referred her for emergency diagnostic imaging and neurosurgical consultation. A craniotomy was performed and the subdural hematoma drained. A drain was left in place for three days; no evidence of further bleeding was apparent. She remained in the hospital for observation for four more days and made an uneventful recovery. On discharge she appeared to have some mild memory deficits (Folstein MMSE 24), but it could not be determined whether these were present before the head injury and fall.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[{"name":"data","title":"","data":"<p>CT scan of head reveals subdural hematoma on the left side.<p><img alt=\"\" src=\"../page/data/data/AnabelFaria/Fig-1.2-Chronic-subdu.jpg\" width=\"\" height=\"\"/>"}],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"s/p subdural hematoma","state":"start"}],"guidelist":[]}},{"title":"Office Visit 2","elapsed":"1 month after surgery","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Memory problems<p><p><p><p><B>History of Present Illness: </B>Her husband reports that the patient initially improved after surgery, but doesn&apos;t seem to have returned to her previous capacities before the fall and hospitalization.  Although he had noticed occasional forgetfulness before the fall, he thought it was nothing more than getting older. She would often misplace things, but usually find them after searching.  She was driving without accidents, and always kept the car keys on their hook by the front door.  She never misidentified the children or grandchildren. He thinks she is more forgetful now.  He sometimes has had to help her find misplaced clothing and papers. He finds her driving less secure, and she has lost one set of car keys.  Most concerning to him is that she has confused two of her grandchildren&apos;s names, and became agitated when confronted with the problem.  He also reports that she has lost interest in their intimate life together.  She has rejected his initiation of cuddling and touching, something that in the past they both took comfort and pleasure in. The patient says her memory isn&apos;t what it used to be, but scoffs at her husband&apos;s concerns. She says he forgets things, too. She agrees that maybe the accident and surgery worsened things for a while, but she thinks things are okay now and will continue to get better.<p><p><p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p>Geriatric Depression Scale 2/15<p>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Memory impairment and other mental changes consistent with dementia; need to rule out metabolic and other causes.<p><p><p><p><B>Investigations: </B>CT scan to document resolution of subdural, chest x-ray, complete blood count, chemistry profile (electrolytes, calcium, glucose, renal and liver function), B12 level, erythrocyte sedimentation rate or C-reactive protein, thyroid stimulating hormone, RPR or other screening test for syphilis, Lyme serology. <p><p><p><p><B>Medications and treatments:</B> none <p><p><p><p><B>Follow-up and referrals: </B>Send to ED for emergency CT imaging of the head and neurosurgical consultation<p><p><p><p><B>Patient education: </B>Explained concerns and reasons for imaging studies and referral<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"128"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"76"},{"name":"Height","units":"cm","ident":"height","value":"157"},{"name":"Weight","units":"kg","ident":"weight","value":"61"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"","body":"<p><B>Physical Examination: </B>Patient is awake, alert, attentive, and cooperative. Her attire and grooming are appropriate. Her Folstein MMSE score is 23. She could not correctly name the day of the week or date, but did know the month and year. She knew where she was. Her speech was fluent and appropriate. She was able to follow commands correctly. She could not do serial 7s, nor spell world backwards. Cranial nerves are intact. Reflexes are normal and equal bilaterally. Romberg is negative, Plantar responses are normal. Muscle strength is normal and equal bilaterally. Pupils equal and reactive, no papilledema, optic discs sharp, no exudates, hemorrhages. Carotid pulses equal, no bruits. Heart and lungs are normal.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"s/p subdural hematoma"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Memory impairment</LI><LI>Falls</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathology of the brain (Alzheimer's Disease)</LI><LI>Pathophysiology of Alzheimer's Disease</LI><LI>Psychopathology of dementia</LI><LI>Pharmacology for Alzheimer's disease (cholnesterase inhibitors) and \"dietary supplements\" (Gingko biloba)</LI>","questionindex":2},{"name":"data","title":"","cdata":"<p>Now look at these topics:<p><p><p><p><A href=\"../page/data/data/AnabelFaria/PathAlz/ReloadContentPreview.htm\" TARGET=\"_blank\"><B><U>1. Pathology of Alzheimer&apos;s Disease</U></B></A><p><p><p><p><A href=\"../page/data/data/AnabelFaria/PharmDrugs/ReloadContentPreview.htm\" TARGET=\"_blank\"><B><U>2. Pharmacology of Drugs for Alzheimer&apos;s Disease</U></B></A><p>"},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Chest x-ray, complete blood count, chemistry profile (electrolytes, calcium, glucose, renal and liver function), B12 level, erythrocyte sedimentation rate or C-reactive protein, thyroid stimulating hormone, RPR or other screening test for syphilis, Lyme serology.</LI><LI>CT or MRI scan of head.</LI>","questionindex":3}]}},{"title":"Message 2","elapsed":"","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>The laboratory tests and imaging studies for Ms. Faria are available.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[{"name":"data","title":"","data":"<p>MRI of the head reveals resolution of the subdural hematoma but evidence of cerebral atrophy<p><img alt=\"\" src=\"../page/data/data/AnabelFaria/cerebral-atrophy-CT.jpg\" width=\"\" height=\"\"/>"}],"results":[{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"41","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"13.6","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"4.3","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"33","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"95","units":"&micro;m<sup>3</sup>"},{"range":"12-14","name":"RDW","value":"13.5","units":""},{"range":"4.5-11.0","name":"Leukocyte count","value":"8.0","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"58","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"30","units":"%"},{"range":"3-7","name":"Monocytes","value":"6","units":"%"},{"range":"1-3","name":"Eosinophils","value":"2","units":"%"},{"range":"0-0.75","name":"Basophils","value":"1","units":"%"},{"range":"3-5","name":"Bands","value":"3","units":"%"},{"range":"0-20","name":"Erythrocyte Sedimentation Rate (ESR) Westegren, modified","value":"1","units":"mm/h"}]},{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"10","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"12","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"40","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.6","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"3.8","units":"g/dL"},{"range":"68-8200","name":"C-reactive protein","value":"75","units":"ng/mL"},{"range":"80-115","name":"Glucose","value":"90","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"10","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.1","units":"mg/dL"},{"range":"136-146","name":"Na+","value":"140","units":"mmol/L"},{"range":"3.5-5.4","name":"K+","value":"4.0","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"24","units":"mmol/L"},{"range":"8.4-10.2","name":"Calcium","value":"9.6","units":"mg/dL"},{"range":"3.0-4.5","name":"Phosphorus","value":"3.9","units":"mg/dL"},{"range":"2-10","name":"Thyroid-stimulating hormone (TSH)","value":"3.1","units":"&micro;U/mL"},{"range":"1.8-9","name":"Folate","value":"6.0","units":"ng/mL"},{"range":"140-700","name":"Vitamin B12","value":"250","units":"pg/mL"},{"range":"negative","name":"RPR","value":"negative","units":""},{"range":"negative","name":"Lyme Disease titer","value":"negative","units":""}]}],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}},{"title":"Office Visit 3","elapsed":"18 months after surgery","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Memory and behavior problems<p><p><p><p><B>History of Present Illness: </B>Her husband reports that the patient appears to have worsening problems with her memory that he believes were exacerbated by her head injury, subdural hematoma, and neurosurgical evacuation. He says that she forgets where she left things, has trouble cooking anything except the simplest dishes, and can&apos;t drive by herself anymore because she gets lost. He describes long and exhausting nights during which she roams the house, searching for her infant children (who are adults living independent lives). She also has begun to have occasional incontinence, especially at night in their marital bed.  He finds this very stressful and seems distraught.  Privately, Mr. Faria says that although they promised each other many years ago that neither would allow the other to go a nursing home, he now wonders whether that was the right thing to do. <p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Progressing dementia<p><p><p><p><B>Investigations: </B>none <p><p><p><p><B>Medications and treatments:</B> none <p><p><p><p><B>Follow-up and referrals: </B>Social service for discussion of nursing home options<p><p><p><p><B>Patient education: </B>Provided counseling to Mr. Faria on caregiver stress; discussed prognosis and considerations of palliative care for the patient.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"130"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"74"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"157"},{"name":"Weight","units":"kg","ident":"weight","value":"60"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"","body":"<p><B>Physical Examination</B>:  Patient is awake, alert, attentive, and cooperative. Her attire and grooming seem appropriate. She was oriented only to person; she did not know time or date, and did not know where she was.  Her speech was hesitant and obviously had difficulty finding the words she wished to say. She was able to follow commands correctly. She could neither do serial 7s, nor spell world backwards. She could not remember any of three objects. Her Folstein MMSE score was11.  Abstract thinking was concrete. Cranial nerves are intact. Reflexes are normal and equal bilaterally. Romberg is negative, no Babinski sign. Muscle strength is normal and symmetrical. Pupils are equal and reactive, no papilledema, optic discs sharp, no exudates, hemorrhages. Carotid pulses equal, no bruits. Heart and lungs are normal.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"s/p subdural hematoma"},{"name":"cognitive impairment"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Severe cognitive impairment, likely secondary to Alzheimer&apos;s Disease</LI><LI>Caregiver stress in husband</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Caregiver stress</LI><LI>Behavior disorders in Alzheimer?s Disease</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Counseling on caregiver stress</LI><LI>Counseling on nursing home placement </LI><LI>Consideration of palliative care for Mrs. Faria</LI>","questionindex":3}]}}]},{"path":"../page/data/data/ManuelFaria/","person":{"name":"Manuel Faria","age":"81","sex":"male","marital":"Married","education":"10th grade","social":"Lives with wife in their own home","ethnicity":"Portuguese-American","race":"White","occupation":"Retired fisherman","language":"Portugese; English as a second language","maritalstatus":"Married","face":"../page/data/data/ManuelFaria/HamishMcDonald.jpg"},"event":[{"title":"Office Visit 1","elapsed":"","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>High blood pressure<p><p><p><p><B>History of Present Illness: </B>Patient has been told he has high blood pressure for many years, well over 30 years. He was prescribed hydrochlorothiazide 12.5 mg. by his previous physician several years ago. He fills these through mail order and takes one a day. He has not been to see a doctor in at least three years. He thinks that other than his high blood pressure, he&apos;s in good health, which he attributes to eating a lot of fish and his hardy life as a fisherman before he retired.<p><p><p><p><B>Past Medical History: </B>Patient had the &quot;usual&quot; childhood illnesses in his native country of Portugal including measles, rubella, chickenpox, and mumps. He received childhood immunizations against smallpox, tetanus, diphtheria, and pertussis. He has been generally healthy and considers himself to be quite healthy. He had a hernia repair when he was in his twenties and no other surgery. He had a serious arm laceration from a fishing accident (he almost bled to death, he says, and was alone on his boat when it happened) for which he required surgery and a blood transfusion. This occurred in 1961. He has no known allergies. He does not smoke tobacco now, but he previous smoked about a pack of cigarettes a day until he was about 60, when he quit. He enjoys a glass of Portuguese wine every night at dinner and a glass of port on special occasions.<p><p><p><p><B>Family History: </B>His mother and father both died of &quot;natural causes&quot; in Portugal many years ago. The patient had 2 sisters and 2 brothers, all older than he and all deceased. He is unaware of their medical histories. The patient has 2 sons and 1 daughter, and 6 grandchildren. To the best of his knowledge, they are all healthy and well.<p><p><p><p><B>Personal and Social History: </B>Patient emigrated to this country at the age of 17 to look for a better life. Lives with wife in their own home. His children are two sons (ages 56 and 54) and one daughter (age 52). The family is Roman Catholic and fairly religious, attending church services regularly. Patient says that the home situation is good and that he and his wife get along well. Their finances are sufficient for their preferred modest lifestyle. He enjoys playing cards with other older men at the local senior citizens center and listening to classical music. He used to walk quite a bit, but recently he is not so active as he once was because of pains in the right calf on walking. These go when he stops but they seem to be getting worse.<p><p><p><p><B>Review of Systems:</B> The only two positive complaints were:<p><p><p><p><B>Urinary: </B>Says that he often has to rush to the toilet to urinate, but then doesn&apos;t urinate very much. He needs to get up 3 or 4 times a night to urinate. Denies dysuria, hematuria, change in color of urine, or incontinence.<p><p><p><p><B>Peripheral vascular: </B>Calf pain with walking about 100 m.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p><B>Urine dipstick: </B>No glucose, no protein, blood, ketones<p><p><p><p><B>Hematocrit: </B>44<p>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Blood pressure not adequately controlled. High risk for heart disease. Also has symptoms of prostatism, so consider use of an alpha-1 adrenergic receptor blocker, which may also help his urinary symptoms<p><p><p><p><B>Investigations: </B>lipid panel, BUN, creatinine, electrolytes, glucose, liver function tests, TSH and total thyroxin, CBC, ECG<p><p><p><p><B>Medications and treatments: </B>Add doxazosin 4 mg/d to hydrochlorothiazie 12.5 mg/d.  Daily low-dose (81 mg) aspirin.<p><p><p><p><B>Follow-up and referrals: </B>Return visit 1 months<p><p><p><p><B>Patient education: </B>Explained goal of blood pressure treatment, weight loss, salt restriction, daily exercise, low-fat diet.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"182"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"90"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"72"},{"name":"Height","units":"cm","ident":"height","value":"168"},{"name":"Weight","units":"kg","ident":"weight","value":"81"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p><B>General appearance: </B>Well-developed, moderately overweight man looking younger than his stated age. He is clean and appropriately dressed. He is polite and appears calm.<p><p><p><p><B>Skin: </B>Color is good. No excessive moisture. Not dry. No scaling, no rashes. Mostly bald. Nails show no pitting, clubbing, or onycholysis.<p><p><p><p><B>Head: </B>Skull is normal.<p><p><p><p><B>Eyes: </B>Vision 20/30 with correction. Visual fields full by confrontation. Conjunctiva and sclera clear. Pupils round, regular, equal, reactive to light and accommodation. Extraocular movements intact in cardinal directions. Disc margins sharp, no papilledema. Some arteriolar narrowing, no A-V nicking, hemorrhages, exudates.<p><p><p><p><B>Ears: </B>Both ear canals clear. Tympanic membranes intact, move with pneumotoscopy, no perforations.<p><p><p><p><B>Nose: </B>Septum midline, no discharge, no polyps. No sinus tenderness.<p><p><p><p><B>Mouth and Throat: </B>Teeth in good repair. Gums normal. No ulcers, lesions seen in oropharynx. No erythema (redness), exudates, petechiae (pinoint hemorrhages). Uvula in midline. Tonsils present.<p><p><p><p><B>Neck: </B>Trachea midline. No masses. Thyroid not palpable.<p><p><p><p><B>Lymph Nodes: </B>No cervical, submandibular, epitrochlear, or axillary lymphadenopathy.<p><p><p><p><B>Chest: </B>Thorax symmetrical, good expansion. Lungs resonant to percussion. Breath sounds normal. No rales, rhonchi, wheezes or rubs heard.<p><p><p><p><B>Cardiac:</B> Precordium quiet, no heaves. Jugular veins 2 cm over sternal angle at 30&#xB0;. Carotid pulses 2+, no bruits. PMI in 5th intercostal space in midclavicular line, discreet. S1 and S2 normal, S4 present, no rubs, or murmurs.<p><p><p><p><B>Abdomen: </B>Flat and symmetric. Bilateral old well-healed inguinal scars. Bowel sounds normal. No bruits over aorta, renal arteries, or femoral arteries. Liver is 10 cm by percussion, edge not palpable. No masses palpable. No tenderness to palpation. No CVA tenderness.<p><p><p><p><B>Genitalia: </B>Penis uncircumcised, foreskin not retracted. No lesions, no discharge visible. Testes 5 cm on right, 3 cm on left, nontender, no masses or varicosities. No hernias.<p><p><p><p><B>Rectal: </B>No fissures, fistulas, hemorrhoids visible. Normal rectal tone. Prostate diffusely enlarged, nontender, no masses. Stool brown, negative for occult blood.<p><p><p><p><B>Peripheral vasculature: </B>The right femoral artery is weak, left normal.  The right popliteal, dorsalis pedis and posterior tibial arteries are absent but those on the left are normal. No pallor on elevation of legs, no dependent rubor. No foot ulcerations.<p><p><p><p><B>Musculoskeletal: </B>12-cm old well-healed scar on left forearm. Full range of motion of shoulders, neck, spine, elbows, hips, knees, ankles. No tenderness, swelling. Good muscle strength throughout.<p><p><p><p><B>Neurological: </B>Cranial nerves: I - not tested; II-visual field intact; III, IV, VI-extraocular movements intact, no ptosis; V-masseters strong and symmetrical, sensory intact, corneal reflex intact; VII-facial features symmetric, grimace normal; VIII-hearing acute, Weber midline, Rinne negative, no nystagmus; IX, X-uvula in midline, gag reflex present; XI-shoulder shrug equal and strong; XII-tongue movements normal. Gait: normal. Romberg negative. Motor strength 4+ and symmetric in grip, forearm, biceps, lower extremities, feet. No tremor, rigidity. Babinski negative. Reflexes 2+ and symmetric in brachioradialis, biceps, triceps, patellar, and ankle. Light touch, pinprick, and vibratory sensation 2+ in feet. Two-point discrimination grossly normal to 1 cm. in feet. Mental status: patient awake, alert, oriented x3, cooperative. Thought content appropriate. Mood calm and good natured. Immediate recall intact. Recent and remote memory intact. Able to recite months backwards without error. Speech fluent and appropriate. Abstract reasoning appropriate.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Hydrochlorothiazide","state":"start","dose":"12.5 mg/d"},{"name":"aspirin","state":"start","dose":"81 mg daily"},{"name":"doxazosin","state":"start","dose":"4 mg daily"}],"problemlist":[{"name":"Health Maintenance"},{"name":"Hypertension","state":"start"},{"name":"Peripheral vascular disease","state":"start"},{"name":"Benign prostatic hypertrophy","state":"start"},{"name":"Obesity","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>hypertension</LI><LI>leg pain on exercise (or, peripheral vascular disease)</LI><LI>benign prostatic hypertrophy (or enlarged prostate)</LI><LI>obesity</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>physiology of blood pressure control (see next page to learn more about the determinants of blood flow)</LI><LI>anatomy of the circulation of the leg </LI><LI>pharmacology of diuretics (e.g, hydrochlorothiazide) and alpha-1 adrenergic receptor blockers (e.g., doxazosin)</LI>","questionindex":2},{"name":"data","title":"","cdata":"<img alt=\"\" src=\"../page/data/data/ManuelFaria/determinants_v4.png\" width=\"\" height=\"\"/>"},{"name":"openquestion","type":"cdata","title":"Effect of hypertension on arterial tree","questiontext":"<p>The complications of hypertension are important not only because of their effects on the arterial tree itself, but because of damage to major organs, i.e. brain, eye, heart, blood vessels and kidneys.<p><p><p><p>From your knowledge of the circulation and of the structure of arteries, can you suggest structural and functional changes that may result from prolonged hypertension?<p>","responsetext":"<p>Click next button for answers<p>","questionindex":3},{"name":"data","title":"","cdata":"<p>The larger (elastic) arteries show internal elastic lamina thickening, smooth muscle hypertrophy and fibrosis.<p><p><p><p>These changes reduce the lumen, increase shear stress on the intima, increase turbulence, decrease endothelial function and reduce distensibility/compliance.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/hypertinsive_arteries.jpg\" width=\"\" height=\"\"/><p>The smaller arteries show hyaline sclerosis which narrows the lumen. The histology slide shows hyaline arteriolar sclerosis, possibly the result of long-standing, uncontrolled hypertension. The vessel appears to be greater than 80% occluded.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/Hyaline_arteriolar_sclerosis.jpg\" width=\"\" height=\"\"/>"},{"name":"openquestion","type":"cdata","title":"PVR","questiontext":"<p>What effect do these structural changes found in arteries following hypertension have on peripheral vascular resistance (PVR)?<p>","responsetext":"<p>PVR increases. This in turn results in a further increase in blood pressure. Click next to see a graphical representation.<p>","questionindex":4},{"name":"data","title":"Further reading","cdata":"<img alt=\"\" src=\"../page/data/data/ManuelFaria/pvr_chart.png\" width=\"\" height=\"\"/><p>To read further on &apos;The Structure of Small Arteries in Essential Hypertension&apos; (A M Heagerty) click here: <A HREF=\"http://www.mcmaster.ca/inabis98/mulvany/heagerty0861/two.html\" TARGET=\"_blank\"><B>http://www.mcmaster.ca/inabis98/mulvany/heagerty0861/two.html</B></A><p><p><p><p>For explanatory text with images on the general structure of blood vessels and variations of vessel wall structure, click on the URL of the School of anatomy and Human Biology:  <A HREF=\"http://www.lab.anhb.uwa.edu.au/mb140/CorePages/Vascular/Vascular.htm#labmuscular\" TARGET=\"_blank\"><B><U>http://www.lab.anhb.uwa.edu.au/mb140/CorePages/Vascular/Vascular.htm#labmuscular</U></B></A><p>"},{"name":"data","title":"","cdata":"<p><B>Peripheral arterial occlusive disease</B><p><p><p><p>Hypertension is a major risk factor for peripheral arterial occlusive disease. Peripheral arterial occlusive disease (PAOD) results either from atherosclerotic or inflammatory processes causing lumen narrowing (stenosis), or from thrombus formation which is usually associated with underlying atherosclerotic disease. <p><p><p><p>A digital subtraction angiogram of aorto-iliac arterial tree showing occlusion of the right common iliac artery from a patient with long-standing sustained hypertension.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/Peripheral arterial vascular disease.jpg\" width=\"\" height=\"\"/>"},{"name":"data","title":"","cdata":"<img alt=\"\" src=\"../page/data/data/ManuelFaria/Picture 1.png\" width=\"\" height=\"\"/>"},{"name":"data","title":"Diuretics","cdata":"<img alt=\"\" src=\"../page/data/data/ManuelFaria/Diuretics.png\" width=\"\" height=\"\"/>"},{"name":"data","title":"","cdata":"<p><B>Beta-blockers</B><p><p><p><p>Beta-blockers have a role to play in the management of patients with hypertension. They are especially useful in hypertensive patients with concomitant coronary artery disease or congestive heart failure.<p><LI></LI><LI>Beta-blockers decrease the hyperkinetic cardiac output and the high renin levels characteristic of young patients with hypertension.</LI><LI>Beta-blockers reduce morbidity and mortality in patients with coronary disease or heart failure.</LI><LI>Contraindications are bronchospasm and advanced heart block.</LI><LI>Cold hands and feet are a common problem, as is fatigue.</LI><p><p><p>Examples of beta-blockers include: metoprolol, atenolol, and labetolol (labetolol also has some alpha-adrenoreceptor blocking activity).<p>"},{"name":"data","title":"","cdata":"<p><B>ACE-inhibitors</B><p><p><p><p>ACE-inhibitors are widely prescribed in young white hypertensives.<p><p><p><p>ACE-inhibitors are very effective in hypertensive patients with LV dysfunction, coronary artery disease, diabetes mellitus, or chronic renal disease/proteinuria.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/ACE-I.png\" width=\"\" height=\"\"/>"},{"name":"data","title":"","cdata":"<p><B>Angiotensin II receptor blockers (ARBs)</B><p><p><p><p>Angiotensin II receptor blockers (ARBs) have similar effects to ACE-inhibitors. They are used as 2nd-line drugs (because of their high cost) in patients who do not tolerate ACE-inhibitors.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/ARBs.png\" width=\"\" height=\"\"/>"},{"name":"data","title":"","cdata":"<p><B>Calcium channel blockers (CCBs)</B><p><p><p><p>The calcium channel blockers (CCBs) are generally considered 2nd-line drugs.<p><p><p><p>There are two main categories.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/CCBs.png\" width=\"\" height=\"\"/>"},{"name":"data","title":"","cdata":"<p><B>Other agents</B><p><p><p><p>Other antihypertensive agents may be used in patients who are refractory to initial therapy.<p><LI></LI><LI>Direct vasodilators have limited, but specific, uses. Hydralazine/isosorbide dinitrate is particularly useful in patients of African descent. Hydralazine can be used to lower blood pressure acutely in pregnancy, though nifedipine and labetolol are now the preferred first-line treatments.</LI><LI>Minoxidil is best avoided in women because it causes hair growth and coarsens the features.</LI><LI>Peripheral alpha-1 blockers such as doxazosin or terazosin may prove beneficial in those patients with hypertension who also have urinary tract outlet obstruction because they relax the outlet sphincter of the bladder.</LI><LI>Central alpha-2 agonists such as clonidine and methyldopa are declining in use because of their prominent side-effect profile, especially dizziness, dry mouth, and sleepiness.</LI><LI>Combined alpha-1 and beta-blockers such as labetolol are used intravenously in acute hypertension.</LI><LI>Imidazoline-1 receptor agonists such as monoxidine, which modulate the central sympathetic nervous system outflow in the brain stem, are occasionally used.</LI><p><p>"},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>adding another antihypertensive drug to his regimen, preferably an alpha-1 adrenergic receptor blocker that might help his urinary symptoms as well</LI><LI>counseling patient on ways he can help to reduce blood pressure (losing weight, restricting salt intake, increasing daily exercise, eating low-fat diet)</LI><LI>recommending daily low-dose aspirin for prevention of heart attack and stroke</LI><LI>obtaining laboratory tests for other cardiovascular risk factors and evidence of end-organ damage and other etiologies of hypertension (hyperthyroidism)</LI><LI>see the patient back in 2-4 weeks to monitor response</LI>","questionindex":5}]}},{"title":"Office Visit 2","elapsed":"4 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>follow-up for high blood pressure<p><p><p><p><B>History of Present Illness: </B>Patient thinks the new medication may be helping him empty his bladder better. No other symptoms<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p><B>ECG: </B>Normal sinus rhythm with left axis deviation<p><img alt=\"ECG with left axis deviation\" src=\"../page/data/data/ManuelFaria/ECG09.jpg\" width=\"\" height=\"\"/>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Inadequate blood pressure control.Goal should be &lt;130/80 because patient has pre-existing peripheral arterial disease. Hypercholesterolemia with elevated LDL, normal HDL, triglycerides. Goal should be LDL &lt;100 because of multiple risk factors. Hypokalemia probably on the basis of diuretic usage. Inadequate weight loss.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Add calcium-channel blocker, amlodipine 5 mg daily, rather than beta-blocker because of existing peripheral arterial disease which could be worsened by beta-blocker. Increase daily potassium (bananas).<p><p><p><p><B>Follow-up and referrals: </B>Refer to a dietician for advise on reducing weight, lowering saturated fats, and restricting sodium<p><p><p><p><B>Patient education:</B> Explained nature of elevated cholesterol and importance of lowering cholesterol and blood pressure. Advised patient to resume walking to the limits of his tolerance.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"170"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"86"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"72"},{"name":"Height","units":"cm","ident":"height","value":"168"},{"name":"Weight","units":"kg","ident":"weight","value":"81"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"BP right arm sitting 172/86, supine 172/86; left arm sitting 176/90, supine 176/88."},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"44","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"15.0","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"4.9","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"34","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"90","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"8.8","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"28","units":"%"},{"range":"3-7","name":"Monocytes","value":"2","units":"%"},{"range":"1-3","name":"Eosinophils","value":"0","units":"%"},{"range":"0-0.75","name":"Basophils","value":"6","units":"%"},{"range":"3-5","name":"Bands","value":"4","units":"%"},{"range":"150-400","name":"Platelet count","value":"300","units":"x10<sup>3</sup>/mm<sup>3</sup>"}]},{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"10","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"12","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"30","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.4","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"3.6","units":"g/dL"},{"range":"200","name":"Cholesterol, total","value":"220","units":"mg/dL"},{"range":"100","name":"LDL-cholesterol","value":"180","units":"mg/dL"},{"range":"40","name":"HDL-cholesterol","value":"50","units":"mg/dL"},{"range":"160","name":"Triglycerides","value":"120","units":"mg/dL"},{"range":"80-115","name":"Glucose","value":"94","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"15","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.0","units":"mg/dL"},{"range":"136-146","name":"Na+","value":"140","units":"mmol/L"},{"range":"3.5-5.4","name":"K+","value":"3.2","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"25","units":"mmol/L"},{"range":"8.4-10.2","name":"Calcium","value":"9.6","units":"mg/dL"},{"range":"3.0-4.5","name":"Phosphorus","value":"4.0","units":"mg/dL"},{"range":"2-10","name":"Thyroid-stimulating hormone (TSH)","value":"3","units":"&micro;U/mL"},{"range":"5-12","name":"Thyroxin, Total (T4)","value":"9","units":"&micro;g/dL"}]}],"visible":true},"druglist":[{"name":"amlodipine","state":"start","dose":"5 mg/d"}],"problemlist":[{"name":"Hypokalemia","state":"start"},{"name":"Hypercholesterolemia","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>hypokalemia</LI><LI>hypercholesterolemia</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Side effects of antihypertensive drugs</LI><LI>Physiology of adrenal cortex (aldosterone)</LI><LI>Physiology of the adrenal medulla</LI><LI>Pathology of adrenal medulla (pheochromocytoma)</LI><LI>Pathology of adrenal cortex (adenoma, hyperplasia)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Add another drug to control his high blood pressure (either a calcium-channel blocker, or ACE inhibitor; beta-blockers should probably be avoided because of their capacity to worsen peripheral arterial disease and his symptoms of intermittent claudication)</LI><LI>Add a potassium supplement and instruct on including enough potassium in his diet and restricting salt</LI><LI>Refer to a dietician for advise on reducing weight, lowering saturated fats, and restricting sodium</LI><p><p><p>Your management plan should not have included an extensive work-up for adrenal causes of his hypertension. Although his low potassium could be caused by an aldosterone-secreting adrenal adenoma, the far more likely scenario is that it is related to his diuretic and high sodium intake. If dietary interventions and potassium supplementation don?t normalize his potassium, then a work up for secondary causes would be justified.<p><p><p><p>Elevated cholesterol conveys an added risk for cardiovascular disease even in older persons. Lowering cholesterol has been shown to reduce risk in older men 65-75. While there are no hard-and-fast rules for treatment of someone over 75 as Mr. Faria is, most authorities would recommend lifestyle modification rather than drug therapy unless the patient had multiple risk factors and already showed evidence of subclinical atherosclerosis. Since Mr. Faria does have multiple risk factors and evidence of atherosclerosis, he would be a candidate for more aggressive treatment of his elevated cholesterol if he does not respond adequately to lifestyle changes.<p><p><p><p>The evidence is quite strong that treating hypertension in patients 80 year of age or older is beneficial. (See Beckett NS, et al., Treatment of Hypertension in Patients 80 Years of Age or Older, N Engl J Med 2008; 358:1887-98.)<p><p><p><p>See the next page for important considerations to keep in mind when confronted with difficult-to-treat hypertension.<p>","questionindex":3},{"name":"data","title":"","cdata":"<img alt=\"\" src=\"../page/data/data/ManuelFaria/Resistant HTN.jpg\" width=\"\" height=\"\"/>"}]}},{"title":"Office Visit 3","elapsed":"6 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>difficulty voiding<p><p><p><p><B>History of Present Illness:</B><p><p><p><p><B>Problem #3 - Benign Prostatic Hypertrophy</B><p><p><p><p>Patient complains that his voiding problem has become significantly worse. He&apos;s constantly feeling the need to urinate, but then urinates only a small amount. He is getting up 7 or 8 times a night. He denies any burning with urination. He has not noticed any blood in his urine or change in color or odor. Patient has been taking doxazosin 4 mg daily for his high blood pressure, which initially helped improve his urinary symptoms.<p><p><p><p><B>Problem #2 - Hypertension</B><p><p><p><p>Patient has been trying hard to stick to the diet that the dietician reviewed with him. He has substituted fresh fish for the salt cod he had been eating regularly and has cut down on red meat and cheese and increased fruits and vegetables, especially those high in potassium like bananas. He also avoids high salt foods and adds no salt at the table. He was unable to increase his walking very much due to his leg pain, but has started swimming daily for about half an hour, which he has been able to do comfortably. He has had no side effects from the medicines.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"Urinalysis showed clear yellow urine, specific gravity of 1.020, no glucose, blood, or protein, and negative leukocyte esterase. Microscopic examination of the sediment showed no white or red blood cells and no bacteria."}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Urinary symptoms associated with prostatism. Will try conservative therapy first before considering surgical intervention. Blood pressure and LDL cholesterol not at goal levels.<p><p><p><p><B>Investigations:</B> none<p><p><p><p><B>Medications and treatments: </B>Increase dose of doxazosin to 8 mg (maximum dose) and add finasteride 5 mg daily to reduce prostate volume. Increase dose of amlodipine to 10 mg (maximum dose) for better control of blood pressure. Continue dietary changes to lower cholesterol.<p><p><p><p><B>Follow-up and referrals: </B>Recheck in 1 month unless symptoms worsen. Refer to urologist is symptoms do not improve in 6 months or if they worsen.<p><p><p><p><B>Patient education: </B>Reviewed ways to reduce saturated fats (Mediterranean diet).<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"150"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"86"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"74"},{"name":"Height","units":"cm","ident":"height","value":"168"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"BP 150/86 as noted. Weight down to 78 kg. Labs done last week show potassium now 3.8, cholesterol down to 190 with LDL at 160. Abdominal exam elicits sensation of needing to void with suprapubic pressure, but no tenderness. Dullness to percussion was noted in the suprapubic area, but this disappeared after patient voided."},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"200","name":"Cholesterol, total","value":"190","units":"mg/dL"},{"range":"100","name":"LDL-cholesterol","value":"160","units":"mg/dL"},{"range":"40","name":"HDL-cholesterol","value":"50","units":"mg/dL"},{"range":"160","name":"Triglycerides","value":"90","units":"mg/dL"},{"range":"80-115","name":"Glucose","value":"96","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"14","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.0","units":"mg/dL"},{"range":"136-146","name":"Na+","value":"140","units":"mmol/L"},{"range":"3.5-5.4","name":"K+","value":"3.8","units":"mmol/L"}]}],"visible":true},"druglist":[{"name":"doxazosin","state":"start","dose":"8 mg/d"},{"name":"amlodipine","state":"end","dose":"5 mg/d"},{"name":"amlodipine","state":"start","dose":"10 mg/d"},{"name":"finasteride","state":"start","dose":"5 mg/d"},{"name":"doxazosin","state":"end","dose":"4 mg daily"}],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>\tno new problems</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Physiology of micturition</LI><LI>Anatomy of the male reproductive system (prostate)</LI><LI>Histology and pathology of the prostate gland</LI><LI>Pharmacology of finasteride, alpha-adrenergic receptor blockers</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Increase the dose of the alpha-1 adrenergic blocker (doxazosin) to 8 mg.</LI><LI>Add a 5-alpha-reductase inhibitor (finasteride) to reduce prostate volume</LI><LI>Increase the dose of the calcium-channel blocker (amlodipine) to 10 mg for better control of his systolic hypertension</LI><LI>Refer to a urologist if symptoms do not improve in 6 months or if they worsen</LI>","questionindex":3}]}},{"title":"Office Visit 4","elapsed":"4 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>difficulty voiding<p><p><p><p><B>History of Present Illness: </B>Patient reports improvement in his urinary symptoms. He has less urgency and feels as if he is emptying his bladder more fully, though he still feels it is not completely empty. The nocturia has decreased back to 3 or 4 times a night, which the patient feels is tolerable. Taking finasteride 5 mg and doxazosin 8 mg daily. Patient continues to stick to his diet and has proudly lost some more weight. He has noticed some lightheadedness when getting up quickly. He has learned to get up slowly.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Improvement in urinary symptoms; will stay with conservative treatment, likely to see additional benefit of finasteride over next month or two. Blood pressure improved, but still not at goal. Nevertheless, considering that patient is already experiencing some side effects from all his meds (postural hypotension), the risk of exacerbating those side effects outweighs potential benefits of pushing meds to lower BP any more rapidly, especially considering his age. Will continue to push weight loss.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Maintain current meds.<p><p><p><p><B>Follow-up and referrals: </B>See in 3-6 months unless symptoms worsen<p><p><p><p><B>Patient education: </B>Counseling about getting up slowly and avoiding falls.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"136"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"84"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"76"},{"name":"Height","units":"cm","ident":"height","value":"168"},{"name":"Weight","units":"kg","ident":"weight","value":"77"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Abdominal exam essentially negative. No dullness to percussion over suprapubic area, no tenderness. Urinalysis showed clear yellow urine, specific gravity of 1.022, no glucose, blood, or protein, and negative leukocyte esterase. Microscopic examination of the sediment showed no white or red blood cells and no bacteria. BP 136/84, pulse 76 supine; 132/80, pulse 80 standing after 1 minute arising from supine position. Patient reports slight lightheadedness. Weight down to 77 kg."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>dizziness</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pharmacology of finasteride, alpha-adrenergic receptor blockers (follow up)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>maintain patient on current level of medications with counseling about getting up slowly and avoiding falls</LI><LI>praise patient for his success in dieting and encourage him to continue to lose weight and exercise and watch his salt and fat intake</LI><LI>refer to a urologist if symptoms worsen</LI><LI>see again in 3-6 months</LI><p><p><p>Click <A HREF=\"http://www.brown.edu/Research/Geriatrics/manuel_streaming.html\" TARGET=\"_blank\"><U>here</U></A> to listen to a case discussion of dizziness in the older patient by a geriatrician.<p>","questionindex":3}]}}]},{"path":"../page/data/data/LouisMarlboro/","person":{"name":"Louis Marlboro","age":"68","sex":"male","social":"Lives at home with his wife","marital":"Married","education":"High school graduate","occupation":"Retired salesman","language":"English","race":"White","maritalstatus":"Married","face":"../page/data/data/LouisMarlboro/LouisMarlboro.jpg"},"event":[{"title":"Prior Office Visit 1","elapsed":"","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>History of Present Illness: </B>Mr. Marlboro comes in today as a new patient to the practice after his former physician retired. Mr. Marlboro has a long-standing history of chronic obstructive pulmonary disease that forced him into early retirement on disability 10 years ago when he was 58. He had been a 2 -pack-per-day cigarette smoker since he was a young teenager. As his lung disease progressively worsened, he tried quitting, but was never successful. Even now, he occasionally has a cigarette, but fewer than one a day. He has a chronic productive cough and is always short of breath. Usually, he can walk from one room of his house to another without getting short of breath, but anything beyond that causes him to become very short of breath. He has a metered-dose inhaler of salmeterol that he uses twice a day.<p><p><p><p><B>Past Medical History: </B>Patient had the usual childhood illnesses (measles, rubella, chickenpox, mumps) and had his tonsils removed at age 5 for repeated episodes of strep throat. He received childhood immunizations against tetanus, diphtheria, and pertussis. His last tetanus-diphtheria-acellular pertussis booster was 2 years ago. He also received pneumococcal vaccine and gets an annual influenza vaccine.  He has had no serious injuries. He was hospitalized at age 57 and 58 with pneumonia, which is when he largely quit smoking and had to go on disability and early retirement. He has no known allergies. He drinks beer in moderation (1-2 beers on &quot;special occasions&quot;).<p><p><p><p><B>Family History: </B>His mother and father are deceased. His mother died of a heart attack at age 77. His father died of prostate cancer at age 80. The patient has 1 sisters and 2 brothers. They are all younger than he. One brother also suffers from COPD and high blood pressure. The others are in good health, as far as he knows.<p><p><p><p><B>Personal and Social History: </B>Patient lives with wife in their own home. His two sons are married and living in other parts of the country. The family is Methodist, but not very religious. Patient says that the home situation is somewhat strained by his inability to do much for himself or to help his wife. Finances are tight. Patient with a salesman with a large retail company until his early retirement. He has a modest pension in addition to his Social Security.<p><p><p><p><p><p><B>Review of Systems</B><p><p><p><p><B>General: </B>He considers his health to be poor. His appetite is okay, but not great, no change in weight.<p><p><p><p><B>Skin: </B>No rashes, sores, itching. Denies any itching, dryness, excessive sweatiness, change in skin color, hair, or nails.<p><p><p><p><B>Head: </B>No headache, head injuries.<p><p><p><p><B>Eyes: </B>No visual disturbances, double vision, difficulty seeing. Does not wear glasses. No eye pain, discharge, or excessive tearing.<p><p><p><p><B>Ears: </B>Hearing is not as good as it once was, but he hears the TV and radio fine. No ringing in his ears (tinnitus), dizziness (vertigo). No ear pain, no discharge from ears.<p><p><p><p><B>Nose: </B>Susceptible to frequent colds and bronchitis. Denies runny nose, nosebleeds, nasal congestion, allergic symptoms.<p><p><p><p><B>Mouth and Throat: </B>Denies any problems with teeth or gums (no bleeding, infections) other than cavities that have been filled. Sometimes he becomes hoarse if he catches a cold.<p><p><p><p><B>Neck: </B>No masses, stiffness, &quot;swollen glands,&quot; goiter.<p><p><p><p><B>Breasts: </B>Not applicable<p><p><p><p><B>Respiratory: </B>See HPI<p><p><p><p><B>Cardiac: </B>No chest pain, palpitations, orthopnea (shortness of breath lying flat), paroxysmal nocturnal dyspnea (shortness of breath in the middle of the night after lying down for some time).<p><p><p><p><B>Gastrointestinal: </B>No trouble swallowing, heartburn, indigestion, nausea, vomiting (including blood). No diarrhea or constipation. No change in stool color (denies black, tarry stools [melena] or blood in stools [hematochesia]). No hemorrhoids, rectal pain, or rectal discharge. No abdominal pain, excessive gas, food intolerances.<p><p><p><p><B>Urinary: </B>No frequency or urgency of urination, nocturia, dysuria, hematuria, change in color of urine, or incontinence.<p><p><p><p><B>Genital: </B>Denies any hernias, penile discharge, sores on penis, pain with intercourse, testicular pain. Denies any problems with erections or ejaculation.<p><p><p><p><B>Peripheral vascular: </B>No cramps with walking, no varicose veins.<p><p><p><p><B>Musculoskeletal: </B>No muscular or joint pain, stiffness, swelling, or weakness.<p><p><p><p><B>Neurological: </B>No fainting, seizures, paralysis, numbness or changes in sensation, no &quot;pins and needles&quot; (paresthesias), tremors or involuntary movements.<p><p><p><p><B>Hematological: </B>No easy bleeding or bruising, weakness and fatigue. No previous blood transfusions.<p><p><p><p><B>Endocrine: </B>No heat or cold intolerance, excessive sweating or thirst.<p><p><p><p><B>Psychiatric: </B>Denies any mood changes (sadness, despair), nervousness or anxiety, hallucinations.<p>"}]},"procedure":{"visible":true,"items":[{"title":"Office Laboratory","body":"<p><B>Urine dipstick: </B>No glucose, no protein, blood, ketones<p><p><p><p><B>Hematocrit: </B>42<p><p><p><p><B>ECG: </B>Right atrial enlargement with right axis deviation<p><img alt=\"\" src=\"../page/data/data/LouisMarlboro/ECG Right Axis Deviation.jpg\" width=\"\" height=\"\"/>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Clinically, patient appears to have moderately severe COPD of mixed bronchitic and emphysematous type.<p><p><p><p><B>Investigations: </B>Obtain pulmonary function tests for baseline monitoring. Obtain chest x-ray, ECG, CBC, fasting lipid profile, liver and renal function.<p><p><p><p><B>Medications and Treatments: </B>Continue patient on metered-dose salmeterol inhaler. Annual influenza vaccine.<p><p><p><p><B>Follow-up and Referrals: </B>Call patient with results when in.<p><p><p><p><B>Patient Education: </B>Urged patient not to smoke at all.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"135"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"80"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"30"},{"name":"Height","units":"cm","ident":"height","value":"170"},{"name":"Weight","units":"kg","ident":"weight","value":"82"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p><B>General appearance: </B>Patient is somewhat short of breath even sitting at rest. He is somewhat overweight. His clothes are somewhat tattered, but clean. He appears somewhat anxious.<p><p><p><p><B>Skin: </B>Some duskiness to skin color. No excessive moisture. Not dry. No scaling, no rashes. Hair is full, no alopecia. Nails show no pitting, clubbing, or onycholysis.<p><p><p><p><B>Head: </B>Skull is normal.<p><p><p><p><B>Eyes:</B> Vision 20/30 with glasses. Visual fields full by confrontation. Conjunctiva and sclera clear. Pupils round, regular, equal, reactive to light and accommodation. Extraocular movements intact in cardinal directions. Disc margins sharp, no papilledema. Some arteriolar narrowing, no A-V nicking, hemorrhages, exudates.<p><p><p><p><B>Ears:</B> Both ear canals clear. Tympanic membranes intact, move with pneumotoscopy, no perforations.<p><p><p><p><B>Nose: </B>Septum midline, no discharge, no polyps. No sinus tenderness.<p><p><p><p><B>Mouth and Throat: </B>Teeth in good repair. Gums normal. No ulcers, lesions seen in oropharynx. No erythema, exudates, petechiae. Uvula in midline. Tonsils absent.<p><p><p><p><B>Neck: </B>Trachea midline. No masses. Thyroid not palpable.<p><p><p><p><B>Lymph Nodes: </B>No cervical, submandibular, epitrochlear, or axillary lymphadenopathy.<p><p><p><p><B>Chest: </B>Thorax symmetrical, somewhat hyperexpanded with limited expansion. Lungs resonant to hyperresonant to percussion. Breath sounds somewhat diminished with 2+  wheezes and rhonchi, especially in the bases.<p><p><p><p><B>Cardiac: </B>Precordium quiet, no heaves. Jugular veins 3 cm over sternal angle at 30&#xB0;. Carotid pulses 2+ , no bruits. PMI in 5th intercostal space 2 cm. to the left of the midclavicular line, somewhat diffuse. S1 and S2 normal, no gallops, rubs, or murmurs.<p><p><p><p><B>Abdomen: </B>Somewhat protuberant; symmetric. No scars. Bowel sounds normal. No bruits over aorta, renal arteries, or femoral arteries. Liver is 10 cm by percussion, edge palpable 2 cm. below the left costal margin, sharp, regular, and nontender. No masses palpable. No tenderness to palpation. No CVA tenderness.<p><p><p><p><B>Genitalia: </B>Penis uncircumcised, foreskin not retracted. No lesions, no discharge visible. Testes 5 cm on right, 3 cm on left, nontender, no masses or varicosities. No hernias.<p><p><p><p><B>Rectal: </B>No fissures, fistulas, hemorrhoids visible. Normal rectal tone. Prostate mildly enlarged, nontender, no masses. Stool brown, negative for occult blood.<p><p><p><p><B>Peripheral vasculature: </B>Pulses 1+  and symmetric (radial, femoral, popliteal, dorsalis pedis, and posterior tibial). Good capillary filling. No pallor on elevation of legs, no dependent rubor. No foot ulcerations.<p><p><p><p><B>Musculoskeletal: </B>Full range of motion of shoulders, neck, spine, elbows, hips, knees, ankles. No tenderness, swelling. Muscle strength somewhat diminished throughout.<p><p><p><p><B>Neurological:Cranial nerves: </B>I - not tested; II-visual field intact; III, IV, VI-EOMs intact, no ptosis; V-masseters strong and symmetrical, sensory intact, corneal reflex intact; VI-facial features symmetric, grimace normal; VIII-hearing acute, Weber midline, Rinne negative, no nystagmus; IX, X-uvula in midline, gag reflex present; XI-shoulder shrug equal and strong; XII-tongue movements normal. Gait: normal. Romberg negative. Motor strength 4+  and symmetric in grip, forearm, biceps, lower extremities, feet. No tremor, rigidity. Babinski negative. Reflexes 2+ and symmetric in brachioradialis, biceps, triceps, patellar, and ankle. Light touch, pinprick, and vibratory sensation 2+  in feet. Two-point discrimination grossly normal to 1 cm. in feet. Mental status: patient awake, alert, oriented x3, cooperative. Thought content appropriate. Mood somewhat anxious. Immediate recall intact. Recent and remote memory intact. Able to recite months backwards without error. Speech fluent and appropriate. Abstract reasoning appropriate.<p>"},"visible":true},"investigate":{"data":[{"name":"data","title":"","data":"<p><B>Chest x-ray: </B>Hyperinflated lungs consistent with chronic emphysema. <p><p><p><p><B>Pulmonary function test: </B>FEV1 at 50% of predicted and increased residual volume and residual volume:total lung capacity ratio<p><img alt=\"\" src=\"../page/data/data/LouisMarlboro/resp09-CXR-Male-COPD-NoLabe.jpg\" width=\"\" height=\"\"/>"}],"results":[{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"49","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"17.2","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"5","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"34","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"98","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"10.4","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"3-7","name":"Monocytes","value":"3","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"30","units":"%"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"1-3","name":"Eosinophils","value":"2","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"5","units":"%"}]},{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"10","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"10","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"40","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.7","units":"mg/dL"},{"range":"<200","name":"Cholesterol, total","value":"195","units":"mg/dL"},{"range":"<100","name":"LDL-cholesterol","value":"145","units":"mg/dL"},{"range":">=40","name":"HDL-cholesterol","value":"41","units":"mg/dL"},{"range":"<160","name":"Triglycerides","value":"150","units":"mg/dL"},{"range":"80-115","name":"Glucose","value":"90","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"10","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"0.9","units":"mg/dL"},{"range":"136-146","name":"Na","value":"140","units":"mmol/L"},{"range":"3.5-5.4","name":"K","value":"4.1","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"28","units":"mmol/L"}]}],"visible":true},"druglist":[{"name":"Salmeterol","state":"start","dose":"1 puff 2x/d"}],"problemlist":[{"name":"Health Maintenance"},{"name":"Chronic obstructive pulmonary disease","state":"start"}],"guidelist":[]}},{"title":"Office Visit 1","elapsed":"","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Worsening bronchitis and shortness of breath<p><p><p><p><B>History of Present Illness: </B>For the last 4 days the patient has experienced increasing shortness of breath and coughing. He is now uncomfortably short of breath just sitting. Walking to the bathroom has become quite exhausting. He denies any fever and says the amount of sputum he&apos;s producing is about the same as it always is.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"Oxygen saturation by pulse oximeter is 92%."}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Acute bronchitis exacerbation of underlying COPD. Tolerating well.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Add ipratroprium bromide, 2 puffs 4x/d by metered-dose inhaler to the salmeterol.<p><p><p><p><B>Follow-up and referrals: </B>Return visit in 1 week<p><p><p><p><B>Patient education: </B>Reinforced importance of not smoking.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"140"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"80"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"30"},{"name":"Height","units":"cm","ident":"height","value":"170"},{"name":"Weight","units":"kg","ident":"weight","value":"82"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient is in some degree of respiratory distress. Respiratory rate is 30/min. and somewhat labored. He coughs fairly frequently and brings up small amounts of whitish-green sputum. Chest is somewhat hyperexpanded and hyperresonant to percussion. Scattered rales, rhonchi, and wheezes throughout both lung fields."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Ipratropium Br","state":"start","dose":"2 puffs 4x/d"}],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>acute bronchitis</LI><p><p><p>Some clinicians would include acute exacerbations of COPD under that chronic problem rather than adding a new problem each time the patient had a separate episode of acute bronchitis. Either approach is acceptable.<p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p><p><p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Be able to label and describe the different lung volumes and capacities reported on pulmonary function tests (e.g., tidal volume, residual volume, total lung capacity). What abnormalities would you predict a person with COPD, like Mr. Marlboro, would have?</LI><LI>Be able to describe what the forced expiratory volume in one second (FEV&#x2081;) measures. What would you predict a person with COPD would show?</LI><LI>What is the major cause of COPD? What pathological changes in the lungs occur in COPD?</LI><LI>Be able to label the major divisions of the lung (e.g., right lower lobe)</LI><LI>Be able to label the different levels of airways (e.g., mainstem bronchus, bronchioles, alveoli)</LI><LI>Describe the major pharmacological characteristics of beta-adrenergic-2 receptor agonists like albuterol (i.e., how they work, how rapidly they work, major side effects, how effective they are)</LI><LI>Describe the major pharmacological characteristics of anticholinergic drugs like ipratropium bromide (i.e., how they work, how rapidly they work, major side effects, how effective they are)</LI><LI>Describe the major pharmacological characteristics of inhaled corticosteroids like fluticasone (i.e., how they work, how rapidly they work, major side effects, how effective they are)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>add ipratroprium bromide metered-dose inhaler to the salmeterol</LI><LI>return visit in 1 week</LI>","questionindex":3}]}},{"title":"Office Visit 2","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Worsening bronchitis and shortness of breath<p><p><p><p><B>History of Present Illness: </B>Patient&apos;s cough has worsened since last week. Now producing more copious sputum. Shortness of breath is also somewhat worse. Using salmeterol and ipratroprium metered-dose inhalers as directed.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"Oxygen saturation is 90% by pulse oximeter on room air."}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Acute bronchitis is worsening and beginning to compromise patient&apos;s pulmonary reserve capacity.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Doxycycline 100 mg. 2x/d x 10 d. Oral prednisolone 30 mg. per day.<p><p><p><p><B>Follow-up and referrals: </B>Return visit in 1 week or sooner if symptoms worsen significantly.<p><p><p><p><B>Patient education: </B>Reinforced importance of not smoking and how to monitor symptoms of this acute episode.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"140"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"88"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"32"},{"name":"Height","units":"cm","ident":"height","value":"170"},{"name":"Weight","units":"kg","ident":"weight","value":"82"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient continues to be in moderate amount of respiratory distress. Respiratory rate is 32/min. and somewhat labored. He coughs fairly frequently and brings up fairly copious amounts of yellowish-green mucopurulent sputum. Chest is somewhat hyperexpanded and hyperresonant to percussion. Scattered rales, rhonchi, and wheezes throughout both lung fields."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Prednisolone","state":"start","dose":"30 mg. 1x/d"},{"name":"Doxycycline","state":"start","dose":"100 mg. 2x/d"}],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>acute bronchitis</LI><p><p><p>Some clinicians would include acute exacerbations of COPD under that chronic problem rather than adding a new problem each time the patient had a separate episode of acute bronchitis. Either approach is acceptable.<p>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Microbiology of <I>Haemophilus influenzae, Moraxella catarrhalis</I></LI><LI>Pharmacology of tetracyclines (doxycycline)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<LI>administer a short course of a broad-spectrum antibiotic</LI><LI>begin patient on a course of oral corticosteroids</LI>","questionindex":3}]}},{"title":"Office Visit 3","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Worsening bronchitis and shortness of breath<p><p><p><p><B>History of Present Illness: </B>Patient continues to deteriorate. He is short of breath all of the time, even when at rest. His cough continues to be productive of copious amounts of sputum. Patient thinks he should be in the hospital. He is feeling very anxious.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"Pulse oximeter records oxygen saturation of 88% on room air."}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Patient is decompensating and needs to be hospitalized for assisted ventilation.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Continue current meds in hospital.<p><p><p><p><B>Follow-up and referrals: </B>Emergency hospitalization; pulmonary referral<p><p><p><p><B>Patient education: </B>Explained reasons for decision to hospitalize and what to expect in the hospital.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"144"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"90"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"90"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"36"},{"name":"Height","units":"cm","ident":"height","value":"170"},{"name":"Weight","units":"kg","ident":"weight","value":"82"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient appears in moderately severe respiratory distress. Respiratory rate is 36/min. and labored with use of accessory musculature. He coughs fairly frequently and brings up fairly copious amounts of yellowish-green mucopurulent sputum. Chest is hyperexpanded and hyperresonant to percussion. Scattered rales, rhonchi, and wheezes throughout both lung fields."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Prednisolone","state":"end","dose":"30 mg. 1x/d"}],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>No new problems or</LI><LI>Respiratory decompensation</LI><p><p><p>Some clinicians would include the patientÃÂÃÂÃÂÃÂs worsening condition under COPD while others would create a new problem to indicate the acute decompensation. Either approach is acceptable.<p>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathophysiology of respiratory failure</LI><LI>Physiology of mechanical ventilation</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Admit patient to hospital with referral to pulmonary consultant for management of the patient on assisted ventilation</LI>","questionindex":3}]}},{"title":"Hospital Discharge 1","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>The pulmonary consultant called to say that Mr. Marlboro is ready for discharge from the hospital (see hospital discharge summary below). The consultant would like you to arrange for home health care for Mr. Marlboro. He will need home oxygen therapy and respiratory therapy for at least one month.<p><p><p><p><B>Hospital Discharge Summary</B><p><p><p><p>Mr. Louis Marlboro, a 68-year-old married white man with long-standing COPD of the mixed type, was admitted by his primary care physician to the hospital due to deteriorating respiratory status secondary to an acute exacerbation of his COPD from a presumably viral lower respiratory tract infection. The patient had been started on prednisolone 30 mg. daily and doxycycline 100 mg. twice daily, but continued to deteriorate. He was also using a salmeterol inhaler twice daily and ipratroprium bromide inhaler four times a day.<p><p><p><p>He was admitted to the hospital with referral to this physician for management of his impending respiratory failure. His oxygen saturation in the emergency room was 87% on room air which increased to 89% on nasal oxygen. His PaO2 was 45 mm Hg on room air, increasing to 55 mm on nasal oxygen. He was placed on positive-pressure ventilation without intubation with an inspired oxygen fraction of 28%. He improved immediately with his oxygen saturation rising to 94%. He was switched to intravenous methylprednisolone, 125 mg. every six hours for 3 days, then switched back to the oral prednisolone at 40 mg. to be tapered down by 10 mg. every other day. He was continued on the doxycycline.<p><p><p><p>The patient was taken off positive-pressure ventilation at the end of the third hospital day. His oxygen saturation was 92% on nasal oxygen and he was discharged home where his primary care physician had arranged for home oxygen and respiratory therapy.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Doxycycline","state":"end","dose":"100 mg. 2x/d"}],"problemlist":[],"guidelist":[]}},{"title":"Home Visit 1","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Flu shot<p><p><p><p><B>History of Present Illness: </B>Visited patient in his home to give him his annual flu shot. His situation is pretty much status quo since his discharge from the hospital a week ago. He is fairly comfortable at rest with oxygen, but gets winded walking from room to room and also hasn&apos;t regained whatever strength he had before the hospitalization. Patient remarks that it &quot;isn&apos;t much of an existence,&quot; but he does enjoy seeing his friends and family when they visit and he enjoys watching TV.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Patient appears stable on home oxygen.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Administered influenza vaccine.<p><p><p><p><B>Follow-up and referrals: </B>Office visit in 1 month.<p><p><p><p><B>Patient education: </B>Discussed with patient his perception of his quality of life and what might be done to make it better.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"136"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"82"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"26"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient is not in any acute respiratory distress. He is carrying a portable oxygen tank and has nasal oxygen running. Respiratory rate is 26/min. He coughs only rarely, producing only a scant amount of sputum. Chest is slightly hyperexpanded and hyperresonant to percussion. Scattered rales, rhonchi, and wheezes throughout both lung fields."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>No new problems</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p><p><p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Influenza vaccine pharmacology</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Administer influenza vaccine</LI><LI>Discuss with patient his perception of his quality of life and what might be done to make it better</LI>","questionindex":3}]}},{"title":"Hospital Admission 2","elapsed":"10 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>History of Present Illness: </B>Mr. Marlboro was admitted via the emergency room with pneumonia. Yesterday, the patient developed a cough and low-grade fever and increased sputum production. He increased the use of his metered-dose inhalers but with little efficacy. Over the course of the night the fever increased and his shortness of breath and cough also worsened. He telephoned our practice and was told to go directly to the emergency room early this morning. Oxygen saturation by pulse oximeter was 90% on nasal oxygen. Chest x-ray revealed a right middle lobe consolidation. He was admitted from the emergency room.<p><p><p><p><B>Past Medical History: </B>Patient had the usual childhood illnesses (measles, rubella, chickenpox, mumps) and had his tonsils removed at age 5 for repeated episodes of strep throat. He received childhood immunizations against tetanus, diphtheria, and pertussis. His last tetanus?diphtheria booster was 6 years ago. He also received pneumococcal vaccine and received influenza vaccine 10 weeks ago.  He has had no serious injuries. He was hospitalized at age 57 and 58 with pneumonia, which is when he largely quit smoking and had to go on disability and early retirement. His most recent hospitalization was 4 months ago for assisted ventilation after he suffered respiratory decompensation following an episode of acute bronchitis. He has no known allergies. He drinks beer in moderation (1-2 beers on &quot;special occasions&quot;).<p><p><p><p><B>Family History: </B>His mother and father are deceased. His mother died of a heart attack at age 77. His father died of prostate cancer at age 80. The patient has 1 sisters and 2 brothers. They are all younger than he. One brother also suffers from COPD and high blood pressure. The others are in good health, as far as he knows.<p><p><p><p><B>Personal and Social History: </B>Patient lives with wife in their own home. His two sons are married and living in other parts of the country. The family is Methodist, but not very religious. Patient says that the home situation is somewhat strained by his inability to do much for himself or to help his wife. Finances are tight. Patient with a salesman with a large retail company until his early retirement. He has a modest pension in addition to his Social Security.<p><p><p><p><p><p><B>Review of Systems:</B><p><p><p><p><B>General: </B>He considers his health to be poor. His appetite has gradually diminished and he has lost a few pounds in the last few months.<p><p><p><p><B>Skin: </B>No rashes, sores, itching. Denies any itching, dryness, excessive sweatiness, change in skin color, hair, or nails.<p><p><p><p><B>Head: </B>No headache, head injuries.<p><p><p><p><B>Eyes: </B>No visual disturbances, double vision, difficulty seeing. Does not wear glasses. No eye pain, discharge, or excessive tearing.<p><p><p><p><B>Ears: </B>Hearing is not as good as it once was, but he hears the TV and radio fine. No ringing in his ears (tinnitus), dizziness (vertigo). No ear pain, no discharge from ears.<p><p><p><p><B>Nose:</B> Susceptible to frequent colds and bronchitis. Denies runny nose, nosebleeds, nasal congestion, allergic symptoms.<p><p><p><p><B>Mouth and Throat: </B>Denies any problems with teeth or gums (no bleeding, infections) other than cavities that have been filled. Sometimes he becomes hoarse if he catches a cold.<p><p><p><p><B>Neck:</B>\tNo masses, stiffness, &quot;swollen glands,&quot; goiter.<p><p><p><p><B>Breasts:</B>Not applicable<p><p><p><p><B>Respiratory: </B>See HPI<p><p><p><p><B>Cardiac: </B>No chest pain, palpitations, orthopnea (shortness of breath lying flat), paroxysmal nocturnal dyspnea (shortness of breath in the middle of the night after lying down for some time).<p><p><p><p><B>Gastrointestinal: </B>No trouble swallowing, heartburn, indigestion, nausea, vomiting (including blood). No diarrhea or constipation. No change in stool color (denies black, tarry stools [melena] or blood in stools [hematochesia]). No hemorrhoids, rectal pain, or rectal discharge. No abdominal pain, excessive gas, food intolerances.<p><p><p><p><B>Urinary: </B>No frequency or urgency of urination, nocturia, dysuria, hematuria, change in color of urine, or incontinence.<p><p><p><p><B>Genital: </B>Denies any hernias, penile discharge, sores on penis, pain with intercourse, testicular pain. Denies any problems with erections or ejaculation.<p><p><p><p><B>Peripheral vascular: </B>No cramps with walking, no varicose veins.<p><p><p><p><B>Musculoskeletal: </B>No muscular or joint pain, stiffness, swelling, or weakness.<p><p><p><p><B>Neurological: </B>No fainting, seizures, paralysis, numbness or changes in sensation, no &quot;pins and needles&quot; (paresthesias), tremors or involuntary movements.<p><p><p><p><B>Hematological: </B>No easy bleeding or bruising, weakness and fatigue. No previous blood transfusions.<p><p><p><p><B>Endocrine: </B>No heat or cold intolerance, excessive sweating or thirst.<p><p><p><p><B>Psychiatric: </B>Says that he sometimes gets down because of his incapacity, but he still enjoys friends and family when they visit. He denies any suicidal ideation. No nervousness or anxiety, hallucinations.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Right middle lobe pneumonia<p><p><p><p><B>Investigations: </B>Continuous pulse oxymetry, daily arterial blood gases<p><p><p><p><B>Medications and treatments: </B>Begin on antibiotics as recommended by infectious diseases consultant; increase oxygen<p><p><p><p><B>Follow-up and referrals: </B>Infectious diseases and pulmonary consultation and management<p><p><p><p><B>Patient education: </B>Patient informed of problem and plan.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"130"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"80"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"96"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"42"},{"name":"Height","units":"cm","ident":"height","value":"170"},{"name":"Weight","units":"kg","ident":"weight","value":"80"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"38.8"}],"data":{"title":"Physical Examination","body":"<p><B>General appearance: </B>Patient was short of breath at rest with nasal oxygen. He appeared somewhat anxious.<p><p><p><p><B>Skin: </B>Some duskiness to skin color. No excessive moisture. Not dry. No scaling, no rashes. Hair is full, no alopecia. Nails show no pitting, clubbing, or onycholysis.<p><p><p><p><B>Head: </B>Skull is normal.<p><p><p><p><B>Eyes: </B>Visual acuity not tested. Visual fields full by confrontation. Conjunctiva and sclera clear. Pupils round, regular, equal, reactive to light. Extraocular movements intact in cardinal directions. Disc margins sharp, no papilledema. Some arteriolar narrowing, no A-V nicking, hemorrhages, exudates.<p><p><p><p><B>Ears: </B>Both ear canals clear. Tympanic membranes intact, move with pneumotoscopy, no perforations.<p><p><p><p><B>Nose: </B>Septum midline, no discharge, no polyps. No sinus tenderness.<p><p><p><p><B>Mouth and Throat: </B>Teeth in good repair. Gums normal. No ulcers, lesions seen in oropharynx. No erythema, exudates, petechiae. Uvula in midline. Tonsils present.<p><p><p><p><B>Neck: </B>Trachea midline. No masses. Thyroid not palpable.<p><p><p><p><B>Lymph Nodes: </B>No cervical, submandibular, epitrochlear, or axillary lymphadenopathy.<p><p><p><p><B>Chest:</B> Thorax symmetrical, somewhat hyperexpanded with limited expansion. Dullness to percussion in middle right lung field anteriorly, resonant to hyperresonant elsewhere. Tactile fremitus grossly equal bilaterally. Breath sounds somewhat diminished with 2+  wheezes and rhonchi, especially in the bases.<p><p><p><p><B>Cardiac: </B>Precordium quiet, no heaves. Jugular veins 3 cm over sternal angle at 30&#xB0;. Carotid pulses 2+ , no bruits. PMI in 5th intercostal space 2 cm. to the left of the midclavicular line, somewhat diffuse. S1 and S2 normal, no gallops, rubs, or murmurs.<p><p><p><p><B>Abdomen: </B>Somewhat protuberant; symmetric. No scars. Bowel sounds normal. No bruits over aorta, renal arteries, or femoral arteries. Liver is 10 cm by percussion, edge palpable 2 cm. below the left costal margin, sharp, regular, and nontender. No masses palpable. No tenderness to palpation. No CVA tenderness.<p><p><p><p><B>Genitalia: </B>Penis uncircumcised, foreskin not retracted. No lesions, no discharge visible. Testes 5 cm on right, 3 cm on left, nontender, no masses or varicosities. No hernias.<p><p><p><p><B>Rectal: </B>Not performed.<p><p><p><p><B>Peripheral vasculature: </B>Pulses 1+  and symmetric (radial, femoral, popliteal, dorsalis pedis, and posterior tibial). Good capillary filling. No pallor on elevation of legs, no dependent rubor. No foot ulcerations.<p><p><p><p><B>Musculoskeletal: </B>Full range of motion of shoulders, neck, spine, elbows, hips, knees, ankles. No tenderness, swelling. Muscle strength diminished throughout.<p><p><p><p><B>Neurological: </B>Cranial nerves: I-not tested; II-visual field intact; III, IV, VI-EOMs intact, no ptosis; V-masseters strong and symmetrical, sensory intact, corneal reflex intact; VII-facial features symmetric, grimace normal; VIII-hearing acute, Weber midline, Rinne negative, no nystagmus; IX, X-uvula in midline, gag reflex present; XI-shoulder shrug equal and strong; XII-tongue movements normal. Gait: not assessed. Motor strength 1+  and symmetric in grip, forearm, biceps, lower extremities, feet. No tremor, rigidity. Babinski negative. Reflexes 2+  and symmetric in brachioradialis, biceps, triceps, patellar, and ankle. Light touch, pinprick, and vibratory sensation 2+  in feet. Two-point discrimination grossly normal to 1 cm. in feet. Mental status: patient awake, alert, oriented x3, cooperative. Thought content appropriate. Mood anxious. Immediate recall intact. Recent and remote memory intact. Speech fluent and appropriate.<p>"},"visible":true},"investigate":{"data":[{"name":"data","title":"","data":"<p>ECG: Right atrial enlargement and right axis deviation<p><img alt=\"\" src=\"../page/data/data/LouisMarlboro/ECG Right Axis Deviation.jpg\" width=\"\" height=\"\"/>"},{"name":"data","title":"","data":"<p>Chest x-ray: Right middle lobe pneumonia<p><img alt=\"\" src=\"../page/data/data/LouisMarlboro/RML pneumonia.jpg\" width=\"\" height=\"\"/>"}],"results":[{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"50","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"17.2","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"5","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"34","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"100","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"17.5","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"15","units":"%"},{"range":"3-7","name":"Monocytes","value":"0","units":"%"},{"range":"1-3","name":"Eosinophils","value":"0","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"25","units":"%"}]},{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"80-115","name":"Glucose","value":"85","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"14","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.0","units":"mg/dL"},{"range":"136-146","name":"Na+","value":"144","units":"mmol/L"},{"range":"3.5-5.4","name":"K+","value":"4.1","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"26","units":"mmol/L"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"RML pneumonia","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>right middle lobe pneumonia</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Microbiology of <I>Pseudomonas aeruginosa</I>, <I>Legionella pneumophila</I></LI><LI>Pathophysiology of pneumonia</LI><LI>Pathogenesis of pneumonia</LI><LI>Pharmacology of aminoglycosides, carbapenems</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Begin patient on antibiotic therapy (consultation with an infectious disease specialist would be appropriate)</LI><LI>Increase the patient&apos;s oxygen and monitor carefully for signs of respiratory failure (a referral to a pulmonary consultant for management would be appropriate)</LI>","questionindex":3}]}},{"title":"Hospital Discharge 2","elapsed":"8 days later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p><B>Hospital Discharge Summary #2</B><p><p><p><p>Mr. Louis Marlboro, a 68-year-old married white man with long-standing COPD of the mixed type, was admitted by his primary care physician to the hospital due to signs and symptoms of a right middle lobe pneumonia. On admission, the patient was febrile with a temperature ranging from 38.8&#xB0;C to 39.2&#xB0;C, tachypnea, elevated white blood cell count with a shift to the left, dyspnea, decreased oxygen saturation, and a chest x-ray showing a right middle lobe consolidation. A Gram&apos;s stain of the sputum showed mixed flora with Gram-negative rods predominating with many polys.<p><p><p><p>The patient was started on cefotaxime and gentamicin and improved slowly. During the first two hospital days he was also placed on positive-pressure ventilation without intubation which improved his respiratory status. Sputum culture was positive for klebsiella species, sensitive to cefotaxime and the gentamicin was discontinued. The patient was afebrile by day 4 and was discharged on day 8 to be followed by his primary care physician.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}},{"title":"Home Visit 2","elapsed":"2 months later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow-up from hospitalization for pneumonia<p><p><p><p><B>History of Present Illness: </B>Patient reports that he&apos;s been about the same as usual since returning home from the hospital. He&apos;s still short of breath with the slightest exertion but relatively comfortable at rest with his nasal oxygen. He has not had any more acute exacerbations. When his son was visiting recently, they managed to go to a restaurant for a dinner, but it was so difficult for him that he requested that his family not insist on his leaving the house in the future.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Patient appears stable.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Maintain on salmeterol and ipratropium, oxygen<p><p><p><p><B>Follow-up and referrals: </B>Return visit in 6 months or as needed.<p><p><p><p><B>Patient education: </B>Discussed his concerns, including issues of death and dying. Despite his limitations, patient finds meaning in his life and fulfillment. Has completed a durable power of attorney form and designated his wife as his health-care decision-maker in case of his incapacity.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"138"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"82"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"26"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient is not in any acute respiratory distress with portable oxygen. Respiratory rate is 26/min. He coughs only rarely, producing only a scant amount of sputum. Chest is slightly hyperexpanded and hyperresonant to percussion. Scattered rales, rhonchi, and wheezes throughout both lung fields."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"RML pneumonia","state":"end"}],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>No new problems</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathology of chronic obstructive pulmonary disease</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Encourage patient to discuss his concerns with you, including issues of death and dying that he might wish to discuss</LI>","questionindex":3}]}},{"title":"Home Visit 3","elapsed":"7 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up after wife's death<p><p><p><p><B>History of Present Illness: </B>Patient's wife died last week from lung cancer. His younger son is living with him this week but is going to have to return home in a few days and didn't think his father could stay in the house alone, even with home health care and homemaking assistance. Patient agrees that he can't manage on his own without his wife and doesn't want his two sons to have to support 24-hour in-house health aides. He is willing to move to a long-term care facility. He will put his home up for sale. Between his pension and the proceeds for the sale of his house, he should be able to manage the finances adequately.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Patient grieving normally. Respiratory status quo. Patient would not be able to care for himself independently.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Maintain current meds.<p><p><p><p><B>Follow-up and referrals: </B>Arrange for social work assistance in placing patient in a long-term care facility.<p><p><p><p><B>Patient education: </B>Discussed plans for LTC placement, grieving process.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"136"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"82"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"26"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient is obviously sad and grieving, but not despondent. Patient&apos;s respiratory status is essentially unchanged from last visit.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>No new problems or</LI><LI>Acute grief</LI><p><p><p>Not all clinicians would put acute grief on a problem list since it is a normal reaction. Others would do so because the patient needs to be monitored to be sure the grieving process doesn&apos;t turn into something more pathological. Whether it should be listed on a problem list is a matter of personal choice.<p>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Long-term care facilities: structure, organization, function, financing</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Arrange admission to a long-term care facility</LI>","questionindex":3}]}},{"title":"Nursing Home Visit 1","elapsed":"2 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Chest pain<p><p><p><p><B>History of Present Illness: </B>Patient entered nursing home last week and has been complaining of intermittent chest pain while walking. The pain is substernal, squeezing, and of sufficient intensity to require the patient to stop walking and, if possible, sit down. The patient describes this as different from the shortness of breath he usually experiences. The pain will often go up to his left shoulder. The pain comes on when he walks more than about 10 meters. The pain goes away after resting for about 3-5 minutes. He sometimes gets a little lightheaded, but has not fainted or felt in imminent danger of fainting during these episodes. There is no associated nausea or sweating.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Patient appears to have angina pectoris based on clinical symptoms. At high risk for coronary artery disease based on long-standing smoking history.<p><p><p><p><B>Investigations: </B>Obtain ECG. Thallium scan to be arranged.<p><p><p><p><B>Medications and treatments: </B>Start on long-acting nitrate, isosorbide dinitrate, during the day ot prevent anginal attacks. Begin daily aspirin therapy.<p><p><p><p><B>Follow-up and referrals: </B>Recheck in 1 month or if symptoms worsen.<p><p><p><p><B>Patient education: </B>Explained nature of angina pectoris.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"138"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"82"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"30"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient appears in his usual state of health, slightly out of breath, breathing with nasal oxygen at 30/min. Chest: hyperresonant to percussion. Breath sounds somewhat diminished with 2+  wheezes and rhonchi, especially in the bases. Cardiac: precordium quiet, no heaves. Jugular veins 3 cm over sternal angle at 30&#xB0;. Carotid pulses 2+, no bruits. PMI not palpable. S1 and S2 normal, no gallops, rubs, or murmurs.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Isosorbide dinitrate","state":"start","dose":"5 mg. 3x/d"}],"problemlist":[{"name":"Angina pectoris","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Angina pectoris (or at your level of training, you might feel confident only in stating that the patient has chest pain)</LI><LI>See the next page to learn more about the clinical presentation of chest pain due to cardiac ischemia </LI>","questionindex":1},{"name":"data","title":"","cdata":"<img alt=\"\" src=\"../page/data/data/LouisMarlboro/Clin present MI2.jpg\" width=\"\" height=\"\"/>"},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathophysiology of angina pectoris</LI><LI>Pathology of atherosclerotic heart disease</LI><LI>Pharmacology of anti-anginal drugs (e.g., nitrates, beta-adrenergic blockers, calcium channel blockers) </LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Obtain an electrocardiogram</LI><LI>Prescribe a long-acting nitrate (e.g., isosorbide dinitrate) during the day to prevent anginal attacks.  Care should be taken if a decision is made to prescribe beta-adrenergic blockers because of pulmonary disease.</LI><LI>Begin daily aspirin therapy, 325 mg. </LI><LI>A thallium stress test might be considered.</LI>","questionindex":3}]}},{"title":"Emergency Room Visit 2","elapsed":"13 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Chest pain<p><p><p><p><B>History of Present Illness: </B>Patient brought to the ER from nursing home because of severe substernal chest pain radiating down his left arm, associated with sweating, lightheadedness, and nausea. The patient awoke around 5 A.M. this morning complaining that he wasn&apos;t feeling well and was nauseated. The nursing staff gave him some antacids, but that didn&apos;t help. The patient slowly became aware of the pain in his chest, initially thinking it was heartburn. The pain has become steadily worse. By 8 A.M. the pain became crushing and unbearable, which is when an ambulance was called to take him to the emergency room.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Acute anterior myocardial infarction.<p><p><p><p><B>Investigations: </B>Echocardiogram<p><p><p><p><B>Medications and treatments: </B>tPA administered intravenously, daily aspirin, heparin, morphine as needed.<p><p><p><p><B>Follow-up and referrals: </B>Refer to cardiology for admission to CCU and management<p><p><p><p><B>Patient education: </B>Discussed with patient that he has had a heart attack and the current plan of treatment.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"150"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"98"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"100"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"34"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient was initially in significant discomfort which was partially alleviated with an intravenous injection of morphine sulfate 5 mg. Patient was diaphoretic and breathing rapidly, but that has slowed down to 24/min following the morphine. Heart sounds were distant and hard to hear because of pulmonary rales and rhonchi, but an S3 gallop and S4 were thought to be present. ECG shows acute changes of an anterior wall myocardial infarction. As there were no contraindications, intravenous thrombolysis with tPA was promptly administered. He also received 325 mg. of aspirin orally and heparin intravenously. Portable chest x-ray shows new signs of bibasilar infiltration of fluid as well as old signs of COPD compared to old x-rays. Oxygen saturation 92% on 28% oxygen rebreathing mask."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Acute anterior myocardial infarction</LI><LI>Congestive heart failure would also be an acceptable alternative problem formulation</LI><p><p><p>See the next page for an explanation of how serum markers of acute MI can help in the rapid diagnosis of the problem.<p>","questionindex":1},{"name":"data","title":"Serum markers of myocardial infarction","cdata":"<p>Mr. Marlboro&apos;s ECG was typical of acute myocardial infarction. The diagnosis is supported by another finding--the patterns of myocardial-specific enzymes or proteins released into the circulation from the damaged myocardial cells. Normally, small amounts of these enzymes or proteins leak into the blood, but in MI these levels are grossly elevated. The timing and levels of these enzymes are then indicative of the onset and extent of the infarct.<p><p><p><p>Like the ECGs, these laboratory tests should be done in all cases with suspected acute myocardial infarction. <I>Troponin T is a particularly sensitive and specific marker of cardiac myocyte necrosis and may be raised when the ECG is normal. CK-MB is also useful in the diagnosis of acute MI, but its use is decreasing as more hospitals are recognizing the added value of troponin, which gives prognostic as well as diagnostic information.</I><p><img alt=\"\" src=\"../page/data/data/LouisMarlboro/serum_markers_of_mi_v2.png\" width=\"\" height=\"\"/>"},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathophysiology of myocardial infarction</LI><LI>Pathology of myocardial ischemia and infarction </LI><LI>Pharmacology of tPA, lidocaine, nitroglycerine</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Have the patient admitted to a coronary care unit </LI><p><p><p><B>Immediate and early drug treatment of acute myocardial infarction</B><p><p><p><p>Restoring blood flow in the occluded artery by angioplasty or thrombolysis reduces mortality in ST-elevation MI. Speed is of the essence for best results.<p><p><p><p>If primary angioplasty is available, the first priority is to transfer the patient to the cardiac catheter laboratory with a view to early angiography and stenting in order to re-establish the coronary flow in the affected artery.  During the transfer procedure the following should be administered:<p><LI></LI><LI><I>IV access</I> â for early administration of drugs or fluids</LI><LI><I>Aspirin</I> (chewed) and <I>clopidogrel </I>(orally) â inhibits platelet aggregation</LI><LI><I>Opiate analgesic</I> â IV to relieve pain and anxiety</LI><LI><I>Anti-emetic</I> â nausea/vomiting common after MI and administration of opiates</LI><LI><I>Oxygen</I> (by nasal catheter) â in an attempt to improve the oxygen delivery to the myocardium</LI><LI><I>Thrombolysis</I> â to âdissolveâ coronary artery thrombus and restore coronary blood flow and improve myocardial viability (only required if primary angioplasty cannot be delivred within ninety minutes of diagnosis.  Otherwise the patient shoud have angioplasty without pretreatment with thrombolysis)</LI><LI><I>Trinitroglycerine</I> â if BP &gt; 90 mmHg</LI><LI><I>Beta-blocker </I>â to reduce heart rate, force of contraction and pain</LI><LI><I>ACE inhibitor </I>â to lower blood pressure and to improve ejection fraction and endothelial function</LI><LI><I>Statin</I> â to stabilise coronary plaque and reduce cholesterol.</LI><p><I></I><p><p><B>Indications for thrombolysis in acute myocardial infarction</B><p><LI><B></B></LI><LI>Chest pain greater than 20 minutes and less than 12 hours</LI><LI>ST-segment elevation or left bundle branch block</LI><LI>Primary angiopplasty catheter laboratory unavailable (within 90 minutes of diagnosis) or patient refuses</LI><LI>Absence of contra-indications</LI>","questionindex":3}]}},{"title":"Hospital Admission 3","elapsed":"12 hours later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>The patient was received in the coronary care unit at 10:05 A.M. He was receiving oxygen via a 28% rebreathing mask and his oxygen saturation was 91%. He had received one 5 mg. dose of morphine in the emergency room and another 5 mg. at 10:35 for continued chest pain. He had received 325 mg. of aspirin orally and heparin  and tPA intravenously in the emergency room. He was resting comfortably at 6:05 P.M. when he showed increasing numbers of premature ventricular contractions (PVCs). A 50 mg. dose of lidocaine was given as an intravenous bolus with a lidocaine infusion at 1 mg./min. started. PVCs initially disappeared but increased in frequency over the next hour. The lidocaine infusion was increased to 2 mg/min at 7:10 P.M. PVCs continued to appear at &gt;6 per minute and the infusion was increased to 3 mg./min. at 8:15 P.M. PVCs continued to appear between 3-6 per minute.<p><p><p><p>At 9:21 P.M. the patient went into sustained ventricular fibrillation and lost consciousness. Since no advanced directives could be found in the chart, resuscitation protocols were begun. At 9:23, the patient received a 200 joule defibrillating shock but remained in ventricular fibrillation. A second 300 joule shock was administered at 9:25, still without response. A third 360 joule shock was administered again at 9:27, again with no response and the rhythm continuing as fine ventricular fibrillation. The patient was given bag-mask ventilation and extrathoracic cardiac compression and administered 1 mg. of epinephrine 1:1000 intravenously. The electric shock of 300 joules was administered again at 9:30. The patient did not respond and the ECG continued to show fine ventricular fibrillation. Amiodarone 300 mg. was pushed intravenously as well as an additional 1.0 mg. of epinephrine and the 300 joule electric shock was repeated at 9:34 with bag-mask ventilation and cardiac compressions continuing during the interval. The patient did not respond and the ECG now showed an isoelectric current. 1.0 mg. of atropine was given by intravenous push and a 300 joule shock was administered at 9:36. The atropine 1 mg. was repeated and the 300 joule shock was repeated at 9:38 with no response. CPR was applied for 2 minutes, the 1 mg. of atropine and 1 mg. of epinephrine repeated by intravenous push and the patient given another 300 joule countershock 1 minutes after drug administration at 9:41, with no response. Resuscitation efforts were discontinued and the patient was pronounced dead at 9:44 P.M. No family was available as his two sons were still in transit. His primary care physician was notified.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathophysiology of cardiac arrest</LI><LI>Pharmacology of amiodarone</LI><LI>Ethical issues in resuscitation</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a plan of what you will tell the family when they arrive.<p>","responsetext":"<LI>Tell the family that since Mr. Marlboro had not indicated to you that he wanted a do-not-resuscitate order should he become incapable of making that decision himself, the CCU staff initiated a full resuscitation effort  and followed established protocols. Everything was done to resuscitate Mr. Marlboro, but he was unresponsive to those efforts. The resuscitation effort was stopped when it was clear that further efforts would be futile.</LI>","questionindex":2}]}}]},{"path":"../page/data/data/TylerNall/","person":{"age":"3","name":"Tyler Nall","sex":"Male","social":"Lives with parents in their own home","ethnicity":"White","race":"White","face":"../page/data/data/TylerNall/Ashley Morrissette3.jpg"},"event":[{"title":"Telephone Call","elapsed":"0","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Tyler&apos;s mother is calling quite frantically. Tyler drank an unknown quantity of acetaminophen (paracetamol) from a bottle left under the sink in the bathroom. It wasn&apos;t a new bottle, but she doesn&apos;t remember how much was left. There was only a small quantity left in the bottle when she discovered it. Tyler appears fine, though he started crying when she began yelling at him.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p>Instruct mother to bring Tyler to the emergency department immediately where he will have blood drawn for acetaminophen (paracetamol) levels and be monitored and given n-acetylcysteine.<p>"}]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Acetaminophen ingestion</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Liver toxicity of acetaminophen</LI><LI>Principles of pharmacokinetics</LI><LI>Principles of toxicology (detoxification)</LI><p><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Tyler.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Instruct mother to bring Tyler to the emergency department where he will have blood drawn for acetaminophen levels and be monitored at intervals and be given n-acetylcysteine.</li><p>","questionindex":3}]}},{"title":"Emergency Room Visit","elapsed":"0","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Emergency Room Summary<p><p><p><p>The patient was in no acute distress upon arrival in the ED. Vital signs were stable. An immediate acetaminophen blood level was drawn along with liver function tests. 2.0 Gm of n-acetylcysteine was given mixed with juice which the patient consumed without emesis. The initial APAP plasma level was 102 &#xB5;g/ml. The plasma level was repeated in 4 hours and found to be 50 &#xB5;g/ml. The patient continued to be asymptomatic and was discharged from the ED with instructions to his parents about symptoms to watch for and for ways to avoid accidental ingestions in the future.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Acetaminophen ingestion","state":"start"}],"guidelist":[]}},{"title":"Visit #1","elapsed":"2 months later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> limp<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Mother says she noticed Tyler limping today. He said his right leg hurts. Mother reports that he had been well until today, though he had a mild cold a few days last week. He slept well last night and ate his usual breakfast this morning.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"94"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"58"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"100"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"20"},{"name":"Height","units":"cm","ident":"height","value":"95"},{"name":"Weight","units":"kg","ident":"weight","value":"14"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37.3"}],"data":{"title":"Physical Examination","body":"<p>Tyler is sitting comfortably in his mother&apos;s lap. He does not appear ill. The right leg is being held in an externally rotated position. Palpation of both lower extremities is normal. Internal rotation of the right hip elicits complaint of pain from patient. Tyler is able to walk, but with a noticeable antalgic gait.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"0-8","name":"C-reactive protein","value":"12","units":"mg/dL"}]},{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"45","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"17","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"5","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"34","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"90","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"11.6","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"28","units":"%"},{"range":"3-7","name":"Monocytes","value":"5","units":"%"},{"range":"1-3","name":"eosinophils","value":"3","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"4","units":"%"},{"range":"0-10","name":"Erythrocyte Sedimentation Rate (ESR) Westegren, modified","value":"16","units":"mm/h"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Acetaminophen ingestion"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Limp and right leg and hip pain</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Learn the anatomy of the hip (bones and joints)</LI><LI>How do bones grow in childhood?</LI><LI>In the absence of a history of trauma, the two most likely causes of hip pain and limp in a 3 year old would be toxic synovitis of the hip and septic arthritis of the hip. Compare and contrast these two problems in terms of the typical signs and symptoms of each. [&quot;Signs&quot; are those things that the doctor can observe objectively like fever, gait, tenderness, and laboratory tests while &quot;symptoms&quot; are those subjective experiences that the patient tells you about.] Which one is Tyler Nall more likely to have?</LI><p><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Tyler.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Some clinicians might treat Tyler empirically with anti-inflammatory analgesics for toxic synovitis of the hip based solely on the clinical presentation, while others might wish to rule out septic arthritis by obtaining some laboratory tests such as a C-reactive protein or erythrocyte sedimentation rate which would be markedly elevated in septic arthritis.</li><p>","questionindex":3}]}}]},{"path":"../page/data/data/ShirleyCosby/","person":{"age":"43","name":"Shirley Cosby","sex":"female","marital_status":"Married","education":"master's degree","social":"married, living with husband and two sons","race":"African American","maritalstatus":"married","occupation":"high school teacher","language":"English","face":"../page/data/data/ShirleyCosby/ShirleyCosby.jpg"},"event":[{"title":"Visit #1","elapsed":"0","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> increased cholesterol<p><p><p><p><B>History of Present Illness: </B>Patient went to a health fair sponsored by her church and had her cholesterol level checked. It came back at 260 mg/dL and she was told to contact her physician. Patient doesn&apos;t recall having her cholesterol checked before. She eats a well-balanced diet and is not a fussy eater. She drinks low-fat milk, but otherwise has not particularly tried to avoid fat or cholesterol in her diet. She has gradually increased in weight over the years. When she was married, she weighed 57 kg. (125 lbs.)<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Hypercholesterolemia and overweight<p><p><p><p><B>Investigations:</B> Lipid profile, fasting serum glucose, thyroid stimulating hormone, liver function tests just prior to return visit in 6 weeks<p><p><p><p><B>Medications and treatments:</B> none<p><p><p><p><B>Follow-up and referral:</B> Return in 6 weeks to review labs and progress<p><p><p><p><B>Patient education:</B> Recommend lifestyle changes to reduce cholesterol and risk of cardiac disease, specifically dietary changes to lose weight and lower saturated fat and cholesterol in diet and increase exercise<p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"126"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"82"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"165"},{"name":"Weight","units":"kg","ident":"Weight","value":"72"}],"data":{"title":"Physical Examination","body":"<p>Somewhat overweight, pleasant and cooperative woman who appears her stated age. Eyes: PERRLA, optic disc sharp, no arteriolar narrowing, no exudates, hemorrhages. Carotids 2+ equal, no bruits. Cardiac: PMI not palpable, no heaves, thrills; S1 and S2 normal, no murmurs, gallops, or rubs. Chest: clear to percussion and auscultation. Abdomen: slightly protuberant, waist circumference 90 cm., bowel sounds present, no masses, no bruits. Extremities: d. pedis and posterior tibial 2+ and equal, no edema. Urine dipstick shows no sugar, blood, protein, and negative for leucocyte esterase.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia","state":"start"},{"name":"Overweight","state":"start"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>hypercholesterolemia</li>\r\n<li>overweight</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Biochemistry of lipid and glycolipid metabolism</li>\r\n<li>Pharmacology of lipid-lowering drugs</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Obtain a fasting lipid profile (total chosterol, low- and high-density cholesterol, triglycerides), fasting serum glucose, thyroid stimulating hormone, liver function tests just prior to return visit in 6 weeks.</li>\r\n<li>Provide education on the risks of elevated cholesterol and a plan to lower those risks (lifestyle changes and lipid-lowering drugs).</li>\r\n<li>Prescribe lifestyle changes to reduce cholesterol and risk of cardiac disease, including dietary changes to lose weight and lower saturated fat and cholesterol in diet and exercise.</li><p>","questionindex":3}]}},{"title":"Visit #2","elapsed":"6 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> follow-up for cholesterol<p><p><p><p><B>History of Present Illness:</B> Patient reports that she has been careful in her diet and has eliminated much of the saturated fat by avoiding cheese, red meat, and fat-containing dairy products. She is happy about the weight she has lost. She is also walking 2 km. a day.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Total cholesterol and LDL cholesterol still above optimal levels despite patient&apos;s adherence to lifestyle changes and significant weight loss. <p><p><p><p><B>Investigations:</B> Repeat liver function tests prior to next visit since she is beginning treatment with a statin today<p><p><p><p><B>Medications and treatments:</B> lovastatin 20 mg. orally daily<p><p><p><p><B>Follow-up and referral:</B> Return visit in 6 weeks <p><p><p><p><B>Patient education:</B> Discussed the advisability of beginning a lipid-lowering drug while she continues her lifestyle changes since it appears that lifestyle changes alone will not be sufficient to lower her lipids into the normal range. The patient agrees to begin a statin.<p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"122"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"80"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"70"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"165"},{"name":"Weight","units":"kg","ident":"Weight","value":"66"}],"data":{"title":"Physical Examination","body":"<p>Repeat fasting cholesterol still elevated at 221 mg/dL. LDL is above goal at 175.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"10","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"12","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"30","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.5","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"4.8","units":"g/dL"},{"range":"<200","name":"Cholesterol, total","value":"221","units":"mg/dL"},{"range":"<100","name":"LDL-cholesterol","value":"175","units":"mg/dL"},{"range":"&ge;40","name":"HDL-cholesterol","value":"52","units":"mg/dL"},{"range":"<160","name":"Triglycerides","value":"120","units":"mg/dL"},{"range":"80-115","name":"Glucose","value":"98","units":"mg/dL"},{"range":"2-10","name":"Thyroid-stimulating hormone (TSH)","value":"3","units":"&micro;U/mL"}]}],"visible":true},"druglist":[{"name":"lovastatin","state":"start","dose":"20 mg. orally once daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia"},{"name":"Overweight"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new problems</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pharmacology of lipid-lowering drugs</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Discuss the advisability of beginning a lipid-lowering drug while continuing her lifestyle changes.</li>\r\n<li>Return visit in 6 weeks and repeat lipid profile just prior to next visit.</li>\r\n<li>Repeat liver function tests prior to next visit if drug therapy initiated.</li><p>","questionindex":3}]}},{"title":"Visit #3","elapsed":"6 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>follow-up for cholesterol<p><p><p><p><B>History of Present Illness: </B>Patient reports that she has continued to stick to her diet. She is also increased her walking to 3 km. a day. She has been taking lovastatin 20 mg. daily.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Total cholesterol and LDL cholesterol still above goal. Further lowering indicated. LFTs normal.<p><p><p><p><B>Investigations:</B> Repeat lipid panel and liver function tests just prior to next visit<p><p><p><p><B>Medications and treatments:</B> Increase lovastatin to 40 mg. daily<p><p><p><p><B>Follow-up and referral:</B> Return visit in 12 weeks<p><p><p><p><B>Patient education:</B> Discussed lipid-lowering goals and why it was appropriate to increase dose of medications while continuing her lifestyle changes.<p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"122"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"80"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"68"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"165"},{"name":"Weight","units":"kg","ident":"Weight","value":"64"}],"data":{"title":"Physical Examination","body":"<p>Repeat fasting cholesterol still elevated at 202 mg/dL. LDL is still above goal at 165.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"<200","name":"Cholesterol, total","value":"202","units":"mg/dL"},{"range":"<100","name":"LDL-cholesterol","value":"165","units":"mg/dL"},{"range":"&ge;40","name":"HDL-cholesterol","value":"52","units":"mg/dL"},{"range":"<160","name":"Triglycerides","value":"90","units":"mg/dL"},{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"12","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"12","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"32","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.5","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"4.8","units":"g/dL"}]}],"visible":true},"druglist":[{"name":"lovastatin","state":"end","dose":"20 mg. daily"},{"name":"lovastatin","state":"start","dose":"40 mg. daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia"},{"name":"Overweight"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new problems</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pharmacology of lipid-lowering drugs</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Double the dose of the atorvastatin</li>\r\n<li>Return visit in 12 weeks and repeat lipid profile and liver function tests just prior to next visit.</li><p>","questionindex":3}]}},{"title":"Emergency Room Visit","elapsed":"10 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>History of Present Illness: </B>Patient began to feel poor  yesterday with vague abdominal pain and loss of appetite. She thought she had a stomach virus that would go away, but it continued to get worse. The pain became more severe, more localize to the upper right part of her abdomen, and the nausea also worsened and she vomited several times. Today she also developed a fever and the pain has continued to worsen and she has continued to vomit. She can barely move without excruciating pain.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Acute cholecystitis<p><p><p><p><B>Investigations: </B>Ultrasound of the abdomen, CBC, liver function tests<p><p><p><p><B>Medications and treatments:</B> Intravenous hydration and opiate analgesics for pain; begin on cefuroxime and metronidazole antibiotics parenterally<p><p><p><p><B>Follow-up and referral:</B> surgical referral<p><p><p><p><B>Patient education:</B> informed patient and her family of the likelihood that this is an acute gallbladder attack and that surgery is likely to be needed<p><p><p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"130"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"90"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"88"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"39.2"},{"name":"Height","units":"cm","ident":"Height","value":"165"},{"name":"Weight","units":"kg","ident":"Weight","value":"63"}],"data":{"title":"Physical Examination","body":"<p>Patient is in obvious pain. Chest is clear to percussion and auscultation. Cardiac: S1 and S2 normal, no murmurs. Abdomen: bowel sounds are present; diffusely tender to palpation with exquisite tenderness in right upper quadrant with severe pain brought on by inspiration while palpating under right costal margin (positive Murphy&apos;s sign).<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"50","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"60","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"120","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"1.8","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"4.1","units":"g/dL"},{"range":"80-115","name":"Glucose","value":"82","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"16","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.0","units":"mg/dL"},{"range":"136-146","name":"Na","value":"140","units":"mmol/L"},{"range":"3.5-5.1","name":"K","value":"4.0","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"24","units":"mmol/L"},{"range":"21-125","name":"Amylase","value":"80","units":"U/L"}]},{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"44","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"15.4","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"4.9","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"35","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"90","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"22.3","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"80","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"9","units":"%"},{"range":"3-7","name":"Monocytes","value":"1","units":"%"},{"range":"1-3","name":"eosinophils","value":"0","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"10","units":"%"},{"range":"150-400","name":"Platelet count","value":"300","units":"x10<sup>3</sup>/mm<sup>3</sup>"}]}],"visible":true},"druglist":[{"name":"atorvastatin","dose":"20 mg. daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia"},{"name":"Overweight"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Acute cholecystitis</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Gall bladder and biliary tree anatomy</LI><LI>Gall bladder physiology (explain how the gall bladder is stimulated to contract)</LI><LI>Pathophysiology of cholelithiasis and cholecystitis (why do gallstones form?)</LI><LI>What are the risk factors for developing gallbladder disease?</LI><LI></LI><p><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Referral to a surgeon for cholcystectomy</li>\r\n<li>Pain relief with intravenous analgesics</li>\r\n<li>Administration of antibiotics</li>\r\n<li>Intravenous fluids</li><p>","questionindex":3}]}},{"title":"Hospital Visit #1","elapsed":"5 days post-op","data":{"inbox":{"visible":true,"items":[{"title":"Consultation request from Dr. Steven Scrubs","body":"<p>Your patient, Shirley Cosby, was admitted to the hospital under my service a week ago for acute cholecystitis, which you diagnosed during her emergency room visit before referring to me. She underwent an emergency laparoscopic cholecystectomy the same day that went uneventfully. The gross pathology at surgery confirmed the diagnosis of acute cholecystitis. Her immediate postoperative course was uneventful and she was afebrile on the next postoperative day. On the second postoperative day, she developed a low grade fever (37ÃÂ¢ÃÂÃÂ38&#xB0; C) and complained of nausea. As bowel sounds had not yet returned, she was kept NPO and on intravenous fluids. The same pattern of nausea, anorexia, absent bowel sounds, and variable low grade fever continued for the next 3 days (postop days 3ÃÂ¢ÃÂÃÂ5) and she was kept NPO and fluid replacement. Yesterday, her fever spiked to 39.4&#xB0; C and she began to complain of more abdominal pain. An infectious disease consultation was obtained and the consultant suggested that she be started on antibiotics. Cefazolin was initiated, but her temperature remains elevated. I would appreciate your seeing Ms. Cosby at your earliest possible convenience.<p>"}]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>hostpital visit #1<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Saw Ms. Cosby this afternoon at 3:20 P.M. She was ill-appearing and in considerable discomfort. Her sensorium seemed somewhat impaired, although she was able to respond to questions. She kept saying that she was dying and that her abdomen was hurting her a great deal. She said she was sick to her stomach.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Possible sepsis, consider abscess in and around surgical site<p><p><p><p><B>Investigations: </B>CT of the abdomen, blood and urine cultures, CBC<p><p><p><p><B>Medications and treatments:</B> Begin on gentamycin and clindamycin after cultures obtained, begin parenteral nutrtional support, transfer to ICU for closer monitoring<p><p><p><p><B>Follow-up and referral:</B> not applicable<p><p><p><p><B>Patient education:</B> informed patient and her family of the possibility of an infection and that re-operation may be necessary<p><p><p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"80"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"50"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"110"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"40.2"}],"data":{"title":"Physical Examination","body":"<p>Acutely ill-appearing, with clouded sensorium, but arousable. BP 80/50, pulse 110/min., respirations 30/min., temperature 40.3&#xB0;C. Skin is cool and clammy with some mottling in the lower extremities. Chest: respirations shallow and rapid, some bibasilar rales, no dullness to percussion. Cardiac: S1 and S2 normal, no murmurs. Abdomen: incisions for fiberoptic portals clean and closed, bowel sounds absent, diffuse tenderness throughout with possibly some rebound tenderness, though the patient groans repeatedly with any maneuvers. CBC from this morning shows WBC 14,400 with 90.7% polys, hematocrit 36, hemoglobin 12.8, total protein 4.5, albumen 1.9, cholesterol 92. Portable chest x-ray showed some atelectasis but no consolidation, but the inspiratory effort was poor. Flat plate of the abdomen showed an ileus pattern.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"atorvastatin","dose":"20 mg. daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia"},{"name":"Overweight"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"In addition to being status post cholecystectomy, what other problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Ileus</li>\r\n<li>Fever</li>\r\n<li>Impaired sensorium</li>\r\n<li>Hypotension or you could have subsumed the fever, impaired sensorium, and hypotension under the problem of septic shock syndrome</li>\r\n<li>Malnutrition</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pathophysiology of septic shock syndrome</li>\r\n<li>Microbiology of bacteroides and other anaerobes</li>\r\n<li>Pharmacology of clindamycin</li>\r\n<li>Natural history of septic shock</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Obtain a computerized tomogram of the abdomen</li>\r\n<li>Obtain blood cultures, urine cultures</li>\r\n<li>Start on multiple antibiotic regimen that covers Gram negative aerobic bacteria and anaerobic bacteria</li>\r\n<li>Begin parenteral nutritional support</li>\r\n<li>Transfer patient to intensive care unit for close monitoring</li><p>","questionindex":3}]}},{"title":"Hospital Visit #2","elapsed":"12 days post-op","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> hospital visit #2<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Was called to see Ms. Cosby because of a set back in her hospital course. One week ago, she underwent an exploratory laparotomy when the CT of her abdomen showed a phlegmon in the right upper quadrant. At surgery, an abscess was discovered as was a perforation in the right colic flexure. The abscess was drained and the perforation repaired. The next day the patient was markedly improved and has continued to recover slowly but steadily. The abscess culture was positive for bacteroides species. The blood culture was positive for <I>E. coli.</I><p><p><p><p>The patient was treated with intravenous gentamycin and clindamycin to which the organisms were susceptible. Yesterday, the patient began to experience watery diarrhea. She says that she also began to feel generally more poorly, lost her appetite, developed nausea but has not vomited, and has felt feverish. She also complains of a return of abdominal pain which she describes as crampy.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"100"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"78"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"90"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"38.5"}],"data":{"title":"Physical Examination","body":"<p>Patient is in discomfort, but is awake, alert, oriented, and cooperative. BP 100/78, pulse 90/min., respirations 20/min., temperature 38.50<p><p>C. Skin is moist with good turgor. Mucus membranes are moist. Chest: clear to auscultation and percussion. Cardiac: S1 and S2 normal, no murmurs. Abdomen: incisions for fiberoptic portals clean and closed, laparotomy incision in the midline is clean and closed with sutures in place, bowel sounds present, diffuse moderate tenderness throughout, no rebound tenderness, no masses appreciated. CBC yesterday shows WBC 13,200 with 82% polys, hematocrit 37, hemoglobin 12.9, total protein 4.9, albumen 2.3, cholesterol 140, Na+ 144, K+ 3.8, Cl- 102, HCO3- 28. Stool sent for culture, fecal leucocytes present on smear. Enzyme immunoassays for Toxin A and B were positive.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"atorvastatin","dose":"20 mg. daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia"},{"name":"Overweight"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"In addition to being status post cholecystectomy and laparotomy for abdominal abscess and bowel perforation, what other problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>pseudomembranous colitis (or at this level of your training, you may only be confident in saying that the patient has diarrhea associated with fever, leucocytosis, fecal leucocytes, and toxins A and B)</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pathophysiology of pseudomembranous colitis</li>\r\n<li>Pathology of pseudomembranous colitis</li>\r\n<li>Pharmacology of vancomycin</li>\r\n<li>Microbiology of <i>Clostridium difficile</i></li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Discontinue the clindamycin</li>\r\n<li>Begin on oral metronidazole</li>\r\n<li>Maintain fluids, continue oral feedings as tolerated</li><p>","questionindex":3}]}}]},{"path":"../page/data/data/NaomiNighthawk/","person":{"age":"93","name":"Naomi Nighthawk","sex":"Female","marital_status":"widowed","education":"grade school","social":"Lives with her daughter and son-in-law","race":"Native American","maritalstatus":"widowed","occupation":"retired","language":"English","face":"../page/data/data/NaomiNighthawk/NaomiNighthawk.jpg"},"event":[{"title":"Visit #1","elapsed":"0","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> weight loss<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Patient accompanied by her daughter who is concerned about weight loss in her mother. Patient herself does not appear to be too concerned, saying that her appetite just isn&apos;t what it used to be and it&apos;s too much of a bother to always be eating something. Both patient and daughter agree that it has been very gradual and perhaps the patient has lost about 2 kg. in the past 6 months, but, as her daughter says, &quot;she doesn&apos;t have much weight to spare.&quot; Her diet is fairly limited, consisting of toast with jam in the morning with tea, a half of a sandwich or salad for lunch usually with one slice of luncheon meat, and dinner which usually consists of some meat or fish, vegetable, and rice or potato, though she frequently only picks at her plate. She will have an occasional sweet. She does not drink any alcohol. The patient describes her general health as &quot;what you&apos;d expect for a 93-year-old,&quot; meaning that everything is slowing down and takes more energy to do. She had an eye exam within the past year and has new glasses. Her hearing is diminished, but she does not want a hearing aid. She walks with a cane around the house and stays on the ground floor where a room is set aside for her.  She occupies herself with knitting, reading, listening to music, and watching television.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"138"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"82"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"70"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"150"},{"name":"Weight","units":"kg","ident":"Weight","value":"45"}],"data":{"title":"Physical Examination","body":"<p>Patient is frail and slight but is able to ambulate slowly with her cane. She is very pleasant and cooperative, with a dry sense of humor, but reserved. Physical examination is essentially normal for her age. Specifically, her skin exam revealed no dangerous-appearing lesions, breasts were free of any masses, lungs were clear, heart sounds normal, and abdominal exam was benign. Office hematocrit was 34, urine dipstick was negative for protein, blood, sugar, and leukocyte esterase.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Weight loss 2","state":"start"},{"name":"Anemia, megaloblastic 2","state":"start"},{"name":"Syncope 2","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI>Weight loss</LI><LI>Anemia</LI><p><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Nutritional needs in the elderly</LI><p>Click <A HREF=\"http://www.brown.edu/cis/sta/dev/geriatrics_virtual/aging_streaming.html\" TARGET=\"_blank\"><U>here</U></A> to view an introduction to aging.<p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Nighthawk.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Obtain a complete blood count, serum iron, B12, and folate levels, renal, liver, and thyroid function tests</LI><LI>Suggest a daily multivitamin</LI><LI>Offer a referral to a dietician for nutritional counseling</LI><LI>Discuss the need for influenza immunization and review previous immunizations for tetanus and diphtheria and pneumococcal vaccines</LI><p>Click <A HREF=\"http://www.brown.edu/Research/Geriatrics/naomi_case1_progressive.html\" TARGET=\"_blank\"><U>here</U></A><U> </U>to listen to a discussion of Ms. Nighthawk&apos;s case by a geriatrician.<p>","questionindex":3}]}},{"title":"Visit #2","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>follow-up for test results<p><p><p><p><B>History of Present Illness: </B>Patient and daughter met with dietician and received some general suggestions on how to increase total calories in diet and how to increase intake of vitamin B12 and folate. Patient says she is trying to follow the advice and appreciates all the attention that everyone is giving her.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"138"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"82"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"70"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"150"},{"name":"Weight","units":"kg","ident":"Weight","value":"45"}],"data":{"title":"Physical Examination","body":"<p>CBC shows Hct 34, Hgb 10.2, RBC 3.0x106, MCHC 30, MCV 104, folate 0.7, B12 195, iron 45.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"10","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"12","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"50","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.8","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"3.3","units":"g/dL"},{"range":"<200","name":"Cholesterol, total","value":"130","units":"mg/dL"},{"range":"<100","name":"LDL-cholesterol","value":"70","units":"mg/dL"},{"range":">=40","name":"HDL-cholesterol","value":"52","units":"mg/dL"},{"range":"<160","name":"Triglycerides","value":"60","units":"mg/dL"},{"range":"80-115","name":"Glucose","value":"90","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"9","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.0","units":"mg/dL"},{"range":"2-10","name":"Thyroid-stimulating hormone (TSH)","value":"3.8","units":"&micro;U/mL"},{"range":"1.8-9","name":"Folate","value":"0.7","units":"ng/mL"},{"range":"40-150","name":"Iron, serum total","value":"45","units":"&micro;g/dL"},{"range":"140-700","name":"Vitamin B12","value":"195","units":"pg/mL"}]},{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"34","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"10.2","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"3.0","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"30","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"104","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"5.6","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"56","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"32","units":"%"},{"range":"3-7","name":"Monocytes","value":"5","units":"%"},{"range":"1-3","name":"eosinophils","value":"3","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"4","units":"%"},{"range":"150-400","name":"Platelet count","value":"250","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"0.5-1.5","name":"Reticulocyte count","value":"0.8","units":"%"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Weight loss 2"},{"name":"Anemia, megaloblastic 2"},{"name":"Syncope 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new problems, but you may want to modify your original problem list to reflect the greater specificity of diagnosis you know have by indicating that the weight loss is from undernutrition and the anemia is of a megaloblastic type secondary to folate deficiency.</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pathophysiology of megaloblastic anemia</li>\r\n<li>Pharmacology of B12 and folic acid</li><p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Nighthawk.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Be sure that her daily multivitamin contains a therapeutic amount of folic acid</LI><p><p><LI>Recheck in 3 months</LI><p><p><p>Click <A HREF=\"http://www.brown.edu/Research/Geriatrics/naomi_case2_progressive.html\" TARGET=\"_blank\"><U>here</U></A><A HREF=\"http://brown.edu/cis/sta/dev/geriatrics/case2.html\" TARGET=\"_blank\"><U> </U></A>to listen to a second discussion of Ms. Nighthawk&apos;s case by a geriatrician.<p>","questionindex":3}]}},{"title":"Visit #3","elapsed":"2 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> fainting<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Daughter reports that her mother apparently fainted this morning. The daughter heard a thud in her mother&apos;s room and went in to find her mother on the floor in a dazed state. The patient doesn&apos;t recall what happened other than finding herself on the floor with her daughter. She thinks perhaps she arose too quickly from sitting, but isn&apos;t sure. She has occasionally felt very lightheaded and unsteady when getting up from lying down or sitting, but she has never before actually fainted. Her daughter estimates that it was less than a minute that her mother was not conscious. She did not sustain any injury from the faint that she can tell. The patient did not become incontinent of urine during the episode.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"136"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"80"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"150"},{"name":"Weight","units":"kg","ident":"Weight","value":"45"}],"data":{"title":"Physical Examination","body":"<p>Patient appears unscathed from the incident. Neck is supple and full range of motion without producing symptoms. Carotids 2  and equal with no bruits. Cardiac exam remains unchanged with normal rhythm, S1 and S2, no murmurs. Extremities are nontraumatic and full range of motion without discomfort. Romberg negative. When patient is left lying for several minutes, BP is recorded at 138/82 and pulse is 72. One minute after assuming a standing position, BP is 105/66 and pulse is 76. Patient reports feeling somewhat lightheaded with that maneuver. Office electrocardiogram shows normal sinus rhythm, no evidence of heart block or frequent ectopic beats.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Weight loss 2"},{"name":"Anemia, megaloblastic 2"},{"name":"Syncope 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Fainting (or syncope) 20 to orthostatic hypotension</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Physiology of the autonomic nervous system</li>\r\n<li>Anatomy of the autonomic nervous system</li>\r\n<li>Neuropathology of the autonomic nervous system</li>\r\n<li>Pathophysiology of fainting</li><p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Nighthawk.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Advise patient about standing up quickly, how to perform isometric exercises before standing</LI><p><p><LI>Be sure patient takes in sufficient quantities of fluids and salt</LI><p><p><LI>Encourage as much daily activity as possible</LI><p><p><p>Click <A HREF=\"http://www.brown.edu/Research/Geriatrics/naomi_case3_progressive.html\" TARGET=\"_blank\">here</A><A HREF=\"http://brown.edu/cis/sta/dev/smith_summer/case3.html\" TARGET=\"_blank\"> </A>for a third discussion of Ms. Nighthawk&apos;s case by a geriatrician.<p>","questionindex":3}]}},{"title":"Visit #4","elapsed":"8 months later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>follow-up for anemia<p><p><p><p><B>History of Present Illness: </B>Patient says that she tries to follow the diet she was given, but finds it hard to eat that much. She doesn&apos;t have much of an appetite. She has been trying to drink more to avoid another fainting episode. She has not had another episode. <p><p>She reports recently having to ask for more help from her daughter.  She finds it more difficult to do her usual activities and feels fatigued and weak.  She has been relying on using her husband&apos;s old rolling walker because she does not feel steady any longer with her cane.  Bathing has become difficult, and she is taking sponge baths.  Her daughter now prepares the meals, does the shopping, and helps her get dressed in the morning.  <p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"138"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"82"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"150"},{"name":"Weight","units":"kg","ident":"Weight","value":"44"}],"data":{"title":"Physical Examination","body":"<p>Patient seems somewhat frailer than previously noted, she appears cachectic on exam with temporal wasting, poor skin turgor and muscle wasting. Blood indices improved slightly. <p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"1.8-9","name":"Folate","value":"10.6","units":"ng/mL"}]},{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"36","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"11.2","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"3.6","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"31","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"100","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"6.2","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"28","units":"%"},{"range":"3-7","name":"Monocytes","value":"5","units":"%"},{"range":"1-3","name":"eosinophils","value":"3","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"4","units":"%"},{"range":"150-400","name":"Platelet count","value":"300","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"0.5-1.5","name":"Reticulocyte count","value":"2.8","units":"%"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Weight loss 2"},{"name":"Anemia, megaloblastic 2"},{"name":"Syncope 2"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI>Cachexia, continued weight loss</LI><LI>Functional decline</LI><LI></LI><LI></LI><p><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Recognition of cachexia syndrome</LI><LI>Functional decline as a prognostic measure</LI><LI>Recognize the indications for referral to hospice or palliative care in this patient</LI><LI></LI><p><p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Nighthawk.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Detailed history and physical to reveal any new reversible causes</LI><LI>Repeat family meeting with daughter and patient to discuss her decline, prognosis, and goals of care</LI><LI>Refer to hospice and palliative care team</LI><p>Click <A HREF=\"http://www.brown.edu/Research/Geriatrics/naomi_case4_progressive.html\" TARGET=\"_blank\"><U>here</U></A> for a discussion by a geriatrician on end-of-life care in the elderly.<p>","questionindex":3}]}},{"title":"Inbox Message #1","elapsed":"15 weeks later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>From: Hospice Care<p><p>Subject: Naomi Nighthawk<p><p><p><p>Ms. Nighthawk peacefully died at home 15 weeks after being admitted to Hospice Care. <p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}}]},{"path":"../page/data/data/CarlZitkowsky/","person":{"age":"15","name":"Carl Zitkowsky","sex":"Male","marital_status":"Single","education":"Sophomore in high school","social":"Lives at home with both parents","race":"White","occupation":"student","language":"English","face":"../page/data/data/CarlZitkowsky/Matthew Davies.jpg"},"event":[{"title":"Office Visit 1","elapsed":"0","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Acne<p><p><B></B><p><p><B>History of Present Illness: </B>Noticed acne getting worse on face and shoulders. Has tried some over-the-counter medications without much success.<p><p>ticed acne getting worse on face and shoulders. Has tried some over-the-counter medications without much success.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Acne vulgaris, moderate to moderately severe on face and shoulders.<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Benzoyl peroxide 2.5% a.m., after school and tretinoin cream 0.025% at bedtime<p><p><p><p><B>Follow-up and referrals: </B>Return in 4-6 weeks<p><p><p><p><B>Patient education: </B>Explained nature of acne<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"110"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"73"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Moderate-to-moderately severe acne on face with many open and closed comedones, numerous papules and pustules, and a few inflammatory cysts, with a few inflammatory cysts on shoulders and upper back as well.<p><p>Papules/pustules +++/++ <p><p>Nodules +<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"benzoyl peroxide","state":"start","dose":"2.5% gel in morning and after school"},{"name":"tretinoin","state":"start","dose":"0.025% cream at bedtime"}],"problemlist":[{"name":"Health maintenance","state":"start"},{"name":"Acne vulgaris","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Acne</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>histology of the skin and appendages (identify major structures and tissues)</LI><LI>clinical pathology of acne (what characterizes mild, moderate, or severe acne?)</LI><LI>pathophysiology of acne (what causes acne?)</LI><LI>pharmacology of tretinoin</LI><LI>pharmacology of benzoyl peroxide</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>prescribe a topical medication for the acne like benzoyl peroxide and tretinoin</LI>","questionindex":3}]}},{"title":"Office Visit 2","elapsed":"5 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Acne<p><p><B></B><p><p><B>History of Present Illness:</B> Pt. says that acne has improved somewhat, but he is still concerned about it. Has been applying the benzoyl peroxide 2.5% solution in the morning and after school and tretinoin 0.025% cream at night. Initially the irritation was bothersome, but it improved after the first week.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Acne somewhat improved, but not much and patient is concerned<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Add tetracycline 500 mg twice daily<p><p><p><p><B>Follow-up and referrals: </B>Return in 4-6 weeks<p><p><p><p><B>Patient education: </B>Provided encouragement, noted improvement<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"110"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"73"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Moderate acne; fewer comedones, papules, and pustules than last time, nodules about the same in number.<p><p>Papules/pustules ++/+ <p><p>Nodules +<p><p><p><p><p><p><p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"tetracycline","state":"start","dose":"500 mg twice daily"}],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<LI>No new problems</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>pharmacology of tetracycline</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>add a tetracycline to the treatment</LI>","questionindex":3}]}},{"title":"Office Visit 3","elapsed":"5 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Acne<p><p><B></B><p><p><B>History of Present Illness: </B>Pt. says that acne has worsened since his last visit. He started the tetracycline and continues to take it. He wondered if the excessive sweating from football practice was having an effect. On further probing, he said that he was also taking anabolic steroids that were given to him by other football players as a way of bulking up. He says that has helped him put on some weight, though he&apos;s still lighter than most players.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Acne exacerbated probably due to the anabolic steroids patient is using<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Maintain on current meds<p><p><p><p><B>Follow-up and referrals: </B>Return in 4-6 weeks<p><p><p><p><B>Patient education: </B>Counseled the patient about the dangers of anabolic steroids and their deleterious effect on acne. Encouraged patient to stop using steroids. Discussed risk-taking behavior in general and how to deal with it.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"114"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"76"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"76"}],"data":{"title":"Physical Examination","body":"<p>Moderate acne; more comedones, papules, and pustules than last time, nodules about the same in number.<p><p>Papules/pustules ++/+++ <p><p>Nodules +<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Acne vulgaris"},{"name":"Misuse of anabolic steroids","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<LI>Misuse of anabolic steroids</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>pharmacology of anabolic steroids</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>counsel the patient about the deleterious effects of anabolic steroids on his acne and discuss risk-taking behavior and how to deal with it</LI>","questionindex":3}]}},{"title":"Office Visit 4","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Hernia<p><p><p><p><B>History of Present Illness: </B><p><p><p><p>Hernia: The school doctor thinks patient has an inguinal hernia that was discovered during the football team&apos;s preseason physical. The patient was unaware of this. Until he&apos;s cleared by his family doctor, he can&apos;t participate in any live skirmishes or games, though he&apos;s allowed to practice with the team in noncontact drills.<p><p><p><p>Acne:<B> </B>Pt. stopped using steroid (he knew he&apos;d never get to play first string anyway, he says, but at least his face would look better). Acne seems better, he thinks.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Inguinal hernia. Acne improving.<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Maintain on current meds<p><p><p><p><B>Follow-up and referrals: </B>Refer to surgeon for repair of hernia<p><p><p><p><B>Patient education: </B>Explained nature of inguinal hernias<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"112"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"72"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"75"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Right inguinal ring is widened and bulge felt with coughing. Left inguinal ring also wide, but no bulging appreciated with coughing or Valsalva.<p><p><p><p>Mild-to-moderate acne; fewer comedones, papules, pustules, and nodules than last time.<p><p>Papules/pustules ++/++ <p><p>Nodules 0<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Acne vulgaris"},{"name":"Misuse of anabolic steroids","state":"end"},{"name":"Inguinal hernia","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<LI>Inguinal hernia</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Anatomy of the male reproductive system (spermatic cord)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>refer to surgeon for repair of hernia</LI>","questionindex":3}]}},{"title":"Office Visit 5","elapsed":"6 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> f/u Acne<p><p><p><p><B>History of Present Illness:</B><p><p><p><p>Acne: Acne seems much better, he thinks, since he stopped using the steroids. It still bothers him, though, to see even the few lesions that remain.<p><p><p><p>Hernia: Pt. saw surgeon who confirmed the diagnosis of bilateral inguinal hernia. Surgery has been deferred until school vacation. Pt. has quit the football team, but has joined the cross-country track team.<p><p><p><p><p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Acne quite a bit better, but patient seems unusually preoccupied by his appearance<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Maintain on current meds<p><p><p><p><B>Follow-up and referrals: </B>Return in 4-6 weeks<p><p><p><p><B>Patient education: </B>Provided encouragement<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"110"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"74"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Mild acne; No nodules and only rare pustules.<p><p>Papules/pustules +/+ <p><p>Nodules 0<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Acne vulgaris"},{"name":"Misuse of anabolic steroids"},{"name":"Inguinal hernia"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>No new problems</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Risk-taking behavior in adolescents</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>refer to surgeon for repair of hernia</LI>","questionindex":3}]}},{"title":"Office Visit 6","elapsed":"3 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> f/u Acne<p><p><p><p><B>History of Present Illness: </B>Patient says his acne is fine and he&apos;s stopped worrying about it. He did bring up another concern--his sexual orientation. He finds that he&apos;s attracted to other boys and at times becomes sexually aroused in the showers after track practice. He also has erotic dreams and fantasies about having sex with another boy on the team. He hasn&apos;t actually had any homosexual experiences, but thinks he&apos;s probably gay or maybe bisexual because he has had crushes on girls before, too. He wondered if the hernia condition he had was associated with a gay sexual orientation. He hasn&apos;t discussed this concern with anyone else. He thinks his father would &quot;kill him&quot; if he found out he was gay.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Psychosexual concerns about sexual orientation. No evidence of depression or panic.<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Maintain on current meds for acne<p><p><p><p><B>Follow-up and referrals: </B>Return in 6-12 weeks<p><p><p><p><B>Patient education: </B>Counseled the patient about normal psychosexual development and offered empathetic listener; also, told him that there is no connection between having an inguinal hernia and sexual orientation<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"110"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"66"},{"name":"Height","units":"cm","ident":"height","value":"179"},{"name":"Weight","units":"kg","ident":"weight","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Phyiscal Examination","body":"<p>Patient discussed the topic with some obvious embarrassment and awkwardness, but did not exhibit any signs of depression, though he was obviously concerned and worried. Acne status quo.<p><p>Papules/pustules +/rare<p><p>Nodules 0<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Acne vulgaris"},{"name":"Misuse of anabolic steroids"},{"name":"Inguinal hernia"},{"name":"Psychosexual concerns","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Psychosexual concerns</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Psychosexual development</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>counseling the patient about normal psychosexual development and offering him someone who is an empathetic listener; also, telling him that there is no connection between having an inguinal hernia and sexual orientation</LI>","questionindex":3}]}},{"title":"Office Visit 7","elapsed":"14 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Breast Lump<p><p><B></B><p><p><B>History of Present Illness: </B>Patient noticed a lump under his left breast and is concerned. It&apos;s slightly uncomfortable when he pushes on it or someone else does. He first noticed it when he had his first sexual experience with the other boy on the track team he previously talked about. His partner squeezed his breast hard and felt the lump, telling him that he was &quot;growing a tit.&quot; This upset him. They had oral sex. He says he&apos;s pretty sure that he is gay and he&apos;s feeling more comfortable about that, but he hasn&apos;t told his parents or anyone else, for that matter. He said all this stuff (the hernia, his growing awareness of his sexual orientation, and now this breast lump) is really &quot;messing up&quot; his head.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Gynecomastia, benign<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Maintain on current meds for acne<p><p><p><p><B>Follow-up and referrals: </B>Return as needed<p><p><p><p><B>Patient education: </B>Counseled the patient about gynecomastia, its common occurrence in males, and its likely natural history and prognosis. Also, counseled the patient about safe sex practices.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"110"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"66"},{"name":"Height","units":"cm","ident":"height","value":"180"},{"name":"Weight","units":"kg","ident":"weight","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>A 3 cm. slightly tender firm disc-shaped mass is felt in the subareolar area in the left breast. No clear-cut mass is felt on the right. No lymphadenopathy is palpable. While patient is clearly worried about the mass, his speech is calm, his thoughts lucid and appropriate, and his mood is not overly anxious or depressed.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Acne vulgaris"},{"name":"Misuse of anabolic steroids"},{"name":"Inguinal hernia"},{"name":"Psychosexual concerns"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Gynecomastia</LI><LI></LI><p>At this level in your education, you might only feel confident in stating that a left breast mass is present. That&apos;s fine.<p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Physiology of benign gynecomastia in males</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>counseling the patient about gynecomastia, its common occurrence in males, and its likely natural history and prognosis. Also, counsel the patient about safe sex practices.</LI>","questionindex":3}]}}]}]
+module.exports = [{"path":"../page/data/data/GeorgeFarmer/","person":{"age":"33","name":"George Farmer","sex":"Male","marital_status":"Married","education":"completed high school","social":"Mr. Farmer is married, lives with his wife and 3 children on a 50 acre farm that he owns","ethnicity":"Anglo-Saxon background","race":"White","occupation":"farmer","language":"English","maritalstatus":"married","face":"../page/data/data/GeorgeFarmer/GeorgeFarmer.jpg"},"event":[{"title":"Office Visit #1","elapsed":"0","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Redness and swelling on his lower left leg<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Three days prior to the visit, Mr. Farmer accidentally punctured his lower left leg on a nail protruding from a fence post that he was mending. There was only a minor amount of bleeding. Mr. Farmer did not do anything about it. The next day it was somewhat painful and a little red, but he generally ignored it. Yesterday it was a little worse. Today, the redness and swelling has increased significantly and it feels quite warm to the touch and is somewhat tender. He also finds it uncomfortable to walk. Reports last booster dose of tetanus-diptheria when he served in the Army 15 years ago and has had none since.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p>No sugar, protein, blood, ketones on office urine dipstick. <p><p><p><p>Hematocrit 45.<p>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Puncture wound of left lower leg with erythema and possible cellulitis. Tetanus immunity is not up to date, but patient has had full primary immunization series, so no need for tetanus immune globulin.<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatment: </B>Cephalexin 500 mg. 4x/d for 7 days, tetanus-diphtheria-acellular pertussis (Tdap) booster<p><p><p><p><B>Follow-up and referrals:</B> Return in 1 week for a comprehensive health maintenance examination since he hasn&apos;t had one in many years.<p><p><p><p><B>Patient education:</B> Apply hot compresses to wound frequently and rest leg, elevating it as much as possible. Call back in 1-2 days to report progress. If fever develops or redness enlarges or swelling or pain worsens, come back in for an immediate appointment.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"74"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"80"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"80"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37.2"}],"data":{"title":"Physical Examination","body":"<p>A 7-cm in diameter raised, red, and warm area surrounds a punctate wound on the posterior aspect of the left calf. The erythematous lesion is somewhat tender to firm palpation, but not exquisitely so. The lesion is not fluctuant. No pus can be extruded from the puncture wound site. The color of the rest of his skin is good. Small, nontender, inguinal nodes can be appreciated on the left, not the right. <p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis","state":"start"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Puncture wound (left lower leg)</li>\r\n<li>Erythematous (or red and swollen) lesion (left lower leg) or cellulitis (left lower leg) or infection of left lower leg</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>How long is a tetanus vaccine good for? Is Mr. Farmer up to date?</LI><LI>What is tetanus? What are the mechanisms by which the disease is caused? What about Mr. Farmer&apos;s wound makes him at risk for tetanus?</LI><LI>There are two kinds of vaccines for tetanus: tetanus toxoid and tetanus immune globulin (TIG). How does each work? Should Mr. Farmer receive one or the other or both or neither?</LI><LI>How does antibody-mediated immunity work? Click <A HREF=\"http://www.brown.edu/Programs/Gerontology_Center/tetanus/\" TARGET=\"_blank\"><U>here</U></A> to see a short, fun, very basic overview of how vaccines protect us by eliciting an antibody response.</LI><LI>What bacteria is most likely to be the cause of a wound infection and cellulitis like the one Mr. Farmer has? What are the microbiological characteristics of that bacteria (e.g. how does it Gram stain, shape, appearance, what is the structure of its cell wall, what does it produce that makes it particularly harmful to humans)?</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Farmer.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Administration of tetanus-diphtheria-acellular pertussis vaccine</LI><LI>Administration of an antibiotic</LI><LI>Advise patient to apply hot compresses to wound frequently and to rest leg, elevating it as much as possible</LI><LI>Return or contact by telephone for a check up in a day or two and to report any worsening to you immediately (such as fever, extension of the redness and swelling, worsening pain)</LI><LI>Schedule an extended visit for more comprehensive exam and health maintenance</LI><p><p>","questionindex":3}]}},{"title":"Office Visit #2","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up for cellulitis<p><p><p><p><B>History of Present Illness: </B>Mr. Farmer reports that his leg has gotten much better since his last visit. He took the antibiotics without any problem and kept his leg elevated and applied hot compresses for several days until it had improved considerably. He has resumed his full work schedule and does not have any difficulty walking or doing his job. His major concern now is that he is behind in his work by several days and doesn&apos;t know how he&apos;ll catch up. He reports that the farm has not been doing well financially and he is quite despondent about that. He fears that he will have to sell the farm.<p><p><p><p><B>Past Medical History: </B>Patient received the usual childhood vaccinations against measles, rubella, mumps, polio, tetanus, diphtheria, and pertussis. He received a booster dose of tetanus-diptheria-acellular pertussis at his last visit. As a child, he remembers having chickenpox, occasional ear infections, but no other serious illnesses. He considers himself to be very healthy. He has had no previous surgery, serious injuries, hospitalizations. He has no known allergies. He is taking no medications at present. He does not smoke tobacco. He drinks one or two pints of ale at the local bar with friends once or twice a week on a regular basis and will have an occasional beer at home infrequently. However, he has not been to the bar in over a month because he &quot;didn&apos;t feel up to it.&quot; He will have one or two drinks of whiskey only on rare occasions when he is out to eat at a restaurant or at a social event. He eats a well-rounded diet, but hasn&apos;t had much of an appetite and has lost some weight. He doesn&apos;t do any exercise other than the farm work, which is quite strenuous.<p><p><p><p><B>Family History: </B>Mr. Farmer&apos;s two parents are both alive and well. His father, age 58, is still an active farmer and has no serious medical problems. His mother, age 56, is also well. His paternal grandmother, age 82, lives in the farmhouse with his parents. He doesn&apos;t know her specific medical problems, but says she is frail. Mr. Farmer has two younger brothers and two younger sisters all of whom are well as far as he knows. His 3 children are all in good health.<p><p><p><p><B>Personal and Social History: </B>Mr. Farmer grew up on the farm on which he is now living, which is part of what used to be a larger farm owned by his father and his uncle. He is the only one of his siblings and cousins to go into farming. His uncle retired from farming and his father continues to farm the other 50 acres. His wife, age 30, helps out with the farming and raising their 3 children, age 4, 7, and 10. He describes his financial situation as &quot;not good.&quot; He has health insurance through a farmers&apos; cooperative. He has a life insurance policy and says that he sometimes thinks his family would be better off if he were dead and they collected on the insurance and sold the farm.<p>"},{"title":"Review of Systems","body":"<p><B>General: </B>Patient says that this latest episode with his leg is just the latest of a series of setbacks. He&apos;s very worried about his farm&apos;s financial solvency, which is constantly on his mind. He says that he&apos;s worrying himself sick: his appetite has been poor and he thinks he&apos;s lost weight in the last few months.<p><p><p><p><B>Skin: </B>The puncture wound and cellulitis have nearly completely healed. He has had no rashes, sores, itching. Denies any itching, dryness, excessive sweatiness, change in skin color, hair, or nails.<p><p><p><p><B>Psychiatric: </B>As noted above, patient is very despondent over the farm situation. He says that he can&apos;t see any way out of things and feels quite helpless to turn things around. He feels like a personal failure and feels he has let down his father, especially, not being able to be successful as a farmer. He says that his sleep has been very poor for the last few months. He finds himself awakening at 3 or 4 in the morning and not being able to get back to sleep. He&apos;ll get up and start some of the farm work early just to stop thinking about the problems. His appetite has also been poor. His relationship with his wife has deteriorated and he feels that he has been a failure as a husband as well. They have not had sexual relations in more than a month. He thinks his family would be better off if he were dead. He has thought about suicide, but hasn&apos;t developed a specific plan or timetable. He denies any hallucinations. He denies any having any previous episodes of feeling so depressed, but says that&apos;s because the financial situation has never been so bleak.<p><p><p><p>The remaining review of systems was noncontributory<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p>Urine dipstick:   No sugar, protein, blood, ketones<p><p><p><p>Hematocrit:  45<p>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Major depressive disorder<B></B><p><p><B></B><p><p><B>Investigations: </B>Total cholesterol for screening<B></B><p><p><B></B><p><p><B>Medications and treatments: </B>Fluoxetine 20 mg. once daily<B></B><p><p><B></B><p><p><B>Follow-up and referrals:</B> Return visit in one week<B></B><p><p><B></B><p><p><B>Patient education:</B> Discussed with patient the disease of depression, how it presents, how it will be treated. Asked patient to agree to a contract not to do anything to harm himself between now and when he is seen again. Patient gave permission to discuss situation with his wife. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"72"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"76"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"79"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p><B>General Appearance: </B>Well developed, well nourished man looking his stated age. He appears very sullen. At times, he seems on the verge of tears, though he never cried. His appearance is one of inattentiveness to the way he appears, though he is not dirty or disheveled.<p><p><p><p><B>Skin: </B>The site of the puncture wound can barely be discerned and only a slight degree of redness is apparent where the cellulitis had been around the wound. The color of the rest of his skin is good. No excessive moisture. Not dry. No scaling, no rashes. Hair is full, no alopecia. Nails show no pitting, clubbing, or onycholysis.<p><p><p><p><B>Head:</B> Skull is normal<p><p><p><p><B>Eyes:</B> Vision 20/20. Visual fields full by confrontation. Conjunctiva and sclera clear. Pupils round, regular, equal, reactive to light and accommodation. Extraocular movements intact in cardinal directions. Disc margins sharp, no papilledema. Some arteriolar narrowing, no A-V nicking, hemorrhages, exudates.<p><p><p><p><B>Ears:</B> Both ear canals clear. Tympanic membranes intact, move with pneumotoscopy, no perforations.<p><p><p><p><B>Nose:</B> Septum midline, no discharge, no polyps. No sinus tenderness.<p><p><p><p><B>Mouth and throat:</B> Teeth in good repair. Gums normal. No ulcers, lesions seen in oropharynx. No erythema, exudates, petechiae. Uvula in midline. Tonsils present.<p><p><p><p><B>Chest: </B>Thorax symmetrical, good expansion. Lungs resonant to percussion. Breath sounds normal. No rales, rhonchi, wheezes or rubs heard.<p><p><p><p><B>Abdomen:</B> Flat and symmetric. No scars. Bowel sounds normal. No bruits over aorta, renal arteries, or femoral arteries. Liver is 10 cm by percussion, edge not palpable. No masses palpable. No tenderness to palpation. No CVA tenderness.<p><p><p><p><B>Rectal:</B> No fissures, fistulas, hemorrhoids visible. Normal rectal tone. Prostate not enlarged, nontender, no masses. Stool brown, negative for occult blood.<p><p><p><p><B>Cardiac:</B> Precordium quiet, no heaves. Jugular veins 2 cm over sternal angle at 30&#xB0;. Carotid pulses 2+, no bruits. PMI in 5th intercostal space in midclavicular line, discreet. S1 and S2 normal, no gallops, rubs, or murmurs.<p><p><p><p><B>Genitalia:</B> Penis uncircumcised, foreskin not retracted. No lesions, no discharge visible. Testes 5 cm on right, 3 cm on left, nontender, no masses or varicosities. No hernias.<p><p><p><p><B>Peripheral vasculature: </B>Pulses 2+ and symmetric (radial, femoral, popliteal, dorsalis pedis, and posterior tibial). Good capillary filling. No pallor on elevation of legs, no dependent rubor. No foot ulcerations.<p><p><p><p><B>Musculoskeletal:</B> Full range of motion of shoulders, neck, spine, elbows, hips, knees, ankles. No tenderness, swelling. Good muscle strength throughout.<p><p><p><p><B>Neurological:</B> Cranial nerves: I-not tested; II-visual field intact; III, IV, VI-EOMs intact, no ptosis; V-masseters strong and symmetrical, sensory intact, corneal reflex intact; VII-facial features symmetric, grimace normal; VIII-hearing acute, Weber midline, Rinne negative, no nystagmus; IX, X-uvula in midline, gag reflex present; XI-shoulder shrug equal and strong; XII-tongue movements normal. Gait: normal. Romberg negative. Motor strength 4+ and symmetric in grip, forearm, biceps, lower extremities, feet. No tremor, rigidity. Babinski negative. Reflexes 2+ and symmetric in brachioradialis, biceps, triceps, patellar, and ankle. Light touch, pinprick, and vibratory sensation 2+ in feet. Two-point discrimination grossly normal to 1 cm. in feet. Mental status: patient awake, alert, oriented x3, cooperative. Thought content appears fixated on his failure and inadequacy, though when pressed, he does not offer specific information that would confirm the dire financial straits that he thinks he&apos;s in. Mood is quite sad. Immediate recall intact. Recent and remote memory intact. Able to recite months backwards without error. Speech fluent and appropriate. Abstract reasoning appropriate.<p><p><p><p><B>Lymph Nodes:</B> No cervical, submandibular, epitrochlear, or axillary lymphadenopathy.<p><p><p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"fluoxetine","state":"start","dose":"20 mg once daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis","state":"end"},{"name":"Depression","state":"start"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>depression</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Which neurotransmitters in the brain are thought to be most important in depression?</LI><LI>What are the pharmacological characteristics of selective serotonin receptor inhibitor (SSRI) drugs like fluoxetine (i.e., what is their mechanism of action, how rapidly to they work, what are the major side effects, how effective are they)?</LI><LI>What are the clinical symptoms of depression?</LI><LI>What is the natural history of depression, that is, what happens when no treatment is given?</LI><p><p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Farmer.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Begin the patient on a selective serotonin reuptake inhibitor (SSRI) for depression</LI><LI>Ask the patient for permission to discuss the situation with his wife</LI><LI>Ask the patient to agree to a contract with you that he will not do anything to hurt himself until he next sees you</LI><LI>Arrange for a return appointment in a week or sooner</LI><LI>Discuss with the patient the disease of depression and how it presents itself to the patient and how it will be treated</LI><LI>Health maintenance screening for cholesterol, anticipatory guidance about accident prevention, sun protection</LI><p><p>","questionindex":3}]}},{"title":"Office Visit #3","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up depression<p><p><p><p><B>History of Present Illness: </B>Patient reports that he thinks his sleeping problems may have gotten even worse because he&apos;s now having trouble getting to sleep as well as getting up early in the morning. He also thinks that the pills he&apos;s taking for the depression may be making his appetite worse. He has very little appetite and continues to lose weight. His mood is about the same, he says. Things are better between him and his wife, though. They&apos;ve been talking more about his concerns about the farm and she has agreed to take over paying the bills and managing the books, at least until he&apos;s feeling better. He says that has taken a burden off of him. He says he&apos;s not thinking as much about suicide as he had previously and is certainly not contemplating suicide seriously at this point.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Worsening of insomnia and anorexia probably due to side effects of fluoxetine. Mood seems to stabilized and interpersonal relations and social situation improved. Suicide risk appears diminished.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Add trazodone 100 mg. at bedtime to help with sleep and add to antidepressant effect. <p><p><p><p><B>Follow-up and referrals:</B> Return visit in one week<p><p><p><p><B>Patient education:</B> Discussed with patient the side effects of the drugs. Take fluoxetine in the morning to minimize effect on sleep. Asked patient to renew contract not to do anything to harm himself between now and when he is seen again. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"74"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"76"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood continues to be sullen and he continues to perseverate about the hopelessness of the farm&apos;s situation and his inability to do anything to make things better.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"","data":[{"range":"<200","name":"Cholesterol, total","value":"165","units":"mg/dL"}]}],"visible":true},"druglist":[{"name":"trazadone","state":"start","dose":"100 mg at bedtime"}],"problemlist":[{"name":"Health maintenance"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries <i>or</i></li>\r\n<li>Insomnia and anorexia (either together as one problem or separately)</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Pharmacology of SSRIs (specifically side effects and time course of effect)</LI><p><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Adding a nighttime antidepressant that will help induce sleep</li>\r\n<li>Discussing the side effects with the patient</li>\r\n<li>Scheduling the patient to come back in a week and renewing the contract not to hurt himself in the meantime</li><p>","questionindex":3}]}},{"title":"Office Visit #4","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up depression<p><p><p><p><B>History of Present Illness:</B> Patient reports that he is not having so much trouble getting to sleep with the new medicine. His appetite remains poor, however. He finds it difficult to get through the day. He feels like he&apos;s pushing himself to get anything done and he&apos;s just not as productive as he used to be. He reports that his wife has taken over all the finances and bookkeeping. She keeps telling him that things aren&apos;t so bad, but he knows she&apos;s just saying that to make him feel better. Overall, he says things are just about the same. He says that he&apos;s not in any danger of suicide.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Sleeping improved, rest of symptoms unchanged, as would be expected.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds.<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one week<p><p><p><p><B>Patient education:</B> Reiterated that it usually takes 6 weeks to see benefits from antidepressants. Continued to provide ego-supportive therapy.  Asked patient to renew contract not to do anything to harm himself between now and when he is seen again. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"72"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"74"},{"name":"Weight","units":"kg","ident":"weight","value":"78"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood continues to be sullen. His perceptions of financial problems remain fixed and unshakable.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries </li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression doesn't seem to have improved. Should it be getting better at this point? Should something else be done?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Principles of ego-supportive psychotherapy</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in a week and renewing the contract not to hurt himself in the meantime</li><p>","questionindex":4}]}},{"title":"Office Visit #5","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up depression<p><p><p><p><B>History of Present Illness:</B> Patient reports feeling frustrated that nothing seems to be getting better. He says that everything is the same as it was last visit, though on further probing, he does admit that he may be sleeping somewhat later in the morning. He now gets up around 5 in the morning, which is later than he previously reported. Otherwise, he says that his appetite remains poor and that he&apos;s just forcing himself to eat and that he lacks energy and motivation and &quot;just goes through the motions&quot; of getting through the day.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Sleeping seems to be improving, which is a good sign. <p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one week<p><p><p><p><B>Patient education:</B> Continue ego-supportive therapy. Asked patient to renew contract not to do anything to harm himself between now and when he is seen again. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"72"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"74"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood continues to be sad and his affect is flat. His speech is slow and low in tone. He continues to have poor reality testing as far as his farm&apos;s financial situation which his wife says is solid and stable, but which he insists is on the verge of bankruptcy.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries </li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression doesn't seem to have improved. Is this consistent with the natural history of depression? Should something else be done?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Natural history of depression and time course in response to therapy</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in a week and renewing the contract not to hurt himself in the meantime</li><p>","questionindex":4}]}},{"title":"Office Visit #6","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up depression<p><p><p><p><B>History of Present Illness: </B>Patient reports that he feels that he is beginning to have more energy and is able to do his work better. His sleeping also seems to be better and he is able to sleep later in the morning. He thinks this extra sleep is what accounts for his additional energy. He reports that he is still very pessimistic about the future and is sure that his wife is just hiding the bad news about the farm&apos;s finances from him. Sometimes when he&apos;s alone, he bursts out in tears, which he interprets as a sign of his worthlessness as a man--&quot;strong men don&apos;t cry.&quot; He says that his appetite is better and that he&apos;s eating more and maintaining his weight. Suicidal thoughts still occur to him, but he puts them out of his mind.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Beginning to see signs of general improvement: appetite, sleep, energy, though his mood and thoughts have not improved, though they are often the last things to improve.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one week<p><p><p><p><B>Patient education:</B> Continue ego-supportive therapy. Asked patient to renew contract not to do anything to harm himself between now and when he is seen again. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"74"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood continues to be sullen, though he seems more energized, responding to questions more quickly and his posture seems less slumped. His perceptions of financial problems remain fixed and unshakable.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries </li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression doesn't seem to have improved, even though some of the symptoms have improved. Is this consistent with the natural history of depression? Should something else be done?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Suicide risk appraisal as patient becomes more energized</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in a week and renewing the contract not to hurt himself in the meantime, explaining to patient that this is a critical point in his recovery that carries additional dangers</li><p>","questionindex":4}]}},{"title":"Office Visit #7","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up depression<p><p><p><p><B>History of Present Illness:</B> Patient reports that he is beginning to feel better. He notices that while he can feel quite despondent at times (most of the time, in fact), he also is aware that some of the time he can forget his worries and focus on the here and now. This is especially true when he&apos;s working hard with the farm animals. He says that he now thinks the farm&apos;s finances aren&apos;t quite as dire as he previously thought and is more optimistic that they&apos;ll be able to keep the farm going.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> General improvement in all symptoms and signs of depression.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds<p><p><p><p><B>Follow-up and referrals:</B> Return visit in two weeks<p><p><p><p><B>Patient education:</B> Continue ego-supportive therapy. Asked patient to renew contract not to do anything to harm himself between now and when he is seen again. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"74"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood is distinctly less sullen. His rate of speech is quicker and there is more modulation in tone and expressiveness. His posture is more upright. He even occasionally smiles.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries.</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression seems to be improving. Should there be a change in the dose of his antidepressant medication?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>What signs and symptoms should be monitored to assess improvement in depression?</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in two weeks and renewing the contract not to hurt himself in the meantime</li><p>","questionindex":4}]}},{"title":"Office Visit #8","elapsed":"2 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up depression<p><p><p><p><B>History of Present Illness: </B>Patient reports that he is feeling much better. He says that for all intents and purposes he is feeling the same as he did before all this started, like he felt a year ago. He reports that his appetite and sleep are back to normal. His wife and he have resumed having sexual relations. His energy levels are back to normal and he has resumed keeping the books, although he is now sharing some of those responsibilities with his wife. He no longer has any suicidal ideation and feels generally embarrassed about the way he acted and looked at things during his period of depression.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Depression seems to have remitted.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds<p><p><p><p><B>Follow-up and referrals:</B> Return visit in 3-4 weeks<p><p><p><p><B>Patient education:</B> Explained to patient that he should continue the medications even though he&apos;s feeling better because the chance of a relapse would be high if he discontinued medication now.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"122"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"68"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"76"},{"name":"Weight","units":"kg","ident":"weight","value":"79"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood is quite upbeat and positive. He is animated and smiles often and shows signs of a droll sense of humor.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries </li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression seems to have resolved. Should there be a change in the dose of his antidepressant medication? Should it be stopped?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>What are the recommendations for antidepressant therapy once the signs and symptoms of depression have remitted?</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in 3-4 weeks</li><p>","questionindex":4}]}},{"title":"Office Visit #9","elapsed":"3 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up depression<p><p><p><p><B>History of Present Illness:</B> Patient reports that everything is fine. He expresses gratitude for the help and says he finds it hard to believe that a person&apos;s whole life can be so profoundly altered by depression.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Patient continues in remission of his depression.<p><p><p><p><B>Investigations: </B>None<p><p><p><p><B>Medications and treatments: </B>Maintain current meds<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one month<p><p><p><p><B>Patient education:</B> Continue ego-supportive therapy. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"122"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"68"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"76"},{"name":"Weight","units":"kg","ident":"weight","value":"79"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood continues to be quite upbeat and shows essentially no signs of residual depression.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient's depression seems to have resolved. Should there be a change in the dose of his antidepressant medication? Should it be stopped?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>What are the recommendations for antidepressant therapy once the signs and symptoms of depression have remitted?</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Continue to provide ego-supportive psychotherapy</li>\r\n<li>Scheduling the patient to come back in a month</li><p>","questionindex":4}]}},{"title":"Office Visit #10","elapsed":"1 month later","data":{"inbox":{"visible":true,"items":[{"title":"Message:","body":"<p>No show for appointment<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>What was the reason the patient missed his appointment?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>What are the reasons for missed appointments? What, if anything, should be done about them?</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Contact the patient to find out the reason why he missed his appointment</li>\r\n<li>Reschedule the appointment</li><p>","questionindex":4}]}},{"title":"Inbox #1","elapsed":"Next day","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Intra-office memo from receptionist:<p><p><p><p>Called Mr. Farmer about missed appointment. Says that some important things came up and he was feeling fine anyway. Apologizes for not calling to let us know. Appointment has been rescheduled.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}},{"title":"Office Visit #11","elapsed":"6 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Follow up depression<p><p><p><p><B>History of Present Illness: </B>Patient reports that everything is great. He has been very busy and apologized for missing his last appointment, but he&apos;s been working on plans to modernize the farm and expand his market. He&apos;s been looking into buying some adjacent land. He reports no depressive symptoms, although he says his sleeping has been less than it was, but that&apos;s due to his working late at night on some of his plans. He just feels too awake to go to sleep at his usual bedtime. He does get to sleep by midnight or 1 A.M. Otherwise, he says that things have never been better.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Patient exhibiting signs of acute mania. Diagnosis should now be bipolar disorder type 2 rather than unipolar depression. Will switch from antidepressants to mood stabilizer.<p><p><p><p><B>Investigations: </B>Obtain lithium level before next visit. Check renal function, electrolytes, thyroid function, CBC. Obtain ECG.<p><p><p><p><B>Medications and treatments: </B>Discontinue antidepressants and start on lithium carbonate 300 mg 4x/d.<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one week<p><p><p><p><B>Patient education:</B> Explained to patient the nature of bipolar disease and the need to not make major decisions, such as changing the nature of his business or making major financial investments. <p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"128"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"68"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"80"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood actually appears elated. His speech is very rapid and pressured. He quickly goes from one subject to another in rapid succession. He appears somewhat agitated and was pacing the floor when I entered the examination room. When his ideas for improving his farm were probed in detail, they seemed quite grandiose and would require very large amounts of new capital. He believes that ostrich meat is the new trend and wants to convert most of his livestock business to raising ostriches and the food sources for their diet.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"lithium carbonate","state":"start","dose":"300 mg 4x/d"},{"name":"fluoxetine","state":"end","dose":"20 mg once daily"},{"name":"trazadone","state":"end","dose":"100 mg at bedtime"}],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression","state":"end"},{"name":"Bipolar Disorder Type 2","state":"start"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Bipolar illness, manic phase or acute manic (or hypomanic) episode</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient now appears to be exhibiting signs of acute mania. Should this be treated? Should he stop taking his antidepressants?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Psychopathology of bipolar disorder</li>\r\n<li>Pharmacology of mood stabilizers (lithium, valproic acid)</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Start the patient on a mood-stabilizing drug like lithium</li>\r\n<li>Obtain a serum lithium level prior to the next visit</li>\r\n<li>Obtain other tests indicated when starting a patient on lithium (complete blood count, electrocardiogram, electrolytes, blood urea nitrogen [BUN], creatinine, thyroid stimulating hormone [TSH] and thyroxine [T<sub>4</sub>])</li>\r\n<li>Discontinue the antidepressant medication</li>\r\n<li>Scheduling the patient to come back in a week</li>\r\n<li>(For many primary care doctors, consultation or referral to a psychiatrist would be appropriate, but not mandatory, for such a patient.)</li><p>","questionindex":4}]}},{"title":"Office Visit #12","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up bipolar disorder (acute mania)<p><p><p><p><B>History of Present Illness: </B>George Farmer reports that he is sleeping better and is calmer. He reports no side effects that he is aware of. He has a clearer sense that ostrich meat is too risky a venture, but is still exploring the possibility of buying some additional farm land if the price is right. He is back to a normal sleeping pattern, getting to bed before 11 and generally sleeping 7-8 hours a night.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Manic symptoms have abated. Lithium levels in therapeutic range. <p><p><p><p><B>Investigations: </B>Repeat lithium levels prior to next visit.<p><p><p><p><B>Medications and treatments: </B>Maintain current dose of lithium.<p><p><p><p><B>Follow-up and referrals:</B> Return visit in one month<p><p><p><p><B>Patient education:</B> Again cautioned patient about making any major decisions until we&apos;re sure his disease is under good control.<p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"120"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"68"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Weight","units":"kg","ident":"Weight","value":"78"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood appears normal. His speech is no longer pressured and he does not exhibit a flight of ideas. He does not appear agitated or restless, though he remains more animated than may be his baseline level.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Lithium test","data":[{"range":"0.8-1.5","name":"Lithium","value":"1.5","units":"mEq/L"},{"range":"7-18","name":"BUN","value":"8","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"0.9","units":"mg/dL"},{"range":"136-146","name":"Na","value":"140","units":"mmol/L"},{"range":"3.5-5.4","name":"K","value":"4.0","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"24","units":"mmol/L"},{"range":"2-10","name":"Thyroid-stimulating hormone (TSH)","value":"3","units":"&micro;U/mL"},{"range":"5-12","name":"Thyroxin, Total (T4)","value":"7","units":"&micro;g/dL"},{"range":"41-53","name":"Hematocrit","value":"45","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"17.0","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"5.0","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"34","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"90","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"8.6","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"28","units":"%"},{"range":"3-7","name":"Monocytes","value":"5","units":"%"},{"range":"1-3","name":"Eosinophils","value":"3","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"4","units":"%"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"},{"name":"Bipolar Disorder Type 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient now seems to be in a more normal mood state; should the dose of lithium be changed?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pharmacology of mood stabilizers (lithium levels)</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Maintain patient on current dose of lithium</li>\r\n<li>Monitor lithium level prior to next visit</li>\r\n<li>Scheduling the patient to come back in a month</li><p>","questionindex":4}]}},{"title":"Office Visit #13","elapsed":"1 month later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up bipolar disorder (acute mania)<p><p><p><p><B>History of Present Illness:</B> Patient complains that he is feeling weaker than usual and is a little unsteady at times. His mood continues to be good; he is not feeling depressed, just not up to his usual ability to work. He describes this more as a weakness rather than fatigue. It&apos;s been gradually getting worse over the last week to 10 days. <p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Lithium level (2.2 mEq/L) is above the therapeutic level and patient is exhibiting signs of lithium toxicity including muscle weakness and unsteadiness. No signs of significant mental status changes. <p><p><p><p><B>Investigations: </B>Obtain lithium level in 5 days.<p><p><p><p><B>Medications and treatments: </B>Hold lithium dose for 48 hrs, then resume at 600 mg at bedtime.<p><p><p><p><B>Follow-up and referrals:</B> Call in 5 days to report symptoms. Return appointment in 1 month if improved. <p><p><p><p><B>Patient education:</B> Explained nature of lithium toxicity.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"118"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"68"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"70"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood appears normal. Assessment of muscle strength is grossly normal. Romberg test is negative, but patient did sway a bit and was quite apprehensive that he would lose his balance. Gait was normal but patient was a little unsteady walking heel to toe. Deep tendon reflexes 2+.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Lithium test","data":[{"range":"0.8-1.5","name":"Lithium","value":"2.2","units":"mEq/L"}]}],"visible":true},"druglist":[{"name":"lithium carbonate","state":"end","dose":"300 mg 4x/d"},{"name":"lithium carbonate","state":"start","dose":"600 mg at bedtime"}],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"},{"name":"Bipolar Disorder Type 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient now seems to be in a more normal mood state; should the dose of lithium be changed?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pharmacology of mood stabilizers (lithium levels)</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Reduce the dose of lithium</li>\r\n<li>Obtain lithium level in about 5 days, check with patient by telephone when results in</li>\r\n<li>Scheduling the patient to come back in a month</li><p>","questionindex":4}]}},{"title":"Inbox #2","elapsed":"5 days later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Telephone contact with Mr. Farmer to discuss lab results, which show lithium level back in normal range (1.3 mEq/L). Patient says he&apos;s feeling much better; no more muscle weakness, unsteadiness.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[{"name":"testresults","title":"","data":[{"range":"0.8-1.5","name":"Lithium","value":"1.3","units":"mEq/L"}]}],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}},{"title":"Office Visit #14","elapsed":"1 month later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up bipolar disorder (acute mania)<p><p><p><p><B>History of Present Illness:</B> Patient has no complains, feeling well. Taking 600 mg. of lithium at bedtime. His mood is good, sleeping well.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Mood stable, lithium levels in therapeutic range.<p><p><p><p><B>Investigations: </B>Repeat lithium levels just prior to next visit.<p><p><p><p><B>Medications and treatments: </B>Maintain current lithium dosage.<p><p><p><p><B>Follow-up and referrals:</B> Return visit in 3 months.<p><p><p><p><B>Patient education:</B> Explained nature of lithium toxicity.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"120"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"72"},{"name":"Weight","units":"kg","ident":"weight","value":"79"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood appears normal. Lithium level 1.0 mEq/L.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Lithium test","data":[{"range":"0.8-1.5","name":"Lithium","value":"1.0","units":"mEq/L"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"},{"name":"Bipolar Disorder Type 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new entries</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>The patient now seems to be in a more normal mood state; should the dose of lithium be changed?</li>\r\n<li>How often should the patient be seen?</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pharmacology of mood stabilizers (lithium maintenance)</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Maintain the dose of lithium</li>\r\n<li>Repeat lithium level in 3 months prior to next visit</li><p>","questionindex":4}]}},{"title":"Office Visit #15","elapsed":"17 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up bipolar disorder (acute mania)<p><p><p><p><B>History of Present Illness</B>: Patient says he is feeling fine, but is bothered by frequent urination and increased thirst. This is particularly bothersome to him when he&apos;s out in the field working and doesn&apos;t have water easily available. He takes a big jug of water with him, but he finishes that in an hour or two and it seems like it &quot;goes right through&quot; him. He&apos;s also having to get up to urinate 4 or 5 times a night. Taking 600 mg. of lithium at bedtime. His mood is good and he&apos;s sleeping well except for the frequent need to urinate.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p>Urine sample in office has a specific gravity of 1.001, no blood, protein, or sugar.<p>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Polydipsia and polyuria are indicative of nephrogenic diabetes insipidus secondary to lithium<p><p><p><p><B>Investigations: </B>Repeat lithium levels in one week<p><p><p><p><B>Medications and treatments: </B>Reduce lithium dosage to 300 mg one day alternating with 600 mg the other day.<p><p><p><p><B>Follow-up and referrals:</B> Follow up by telephone in a few days, return immediately if symptoms worsen.<p><p><p><p><B>Patient education:</B> Advised patient to keep up fluids until the problem can be controlled better with a lower dose of lithium. Explained nature of problem to him.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"116"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"66"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"78"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient&apos;s mood appears normal. Lithium level 1.6 mEq/L. <p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Lithium test","data":[{"range":"0.8-1.5","name":"Lithium","value":"1.6","units":"mEq/L"}]}],"visible":true},"druglist":[{"name":"lithium carbonate","state":"end","dose":"600 mg at bedtime"},{"name":"lithium carbonate","state":"start","dose":"300 mg / 600 mg alternate days"}],"problemlist":[{"name":"Health maintenance"},{"name":"Cellulitis"},{"name":"Depression"},{"name":"Bipolar Disorder Type 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Polyuria, polydipsia</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What are your concerns now?","responsetext":"<p>The following concerns should be on your list:<p><p><li>Are these symptoms related to his lithium?</li>\r\n<li>How should this be treated?</li>\r\n<li>How often should the patient be seen</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"With those concerns in mind, what learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pathophysiology of diabetes insipidus (nephrogenic)</li>\r\n<li>Pharmacology of oxytocin, desmopressin</li><p>","questionindex":3},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Mr. Farmer.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Reduce the dose of lithium</li>\r\n<li>Repeat lithium level in one week</li>\r\n<li>Advice patient to keep up fluids until the problem can be controlled better with a lower lithium dose</li><p>","questionindex":4}]}},{"title":"Inbox #3","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Telephone contact with Mr. Farmer to discuss lab results, which now show lithium level back in normal range (0.9 mEq/L). Patient says he&apos;s been keeping up fluids more conscientiously and has noticed some improvement in the frequency of urination, especially at night. He&apos;s now getting up only once or twice to urinate. Otherwise feeling fine.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[{"name":"testresults","title":"","data":[{"range":"0.8-1.5","name":"Lithium","value":"0.9","units":"mEq/L"}]}],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}}]},{"path":"../page/data/data/AnabelFaria/","person":{"name":"Anabel Faria","age":"80","sex":"Female","marital":"Married","occupation":"Retired housekeeper","ethnicity":"Portuguese","language":"Portuguese, English as a second language","social":"Married, lives with her husband, Manuel, in their own home","education":"Grade school","maritalstatus":"Married","race":"White","face":"../page/data/data/AnabelFaria/AnabelaFaria.jpg"},"event":[{"title":"Office Visit 1","elapsed":"","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Headache<p><p><p><p><B>History of Present Illness: </B>Her husband reports that the patient fell a couple of weeks ago at home.  Although she insisted she was all right at the time, and refused to go to the hospital emergency department, he noticed the next day that she had a bruise on the left side of her head in the front. For the past week, she has been increasingly difficult to awaken in the morning, and her usual meticulous housekeeping has declined.  In fact, for the first time in their marriage, he has been doing some cooking.  She began to complain of headache this week, and she has been sleeping more than usual. Her husband is very worried about her and he insisted that she be seen. When asked, the patient agrees that she has a bad headache on the left side, which is where her bruise is. Her husband states that she did not lose consciousness after the fall, and she does not complain of nausea or vomiting.  When asked about his wife's fall, he said that she had begun falling occasionally (less than once a month), about a year ago with no obvious cause.  She had not sustained any injuries in the past.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Changes consistent with subdural hemorrhage. <p><p><p><p><B>Investigations:</B> CT scan<p><p><p><p><B>Medications and treatments:</B> none <p><p><p><p><B>Follow-up and referrals: </B>Send to ED for emergency CT imaging of the head and neurosurgical consultation<p><p><p><p><B>Patient education: </B>Explained concerns and reasons for imaging studies and referral<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"130"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"78"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"72"},{"name":"Height","units":"cm","ident":"height","value":"157"},{"name":"Weight","units":"kg","ident":"weight","value":"61"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"","body":"<p>Physical Examination:\tPatient is sitting quietly, appearing somnolent and occasionally groaning softly. Though she responds to her name and will answer questions about her state of health, usually with a yes or no, she cannot draw a clock face and cannot cooperate with a formal mental status examination. A resolving bruise is obvious on the upper temporal forehead and scalp on the left. Pupils are equal and reactive, optic discs are sharp and no hemorrhages evident. Cranial nerve examination is incomplete due to limited responsiveness and cooperation, but no gross defects are noted in eye movements or facial expression. There is definite right upper extremity weakness and hyperreflexia on the right side. The plantar response is equivocal on the right. Patient stands, but with support from her husband, and tends to fall to the right. Romberg test could not be performed.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance","state":"start"},{"name":"headache","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Falling</LI><LI>Head trauma with resulting headache, right-sided weakness, cognitive blunting and obtundation</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Be able to identify and label the coverings of the brain (dura, arachnoid, pia)</LI><LI>What anatomical changes in older persons explain why they are more susceptible to develop a subdural hematoma when they fall?</LI><LI>What are the causes of falling in older adults?</LI><LI></LI><p>Watch the video below to learn more about falls in the elderly<p><p><iframe width='560' height='315' src='https://www.youtube.com/embed/9WroXcCcev4?rel=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe><p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mrs. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Send to the emergency room for emergency CT imaging of the head</LI><LI>Neurosurgical consultation</LI><LI>Notation to evaluate causes for falling after acute episode has resolved</LI>","questionindex":3},{"name":"data","title":"","cdata":"<p>Now look at what the results of the CT imaging showed:<p><p><p><p><A href=\"../page/data/data/AnabelFaria/html/clinical-history/02-hospital-admin.htm\" TARGET=\"_blank\"><B><U>View Results</U></B></A><p><p><p><p>Now look at the following topics<p><p><p><p><A href=\"../page/data/data/AnabelFaria/html/subdural/01-diagnosis.htm\" TARGET=\"_blank\"><B><U>1. Diagnosis of subdural hematoma</U></B></A><p><p><p><p><A href=\"../page/data/data/AnabelFaria/anatomy/ReloadContentPreview.htm\" TARGET=\"_blank\"><B><U>2. Anatomy relevant to subdural hematomas</U></B></A><p><p><p><p><A href=\"../page/data/data/AnabelFaria/complications/ReloadContentPreview.htm\" TARGET=\"_blank\"><B><U>3. Complications of subdural hematomas</U></B></A><p>"}]}},{"title":"Message 1","elapsed":"","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Hospital Discharge Summary <p><p><p><p>Mrs. Anabel Faria, 80, was admitted from the emergency room with a left-sided subdural hematoma evident on CT scan. She had fallen at home approximately three weeks earlier and gradually developed a worsening headache and impaired mental status. Her husband brought her to their family physician, who referred her for emergency diagnostic imaging and neurosurgical consultation. A craniotomy was performed and the subdural hematoma drained. A drain was left in place for three days; no evidence of further bleeding was apparent. She remained in the hospital for observation for four more days and made an uneventful recovery. On discharge she appeared to have some mild memory deficits (Folstein MMSE 24), but it could not be determined whether these were present before the head injury and fall.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[{"name":"data","title":"","data":"<p>CT scan of head reveals subdural hematoma on the left side.<p><img alt=\"\" src=\"../page/data/data/AnabelFaria/Fig-1.2-Chronic-subdu.jpg\" width=\"\" height=\"\"/>"}],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"s/p subdural hematoma","state":"start"}],"guidelist":[]}},{"title":"Office Visit 2","elapsed":"1 month after surgery","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Memory problems<p><p><p><p><B>History of Present Illness: </B>Her husband reports that the patient initially improved after surgery, but doesn&apos;t seem to have returned to her previous capacities before the fall and hospitalization.  Although he had noticed occasional forgetfulness before the fall, he thought it was nothing more than getting older. She would often misplace things, but usually find them after searching.  She was driving without accidents, and always kept the car keys on their hook by the front door.  She never misidentified the children or grandchildren. He thinks she is more forgetful now.  He sometimes has had to help her find misplaced clothing and papers. He finds her driving less secure, and she has lost one set of car keys.  Most concerning to him is that she has confused two of her grandchildren&apos;s names, and became agitated when confronted with the problem.  He also reports that she has lost interest in their intimate life together.  She has rejected his initiation of cuddling and touching, something that in the past they both took comfort and pleasure in. The patient says her memory isn&apos;t what it used to be, but scoffs at her husband&apos;s concerns. She says he forgets things, too. She agrees that maybe the accident and surgery worsened things for a while, but she thinks things are okay now and will continue to get better.<p><p><p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p>Geriatric Depression Scale 2/15<p>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Memory impairment and other mental changes consistent with dementia; need to rule out metabolic and other causes.<p><p><p><p><B>Investigations: </B>CT scan to document resolution of subdural, chest x-ray, complete blood count, chemistry profile (electrolytes, calcium, glucose, renal and liver function), B12 level, erythrocyte sedimentation rate or C-reactive protein, thyroid stimulating hormone, RPR or other screening test for syphilis, Lyme serology. <p><p><p><p><B>Medications and treatments:</B> none <p><p><p><p><B>Follow-up and referrals: </B>Send to ED for emergency CT imaging of the head and neurosurgical consultation<p><p><p><p><B>Patient education: </B>Explained concerns and reasons for imaging studies and referral<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"128"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"76"},{"name":"Height","units":"cm","ident":"height","value":"157"},{"name":"Weight","units":"kg","ident":"weight","value":"61"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"","body":"<p><B>Physical Examination: </B>Patient is awake, alert, attentive, and cooperative. Her attire and grooming are appropriate. Her Folstein MMSE score is 23. She could not correctly name the day of the week or date, but did know the month and year. She knew where she was. Her speech was fluent and appropriate. She was able to follow commands correctly. She could not do serial 7s, nor spell world backwards. Cranial nerves are intact. Reflexes are normal and equal bilaterally. Romberg is negative, Plantar responses are normal. Muscle strength is normal and equal bilaterally. Pupils equal and reactive, no papilledema, optic discs sharp, no exudates, hemorrhages. Carotid pulses equal, no bruits. Heart and lungs are normal.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"s/p subdural hematoma"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Memory impairment</LI><LI>Falls</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathology of the brain (Alzheimer's Disease)</LI><LI>Pathophysiology of Alzheimer's Disease</LI><LI>Psychopathology of dementia</LI><LI>Pharmacology for Alzheimer's disease (cholnesterase inhibitors) and \"dietary supplements\" (Gingko biloba)</LI>","questionindex":2},{"name":"data","title":"","cdata":"<p>Now look at these topics:<p><p><p><p><A href=\"../page/data/data/AnabelFaria/PathAlz/ReloadContentPreview.htm\" TARGET=\"_blank\"><B><U>1. Pathology of Alzheimer&apos;s Disease</U></B></A><p><p><p><p><A href=\"../page/data/data/AnabelFaria/PharmDrugs/ReloadContentPreview.htm\" TARGET=\"_blank\"><B><U>2. Pharmacology of Drugs for Alzheimer&apos;s Disease</U></B></A><p>"},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Chest x-ray, complete blood count, chemistry profile (electrolytes, calcium, glucose, renal and liver function), B12 level, erythrocyte sedimentation rate or C-reactive protein, thyroid stimulating hormone, RPR or other screening test for syphilis, Lyme serology.</LI><LI>CT or MRI scan of head.</LI>","questionindex":3}]}},{"title":"Message 2","elapsed":"","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>The laboratory tests and imaging studies for Ms. Faria are available.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[{"name":"data","title":"","data":"<p>MRI of the head reveals resolution of the subdural hematoma but evidence of cerebral atrophy<p><img alt=\"\" src=\"../page/data/data/AnabelFaria/cerebral-atrophy-CT.jpg\" width=\"\" height=\"\"/>"}],"results":[{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"41","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"13.6","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"4.3","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"33","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"95","units":"&micro;m<sup>3</sup>"},{"range":"12-14","name":"RDW","value":"13.5","units":""},{"range":"4.5-11.0","name":"Leukocyte count","value":"8.0","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"58","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"30","units":"%"},{"range":"3-7","name":"Monocytes","value":"6","units":"%"},{"range":"1-3","name":"Eosinophils","value":"2","units":"%"},{"range":"0-0.75","name":"Basophils","value":"1","units":"%"},{"range":"3-5","name":"Bands","value":"3","units":"%"},{"range":"0-20","name":"Erythrocyte Sedimentation Rate (ESR) Westegren, modified","value":"1","units":"mm/h"}]},{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"10","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"12","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"40","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.6","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"3.8","units":"g/dL"},{"range":"68-8200","name":"C-reactive protein","value":"75","units":"ng/mL"},{"range":"80-115","name":"Glucose","value":"90","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"10","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.1","units":"mg/dL"},{"range":"136-146","name":"Na+","value":"140","units":"mmol/L"},{"range":"3.5-5.4","name":"K+","value":"4.0","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"24","units":"mmol/L"},{"range":"8.4-10.2","name":"Calcium","value":"9.6","units":"mg/dL"},{"range":"3.0-4.5","name":"Phosphorus","value":"3.9","units":"mg/dL"},{"range":"2-10","name":"Thyroid-stimulating hormone (TSH)","value":"3.1","units":"&micro;U/mL"},{"range":"1.8-9","name":"Folate","value":"6.0","units":"ng/mL"},{"range":"140-700","name":"Vitamin B12","value":"250","units":"pg/mL"},{"range":"negative","name":"RPR","value":"negative","units":""},{"range":"negative","name":"Lyme Disease titer","value":"negative","units":""}]}],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}},{"title":"Office Visit 3","elapsed":"18 months after surgery","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Memory and behavior problems<p><p><p><p><B>History of Present Illness: </B>Her husband reports that the patient appears to have worsening problems with her memory that he believes were exacerbated by her head injury, subdural hematoma, and neurosurgical evacuation. He says that she forgets where she left things, has trouble cooking anything except the simplest dishes, and can&apos;t drive by herself anymore because she gets lost. He describes long and exhausting nights during which she roams the house, searching for her infant children (who are adults living independent lives). She also has begun to have occasional incontinence, especially at night in their marital bed.  He finds this very stressful and seems distraught.  Privately, Mr. Faria says that although they promised each other many years ago that neither would allow the other to go a nursing home, he now wonders whether that was the right thing to do. <p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment:</B> Progressing dementia<p><p><p><p><B>Investigations: </B>none <p><p><p><p><B>Medications and treatments:</B> none <p><p><p><p><B>Follow-up and referrals: </B>Social service for discussion of nursing home options<p><p><p><p><B>Patient education: </B>Provided counseling to Mr. Faria on caregiver stress; discussed prognosis and considerations of palliative care for the patient.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"130"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"74"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"157"},{"name":"Weight","units":"kg","ident":"weight","value":"60"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"","body":"<p><B>Physical Examination</B>:  Patient is awake, alert, attentive, and cooperative. Her attire and grooming seem appropriate. She was oriented only to person; she did not know time or date, and did not know where she was.  Her speech was hesitant and obviously had difficulty finding the words she wished to say. She was able to follow commands correctly. She could neither do serial 7s, nor spell world backwards. She could not remember any of three objects. Her Folstein MMSE score was11.  Abstract thinking was concrete. Cranial nerves are intact. Reflexes are normal and equal bilaterally. Romberg is negative, no Babinski sign. Muscle strength is normal and symmetrical. Pupils are equal and reactive, no papilledema, optic discs sharp, no exudates, hemorrhages. Carotid pulses equal, no bruits. Heart and lungs are normal.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"s/p subdural hematoma"},{"name":"cognitive impairment"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Severe cognitive impairment, likely secondary to Alzheimer&apos;s Disease</LI><LI>Caregiver stress in husband</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Caregiver stress</LI><LI>Behavior disorders in Alzheimer?s Disease</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Counseling on caregiver stress</LI><LI>Counseling on nursing home placement </LI><LI>Consideration of palliative care for Mrs. Faria</LI>","questionindex":3}]}}]},{"path":"../page/data/data/ManuelFaria/","person":{"name":"Manuel Faria","age":"81","sex":"male","marital":"Married","education":"10th grade","social":"Lives with wife in their own home","ethnicity":"Portuguese-American","race":"White","occupation":"Retired fisherman","language":"Portugese; English as a second language","maritalstatus":"Married","face":"../page/data/data/ManuelFaria/HamishMcDonald.jpg"},"event":[{"title":"Office Visit 1","elapsed":"","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>High blood pressure<p><p><p><p><B>History of Present Illness: </B>Patient has been told he has high blood pressure for many years, well over 30 years. He was prescribed hydrochlorothiazide 12.5 mg. by his previous physician several years ago. He fills these through mail order and takes one a day. He has not been to see a doctor in at least three years. He thinks that other than his high blood pressure, he&apos;s in good health, which he attributes to eating a lot of fish and his hardy life as a fisherman before he retired.<p><p><p><p><B>Past Medical History: </B>Patient had the &quot;usual&quot; childhood illnesses in his native country of Portugal including measles, rubella, chickenpox, and mumps. He received childhood immunizations against smallpox, tetanus, diphtheria, and pertussis. He has been generally healthy and considers himself to be quite healthy. He had a hernia repair when he was in his twenties and no other surgery. He had a serious arm laceration from a fishing accident (he almost bled to death, he says, and was alone on his boat when it happened) for which he required surgery and a blood transfusion. This occurred in 1961. He has no known allergies. He does not smoke tobacco now, but he previous smoked about a pack of cigarettes a day until he was about 60, when he quit. He enjoys a glass of Portuguese wine every night at dinner and a glass of port on special occasions.<p><p><p><p><B>Family History: </B>His mother and father both died of &quot;natural causes&quot; in Portugal many years ago. The patient had 2 sisters and 2 brothers, all older than he and all deceased. He is unaware of their medical histories. The patient has 2 sons and 1 daughter, and 6 grandchildren. To the best of his knowledge, they are all healthy and well.<p><p><p><p><B>Personal and Social History: </B>Patient emigrated to this country at the age of 17 to look for a better life. Lives with wife in their own home. His children are two sons (ages 56 and 54) and one daughter (age 52). The family is Roman Catholic and fairly religious, attending church services regularly. Patient says that the home situation is good and that he and his wife get along well. Their finances are sufficient for their preferred modest lifestyle. He enjoys playing cards with other older men at the local senior citizens center and listening to classical music. He used to walk quite a bit, but recently he is not so active as he once was because of pains in the right calf on walking. These go when he stops but they seem to be getting worse.<p><p><p><p><B>Review of Systems:</B> The only two positive complaints were:<p><p><p><p><B>Urinary: </B>Says that he often has to rush to the toilet to urinate, but then doesn&apos;t urinate very much. He needs to get up 3 or 4 times a night to urinate. Denies dysuria, hematuria, change in color of urine, or incontinence.<p><p><p><p><B>Peripheral vascular: </B>Calf pain with walking about 100 m.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p><B>Urine dipstick: </B>No glucose, no protein, blood, ketones<p><p><p><p><B>Hematocrit: </B>44<p>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Blood pressure not adequately controlled. High risk for heart disease. Also has symptoms of prostatism, so consider use of an alpha-1 adrenergic receptor blocker, which may also help his urinary symptoms<p><p><p><p><B>Investigations: </B>lipid panel, BUN, creatinine, electrolytes, glucose, liver function tests, TSH and total thyroxin, CBC, ECG<p><p><p><p><B>Medications and treatments: </B>Add doxazosin 4 mg/d to hydrochlorothiazie 12.5 mg/d.  Daily low-dose (81 mg) aspirin.<p><p><p><p><B>Follow-up and referrals: </B>Return visit 1 months<p><p><p><p><B>Patient education: </B>Explained goal of blood pressure treatment, weight loss, salt restriction, daily exercise, low-fat diet.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"182"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"90"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"72"},{"name":"Height","units":"cm","ident":"height","value":"168"},{"name":"Weight","units":"kg","ident":"weight","value":"81"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p><B>General appearance: </B>Well-developed, moderately overweight man looking younger than his stated age. He is clean and appropriately dressed. He is polite and appears calm.<p><p><p><p><B>Skin: </B>Color is good. No excessive moisture. Not dry. No scaling, no rashes. Mostly bald. Nails show no pitting, clubbing, or onycholysis.<p><p><p><p><B>Head: </B>Skull is normal.<p><p><p><p><B>Eyes: </B>Vision 20/30 with correction. Visual fields full by confrontation. Conjunctiva and sclera clear. Pupils round, regular, equal, reactive to light and accommodation. Extraocular movements intact in cardinal directions. Disc margins sharp, no papilledema. Some arteriolar narrowing, no A-V nicking, hemorrhages, exudates.<p><p><p><p><B>Ears: </B>Both ear canals clear. Tympanic membranes intact, move with pneumotoscopy, no perforations.<p><p><p><p><B>Nose: </B>Septum midline, no discharge, no polyps. No sinus tenderness.<p><p><p><p><B>Mouth and Throat: </B>Teeth in good repair. Gums normal. No ulcers, lesions seen in oropharynx. No erythema (redness), exudates, petechiae (pinoint hemorrhages). Uvula in midline. Tonsils present.<p><p><p><p><B>Neck: </B>Trachea midline. No masses. Thyroid not palpable.<p><p><p><p><B>Lymph Nodes: </B>No cervical, submandibular, epitrochlear, or axillary lymphadenopathy.<p><p><p><p><B>Chest: </B>Thorax symmetrical, good expansion. Lungs resonant to percussion. Breath sounds normal. No rales, rhonchi, wheezes or rubs heard.<p><p><p><p><B>Cardiac:</B> Precordium quiet, no heaves. Jugular veins 2 cm over sternal angle at 30&#xB0;. Carotid pulses 2+, no bruits. PMI in 5th intercostal space in midclavicular line, discreet. S1 and S2 normal, S4 present, no rubs, or murmurs.<p><p><p><p><B>Abdomen: </B>Flat and symmetric. Bilateral old well-healed inguinal scars. Bowel sounds normal. No bruits over aorta, renal arteries, or femoral arteries. Liver is 10 cm by percussion, edge not palpable. No masses palpable. No tenderness to palpation. No CVA tenderness.<p><p><p><p><B>Genitalia: </B>Penis uncircumcised, foreskin not retracted. No lesions, no discharge visible. Testes 5 cm on right, 3 cm on left, nontender, no masses or varicosities. No hernias.<p><p><p><p><B>Rectal: </B>No fissures, fistulas, hemorrhoids visible. Normal rectal tone. Prostate diffusely enlarged, nontender, no masses. Stool brown, negative for occult blood.<p><p><p><p><B>Peripheral vasculature: </B>The right femoral artery is weak, left normal.  The right popliteal, dorsalis pedis and posterior tibial arteries are absent but those on the left are normal. No pallor on elevation of legs, no dependent rubor. No foot ulcerations.<p><p><p><p><B>Musculoskeletal: </B>12-cm old well-healed scar on left forearm. Full range of motion of shoulders, neck, spine, elbows, hips, knees, ankles. No tenderness, swelling. Good muscle strength throughout.<p><p><p><p><B>Neurological: </B>Cranial nerves: I - not tested; II-visual field intact; III, IV, VI-extraocular movements intact, no ptosis; V-masseters strong and symmetrical, sensory intact, corneal reflex intact; VII-facial features symmetric, grimace normal; VIII-hearing acute, Weber midline, Rinne negative, no nystagmus; IX, X-uvula in midline, gag reflex present; XI-shoulder shrug equal and strong; XII-tongue movements normal. Gait: normal. Romberg negative. Motor strength 4+ and symmetric in grip, forearm, biceps, lower extremities, feet. No tremor, rigidity. Babinski negative. Reflexes 2+ and symmetric in brachioradialis, biceps, triceps, patellar, and ankle. Light touch, pinprick, and vibratory sensation 2+ in feet. Two-point discrimination grossly normal to 1 cm. in feet. Mental status: patient awake, alert, oriented x3, cooperative. Thought content appropriate. Mood calm and good natured. Immediate recall intact. Recent and remote memory intact. Able to recite months backwards without error. Speech fluent and appropriate. Abstract reasoning appropriate.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Hydrochlorothiazide","state":"start","dose":"12.5 mg/d"},{"name":"aspirin","state":"start","dose":"81 mg daily"},{"name":"doxazosin","state":"start","dose":"4 mg daily"}],"problemlist":[{"name":"Health Maintenance"},{"name":"Hypertension","state":"start"},{"name":"Peripheral vascular disease","state":"start"},{"name":"Benign prostatic hypertrophy","state":"start"},{"name":"Obesity","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>hypertension</LI><LI>leg pain on exercise (or, peripheral vascular disease)</LI><LI>benign prostatic hypertrophy (or enlarged prostate)</LI><LI>obesity</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>physiology of blood pressure control (see next page to learn more about the determinants of blood flow)</LI><LI>anatomy of the circulation of the leg </LI><LI>pharmacology of diuretics (e.g, hydrochlorothiazide) and alpha-1 adrenergic receptor blockers (e.g., doxazosin)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"Effect of hypertension on arterial tree","questiontext":"<p>The complications of hypertension are important not only because of their effects on the arterial tree itself, but because of damage to major organs, i.e. brain, eye, heart, blood vessels and kidneys.<p><p><p><p>From your knowledge of the circulation and of the structure of arteries, can you suggest structural and functional changes that may result from prolonged hypertension?<p>","responsetext":"<p>Click next button for answers<p>","questionindex":3},{"name":"data","title":"","cdata":"<p>The larger (elastic) arteries show internal elastic lamina thickening, smooth muscle hypertrophy and fibrosis.<p><p><p><p>These changes reduce the lumen, increase shear stress on the intima, increase turbulence, decrease endothelial function and reduce distensibility/compliance.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/hypertinsive_arteries.jpg\" width=\"\" height=\"\"/><p>The smaller arteries show hyaline sclerosis which narrows the lumen. The histology slide shows hyaline arteriolar sclerosis, possibly the result of long-standing, uncontrolled hypertension. The vessel appears to be greater than 80% occluded.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/Hyaline_arteriolar_sclerosis.jpg\" width=\"\" height=\"\"/>"},{"name":"openquestion","type":"cdata","title":"PVR","questiontext":"<p>What effect do these structural changes found in arteries following hypertension have on peripheral vascular resistance (PVR)?<p>","responsetext":"<p>PVR increases. This in turn results in a further increase in blood pressure. Click next to see a graphical representation.<p>","questionindex":4},{"name":"data","title":"Further reading","cdata":"<img alt=\"\" src=\"../page/data/data/ManuelFaria/pvr_chart.png\" width=\"\" height=\"\"/><p>To read further on &apos;The Structure of Small Arteries in Essential Hypertension&apos; (A M Heagerty) click here: <A HREF=\"http://www.mcmaster.ca/inabis98/mulvany/heagerty0861/two.html\" TARGET=\"_blank\"><B>http://www.mcmaster.ca/inabis98/mulvany/heagerty0861/two.html</B></A><p><p><p><p>For explanatory text with images on the general structure of blood vessels and variations of vessel wall structure, click on the URL of the School of anatomy and Human Biology:  <A HREF=\"http://www.lab.anhb.uwa.edu.au/mb140/CorePages/Vascular/Vascular.htm#labmuscular\" TARGET=\"_blank\"><B><U>http://www.lab.anhb.uwa.edu.au/mb140/CorePages/Vascular/Vascular.htm#labmuscular</U></B></A><p>"},{"name":"data","title":"","cdata":"<p><B>Peripheral arterial occlusive disease</B><p><p><p><p>Hypertension is a major risk factor for peripheral arterial occlusive disease. Peripheral arterial occlusive disease (PAOD) results either from atherosclerotic or inflammatory processes causing lumen narrowing (stenosis), or from thrombus formation which is usually associated with underlying atherosclerotic disease. <p><p><p><p>A digital subtraction angiogram of aorto-iliac arterial tree showing occlusion of the right common iliac artery from a patient with long-standing sustained hypertension.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/Peripheral arterial vascular disease.jpg\" width=\"\" height=\"\"/>"},{"name":"data","title":"","cdata":"<img alt=\"\" src=\"../page/data/data/ManuelFaria/Picture 1.png\" width=\"\" height=\"\"/>"},{"name":"data","title":"Diuretics","cdata":"<img alt=\"\" src=\"../page/data/data/ManuelFaria/Diuretics.png\" width=\"\" height=\"\"/>"},{"name":"data","title":"","cdata":"<p><B>Beta-blockers</B><p><p><p><p>Beta-blockers have a role to play in the management of patients with hypertension. They are especially useful in hypertensive patients with concomitant coronary artery disease or congestive heart failure.<p><LI></LI><LI>Beta-blockers decrease the hyperkinetic cardiac output and the high renin levels characteristic of young patients with hypertension.</LI><LI>Beta-blockers reduce morbidity and mortality in patients with coronary disease or heart failure.</LI><LI>Contraindications are bronchospasm and advanced heart block.</LI><LI>Cold hands and feet are a common problem, as is fatigue.</LI><p><p><p>Examples of beta-blockers include: metoprolol, atenolol, and labetolol (labetolol also has some alpha-adrenoreceptor blocking activity).<p>"},{"name":"data","title":"","cdata":"<p><B>ACE-inhibitors</B><p><p><p><p>ACE-inhibitors are widely prescribed in young white hypertensives.<p><p><p><p>ACE-inhibitors are very effective in hypertensive patients with LV dysfunction, coronary artery disease, diabetes mellitus, or chronic renal disease/proteinuria.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/ACE-I.png\" width=\"\" height=\"\"/>"},{"name":"data","title":"","cdata":"<p><B>Angiotensin II receptor blockers (ARBs)</B><p><p><p><p>Angiotensin II receptor blockers (ARBs) have similar effects to ACE-inhibitors. They are used as 2nd-line drugs (because of their high cost) in patients who do not tolerate ACE-inhibitors.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/ARBs.png\" width=\"\" height=\"\"/>"},{"name":"data","title":"","cdata":"<p><B>Calcium channel blockers (CCBs)</B><p><p><p><p>The calcium channel blockers (CCBs) are generally considered 2nd-line drugs.<p><p><p><p>There are two main categories.<p><img alt=\"\" src=\"../page/data/data/ManuelFaria/CCBs.png\" width=\"\" height=\"\"/>"},{"name":"data","title":"","cdata":"<p><B>Other agents</B><p><p><p><p>Other antihypertensive agents may be used in patients who are refractory to initial therapy.<p><LI></LI><LI>Direct vasodilators have limited, but specific, uses. Hydralazine/isosorbide dinitrate is particularly useful in patients of African descent. Hydralazine can be used to lower blood pressure acutely in pregnancy, though nifedipine and labetolol are now the preferred first-line treatments.</LI><LI>Minoxidil is best avoided in women because it causes hair growth and coarsens the features.</LI><LI>Peripheral alpha-1 blockers such as doxazosin or terazosin may prove beneficial in those patients with hypertension who also have urinary tract outlet obstruction because they relax the outlet sphincter of the bladder.</LI><LI>Central alpha-2 agonists such as clonidine and methyldopa are declining in use because of their prominent side-effect profile, especially dizziness, dry mouth, and sleepiness.</LI><LI>Combined alpha-1 and beta-blockers such as labetolol are used intravenously in acute hypertension.</LI><LI>Imidazoline-1 receptor agonists such as monoxidine, which modulate the central sympathetic nervous system outflow in the brain stem, are occasionally used.</LI><p><p>"},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>adding another antihypertensive drug to his regimen, preferably an alpha-1 adrenergic receptor blocker that might help his urinary symptoms as well</LI><LI>counseling patient on ways he can help to reduce blood pressure (losing weight, restricting salt intake, increasing daily exercise, eating low-fat diet)</LI><LI>recommending daily low-dose aspirin for prevention of heart attack and stroke</LI><LI>obtaining laboratory tests for other cardiovascular risk factors and evidence of end-organ damage and other etiologies of hypertension (hyperthyroidism)</LI><LI>see the patient back in 2-4 weeks to monitor response</LI>","questionindex":5}]}},{"title":"Office Visit 2","elapsed":"4 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>follow-up for high blood pressure<p><p><p><p><B>History of Present Illness: </B>Patient thinks the new medication may be helping him empty his bladder better. No other symptoms<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"<p><B>ECG: </B>Normal sinus rhythm with left axis deviation<p><img alt=\"ECG with left axis deviation\" src=\"../page/data/data/ManuelFaria/ECG09.jpg\" width=\"\" height=\"\"/>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Inadequate blood pressure control.Goal should be &lt;130/80 because patient has pre-existing peripheral arterial disease. Hypercholesterolemia with elevated LDL, normal HDL, triglycerides. Goal should be LDL &lt;100 because of multiple risk factors. Hypokalemia probably on the basis of diuretic usage. Inadequate weight loss.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Add calcium-channel blocker, amlodipine 5 mg daily, rather than beta-blocker because of existing peripheral arterial disease which could be worsened by beta-blocker. Increase daily potassium (bananas).<p><p><p><p><B>Follow-up and referrals: </B>Refer to a dietician for advise on reducing weight, lowering saturated fats, and restricting sodium<p><p><p><p><B>Patient education:</B> Explained nature of elevated cholesterol and importance of lowering cholesterol and blood pressure. Advised patient to resume walking to the limits of his tolerance.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"170"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"86"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"72"},{"name":"Height","units":"cm","ident":"height","value":"168"},{"name":"Weight","units":"kg","ident":"weight","value":"81"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"BP right arm sitting 172/86, supine 172/86; left arm sitting 176/90, supine 176/88."},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"44","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"15.0","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"4.9","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"34","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"90","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"8.8","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"28","units":"%"},{"range":"3-7","name":"Monocytes","value":"2","units":"%"},{"range":"1-3","name":"Eosinophils","value":"0","units":"%"},{"range":"0-0.75","name":"Basophils","value":"6","units":"%"},{"range":"3-5","name":"Bands","value":"4","units":"%"},{"range":"150-400","name":"Platelet count","value":"300","units":"x10<sup>3</sup>/mm<sup>3</sup>"}]},{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"10","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"12","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"30","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.4","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"3.6","units":"g/dL"},{"range":"200","name":"Cholesterol, total","value":"220","units":"mg/dL"},{"range":"100","name":"LDL-cholesterol","value":"180","units":"mg/dL"},{"range":"40","name":"HDL-cholesterol","value":"50","units":"mg/dL"},{"range":"160","name":"Triglycerides","value":"120","units":"mg/dL"},{"range":"80-115","name":"Glucose","value":"94","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"15","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.0","units":"mg/dL"},{"range":"136-146","name":"Na+","value":"140","units":"mmol/L"},{"range":"3.5-5.4","name":"K+","value":"3.2","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"25","units":"mmol/L"},{"range":"8.4-10.2","name":"Calcium","value":"9.6","units":"mg/dL"},{"range":"3.0-4.5","name":"Phosphorus","value":"4.0","units":"mg/dL"},{"range":"2-10","name":"Thyroid-stimulating hormone (TSH)","value":"3","units":"&micro;U/mL"},{"range":"5-12","name":"Thyroxin, Total (T4)","value":"9","units":"&micro;g/dL"}]}],"visible":true},"druglist":[{"name":"amlodipine","state":"start","dose":"5 mg/d"}],"problemlist":[{"name":"Hypokalemia","state":"start"},{"name":"Hypercholesterolemia","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>hypokalemia</LI><LI>hypercholesterolemia</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Side effects of antihypertensive drugs</LI><LI>Physiology of adrenal cortex (aldosterone)</LI><LI>Physiology of the adrenal medulla</LI><LI>Pathology of adrenal medulla (pheochromocytoma)</LI><LI>Pathology of adrenal cortex (adenoma, hyperplasia)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Add another drug to control his high blood pressure (either a calcium-channel blocker, or ACE inhibitor; beta-blockers should probably be avoided because of their capacity to worsen peripheral arterial disease and his symptoms of intermittent claudication)</LI><LI>Add a potassium supplement and instruct on including enough potassium in his diet and restricting salt</LI><LI>Refer to a dietician for advise on reducing weight, lowering saturated fats, and restricting sodium</LI><p><p><p>Your management plan should not have included an extensive work-up for adrenal causes of his hypertension. Although his low potassium could be caused by an aldosterone-secreting adrenal adenoma, the far more likely scenario is that it is related to his diuretic and high sodium intake. If dietary interventions and potassium supplementation don?t normalize his potassium, then a work up for secondary causes would be justified.<p><p><p><p>Elevated cholesterol conveys an added risk for cardiovascular disease even in older persons. Lowering cholesterol has been shown to reduce risk in older men 65-75. While there are no hard-and-fast rules for treatment of someone over 75 as Mr. Faria is, most authorities would recommend lifestyle modification rather than drug therapy unless the patient had multiple risk factors and already showed evidence of subclinical atherosclerosis. Since Mr. Faria does have multiple risk factors and evidence of atherosclerosis, he would be a candidate for more aggressive treatment of his elevated cholesterol if he does not respond adequately to lifestyle changes.<p><p><p><p>The evidence is quite strong that treating hypertension in patients 80 year of age or older is beneficial. (See Beckett NS, et al., Treatment of Hypertension in Patients 80 Years of Age or Older, N Engl J Med 2008; 358:1887-98.)<p><p><p><p>See the next page for important considerations to keep in mind when confronted with difficult-to-treat hypertension.<p>","questionindex":3},{"name":"data","title":"","cdata":"<img alt=\"\" src=\"../page/data/data/ManuelFaria/Resistant HTN.jpg\" width=\"\" height=\"\"/>"}]}},{"title":"Office Visit 3","elapsed":"6 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>difficulty voiding<p><p><p><p><B>History of Present Illness:</B><p><p><p><p><B>Problem #3 - Benign Prostatic Hypertrophy</B><p><p><p><p>Patient complains that his voiding problem has become significantly worse. He&apos;s constantly feeling the need to urinate, but then urinates only a small amount. He is getting up 7 or 8 times a night. He denies any burning with urination. He has not noticed any blood in his urine or change in color or odor. Patient has been taking doxazosin 4 mg daily for his high blood pressure, which initially helped improve his urinary symptoms.<p><p><p><p><B>Problem #2 - Hypertension</B><p><p><p><p>Patient has been trying hard to stick to the diet that the dietician reviewed with him. He has substituted fresh fish for the salt cod he had been eating regularly and has cut down on red meat and cheese and increased fruits and vegetables, especially those high in potassium like bananas. He also avoids high salt foods and adds no salt at the table. He was unable to increase his walking very much due to his leg pain, but has started swimming daily for about half an hour, which he has been able to do comfortably. He has had no side effects from the medicines.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"Urinalysis showed clear yellow urine, specific gravity of 1.020, no glucose, blood, or protein, and negative leukocyte esterase. Microscopic examination of the sediment showed no white or red blood cells and no bacteria."}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Urinary symptoms associated with prostatism. Will try conservative therapy first before considering surgical intervention. Blood pressure and LDL cholesterol not at goal levels.<p><p><p><p><B>Investigations:</B> none<p><p><p><p><B>Medications and treatments: </B>Increase dose of doxazosin to 8 mg (maximum dose) and add finasteride 5 mg daily to reduce prostate volume. Increase dose of amlodipine to 10 mg (maximum dose) for better control of blood pressure. Continue dietary changes to lower cholesterol.<p><p><p><p><B>Follow-up and referrals: </B>Recheck in 1 month unless symptoms worsen. Refer to urologist is symptoms do not improve in 6 months or if they worsen.<p><p><p><p><B>Patient education: </B>Reviewed ways to reduce saturated fats (Mediterranean diet).<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"150"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"86"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"74"},{"name":"Height","units":"cm","ident":"height","value":"168"},{"name":"Weight","units":"kg","ident":"weight","value":"78"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"BP 150/86 as noted. Weight down to 78 kg. Labs done last week show potassium now 3.8, cholesterol down to 190 with LDL at 160. Abdominal exam elicits sensation of needing to void with suprapubic pressure, but no tenderness. Dullness to percussion was noted in the suprapubic area, but this disappeared after patient voided."},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"200","name":"Cholesterol, total","value":"190","units":"mg/dL"},{"range":"100","name":"LDL-cholesterol","value":"160","units":"mg/dL"},{"range":"40","name":"HDL-cholesterol","value":"50","units":"mg/dL"},{"range":"160","name":"Triglycerides","value":"90","units":"mg/dL"},{"range":"80-115","name":"Glucose","value":"96","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"14","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.0","units":"mg/dL"},{"range":"136-146","name":"Na+","value":"140","units":"mmol/L"},{"range":"3.5-5.4","name":"K+","value":"3.8","units":"mmol/L"}]}],"visible":true},"druglist":[{"name":"doxazosin","state":"start","dose":"8 mg/d"},{"name":"amlodipine","state":"end","dose":"5 mg/d"},{"name":"amlodipine","state":"start","dose":"10 mg/d"},{"name":"finasteride","state":"start","dose":"5 mg/d"},{"name":"doxazosin","state":"end","dose":"4 mg daily"}],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>\tno new problems</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Physiology of micturition</LI><LI>Anatomy of the male reproductive system (prostate)</LI><LI>Histology and pathology of the prostate gland</LI><LI>Pharmacology of finasteride, alpha-adrenergic receptor blockers</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Increase the dose of the alpha-1 adrenergic blocker (doxazosin) to 8 mg.</LI><LI>Add a 5-alpha-reductase inhibitor (finasteride) to reduce prostate volume</LI><LI>Increase the dose of the calcium-channel blocker (amlodipine) to 10 mg for better control of his systolic hypertension</LI><LI>Refer to a urologist if symptoms do not improve in 6 months or if they worsen</LI>","questionindex":3}]}},{"title":"Office Visit 4","elapsed":"4 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>difficulty voiding<p><p><p><p><B>History of Present Illness: </B>Patient reports improvement in his urinary symptoms. He has less urgency and feels as if he is emptying his bladder more fully, though he still feels it is not completely empty. The nocturia has decreased back to 3 or 4 times a night, which the patient feels is tolerable. Taking finasteride 5 mg and doxazosin 8 mg daily. Patient continues to stick to his diet and has proudly lost some more weight. He has noticed some lightheadedness when getting up quickly. He has learned to get up slowly.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Improvement in urinary symptoms; will stay with conservative treatment, likely to see additional benefit of finasteride over next month or two. Blood pressure improved, but still not at goal. Nevertheless, considering that patient is already experiencing some side effects from all his meds (postural hypotension), the risk of exacerbating those side effects outweighs potential benefits of pushing meds to lower BP any more rapidly, especially considering his age. Will continue to push weight loss.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Maintain current meds.<p><p><p><p><B>Follow-up and referrals: </B>See in 3-6 months unless symptoms worsen<p><p><p><p><B>Patient education: </B>Counseling about getting up slowly and avoiding falls.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"136"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"84"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"76"},{"name":"Height","units":"cm","ident":"height","value":"168"},{"name":"Weight","units":"kg","ident":"weight","value":"77"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Abdominal exam essentially negative. No dullness to percussion over suprapubic area, no tenderness. Urinalysis showed clear yellow urine, specific gravity of 1.022, no glucose, blood, or protein, and negative leukocyte esterase. Microscopic examination of the sediment showed no white or red blood cells and no bacteria. BP 136/84, pulse 76 supine; 132/80, pulse 80 standing after 1 minute arising from supine position. Patient reports slight lightheadedness. Weight down to 77 kg."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>dizziness</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pharmacology of finasteride, alpha-adrenergic receptor blockers (follow up)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Faria.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>maintain patient on current level of medications with counseling about getting up slowly and avoiding falls</LI><LI>praise patient for his success in dieting and encourage him to continue to lose weight and exercise and watch his salt and fat intake</LI><LI>refer to a urologist if symptoms worsen</LI><LI>see again in 3-6 months</LI><p><p><p>Watch the video below to listen to a case discussion of dizziness in the older patient by a geriatrician.<p><iframe width='560' height='315' src='https://www.youtube.com/embed/ycfAX3O9WMs?rel=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>","questionindex":3}]}}]},{"path":"../page/data/data/LouisMarlboro/","person":{"name":"Louis Marlboro","age":"68","sex":"male","social":"Lives at home with his wife","marital":"Married","education":"High school graduate","occupation":"Retired salesman","language":"English","race":"White","maritalstatus":"Married","face":"../page/data/data/LouisMarlboro/LouisMarlboro.jpg"},"event":[{"title":"Prior Office Visit 1","elapsed":"","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>History of Present Illness: </B>Mr. Marlboro comes in today as a new patient to the practice after his former physician retired. Mr. Marlboro has a long-standing history of chronic obstructive pulmonary disease that forced him into early retirement on disability 10 years ago when he was 58. He had been a 2 -pack-per-day cigarette smoker since he was a young teenager. As his lung disease progressively worsened, he tried quitting, but was never successful. Even now, he occasionally has a cigarette, but fewer than one a day. He has a chronic productive cough and is always short of breath. Usually, he can walk from one room of his house to another without getting short of breath, but anything beyond that causes him to become very short of breath. He has a metered-dose inhaler of salmeterol that he uses twice a day.<p><p><p><p><B>Past Medical History: </B>Patient had the usual childhood illnesses (measles, rubella, chickenpox, mumps) and had his tonsils removed at age 5 for repeated episodes of strep throat. He received childhood immunizations against tetanus, diphtheria, and pertussis. His last tetanus-diphtheria-acellular pertussis booster was 2 years ago. He also received pneumococcal vaccine and gets an annual influenza vaccine.  He has had no serious injuries. He was hospitalized at age 57 and 58 with pneumonia, which is when he largely quit smoking and had to go on disability and early retirement. He has no known allergies. He drinks beer in moderation (1-2 beers on &quot;special occasions&quot;).<p><p><p><p><B>Family History: </B>His mother and father are deceased. His mother died of a heart attack at age 77. His father died of prostate cancer at age 80. The patient has 1 sisters and 2 brothers. They are all younger than he. One brother also suffers from COPD and high blood pressure. The others are in good health, as far as he knows.<p><p><p><p><B>Personal and Social History: </B>Patient lives with wife in their own home. His two sons are married and living in other parts of the country. The family is Methodist, but not very religious. Patient says that the home situation is somewhat strained by his inability to do much for himself or to help his wife. Finances are tight. Patient with a salesman with a large retail company until his early retirement. He has a modest pension in addition to his Social Security.<p><p><p><p><p><p><B>Review of Systems</B><p><p><p><p><B>General: </B>He considers his health to be poor. His appetite is okay, but not great, no change in weight.<p><p><p><p><B>Skin: </B>No rashes, sores, itching. Denies any itching, dryness, excessive sweatiness, change in skin color, hair, or nails.<p><p><p><p><B>Head: </B>No headache, head injuries.<p><p><p><p><B>Eyes: </B>No visual disturbances, double vision, difficulty seeing. Does not wear glasses. No eye pain, discharge, or excessive tearing.<p><p><p><p><B>Ears: </B>Hearing is not as good as it once was, but he hears the TV and radio fine. No ringing in his ears (tinnitus), dizziness (vertigo). No ear pain, no discharge from ears.<p><p><p><p><B>Nose: </B>Susceptible to frequent colds and bronchitis. Denies runny nose, nosebleeds, nasal congestion, allergic symptoms.<p><p><p><p><B>Mouth and Throat: </B>Denies any problems with teeth or gums (no bleeding, infections) other than cavities that have been filled. Sometimes he becomes hoarse if he catches a cold.<p><p><p><p><B>Neck: </B>No masses, stiffness, &quot;swollen glands,&quot; goiter.<p><p><p><p><B>Breasts: </B>Not applicable<p><p><p><p><B>Respiratory: </B>See HPI<p><p><p><p><B>Cardiac: </B>No chest pain, palpitations, orthopnea (shortness of breath lying flat), paroxysmal nocturnal dyspnea (shortness of breath in the middle of the night after lying down for some time).<p><p><p><p><B>Gastrointestinal: </B>No trouble swallowing, heartburn, indigestion, nausea, vomiting (including blood). No diarrhea or constipation. No change in stool color (denies black, tarry stools [melena] or blood in stools [hematochesia]). No hemorrhoids, rectal pain, or rectal discharge. No abdominal pain, excessive gas, food intolerances.<p><p><p><p><B>Urinary: </B>No frequency or urgency of urination, nocturia, dysuria, hematuria, change in color of urine, or incontinence.<p><p><p><p><B>Genital: </B>Denies any hernias, penile discharge, sores on penis, pain with intercourse, testicular pain. Denies any problems with erections or ejaculation.<p><p><p><p><B>Peripheral vascular: </B>No cramps with walking, no varicose veins.<p><p><p><p><B>Musculoskeletal: </B>No muscular or joint pain, stiffness, swelling, or weakness.<p><p><p><p><B>Neurological: </B>No fainting, seizures, paralysis, numbness or changes in sensation, no &quot;pins and needles&quot; (paresthesias), tremors or involuntary movements.<p><p><p><p><B>Hematological: </B>No easy bleeding or bruising, weakness and fatigue. No previous blood transfusions.<p><p><p><p><B>Endocrine: </B>No heat or cold intolerance, excessive sweating or thirst.<p><p><p><p><B>Psychiatric: </B>Denies any mood changes (sadness, despair), nervousness or anxiety, hallucinations.<p>"}]},"procedure":{"visible":true,"items":[{"title":"Office Laboratory","body":"<p><B>Urine dipstick: </B>No glucose, no protein, blood, ketones<p><p><p><p><B>Hematocrit: </B>42<p><p><p><p><B>ECG: </B>Right atrial enlargement with right axis deviation<p><img alt=\"\" src=\"../page/data/data/LouisMarlboro/ECG Right Axis Deviation.jpg\" width=\"\" height=\"\"/>"}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Clinically, patient appears to have moderately severe COPD of mixed bronchitic and emphysematous type.<p><p><p><p><B>Investigations: </B>Obtain pulmonary function tests for baseline monitoring. Obtain chest x-ray, ECG, CBC, fasting lipid profile, liver and renal function.<p><p><p><p><B>Medications and Treatments: </B>Continue patient on metered-dose salmeterol inhaler. Annual influenza vaccine.<p><p><p><p><B>Follow-up and Referrals: </B>Call patient with results when in.<p><p><p><p><B>Patient Education: </B>Urged patient not to smoke at all.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"135"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"80"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"30"},{"name":"Height","units":"cm","ident":"height","value":"170"},{"name":"Weight","units":"kg","ident":"weight","value":"82"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p><B>General appearance: </B>Patient is somewhat short of breath even sitting at rest. He is somewhat overweight. His clothes are somewhat tattered, but clean. He appears somewhat anxious.<p><p><p><p><B>Skin: </B>Some duskiness to skin color. No excessive moisture. Not dry. No scaling, no rashes. Hair is full, no alopecia. Nails show no pitting, clubbing, or onycholysis.<p><p><p><p><B>Head: </B>Skull is normal.<p><p><p><p><B>Eyes:</B> Vision 20/30 with glasses. Visual fields full by confrontation. Conjunctiva and sclera clear. Pupils round, regular, equal, reactive to light and accommodation. Extraocular movements intact in cardinal directions. Disc margins sharp, no papilledema. Some arteriolar narrowing, no A-V nicking, hemorrhages, exudates.<p><p><p><p><B>Ears:</B> Both ear canals clear. Tympanic membranes intact, move with pneumotoscopy, no perforations.<p><p><p><p><B>Nose: </B>Septum midline, no discharge, no polyps. No sinus tenderness.<p><p><p><p><B>Mouth and Throat: </B>Teeth in good repair. Gums normal. No ulcers, lesions seen in oropharynx. No erythema, exudates, petechiae. Uvula in midline. Tonsils absent.<p><p><p><p><B>Neck: </B>Trachea midline. No masses. Thyroid not palpable.<p><p><p><p><B>Lymph Nodes: </B>No cervical, submandibular, epitrochlear, or axillary lymphadenopathy.<p><p><p><p><B>Chest: </B>Thorax symmetrical, somewhat hyperexpanded with limited expansion. Lungs resonant to hyperresonant to percussion. Breath sounds somewhat diminished with 2+  wheezes and rhonchi, especially in the bases.<p><p><p><p><B>Cardiac: </B>Precordium quiet, no heaves. Jugular veins 3 cm over sternal angle at 30&#xB0;. Carotid pulses 2+ , no bruits. PMI in 5th intercostal space 2 cm. to the left of the midclavicular line, somewhat diffuse. S1 and S2 normal, no gallops, rubs, or murmurs.<p><p><p><p><B>Abdomen: </B>Somewhat protuberant; symmetric. No scars. Bowel sounds normal. No bruits over aorta, renal arteries, or femoral arteries. Liver is 10 cm by percussion, edge palpable 2 cm. below the left costal margin, sharp, regular, and nontender. No masses palpable. No tenderness to palpation. No CVA tenderness.<p><p><p><p><B>Genitalia: </B>Penis uncircumcised, foreskin not retracted. No lesions, no discharge visible. Testes 5 cm on right, 3 cm on left, nontender, no masses or varicosities. No hernias.<p><p><p><p><B>Rectal: </B>No fissures, fistulas, hemorrhoids visible. Normal rectal tone. Prostate mildly enlarged, nontender, no masses. Stool brown, negative for occult blood.<p><p><p><p><B>Peripheral vasculature: </B>Pulses 1+  and symmetric (radial, femoral, popliteal, dorsalis pedis, and posterior tibial). Good capillary filling. No pallor on elevation of legs, no dependent rubor. No foot ulcerations.<p><p><p><p><B>Musculoskeletal: </B>Full range of motion of shoulders, neck, spine, elbows, hips, knees, ankles. No tenderness, swelling. Muscle strength somewhat diminished throughout.<p><p><p><p><B>Neurological:Cranial nerves: </B>I - not tested; II-visual field intact; III, IV, VI-EOMs intact, no ptosis; V-masseters strong and symmetrical, sensory intact, corneal reflex intact; VI-facial features symmetric, grimace normal; VIII-hearing acute, Weber midline, Rinne negative, no nystagmus; IX, X-uvula in midline, gag reflex present; XI-shoulder shrug equal and strong; XII-tongue movements normal. Gait: normal. Romberg negative. Motor strength 4+  and symmetric in grip, forearm, biceps, lower extremities, feet. No tremor, rigidity. Babinski negative. Reflexes 2+ and symmetric in brachioradialis, biceps, triceps, patellar, and ankle. Light touch, pinprick, and vibratory sensation 2+  in feet. Two-point discrimination grossly normal to 1 cm. in feet. Mental status: patient awake, alert, oriented x3, cooperative. Thought content appropriate. Mood somewhat anxious. Immediate recall intact. Recent and remote memory intact. Able to recite months backwards without error. Speech fluent and appropriate. Abstract reasoning appropriate.<p>"},"visible":true},"investigate":{"data":[{"name":"data","title":"","data":"<p><B>Chest x-ray: </B>Hyperinflated lungs consistent with chronic emphysema. <p><p><p><p><B>Pulmonary function test: </B>FEV1 at 50% of predicted and increased residual volume and residual volume:total lung capacity ratio<p><img alt=\"\" src=\"../page/data/data/LouisMarlboro/resp09-CXR-Male-COPD-NoLabe.jpg\" width=\"\" height=\"\"/>"}],"results":[{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"49","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"17.2","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"5","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"34","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"98","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"10.4","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"3-7","name":"Monocytes","value":"3","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"30","units":"%"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"1-3","name":"Eosinophils","value":"2","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"5","units":"%"}]},{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"10","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"10","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"40","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.7","units":"mg/dL"},{"range":"<200","name":"Cholesterol, total","value":"195","units":"mg/dL"},{"range":"<100","name":"LDL-cholesterol","value":"145","units":"mg/dL"},{"range":">=40","name":"HDL-cholesterol","value":"41","units":"mg/dL"},{"range":"<160","name":"Triglycerides","value":"150","units":"mg/dL"},{"range":"80-115","name":"Glucose","value":"90","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"10","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"0.9","units":"mg/dL"},{"range":"136-146","name":"Na","value":"140","units":"mmol/L"},{"range":"3.5-5.4","name":"K","value":"4.1","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"28","units":"mmol/L"}]}],"visible":true},"druglist":[{"name":"Salmeterol","state":"start","dose":"1 puff 2x/d"}],"problemlist":[{"name":"Health Maintenance"},{"name":"Chronic obstructive pulmonary disease","state":"start"}],"guidelist":[]}},{"title":"Office Visit 1","elapsed":"","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Worsening bronchitis and shortness of breath<p><p><p><p><B>History of Present Illness: </B>For the last 4 days the patient has experienced increasing shortness of breath and coughing. He is now uncomfortably short of breath just sitting. Walking to the bathroom has become quite exhausting. He denies any fever and says the amount of sputum he&apos;s producing is about the same as it always is.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"Oxygen saturation by pulse oximeter is 92%."}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Acute bronchitis exacerbation of underlying COPD. Tolerating well.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Add ipratroprium bromide, 2 puffs 4x/d by metered-dose inhaler to the salmeterol.<p><p><p><p><B>Follow-up and referrals: </B>Return visit in 1 week<p><p><p><p><B>Patient education: </B>Reinforced importance of not smoking.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"140"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"80"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"30"},{"name":"Height","units":"cm","ident":"height","value":"170"},{"name":"Weight","units":"kg","ident":"weight","value":"82"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient is in some degree of respiratory distress. Respiratory rate is 30/min. and somewhat labored. He coughs fairly frequently and brings up small amounts of whitish-green sputum. Chest is somewhat hyperexpanded and hyperresonant to percussion. Scattered rales, rhonchi, and wheezes throughout both lung fields."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Ipratropium Br","state":"start","dose":"2 puffs 4x/d"}],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>acute bronchitis</LI><p><p><p>Some clinicians would include acute exacerbations of COPD under that chronic problem rather than adding a new problem each time the patient had a separate episode of acute bronchitis. Either approach is acceptable.<p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p><p><p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Be able to label and describe the different lung volumes and capacities reported on pulmonary function tests (e.g., tidal volume, residual volume, total lung capacity). What abnormalities would you predict a person with COPD, like Mr. Marlboro, would have?</LI><LI>Be able to describe what the forced expiratory volume in one second (FEV&#x2081;) measures. What would you predict a person with COPD would show?</LI><LI>What is the major cause of COPD? What pathological changes in the lungs occur in COPD?</LI><LI>Be able to label the major divisions of the lung (e.g., right lower lobe)</LI><LI>Be able to label the different levels of airways (e.g., mainstem bronchus, bronchioles, alveoli)</LI><LI>Describe the major pharmacological characteristics of beta-adrenergic-2 receptor agonists like albuterol (i.e., how they work, how rapidly they work, major side effects, how effective they are)</LI><LI>Describe the major pharmacological characteristics of anticholinergic drugs like ipratropium bromide (i.e., how they work, how rapidly they work, major side effects, how effective they are)</LI><LI>Describe the major pharmacological characteristics of inhaled corticosteroids like fluticasone (i.e., how they work, how rapidly they work, major side effects, how effective they are)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>add ipratroprium bromide metered-dose inhaler to the salmeterol</LI><LI>return visit in 1 week</LI>","questionindex":3}]}},{"title":"Office Visit 2","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Worsening bronchitis and shortness of breath<p><p><p><p><B>History of Present Illness: </B>Patient&apos;s cough has worsened since last week. Now producing more copious sputum. Shortness of breath is also somewhat worse. Using salmeterol and ipratroprium metered-dose inhalers as directed.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"Oxygen saturation is 90% by pulse oximeter on room air."}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Acute bronchitis is worsening and beginning to compromise patient&apos;s pulmonary reserve capacity.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Doxycycline 100 mg. 2x/d x 10 d. Oral prednisolone 30 mg. per day.<p><p><p><p><B>Follow-up and referrals: </B>Return visit in 1 week or sooner if symptoms worsen significantly.<p><p><p><p><B>Patient education: </B>Reinforced importance of not smoking and how to monitor symptoms of this acute episode.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"140"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"88"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"32"},{"name":"Height","units":"cm","ident":"height","value":"170"},{"name":"Weight","units":"kg","ident":"weight","value":"82"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient continues to be in moderate amount of respiratory distress. Respiratory rate is 32/min. and somewhat labored. He coughs fairly frequently and brings up fairly copious amounts of yellowish-green mucopurulent sputum. Chest is somewhat hyperexpanded and hyperresonant to percussion. Scattered rales, rhonchi, and wheezes throughout both lung fields."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Prednisolone","state":"start","dose":"30 mg. 1x/d"},{"name":"Doxycycline","state":"start","dose":"100 mg. 2x/d"}],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>acute bronchitis</LI><p><p><p>Some clinicians would include acute exacerbations of COPD under that chronic problem rather than adding a new problem each time the patient had a separate episode of acute bronchitis. Either approach is acceptable.<p>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Microbiology of <I>Haemophilus influenzae, Moraxella catarrhalis</I></LI><LI>Pharmacology of tetracyclines (doxycycline)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<LI>administer a short course of a broad-spectrum antibiotic</LI><LI>begin patient on a course of oral corticosteroids</LI>","questionindex":3}]}},{"title":"Office Visit 3","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Worsening bronchitis and shortness of breath<p><p><p><p><B>History of Present Illness: </B>Patient continues to deteriorate. He is short of breath all of the time, even when at rest. His cough continues to be productive of copious amounts of sputum. Patient thinks he should be in the hospital. He is feeling very anxious.<p>"}]},"procedure":{"visible":true,"items":[{"title":"","body":"Pulse oximeter records oxygen saturation of 88% on room air."}]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Patient is decompensating and needs to be hospitalized for assisted ventilation.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Continue current meds in hospital.<p><p><p><p><B>Follow-up and referrals: </B>Emergency hospitalization; pulmonary referral<p><p><p><p><B>Patient education: </B>Explained reasons for decision to hospitalize and what to expect in the hospital.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"144"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"90"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"90"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"36"},{"name":"Height","units":"cm","ident":"height","value":"170"},{"name":"Weight","units":"kg","ident":"weight","value":"82"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient appears in moderately severe respiratory distress. Respiratory rate is 36/min. and labored with use of accessory musculature. He coughs fairly frequently and brings up fairly copious amounts of yellowish-green mucopurulent sputum. Chest is hyperexpanded and hyperresonant to percussion. Scattered rales, rhonchi, and wheezes throughout both lung fields."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Prednisolone","state":"end","dose":"30 mg. 1x/d"}],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>No new problems or</LI><LI>Respiratory decompensation</LI><p><p><p>Some clinicians would include the patientÃÂÃÂÃÂÃÂs worsening condition under COPD while others would create a new problem to indicate the acute decompensation. Either approach is acceptable.<p>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathophysiology of respiratory failure</LI><LI>Physiology of mechanical ventilation</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Admit patient to hospital with referral to pulmonary consultant for management of the patient on assisted ventilation</LI>","questionindex":3}]}},{"title":"Hospital Discharge 1","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>The pulmonary consultant called to say that Mr. Marlboro is ready for discharge from the hospital (see hospital discharge summary below). The consultant would like you to arrange for home health care for Mr. Marlboro. He will need home oxygen therapy and respiratory therapy for at least one month.<p><p><p><p><B>Hospital Discharge Summary</B><p><p><p><p>Mr. Louis Marlboro, a 68-year-old married white man with long-standing COPD of the mixed type, was admitted by his primary care physician to the hospital due to deteriorating respiratory status secondary to an acute exacerbation of his COPD from a presumably viral lower respiratory tract infection. The patient had been started on prednisolone 30 mg. daily and doxycycline 100 mg. twice daily, but continued to deteriorate. He was also using a salmeterol inhaler twice daily and ipratroprium bromide inhaler four times a day.<p><p><p><p>He was admitted to the hospital with referral to this physician for management of his impending respiratory failure. His oxygen saturation in the emergency room was 87% on room air which increased to 89% on nasal oxygen. His PaO2 was 45 mm Hg on room air, increasing to 55 mm on nasal oxygen. He was placed on positive-pressure ventilation without intubation with an inspired oxygen fraction of 28%. He improved immediately with his oxygen saturation rising to 94%. He was switched to intravenous methylprednisolone, 125 mg. every six hours for 3 days, then switched back to the oral prednisolone at 40 mg. to be tapered down by 10 mg. every other day. He was continued on the doxycycline.<p><p><p><p>The patient was taken off positive-pressure ventilation at the end of the third hospital day. His oxygen saturation was 92% on nasal oxygen and he was discharged home where his primary care physician had arranged for home oxygen and respiratory therapy.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Doxycycline","state":"end","dose":"100 mg. 2x/d"}],"problemlist":[],"guidelist":[]}},{"title":"Home Visit 1","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Flu shot<p><p><p><p><B>History of Present Illness: </B>Visited patient in his home to give him his annual flu shot. His situation is pretty much status quo since his discharge from the hospital a week ago. He is fairly comfortable at rest with oxygen, but gets winded walking from room to room and also hasn&apos;t regained whatever strength he had before the hospitalization. Patient remarks that it &quot;isn&apos;t much of an existence,&quot; but he does enjoy seeing his friends and family when they visit and he enjoys watching TV.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Patient appears stable on home oxygen.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Administered influenza vaccine.<p><p><p><p><B>Follow-up and referrals: </B>Office visit in 1 month.<p><p><p><p><B>Patient education: </B>Discussed with patient his perception of his quality of life and what might be done to make it better.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"136"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"82"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"26"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient is not in any acute respiratory distress. He is carrying a portable oxygen tank and has nasal oxygen running. Respiratory rate is 26/min. He coughs only rarely, producing only a scant amount of sputum. Chest is slightly hyperexpanded and hyperresonant to percussion. Scattered rales, rhonchi, and wheezes throughout both lung fields."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>No new problems</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p><p><p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Influenza vaccine pharmacology</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Administer influenza vaccine</LI><LI>Discuss with patient his perception of his quality of life and what might be done to make it better</LI>","questionindex":3}]}},{"title":"Hospital Admission 2","elapsed":"10 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>History of Present Illness: </B>Mr. Marlboro was admitted via the emergency room with pneumonia. Yesterday, the patient developed a cough and low-grade fever and increased sputum production. He increased the use of his metered-dose inhalers but with little efficacy. Over the course of the night the fever increased and his shortness of breath and cough also worsened. He telephoned our practice and was told to go directly to the emergency room early this morning. Oxygen saturation by pulse oximeter was 90% on nasal oxygen. Chest x-ray revealed a right middle lobe consolidation. He was admitted from the emergency room.<p><p><p><p><B>Past Medical History: </B>Patient had the usual childhood illnesses (measles, rubella, chickenpox, mumps) and had his tonsils removed at age 5 for repeated episodes of strep throat. He received childhood immunizations against tetanus, diphtheria, and pertussis. His last tetanus?diphtheria booster was 6 years ago. He also received pneumococcal vaccine and received influenza vaccine 10 weeks ago.  He has had no serious injuries. He was hospitalized at age 57 and 58 with pneumonia, which is when he largely quit smoking and had to go on disability and early retirement. His most recent hospitalization was 4 months ago for assisted ventilation after he suffered respiratory decompensation following an episode of acute bronchitis. He has no known allergies. He drinks beer in moderation (1-2 beers on &quot;special occasions&quot;).<p><p><p><p><B>Family History: </B>His mother and father are deceased. His mother died of a heart attack at age 77. His father died of prostate cancer at age 80. The patient has 1 sisters and 2 brothers. They are all younger than he. One brother also suffers from COPD and high blood pressure. The others are in good health, as far as he knows.<p><p><p><p><B>Personal and Social History: </B>Patient lives with wife in their own home. His two sons are married and living in other parts of the country. The family is Methodist, but not very religious. Patient says that the home situation is somewhat strained by his inability to do much for himself or to help his wife. Finances are tight. Patient with a salesman with a large retail company until his early retirement. He has a modest pension in addition to his Social Security.<p><p><p><p><p><p><B>Review of Systems:</B><p><p><p><p><B>General: </B>He considers his health to be poor. His appetite has gradually diminished and he has lost a few pounds in the last few months.<p><p><p><p><B>Skin: </B>No rashes, sores, itching. Denies any itching, dryness, excessive sweatiness, change in skin color, hair, or nails.<p><p><p><p><B>Head: </B>No headache, head injuries.<p><p><p><p><B>Eyes: </B>No visual disturbances, double vision, difficulty seeing. Does not wear glasses. No eye pain, discharge, or excessive tearing.<p><p><p><p><B>Ears: </B>Hearing is not as good as it once was, but he hears the TV and radio fine. No ringing in his ears (tinnitus), dizziness (vertigo). No ear pain, no discharge from ears.<p><p><p><p><B>Nose:</B> Susceptible to frequent colds and bronchitis. Denies runny nose, nosebleeds, nasal congestion, allergic symptoms.<p><p><p><p><B>Mouth and Throat: </B>Denies any problems with teeth or gums (no bleeding, infections) other than cavities that have been filled. Sometimes he becomes hoarse if he catches a cold.<p><p><p><p><B>Neck:</B>\tNo masses, stiffness, &quot;swollen glands,&quot; goiter.<p><p><p><p><B>Breasts:</B>Not applicable<p><p><p><p><B>Respiratory: </B>See HPI<p><p><p><p><B>Cardiac: </B>No chest pain, palpitations, orthopnea (shortness of breath lying flat), paroxysmal nocturnal dyspnea (shortness of breath in the middle of the night after lying down for some time).<p><p><p><p><B>Gastrointestinal: </B>No trouble swallowing, heartburn, indigestion, nausea, vomiting (including blood). No diarrhea or constipation. No change in stool color (denies black, tarry stools [melena] or blood in stools [hematochesia]). No hemorrhoids, rectal pain, or rectal discharge. No abdominal pain, excessive gas, food intolerances.<p><p><p><p><B>Urinary: </B>No frequency or urgency of urination, nocturia, dysuria, hematuria, change in color of urine, or incontinence.<p><p><p><p><B>Genital: </B>Denies any hernias, penile discharge, sores on penis, pain with intercourse, testicular pain. Denies any problems with erections or ejaculation.<p><p><p><p><B>Peripheral vascular: </B>No cramps with walking, no varicose veins.<p><p><p><p><B>Musculoskeletal: </B>No muscular or joint pain, stiffness, swelling, or weakness.<p><p><p><p><B>Neurological: </B>No fainting, seizures, paralysis, numbness or changes in sensation, no &quot;pins and needles&quot; (paresthesias), tremors or involuntary movements.<p><p><p><p><B>Hematological: </B>No easy bleeding or bruising, weakness and fatigue. No previous blood transfusions.<p><p><p><p><B>Endocrine: </B>No heat or cold intolerance, excessive sweating or thirst.<p><p><p><p><B>Psychiatric: </B>Says that he sometimes gets down because of his incapacity, but he still enjoys friends and family when they visit. He denies any suicidal ideation. No nervousness or anxiety, hallucinations.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Right middle lobe pneumonia<p><p><p><p><B>Investigations: </B>Continuous pulse oxymetry, daily arterial blood gases<p><p><p><p><B>Medications and treatments: </B>Begin on antibiotics as recommended by infectious diseases consultant; increase oxygen<p><p><p><p><B>Follow-up and referrals: </B>Infectious diseases and pulmonary consultation and management<p><p><p><p><B>Patient education: </B>Patient informed of problem and plan.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"130"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"80"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"96"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"42"},{"name":"Height","units":"cm","ident":"height","value":"170"},{"name":"Weight","units":"kg","ident":"weight","value":"80"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"38.8"}],"data":{"title":"Physical Examination","body":"<p><B>General appearance: </B>Patient was short of breath at rest with nasal oxygen. He appeared somewhat anxious.<p><p><p><p><B>Skin: </B>Some duskiness to skin color. No excessive moisture. Not dry. No scaling, no rashes. Hair is full, no alopecia. Nails show no pitting, clubbing, or onycholysis.<p><p><p><p><B>Head: </B>Skull is normal.<p><p><p><p><B>Eyes: </B>Visual acuity not tested. Visual fields full by confrontation. Conjunctiva and sclera clear. Pupils round, regular, equal, reactive to light. Extraocular movements intact in cardinal directions. Disc margins sharp, no papilledema. Some arteriolar narrowing, no A-V nicking, hemorrhages, exudates.<p><p><p><p><B>Ears: </B>Both ear canals clear. Tympanic membranes intact, move with pneumotoscopy, no perforations.<p><p><p><p><B>Nose: </B>Septum midline, no discharge, no polyps. No sinus tenderness.<p><p><p><p><B>Mouth and Throat: </B>Teeth in good repair. Gums normal. No ulcers, lesions seen in oropharynx. No erythema, exudates, petechiae. Uvula in midline. Tonsils present.<p><p><p><p><B>Neck: </B>Trachea midline. No masses. Thyroid not palpable.<p><p><p><p><B>Lymph Nodes: </B>No cervical, submandibular, epitrochlear, or axillary lymphadenopathy.<p><p><p><p><B>Chest:</B> Thorax symmetrical, somewhat hyperexpanded with limited expansion. Dullness to percussion in middle right lung field anteriorly, resonant to hyperresonant elsewhere. Tactile fremitus grossly equal bilaterally. Breath sounds somewhat diminished with 2+  wheezes and rhonchi, especially in the bases.<p><p><p><p><B>Cardiac: </B>Precordium quiet, no heaves. Jugular veins 3 cm over sternal angle at 30&#xB0;. Carotid pulses 2+ , no bruits. PMI in 5th intercostal space 2 cm. to the left of the midclavicular line, somewhat diffuse. S1 and S2 normal, no gallops, rubs, or murmurs.<p><p><p><p><B>Abdomen: </B>Somewhat protuberant; symmetric. No scars. Bowel sounds normal. No bruits over aorta, renal arteries, or femoral arteries. Liver is 10 cm by percussion, edge palpable 2 cm. below the left costal margin, sharp, regular, and nontender. No masses palpable. No tenderness to palpation. No CVA tenderness.<p><p><p><p><B>Genitalia: </B>Penis uncircumcised, foreskin not retracted. No lesions, no discharge visible. Testes 5 cm on right, 3 cm on left, nontender, no masses or varicosities. No hernias.<p><p><p><p><B>Rectal: </B>Not performed.<p><p><p><p><B>Peripheral vasculature: </B>Pulses 1+  and symmetric (radial, femoral, popliteal, dorsalis pedis, and posterior tibial). Good capillary filling. No pallor on elevation of legs, no dependent rubor. No foot ulcerations.<p><p><p><p><B>Musculoskeletal: </B>Full range of motion of shoulders, neck, spine, elbows, hips, knees, ankles. No tenderness, swelling. Muscle strength diminished throughout.<p><p><p><p><B>Neurological: </B>Cranial nerves: I-not tested; II-visual field intact; III, IV, VI-EOMs intact, no ptosis; V-masseters strong and symmetrical, sensory intact, corneal reflex intact; VII-facial features symmetric, grimace normal; VIII-hearing acute, Weber midline, Rinne negative, no nystagmus; IX, X-uvula in midline, gag reflex present; XI-shoulder shrug equal and strong; XII-tongue movements normal. Gait: not assessed. Motor strength 1+  and symmetric in grip, forearm, biceps, lower extremities, feet. No tremor, rigidity. Babinski negative. Reflexes 2+  and symmetric in brachioradialis, biceps, triceps, patellar, and ankle. Light touch, pinprick, and vibratory sensation 2+  in feet. Two-point discrimination grossly normal to 1 cm. in feet. Mental status: patient awake, alert, oriented x3, cooperative. Thought content appropriate. Mood anxious. Immediate recall intact. Recent and remote memory intact. Speech fluent and appropriate.<p>"},"visible":true},"investigate":{"data":[{"name":"data","title":"","data":"<p>ECG: Right atrial enlargement and right axis deviation<p><img alt=\"\" src=\"../page/data/data/LouisMarlboro/ECG Right Axis Deviation.jpg\" width=\"\" height=\"\"/>"},{"name":"data","title":"","data":"<p>Chest x-ray: Right middle lobe pneumonia<p><img alt=\"\" src=\"../page/data/data/LouisMarlboro/RML pneumonia.jpg\" width=\"\" height=\"\"/>"}],"results":[{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"50","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"17.2","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"5","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"34","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"100","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"17.5","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"15","units":"%"},{"range":"3-7","name":"Monocytes","value":"0","units":"%"},{"range":"1-3","name":"Eosinophils","value":"0","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"25","units":"%"}]},{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"80-115","name":"Glucose","value":"85","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"14","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.0","units":"mg/dL"},{"range":"136-146","name":"Na+","value":"144","units":"mmol/L"},{"range":"3.5-5.4","name":"K+","value":"4.1","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"26","units":"mmol/L"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"RML pneumonia","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>right middle lobe pneumonia</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Microbiology of <I>Pseudomonas aeruginosa</I>, <I>Legionella pneumophila</I></LI><LI>Pathophysiology of pneumonia</LI><LI>Pathogenesis of pneumonia</LI><LI>Pharmacology of aminoglycosides, carbapenems</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Begin patient on antibiotic therapy (consultation with an infectious disease specialist would be appropriate)</LI><LI>Increase the patient&apos;s oxygen and monitor carefully for signs of respiratory failure (a referral to a pulmonary consultant for management would be appropriate)</LI>","questionindex":3}]}},{"title":"Hospital Discharge 2","elapsed":"8 days later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p><B>Hospital Discharge Summary #2</B><p><p><p><p>Mr. Louis Marlboro, a 68-year-old married white man with long-standing COPD of the mixed type, was admitted by his primary care physician to the hospital due to signs and symptoms of a right middle lobe pneumonia. On admission, the patient was febrile with a temperature ranging from 38.8&#xB0;C to 39.2&#xB0;C, tachypnea, elevated white blood cell count with a shift to the left, dyspnea, decreased oxygen saturation, and a chest x-ray showing a right middle lobe consolidation. A Gram&apos;s stain of the sputum showed mixed flora with Gram-negative rods predominating with many polys.<p><p><p><p>The patient was started on cefotaxime and gentamicin and improved slowly. During the first two hospital days he was also placed on positive-pressure ventilation without intubation which improved his respiratory status. Sputum culture was positive for klebsiella species, sensitive to cefotaxime and the gentamicin was discontinued. The patient was afebrile by day 4 and was discharged on day 8 to be followed by his primary care physician.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}},{"title":"Home Visit 2","elapsed":"2 months later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow-up from hospitalization for pneumonia<p><p><p><p><B>History of Present Illness: </B>Patient reports that he&apos;s been about the same as usual since returning home from the hospital. He&apos;s still short of breath with the slightest exertion but relatively comfortable at rest with his nasal oxygen. He has not had any more acute exacerbations. When his son was visiting recently, they managed to go to a restaurant for a dinner, but it was so difficult for him that he requested that his family not insist on his leaving the house in the future.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Patient appears stable.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Maintain on salmeterol and ipratropium, oxygen<p><p><p><p><B>Follow-up and referrals: </B>Return visit in 6 months or as needed.<p><p><p><p><B>Patient education: </B>Discussed his concerns, including issues of death and dying. Despite his limitations, patient finds meaning in his life and fulfillment. Has completed a durable power of attorney form and designated his wife as his health-care decision-maker in case of his incapacity.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"138"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"82"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"26"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient is not in any acute respiratory distress with portable oxygen. Respiratory rate is 26/min. He coughs only rarely, producing only a scant amount of sputum. Chest is slightly hyperexpanded and hyperresonant to percussion. Scattered rales, rhonchi, and wheezes throughout both lung fields."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"RML pneumonia","state":"end"}],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>No new problems</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathology of chronic obstructive pulmonary disease</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Encourage patient to discuss his concerns with you, including issues of death and dying that he might wish to discuss</LI>","questionindex":3}]}},{"title":"Home Visit 3","elapsed":"7 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Follow up after wife's death<p><p><p><p><B>History of Present Illness: </B>Patient's wife died last week from lung cancer. His younger son is living with him this week but is going to have to return home in a few days and didn't think his father could stay in the house alone, even with home health care and homemaking assistance. Patient agrees that he can't manage on his own without his wife and doesn't want his two sons to have to support 24-hour in-house health aides. He is willing to move to a long-term care facility. He will put his home up for sale. Between his pension and the proceeds for the sale of his house, he should be able to manage the finances adequately.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Patient grieving normally. Respiratory status quo. Patient would not be able to care for himself independently.<p><p><p><p><B>Investigations: </B>none<p><p><p><p><B>Medications and treatments: </B>Maintain current meds.<p><p><p><p><B>Follow-up and referrals: </B>Arrange for social work assistance in placing patient in a long-term care facility.<p><p><p><p><B>Patient education: </B>Discussed plans for LTC placement, grieving process.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"136"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"82"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"26"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient is obviously sad and grieving, but not despondent. Patient&apos;s respiratory status is essentially unchanged from last visit.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>No new problems or</LI><LI>Acute grief</LI><p><p><p>Not all clinicians would put acute grief on a problem list since it is a normal reaction. Others would do so because the patient needs to be monitored to be sure the grieving process doesn&apos;t turn into something more pathological. Whether it should be listed on a problem list is a matter of personal choice.<p>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Long-term care facilities: structure, organization, function, financing</LI>","questionindex":2},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Arrange admission to a long-term care facility</LI>","questionindex":3}]}},{"title":"Nursing Home Visit 1","elapsed":"2 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Chest pain<p><p><p><p><B>History of Present Illness: </B>Patient entered nursing home last week and has been complaining of intermittent chest pain while walking. The pain is substernal, squeezing, and of sufficient intensity to require the patient to stop walking and, if possible, sit down. The patient describes this as different from the shortness of breath he usually experiences. The pain will often go up to his left shoulder. The pain comes on when he walks more than about 10 meters. The pain goes away after resting for about 3-5 minutes. He sometimes gets a little lightheaded, but has not fainted or felt in imminent danger of fainting during these episodes. There is no associated nausea or sweating.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Patient appears to have angina pectoris based on clinical symptoms. At high risk for coronary artery disease based on long-standing smoking history.<p><p><p><p><B>Investigations: </B>Obtain ECG. Thallium scan to be arranged.<p><p><p><p><B>Medications and treatments: </B>Start on long-acting nitrate, isosorbide dinitrate, during the day ot prevent anginal attacks. Begin daily aspirin therapy.<p><p><p><p><B>Follow-up and referrals: </B>Recheck in 1 month or if symptoms worsen.<p><p><p><p><B>Patient education: </B>Explained nature of angina pectoris.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"138"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"88"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"82"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"30"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Patient appears in his usual state of health, slightly out of breath, breathing with nasal oxygen at 30/min. Chest: hyperresonant to percussion. Breath sounds somewhat diminished with 2+  wheezes and rhonchi, especially in the bases. Cardiac: precordium quiet, no heaves. Jugular veins 3 cm over sternal angle at 30&#xB0;. Carotid pulses 2+, no bruits. PMI not palpable. S1 and S2 normal, no gallops, rubs, or murmurs.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"Isosorbide dinitrate","state":"start","dose":"5 mg. 3x/d"}],"problemlist":[{"name":"Angina pectoris","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Angina pectoris (or at your level of training, you might feel confident only in stating that the patient has chest pain)</LI><LI>See the next page to learn more about the clinical presentation of chest pain due to cardiac ischemia </LI>","questionindex":1},{"name":"data","title":"","cdata":"<img alt=\"\" src=\"../page/data/data/LouisMarlboro/Clin present MI2.jpg\" width=\"\" height=\"\"/>"},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathophysiology of angina pectoris</LI><LI>Pathology of atherosclerotic heart disease</LI><LI>Pharmacology of anti-anginal drugs (e.g., nitrates, beta-adrenergic blockers, calcium channel blockers) </LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Obtain an electrocardiogram</LI><LI>Prescribe a long-acting nitrate (e.g., isosorbide dinitrate) during the day to prevent anginal attacks.  Care should be taken if a decision is made to prescribe beta-adrenergic blockers because of pulmonary disease.</LI><LI>Begin daily aspirin therapy, 325 mg. </LI><LI>A thallium stress test might be considered.</LI>","questionindex":3}]}},{"title":"Emergency Room Visit 2","elapsed":"13 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Chest pain<p><p><p><p><B>History of Present Illness: </B>Patient brought to the ER from nursing home because of severe substernal chest pain radiating down his left arm, associated with sweating, lightheadedness, and nausea. The patient awoke around 5 A.M. this morning complaining that he wasn&apos;t feeling well and was nauseated. The nursing staff gave him some antacids, but that didn&apos;t help. The patient slowly became aware of the pain in his chest, initially thinking it was heartburn. The pain has become steadily worse. By 8 A.M. the pain became crushing and unbearable, which is when an ambulance was called to take him to the emergency room.<p>"}]},"procedure":{"visible":true,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Acute anterior myocardial infarction.<p><p><p><p><B>Investigations: </B>Echocardiogram<p><p><p><p><B>Medications and treatments: </B>tPA administered intravenously, daily aspirin, heparin, morphine as needed.<p><p><p><p><B>Follow-up and referrals: </B>Refer to cardiology for admission to CCU and management<p><p><p><p><B>Patient education: </B>Discussed with patient that he has had a heart attack and the current plan of treatment.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"150"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"98"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"100"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"34"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"Patient was initially in significant discomfort which was partially alleviated with an intravenous injection of morphine sulfate 5 mg. Patient was diaphoretic and breathing rapidly, but that has slowed down to 24/min following the morphine. Heart sounds were distant and hard to hear because of pulmonary rales and rhonchi, but an S3 gallop and S4 were thought to be present. ECG shows acute changes of an anterior wall myocardial infarction. As there were no contraindications, intravenous thrombolysis with tPA was promptly administered. He also received 325 mg. of aspirin orally and heparin intravenously. Portable chest x-ray shows new signs of bibasilar infiltration of fluid as well as old signs of COPD compared to old x-rays. Oxygen saturation 92% on 28% oxygen rebreathing mask."},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Acute anterior myocardial infarction</LI><LI>Congestive heart failure would also be an acceptable alternative problem formulation</LI><p><p><p>See the next page for an explanation of how serum markers of acute MI can help in the rapid diagnosis of the problem.<p>","questionindex":1},{"name":"data","title":"Serum markers of myocardial infarction","cdata":"<p>Mr. Marlboro&apos;s ECG was typical of acute myocardial infarction. The diagnosis is supported by another finding--the patterns of myocardial-specific enzymes or proteins released into the circulation from the damaged myocardial cells. Normally, small amounts of these enzymes or proteins leak into the blood, but in MI these levels are grossly elevated. The timing and levels of these enzymes are then indicative of the onset and extent of the infarct.<p><p><p><p>Like the ECGs, these laboratory tests should be done in all cases with suspected acute myocardial infarction. <I>Troponin T is a particularly sensitive and specific marker of cardiac myocyte necrosis and may be raised when the ECG is normal. CK-MB is also useful in the diagnosis of acute MI, but its use is decreasing as more hospitals are recognizing the added value of troponin, which gives prognostic as well as diagnostic information.</I><p><img alt=\"\" src=\"../page/data/data/LouisMarlboro/serum_markers_of_mi_v2.png\" width=\"\" height=\"\"/>"},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathophysiology of myocardial infarction</LI><LI>Pathology of myocardial ischemia and infarction </LI><LI>Pharmacology of tPA, lidocaine, nitroglycerine</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Mr. Marlboro.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>Have the patient admitted to a coronary care unit </LI><p><p><p><B>Immediate and early drug treatment of acute myocardial infarction</B><p><p><p><p>Restoring blood flow in the occluded artery by angioplasty or thrombolysis reduces mortality in ST-elevation MI. Speed is of the essence for best results.<p><p><p><p>If primary angioplasty is available, the first priority is to transfer the patient to the cardiac catheter laboratory with a view to early angiography and stenting in order to re-establish the coronary flow in the affected artery.  During the transfer procedure the following should be administered:<p><LI></LI><LI><I>IV access</I> â for early administration of drugs or fluids</LI><LI><I>Aspirin</I> (chewed) and <I>clopidogrel </I>(orally) â inhibits platelet aggregation</LI><LI><I>Opiate analgesic</I> â IV to relieve pain and anxiety</LI><LI><I>Anti-emetic</I> â nausea/vomiting common after MI and administration of opiates</LI><LI><I>Oxygen</I> (by nasal catheter) â in an attempt to improve the oxygen delivery to the myocardium</LI><LI><I>Thrombolysis</I> â to âdissolveâ coronary artery thrombus and restore coronary blood flow and improve myocardial viability (only required if primary angioplasty cannot be delivred within ninety minutes of diagnosis.  Otherwise the patient shoud have angioplasty without pretreatment with thrombolysis)</LI><LI><I>Trinitroglycerine</I> â if BP &gt; 90 mmHg</LI><LI><I>Beta-blocker </I>â to reduce heart rate, force of contraction and pain</LI><LI><I>ACE inhibitor </I>â to lower blood pressure and to improve ejection fraction and endothelial function</LI><LI><I>Statin</I> â to stabilise coronary plaque and reduce cholesterol.</LI><p><I></I><p><p><B>Indications for thrombolysis in acute myocardial infarction</B><p><LI><B></B></LI><LI>Chest pain greater than 20 minutes and less than 12 hours</LI><LI>ST-segment elevation or left bundle branch block</LI><LI>Primary angiopplasty catheter laboratory unavailable (within 90 minutes of diagnosis) or patient refuses</LI><LI>Absence of contra-indications</LI>","questionindex":3}]}},{"title":"Hospital Admission 3","elapsed":"12 hours later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>The patient was received in the coronary care unit at 10:05 A.M. He was receiving oxygen via a 28% rebreathing mask and his oxygen saturation was 91%. He had received one 5 mg. dose of morphine in the emergency room and another 5 mg. at 10:35 for continued chest pain. He had received 325 mg. of aspirin orally and heparin  and tPA intravenously in the emergency room. He was resting comfortably at 6:05 P.M. when he showed increasing numbers of premature ventricular contractions (PVCs). A 50 mg. dose of lidocaine was given as an intravenous bolus with a lidocaine infusion at 1 mg./min. started. PVCs initially disappeared but increased in frequency over the next hour. The lidocaine infusion was increased to 2 mg/min at 7:10 P.M. PVCs continued to appear at &gt;6 per minute and the infusion was increased to 3 mg./min. at 8:15 P.M. PVCs continued to appear between 3-6 per minute.<p><p><p><p>At 9:21 P.M. the patient went into sustained ventricular fibrillation and lost consciousness. Since no advanced directives could be found in the chart, resuscitation protocols were begun. At 9:23, the patient received a 200 joule defibrillating shock but remained in ventricular fibrillation. A second 300 joule shock was administered at 9:25, still without response. A third 360 joule shock was administered again at 9:27, again with no response and the rhythm continuing as fine ventricular fibrillation. The patient was given bag-mask ventilation and extrathoracic cardiac compression and administered 1 mg. of epinephrine 1:1000 intravenously. The electric shock of 300 joules was administered again at 9:30. The patient did not respond and the ECG continued to show fine ventricular fibrillation. Amiodarone 300 mg. was pushed intravenously as well as an additional 1.0 mg. of epinephrine and the 300 joule electric shock was repeated at 9:34 with bag-mask ventilation and cardiac compressions continuing during the interval. The patient did not respond and the ECG now showed an isoelectric current. 1.0 mg. of atropine was given by intravenous push and a 300 joule shock was administered at 9:36. The atropine 1 mg. was repeated and the 300 joule shock was repeated at 9:38 with no response. CPR was applied for 2 minutes, the 1 mg. of atropine and 1 mg. of epinephrine repeated by intravenous push and the patient given another 300 joule countershock 1 minutes after drug administration at 9:41, with no response. Resuscitation efforts were discontinued and the patient was pronounced dead at 9:44 P.M. No family was available as his two sons were still in transit. His primary care physician was notified.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Pathophysiology of cardiac arrest</LI><LI>Pharmacology of amiodarone</LI><LI>Ethical issues in resuscitation</LI>","questionindex":1},{"name":"openquestion","type":"cdata","questiontext":"<p>After investigating your learning objectives, complete a plan of what you will tell the family when they arrive.<p>","responsetext":"<LI>Tell the family that since Mr. Marlboro had not indicated to you that he wanted a do-not-resuscitate order should he become incapable of making that decision himself, the CCU staff initiated a full resuscitation effort  and followed established protocols. Everything was done to resuscitate Mr. Marlboro, but he was unresponsive to those efforts. The resuscitation effort was stopped when it was clear that further efforts would be futile.</LI>","questionindex":2}]}}]},{"path":"../page/data/data/TylerNall/","person":{"age":"3","name":"Tyler Nall","sex":"Male","social":"Lives with parents in their own home","ethnicity":"White","race":"White","face":"../page/data/data/TylerNall/Ashley Morrissette3.jpg"},"event":[{"title":"Telephone Call","elapsed":"0","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Tyler&apos;s mother is calling quite frantically. Tyler drank an unknown quantity of acetaminophen (paracetamol) from a bottle left under the sink in the bathroom. It wasn&apos;t a new bottle, but she doesn&apos;t remember how much was left. There was only a small quantity left in the bottle when she discovered it. Tyler appears fine, though he started crying when she began yelling at him.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p>Instruct mother to bring Tyler to the emergency department immediately where he will have blood drawn for acetaminophen (paracetamol) levels and be monitored and given n-acetylcysteine.<p>"}]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Acetaminophen ingestion</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Liver toxicity of acetaminophen</LI><LI>Principles of pharmacokinetics</LI><LI>Principles of toxicology (detoxification)</LI><p><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Tyler.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Instruct mother to bring Tyler to the emergency department where he will have blood drawn for acetaminophen levels and be monitored at intervals and be given n-acetylcysteine.</li><p>","questionindex":3}]}},{"title":"Emergency Room Visit","elapsed":"0","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>Emergency Room Summary<p><p><p><p>The patient was in no acute distress upon arrival in the ED. Vital signs were stable. An immediate acetaminophen blood level was drawn along with liver function tests. 2.0 Gm of n-acetylcysteine was given mixed with juice which the patient consumed without emesis. The initial APAP plasma level was 102 &#xB5;g/ml. The plasma level was repeated in 4 hours and found to be 50 &#xB5;g/ml. The patient continued to be asymptomatic and was discharged from the ED with instructions to his parents about symptoms to watch for and for ways to avoid accidental ingestions in the future.<p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Acetaminophen ingestion","state":"start"}],"guidelist":[]}},{"title":"Visit #1","elapsed":"2 months later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> limp<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Mother says she noticed Tyler limping today. He said his right leg hurts. Mother reports that he had been well until today, though he had a mild cold a few days last week. He slept well last night and ate his usual breakfast this morning.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"94"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"58"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"100"},{"name":"Respiration","units":"/mn","ident":"respiration","value":"20"},{"name":"Height","units":"cm","ident":"height","value":"95"},{"name":"Weight","units":"kg","ident":"weight","value":"14"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37.3"}],"data":{"title":"Physical Examination","body":"<p>Tyler is sitting comfortably in his mother&apos;s lap. He does not appear ill. The right leg is being held in an externally rotated position. Palpation of both lower extremities is normal. Internal rotation of the right hip elicits complaint of pain from patient. Tyler is able to walk, but with a noticeable antalgic gait.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"0-8","name":"C-reactive protein","value":"12","units":"mg/dL"}]},{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"45","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"17","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"5","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"34","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"90","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"11.6","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"28","units":"%"},{"range":"3-7","name":"Monocytes","value":"5","units":"%"},{"range":"1-3","name":"eosinophils","value":"3","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"4","units":"%"},{"range":"0-10","name":"Erythrocyte Sedimentation Rate (ESR) Westegren, modified","value":"16","units":"mm/h"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Acetaminophen ingestion"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Limp and right leg and hip pain</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Learn the anatomy of the hip (bones and joints)</LI><LI>How do bones grow in childhood?</LI><LI>In the absence of a history of trauma, the two most likely causes of hip pain and limp in a 3 year old would be toxic synovitis of the hip and septic arthritis of the hip. Compare and contrast these two problems in terms of the typical signs and symptoms of each. [&quot;Signs&quot; are those things that the doctor can observe objectively like fever, gait, tenderness, and laboratory tests while &quot;symptoms&quot; are those subjective experiences that the patient tells you about.] Which one is Tyler Nall more likely to have?</LI><p><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Tyler.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Some clinicians might treat Tyler empirically with anti-inflammatory analgesics for toxic synovitis of the hip based solely on the clinical presentation, while others might wish to rule out septic arthritis by obtaining some laboratory tests such as a C-reactive protein or erythrocyte sedimentation rate which would be markedly elevated in septic arthritis.</li><p>","questionindex":3}]}}]},{"path":"../page/data/data/ShirleyCosby/","person":{"age":"43","name":"Shirley Cosby","sex":"female","marital_status":"Married","education":"master's degree","social":"married, living with husband and two sons","race":"African American","maritalstatus":"married","occupation":"high school teacher","language":"English","face":"../page/data/data/ShirleyCosby/ShirleyCosby.jpg"},"event":[{"title":"Visit #1","elapsed":"0","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> increased cholesterol<p><p><p><p><B>History of Present Illness: </B>Patient went to a health fair sponsored by her church and had her cholesterol level checked. It came back at 260 mg/dL and she was told to contact her physician. Patient doesn&apos;t recall having her cholesterol checked before. She eats a well-balanced diet and is not a fussy eater. She drinks low-fat milk, but otherwise has not particularly tried to avoid fat or cholesterol in her diet. She has gradually increased in weight over the years. When she was married, she weighed 57 kg. (125 lbs.)<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Hypercholesterolemia and overweight<p><p><p><p><B>Investigations:</B> Lipid profile, fasting serum glucose, thyroid stimulating hormone, liver function tests just prior to return visit in 6 weeks<p><p><p><p><B>Medications and treatments:</B> none<p><p><p><p><B>Follow-up and referral:</B> Return in 6 weeks to review labs and progress<p><p><p><p><B>Patient education:</B> Recommend lifestyle changes to reduce cholesterol and risk of cardiac disease, specifically dietary changes to lose weight and lower saturated fat and cholesterol in diet and increase exercise<p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"126"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"82"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"165"},{"name":"Weight","units":"kg","ident":"Weight","value":"72"}],"data":{"title":"Physical Examination","body":"<p>Somewhat overweight, pleasant and cooperative woman who appears her stated age. Eyes: PERRLA, optic disc sharp, no arteriolar narrowing, no exudates, hemorrhages. Carotids 2+ equal, no bruits. Cardiac: PMI not palpable, no heaves, thrills; S1 and S2 normal, no murmurs, gallops, or rubs. Chest: clear to percussion and auscultation. Abdomen: slightly protuberant, waist circumference 90 cm., bowel sounds present, no masses, no bruits. Extremities: d. pedis and posterior tibial 2+ and equal, no edema. Urine dipstick shows no sugar, blood, protein, and negative for leucocyte esterase.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia","state":"start"},{"name":"Overweight","state":"start"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>hypercholesterolemia</li>\r\n<li>overweight</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Biochemistry of lipid and glycolipid metabolism</li>\r\n<li>Pharmacology of lipid-lowering drugs</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Obtain a fasting lipid profile (total chosterol, low- and high-density cholesterol, triglycerides), fasting serum glucose, thyroid stimulating hormone, liver function tests just prior to return visit in 6 weeks.</li>\r\n<li>Provide education on the risks of elevated cholesterol and a plan to lower those risks (lifestyle changes and lipid-lowering drugs).</li>\r\n<li>Prescribe lifestyle changes to reduce cholesterol and risk of cardiac disease, including dietary changes to lose weight and lower saturated fat and cholesterol in diet and exercise.</li><p>","questionindex":3}]}},{"title":"Visit #2","elapsed":"6 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> follow-up for cholesterol<p><p><p><p><B>History of Present Illness:</B> Patient reports that she has been careful in her diet and has eliminated much of the saturated fat by avoiding cheese, red meat, and fat-containing dairy products. She is happy about the weight she has lost. She is also walking 2 km. a day.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Total cholesterol and LDL cholesterol still above optimal levels despite patient&apos;s adherence to lifestyle changes and significant weight loss. <p><p><p><p><B>Investigations:</B> Repeat liver function tests prior to next visit since she is beginning treatment with a statin today<p><p><p><p><B>Medications and treatments:</B> lovastatin 20 mg. orally daily<p><p><p><p><B>Follow-up and referral:</B> Return visit in 6 weeks <p><p><p><p><B>Patient education:</B> Discussed the advisability of beginning a lipid-lowering drug while she continues her lifestyle changes since it appears that lifestyle changes alone will not be sufficient to lower her lipids into the normal range. The patient agrees to begin a statin.<p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"122"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"80"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"70"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"165"},{"name":"Weight","units":"kg","ident":"Weight","value":"66"}],"data":{"title":"Physical Examination","body":"<p>Repeat fasting cholesterol still elevated at 221 mg/dL. LDL is above goal at 175.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"10","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"12","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"30","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.5","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"4.8","units":"g/dL"},{"range":"<200","name":"Cholesterol, total","value":"221","units":"mg/dL"},{"range":"<100","name":"LDL-cholesterol","value":"175","units":"mg/dL"},{"range":"&ge;40","name":"HDL-cholesterol","value":"52","units":"mg/dL"},{"range":"<160","name":"Triglycerides","value":"120","units":"mg/dL"},{"range":"80-115","name":"Glucose","value":"98","units":"mg/dL"},{"range":"2-10","name":"Thyroid-stimulating hormone (TSH)","value":"3","units":"&micro;U/mL"}]}],"visible":true},"druglist":[{"name":"lovastatin","state":"start","dose":"20 mg. orally once daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia"},{"name":"Overweight"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new problems</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pharmacology of lipid-lowering drugs</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Discuss the advisability of beginning a lipid-lowering drug while continuing her lifestyle changes.</li>\r\n<li>Return visit in 6 weeks and repeat lipid profile just prior to next visit.</li>\r\n<li>Repeat liver function tests prior to next visit if drug therapy initiated.</li><p>","questionindex":3}]}},{"title":"Visit #3","elapsed":"6 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>follow-up for cholesterol<p><p><p><p><B>History of Present Illness: </B>Patient reports that she has continued to stick to her diet. She is also increased her walking to 3 km. a day. She has been taking lovastatin 20 mg. daily.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Total cholesterol and LDL cholesterol still above goal. Further lowering indicated. LFTs normal.<p><p><p><p><B>Investigations:</B> Repeat lipid panel and liver function tests just prior to next visit<p><p><p><p><B>Medications and treatments:</B> Increase lovastatin to 40 mg. daily<p><p><p><p><B>Follow-up and referral:</B> Return visit in 12 weeks<p><p><p><p><B>Patient education:</B> Discussed lipid-lowering goals and why it was appropriate to increase dose of medications while continuing her lifestyle changes.<p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"122"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"80"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"68"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"165"},{"name":"Weight","units":"kg","ident":"Weight","value":"64"}],"data":{"title":"Physical Examination","body":"<p>Repeat fasting cholesterol still elevated at 202 mg/dL. LDL is still above goal at 165.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"<200","name":"Cholesterol, total","value":"202","units":"mg/dL"},{"range":"<100","name":"LDL-cholesterol","value":"165","units":"mg/dL"},{"range":"&ge;40","name":"HDL-cholesterol","value":"52","units":"mg/dL"},{"range":"<160","name":"Triglycerides","value":"90","units":"mg/dL"},{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"12","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"12","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"32","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.5","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"4.8","units":"g/dL"}]}],"visible":true},"druglist":[{"name":"lovastatin","state":"end","dose":"20 mg. daily"},{"name":"lovastatin","state":"start","dose":"40 mg. daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia"},{"name":"Overweight"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new problems</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pharmacology of lipid-lowering drugs</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Double the dose of the atorvastatin</li>\r\n<li>Return visit in 12 weeks and repeat lipid profile and liver function tests just prior to next visit.</li><p>","questionindex":3}]}},{"title":"Emergency Room Visit","elapsed":"10 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>History of Present Illness: </B>Patient began to feel poor  yesterday with vague abdominal pain and loss of appetite. She thought she had a stomach virus that would go away, but it continued to get worse. The pain became more severe, more localize to the upper right part of her abdomen, and the nausea also worsened and she vomited several times. Today she also developed a fever and the pain has continued to worsen and she has continued to vomit. She can barely move without excruciating pain.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Acute cholecystitis<p><p><p><p><B>Investigations: </B>Ultrasound of the abdomen, CBC, liver function tests<p><p><p><p><B>Medications and treatments:</B> Intravenous hydration and opiate analgesics for pain; begin on cefuroxime and metronidazole antibiotics parenterally<p><p><p><p><B>Follow-up and referral:</B> surgical referral<p><p><p><p><B>Patient education:</B> informed patient and her family of the likelihood that this is an acute gallbladder attack and that surgery is likely to be needed<p><p><p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"130"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"90"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"88"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"39.2"},{"name":"Height","units":"cm","ident":"Height","value":"165"},{"name":"Weight","units":"kg","ident":"Weight","value":"63"}],"data":{"title":"Physical Examination","body":"<p>Patient is in obvious pain. Chest is clear to percussion and auscultation. Cardiac: S1 and S2 normal, no murmurs. Abdomen: bowel sounds are present; diffusely tender to palpation with exquisite tenderness in right upper quadrant with severe pain brought on by inspiration while palpating under right costal margin (positive Murphy&apos;s sign).<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"50","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"60","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"120","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"1.8","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"4.1","units":"g/dL"},{"range":"80-115","name":"Glucose","value":"82","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"16","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.0","units":"mg/dL"},{"range":"136-146","name":"Na","value":"140","units":"mmol/L"},{"range":"3.5-5.1","name":"K","value":"4.0","units":"mmol/L"},{"range":"98-106","name":"Cl","value":"102","units":"mmol/L"},{"range":"22-29","name":"HCO","value":"24","units":"mmol/L"},{"range":"21-125","name":"Amylase","value":"80","units":"U/L"}]},{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"44","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"15.4","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"4.9","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"35","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"90","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"22.3","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"80","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"9","units":"%"},{"range":"3-7","name":"Monocytes","value":"1","units":"%"},{"range":"1-3","name":"eosinophils","value":"0","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"10","units":"%"},{"range":"150-400","name":"Platelet count","value":"300","units":"x10<sup>3</sup>/mm<sup>3</sup>"}]}],"visible":true},"druglist":[{"name":"atorvastatin","dose":"20 mg. daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia"},{"name":"Overweight"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Acute cholecystitis</li><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Gall bladder and biliary tree anatomy</LI><LI>Gall bladder physiology (explain how the gall bladder is stimulated to contract)</LI><LI>Pathophysiology of cholelithiasis and cholecystitis (why do gallstones form?)</LI><LI>What are the risk factors for developing gallbladder disease?</LI><LI></LI><p><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Referral to a surgeon for cholcystectomy</li>\r\n<li>Pain relief with intravenous analgesics</li>\r\n<li>Administration of antibiotics</li>\r\n<li>Intravenous fluids</li><p>","questionindex":3}]}},{"title":"Hospital Visit #1","elapsed":"5 days post-op","data":{"inbox":{"visible":true,"items":[{"title":"Consultation request from Dr. Steven Scrubs","body":"<p>Your patient, Shirley Cosby, was admitted to the hospital under my service a week ago for acute cholecystitis, which you diagnosed during her emergency room visit before referring to me. She underwent an emergency laparoscopic cholecystectomy the same day that went uneventfully. The gross pathology at surgery confirmed the diagnosis of acute cholecystitis. Her immediate postoperative course was uneventful and she was afebrile on the next postoperative day. On the second postoperative day, she developed a low grade fever (37ÃÂ¢ÃÂÃÂ38&#xB0; C) and complained of nausea. As bowel sounds had not yet returned, she was kept NPO and on intravenous fluids. The same pattern of nausea, anorexia, absent bowel sounds, and variable low grade fever continued for the next 3 days (postop days 3ÃÂ¢ÃÂÃÂ5) and she was kept NPO and fluid replacement. Yesterday, her fever spiked to 39.4&#xB0; C and she began to complain of more abdominal pain. An infectious disease consultation was obtained and the consultant suggested that she be started on antibiotics. Cefazolin was initiated, but her temperature remains elevated. I would appreciate your seeing Ms. Cosby at your earliest possible convenience.<p>"}]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>hostpital visit #1<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Saw Ms. Cosby this afternoon at 3:20 P.M. She was ill-appearing and in considerable discomfort. Her sensorium seemed somewhat impaired, although she was able to respond to questions. She kept saying that she was dying and that her abdomen was hurting her a great deal. She said she was sick to her stomach.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[{"title":"","body":"<p><B>Assessment: </B>Possible sepsis, consider abscess in and around surgical site<p><p><p><p><B>Investigations: </B>CT of the abdomen, blood and urine cultures, CBC<p><p><p><p><B>Medications and treatments:</B> Begin on gentamycin and clindamycin after cultures obtained, begin parenteral nutrtional support, transfer to ICU for closer monitoring<p><p><p><p><B>Follow-up and referral:</B> not applicable<p><p><p><p><B>Patient education:</B> informed patient and her family of the possibility of an infection and that re-operation may be necessary<p><p><p>"}]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"80"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"50"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"110"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"40.2"}],"data":{"title":"Physical Examination","body":"<p>Acutely ill-appearing, with clouded sensorium, but arousable. BP 80/50, pulse 110/min., respirations 30/min., temperature 40.3&#xB0;C. Skin is cool and clammy with some mottling in the lower extremities. Chest: respirations shallow and rapid, some bibasilar rales, no dullness to percussion. Cardiac: S1 and S2 normal, no murmurs. Abdomen: incisions for fiberoptic portals clean and closed, bowel sounds absent, diffuse tenderness throughout with possibly some rebound tenderness, though the patient groans repeatedly with any maneuvers. CBC from this morning shows WBC 14,400 with 90.7% polys, hematocrit 36, hemoglobin 12.8, total protein 4.5, albumen 1.9, cholesterol 92. Portable chest x-ray showed some atelectasis but no consolidation, but the inspiratory effort was poor. Flat plate of the abdomen showed an ileus pattern.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"atorvastatin","dose":"20 mg. daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia"},{"name":"Overweight"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"In addition to being status post cholecystectomy, what other problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Ileus</li>\r\n<li>Fever</li>\r\n<li>Impaired sensorium</li>\r\n<li>Hypotension or you could have subsumed the fever, impaired sensorium, and hypotension under the problem of septic shock syndrome</li>\r\n<li>Malnutrition</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pathophysiology of septic shock syndrome</li>\r\n<li>Microbiology of bacteroides and other anaerobes</li>\r\n<li>Pharmacology of clindamycin</li>\r\n<li>Natural history of septic shock</li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Obtain a computerized tomogram of the abdomen</li>\r\n<li>Obtain blood cultures, urine cultures</li>\r\n<li>Start on multiple antibiotic regimen that covers Gram negative aerobic bacteria and anaerobic bacteria</li>\r\n<li>Begin parenteral nutritional support</li>\r\n<li>Transfer patient to intensive care unit for close monitoring</li><p>","questionindex":3}]}},{"title":"Hospital Visit #2","elapsed":"12 days post-op","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> hospital visit #2<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Was called to see Ms. Cosby because of a set back in her hospital course. One week ago, she underwent an exploratory laparotomy when the CT of her abdomen showed a phlegmon in the right upper quadrant. At surgery, an abscess was discovered as was a perforation in the right colic flexure. The abscess was drained and the perforation repaired. The next day the patient was markedly improved and has continued to recover slowly but steadily. The abscess culture was positive for bacteroides species. The blood culture was positive for <I>E. coli.</I><p><p><p><p>The patient was treated with intravenous gentamycin and clindamycin to which the organisms were susceptible. Yesterday, the patient began to experience watery diarrhea. She says that she also began to feel generally more poorly, lost her appetite, developed nausea but has not vomited, and has felt feverish. She also complains of a return of abdominal pain which she describes as crampy.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"100"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"78"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"90"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"38.5"}],"data":{"title":"Physical Examination","body":"<p>Patient is in discomfort, but is awake, alert, oriented, and cooperative. BP 100/78, pulse 90/min., respirations 20/min., temperature 38.50<p><p>C. Skin is moist with good turgor. Mucus membranes are moist. Chest: clear to auscultation and percussion. Cardiac: S1 and S2 normal, no murmurs. Abdomen: incisions for fiberoptic portals clean and closed, laparotomy incision in the midline is clean and closed with sutures in place, bowel sounds present, diffuse moderate tenderness throughout, no rebound tenderness, no masses appreciated. CBC yesterday shows WBC 13,200 with 82% polys, hematocrit 37, hemoglobin 12.9, total protein 4.9, albumen 2.3, cholesterol 140, Na+ 144, K+ 3.8, Cl- 102, HCO3- 28. Stool sent for culture, fecal leucocytes present on smear. Enzyme immunoassays for Toxin A and B were positive.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"atorvastatin","dose":"20 mg. daily"}],"problemlist":[{"name":"Health maintenance"},{"name":"Hypercholesterolemia"},{"name":"Overweight"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"In addition to being status post cholecystectomy and laparotomy for abdominal abscess and bowel perforation, what other problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>pseudomembranous colitis (or at this level of your training, you may only be confident in saying that the patient has diarrhea associated with fever, leucocytosis, fecal leucocytes, and toxins A and B)</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pathophysiology of pseudomembranous colitis</li>\r\n<li>Pathology of pseudomembranous colitis</li>\r\n<li>Pharmacology of vancomycin</li>\r\n<li>Microbiology of <i>Clostridium difficile</i></li><p>","questionindex":2},{"name":"openquestion","type":"text","questiontext":"After investigating your learning objectives, complete a management plan for Ms. Cosby.","responsetext":"<p>Your management plan should have included the following:<p><p><li>Discontinue the clindamycin</li>\r\n<li>Begin on oral metronidazole</li>\r\n<li>Maintain fluids, continue oral feedings as tolerated</li><p>","questionindex":3}]}}]},{"path":"../page/data/data/NaomiNighthawk/","person":{"age":"93","name":"Naomi Nighthawk","sex":"Female","marital_status":"widowed","education":"grade school","social":"Lives with her daughter and son-in-law","race":"Native American","maritalstatus":"widowed","occupation":"retired","language":"English","face":"../page/data/data/NaomiNighthawk/NaomiNighthawk.jpg"},"event":[{"title":"Visit #1","elapsed":"0","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> weight loss<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Patient accompanied by her daughter who is concerned about weight loss in her mother. Patient herself does not appear to be too concerned, saying that her appetite just isn&apos;t what it used to be and it&apos;s too much of a bother to always be eating something. Both patient and daughter agree that it has been very gradual and perhaps the patient has lost about 2 kg. in the past 6 months, but, as her daughter says, &quot;she doesn&apos;t have much weight to spare.&quot; Her diet is fairly limited, consisting of toast with jam in the morning with tea, a half of a sandwich or salad for lunch usually with one slice of luncheon meat, and dinner which usually consists of some meat or fish, vegetable, and rice or potato, though she frequently only picks at her plate. She will have an occasional sweet. She does not drink any alcohol. The patient describes her general health as &quot;what you&apos;d expect for a 93-year-old,&quot; meaning that everything is slowing down and takes more energy to do. She had an eye exam within the past year and has new glasses. Her hearing is diminished, but she does not want a hearing aid. She walks with a cane around the house and stays on the ground floor where a room is set aside for her.  She occupies herself with knitting, reading, listening to music, and watching television.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"138"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"82"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"70"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"150"},{"name":"Weight","units":"kg","ident":"Weight","value":"45"}],"data":{"title":"Physical Examination","body":"<p>Patient is frail and slight but is able to ambulate slowly with her cane. She is very pleasant and cooperative, with a dry sense of humor, but reserved. Physical examination is essentially normal for her age. Specifically, her skin exam revealed no dangerous-appearing lesions, breasts were free of any masses, lungs were clear, heart sounds normal, and abdominal exam was benign. Office hematocrit was 34, urine dipstick was negative for protein, blood, sugar, and leukocyte esterase.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Weight loss 2","state":"start"},{"name":"Anemia, megaloblastic 2","state":"start"},{"name":"Syncope 2","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI>Weight loss</LI><LI>Anemia</LI><p><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Nutritional needs in the elderly</LI><p>View an introduction to aging in the video below.<p><iframe width='560' height='315' src='https://www.youtube.com/embed/cdTBJYCU-B8?rel=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Nighthawk.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Obtain a complete blood count, serum iron, B12, and folate levels, renal, liver, and thyroid function tests</LI><LI>Suggest a daily multivitamin</LI><LI>Offer a referral to a dietician for nutritional counseling</LI><LI>Discuss the need for influenza immunization and review previous immunizations for tetanus and diphtheria and pneumococcal vaccines</LI><p>Listen to a discussion of Ms. Nighthawk&apos;s case by a geriatrician in the video below.<p><iframe width='560' height='315' src='https://www.youtube.com/embed/QNeRxlnHMik?rel=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>","questionindex":3}]}},{"title":"Visit #2","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>follow-up for test results<p><p><p><p><B>History of Present Illness: </B>Patient and daughter met with dietician and received some general suggestions on how to increase total calories in diet and how to increase intake of vitamin B12 and folate. Patient says she is trying to follow the advice and appreciates all the attention that everyone is giving her.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"138"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"82"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"70"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"150"},{"name":"Weight","units":"kg","ident":"Weight","value":"45"}],"data":{"title":"Physical Examination","body":"<p>CBC shows Hct 34, Hgb 10.2, RBC 3.0x106, MCHC 30, MCV 104, folate 0.7, B12 195, iron 45.<p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"8-20","name":"Alanine aminotransferase (ALT)","value":"10","units":"U/L"},{"range":"8-20","name":"Aspartate aminotransferase (AST)","value":"12","units":"U/L"},{"range":"20-70","name":"Phosphatase, alkaline","value":"50","units":"U/L"},{"range":"0.2-1.0","name":"Bilirubin, total","value":"0.8","units":"mg/dL"},{"range":"3.5-5.0","name":"Albumin","value":"3.3","units":"g/dL"},{"range":"<200","name":"Cholesterol, total","value":"130","units":"mg/dL"},{"range":"<100","name":"LDL-cholesterol","value":"70","units":"mg/dL"},{"range":">=40","name":"HDL-cholesterol","value":"52","units":"mg/dL"},{"range":"<160","name":"Triglycerides","value":"60","units":"mg/dL"},{"range":"80-115","name":"Glucose","value":"90","units":"mg/dL"},{"range":"7-18","name":"BUN","value":"9","units":"mg/dL"},{"range":"0.6-1.2","name":"Creatinine","value":"1.0","units":"mg/dL"},{"range":"2-10","name":"Thyroid-stimulating hormone (TSH)","value":"3.8","units":"&micro;U/mL"},{"range":"1.8-9","name":"Folate","value":"0.7","units":"ng/mL"},{"range":"40-150","name":"Iron, serum total","value":"45","units":"&micro;g/dL"},{"range":"140-700","name":"Vitamin B12","value":"195","units":"pg/mL"}]},{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"34","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"10.2","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"3.0","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"30","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"104","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"5.6","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"56","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"32","units":"%"},{"range":"3-7","name":"Monocytes","value":"5","units":"%"},{"range":"1-3","name":"eosinophils","value":"3","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"4","units":"%"},{"range":"150-400","name":"Platelet count","value":"250","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"0.5-1.5","name":"Reticulocyte count","value":"0.8","units":"%"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Weight loss 2"},{"name":"Anemia, megaloblastic 2"},{"name":"Syncope 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>No new problems, but you may want to modify your original problem list to reflect the greater specificity of diagnosis you know have by indicating that the weight loss is from undernutrition and the anemia is of a megaloblastic type secondary to folate deficiency.</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Pathophysiology of megaloblastic anemia</li>\r\n<li>Pharmacology of B12 and folic acid</li><p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Nighthawk.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Be sure that her daily multivitamin contains a therapeutic amount of folic acid</LI><p><p><LI>Recheck in 3 months</LI><p><p><p>Listen to a second discussion of Ms. Nighthawk&apos;s case by a geriatrician in the video below.<p><iframe width='560' height='315' src='https://www.youtube.com/embed/6x9_OaBrTGY?rel=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>","questionindex":3}]}},{"title":"Visit #3","elapsed":"2 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> fainting<B></B><p><p><B></B><p><p><B>History of Present Illness: </B>Daughter reports that her mother apparently fainted this morning. The daughter heard a thud in her mother&apos;s room and went in to find her mother on the floor in a dazed state. The patient doesn&apos;t recall what happened other than finding herself on the floor with her daughter. She thinks perhaps she arose too quickly from sitting, but isn&apos;t sure. She has occasionally felt very lightheaded and unsteady when getting up from lying down or sitting, but she has never before actually fainted. Her daughter estimates that it was less than a minute that her mother was not conscious. She did not sustain any injury from the faint that she can tell. The patient did not become incontinent of urine during the episode.<p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"136"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"80"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"150"},{"name":"Weight","units":"kg","ident":"Weight","value":"45"}],"data":{"title":"Physical Examination","body":"<p>Patient appears unscathed from the incident. Neck is supple and full range of motion without producing symptoms. Carotids 2  and equal with no bruits. Cardiac exam remains unchanged with normal rhythm, S1 and S2, no murmurs. Extremities are nontraumatic and full range of motion without discomfort. Romberg negative. When patient is left lying for several minutes, BP is recorded at 138/82 and pulse is 72. One minute after assuming a standing position, BP is 105/66 and pulse is 76. Patient reports feeling somewhat lightheaded with that maneuver. Office electrocardiogram shows normal sinus rhythm, no evidence of heart block or frequent ectopic beats.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Weight loss 2"},{"name":"Anemia, megaloblastic 2"},{"name":"Syncope 2"}],"guidelist":[{"name":"openquestion","type":"text","questiontext":"What new problems would you put on the problem list?","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><p><li>Fainting (or syncope) 20 to orthostatic hypotension</li><p>","questionindex":1},{"name":"openquestion","type":"text","questiontext":"What learning objectives do you have?","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><p><li>Physiology of the autonomic nervous system</li>\r\n<li>Anatomy of the autonomic nervous system</li>\r\n<li>Neuropathology of the autonomic nervous system</li>\r\n<li>Pathophysiology of fainting</li><p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Nighthawk.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Advise patient about standing up quickly, how to perform isometric exercises before standing</LI><p><p><LI>Be sure patient takes in sufficient quantities of fluids and salt</LI><p><p><LI>Encourage as much daily activity as possible</LI><p><p><p>For a third discussion of Ms. Nighthawk&apos;s case by a geriatrician, see the video below.<p><iframe width='560' height='315' src='https://www.youtube.com/embed/R7fdA9Cqhck?rel=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>","questionindex":3}]}},{"title":"Visit #4","elapsed":"8 months later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>follow-up for anemia<p><p><p><p><B>History of Present Illness: </B>Patient says that she tries to follow the diet she was given, but finds it hard to eat that much. She doesn&apos;t have much of an appetite. She has been trying to drink more to avoid another fainting episode. She has not had another episode. <p><p>She reports recently having to ask for more help from her daughter.  She finds it more difficult to do her usual activities and feels fatigued and weak.  She has been relying on using her husband&apos;s old rolling walker because she does not feel steady any longer with her cane.  Bathing has become difficult, and she is taking sponge baths.  Her daughter now prepares the meals, does the shopping, and helps her get dressed in the morning.  <p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[{"name":"Systolic Blood Pressure","units":"mmHg","ident":"BPs","value":"138"},{"name":"Diastolic Blood Pressure","units":"mmHg","ident":"BPd","value":"82"},{"name":"Pulse rate","units":"bpm","ident":"Pulse","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"Temperature","value":"37"},{"name":"Height","units":"cm","ident":"Height","value":"150"},{"name":"Weight","units":"kg","ident":"Weight","value":"44"}],"data":{"title":"Physical Examination","body":"<p>Patient seems somewhat frailer than previously noted, she appears cachectic on exam with temporal wasting, poor skin turgor and muscle wasting. Blood indices improved slightly. <p>"},"visible":true},"investigate":{"data":[],"results":[{"name":"testresults","title":"Clinical Chemistry, Toxicology, Serology","data":[{"range":"1.8-9","name":"Folate","value":"10.6","units":"ng/mL"}]},{"name":"testresults","title":"Hematology, Coagulation, and Red Cell Enzymes","data":[{"range":"41-53","name":"Hematocrit","value":"36","units":""},{"range":"13.5-17.5","name":"Hemoglobin","value":"11.2","units":"g/dL"},{"range":"4.3-5.6","name":"Red blood cell count","value":"3.6","units":"x10<sup>6</sup>/mm<sup>3</sup>"},{"range":"31-36","name":"Mean Corpuscular Hemoglobin Concentration (MCHC)","value":"31","units":"gHb/dL"},{"range":"80-100","name":"Mean Corpuscular Volume (MCV)","value":"100","units":"&micro;m<sup>3</sup>"},{"range":"4.5-11.0","name":"Leukocyte count","value":"6.2","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"54-62","name":"Neutrophils","value":"60","units":"%"},{"range":"25-33","name":"Lymphocytes","value":"28","units":"%"},{"range":"3-7","name":"Monocytes","value":"5","units":"%"},{"range":"1-3","name":"eosinophils","value":"3","units":"%"},{"range":"0-0.75","name":"Basophils","value":"0","units":"%"},{"range":"3-5","name":"Bands","value":"4","units":"%"},{"range":"150-400","name":"Platelet count","value":"300","units":"x10<sup>3</sup>/mm<sup>3</sup>"},{"range":"0.5-1.5","name":"Reticulocyte count","value":"2.8","units":"%"}]}],"visible":true},"druglist":[],"problemlist":[{"name":"Health maintenance"},{"name":"Weight loss 2"},{"name":"Anemia, megaloblastic 2"},{"name":"Syncope 2"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI>Cachexia, continued weight loss</LI><LI>Functional decline</LI><LI></LI><LI></LI><p><p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI>Recognition of cachexia syndrome</LI><LI>Functional decline as a prognostic measure</LI><LI>Recognize the indications for referral to hospice or palliative care in this patient</LI><LI></LI><p><p>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Ms. Nighthawk.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI>Detailed history and physical to reveal any new reversible causes</LI><LI>Repeat family meeting with daughter and patient to discuss her decline, prognosis, and goals of care</LI><LI>Refer to hospice and palliative care team</LI><p>For a discussion by a geriatrician on end-of-life care in the elderly, see the video below.<p><iframe width='560' height='315' src='https://www.youtube.com/embed/QNeRxlnHMik?rel=0' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>","questionindex":3}]}},{"title":"Inbox Message #1","elapsed":"15 weeks later","data":{"inbox":{"visible":true,"items":[{"title":"","body":"<p>From: Hospice Care<p><p>Subject: Naomi Nighthawk<p><p><p><p>Ms. Nighthawk peacefully died at home 15 weeks after being admitted to Hospice Care. <p>"}]},"history":{"visible":true,"items":[]},"procedure":{"visible":true,"items":[]},"management":{"visible":false,"items":[]},"physical":{"sign":[],"data":{"title":"","body":""}},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[],"guidelist":[]}}]},{"path":"../page/data/data/CarlZitkowsky/","person":{"age":"15","name":"Carl Zitkowsky","sex":"Male","marital_status":"Single","education":"Sophomore in high school","social":"Lives at home with both parents","race":"White","occupation":"student","language":"English","face":"../page/data/data/CarlZitkowsky/Matthew Davies.jpg"},"event":[{"title":"Office Visit 1","elapsed":"0","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Acne<p><p><B></B><p><p><B>History of Present Illness: </B>Noticed acne getting worse on face and shoulders. Has tried some over-the-counter medications without much success.<p><p>ticed acne getting worse on face and shoulders. Has tried some over-the-counter medications without much success.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Acne vulgaris, moderate to moderately severe on face and shoulders.<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Benzoyl peroxide 2.5% a.m., after school and tretinoin cream 0.025% at bedtime<p><p><p><p><B>Follow-up and referrals: </B>Return in 4-6 weeks<p><p><p><p><B>Patient education: </B>Explained nature of acne<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"110"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"73"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Moderate-to-moderately severe acne on face with many open and closed comedones, numerous papules and pustules, and a few inflammatory cysts, with a few inflammatory cysts on shoulders and upper back as well.<p><p>Papules/pustules +++/++ <p><p>Nodules +<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"benzoyl peroxide","state":"start","dose":"2.5% gel in morning and after school"},{"name":"tretinoin","state":"start","dose":"0.025% cream at bedtime"}],"problemlist":[{"name":"Health maintenance","state":"start"},{"name":"Acne vulgaris","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Acne</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>histology of the skin and appendages (identify major structures and tissues)</LI><LI>clinical pathology of acne (what characterizes mild, moderate, or severe acne?)</LI><LI>pathophysiology of acne (what causes acne?)</LI><LI>pharmacology of tretinoin</LI><LI>pharmacology of benzoyl peroxide</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>prescribe a topical medication for the acne like benzoyl peroxide and tretinoin</LI>","questionindex":3}]}},{"title":"Office Visit 2","elapsed":"5 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint: </B>Acne<p><p><B></B><p><p><B>History of Present Illness:</B> Pt. says that acne has improved somewhat, but he is still concerned about it. Has been applying the benzoyl peroxide 2.5% solution in the morning and after school and tretinoin 0.025% cream at night. Initially the irritation was bothersome, but it improved after the first week.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Acne somewhat improved, but not much and patient is concerned<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Add tetracycline 500 mg twice daily<p><p><p><p><B>Follow-up and referrals: </B>Return in 4-6 weeks<p><p><p><p><B>Patient education: </B>Provided encouragement, noted improvement<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"110"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"73"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Moderate acne; fewer comedones, papules, and pustules than last time, nodules about the same in number.<p><p>Papules/pustules ++/+ <p><p>Nodules +<p><p><p><p><p><p><p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[{"name":"tetracycline","state":"start","dose":"500 mg twice daily"}],"problemlist":[],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<LI>No new problems</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>pharmacology of tetracycline</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>add a tetracycline to the treatment</LI>","questionindex":3}]}},{"title":"Office Visit 3","elapsed":"5 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Acne<p><p><B></B><p><p><B>History of Present Illness: </B>Pt. says that acne has worsened since his last visit. He started the tetracycline and continues to take it. He wondered if the excessive sweating from football practice was having an effect. On further probing, he said that he was also taking anabolic steroids that were given to him by other football players as a way of bulking up. He says that has helped him put on some weight, though he&apos;s still lighter than most players.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Acne exacerbated probably due to the anabolic steroids patient is using<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Maintain on current meds<p><p><p><p><B>Follow-up and referrals: </B>Return in 4-6 weeks<p><p><p><p><B>Patient education: </B>Counseled the patient about the dangers of anabolic steroids and their deleterious effect on acne. Encouraged patient to stop using steroids. Discussed risk-taking behavior in general and how to deal with it.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"114"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"76"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"76"}],"data":{"title":"Physical Examination","body":"<p>Moderate acne; more comedones, papules, and pustules than last time, nodules about the same in number.<p><p>Papules/pustules ++/+++ <p><p>Nodules +<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Acne vulgaris"},{"name":"Misuse of anabolic steroids","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<LI>Misuse of anabolic steroids</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>pharmacology of anabolic steroids</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>counsel the patient about the deleterious effects of anabolic steroids on his acne and discuss risk-taking behavior and how to deal with it</LI>","questionindex":3}]}},{"title":"Office Visit 4","elapsed":"1 week later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Hernia<p><p><p><p><B>History of Present Illness: </B><p><p><p><p>Hernia: The school doctor thinks patient has an inguinal hernia that was discovered during the football team&apos;s preseason physical. The patient was unaware of this. Until he&apos;s cleared by his family doctor, he can&apos;t participate in any live skirmishes or games, though he&apos;s allowed to practice with the team in noncontact drills.<p><p><p><p>Acne:<B> </B>Pt. stopped using steroid (he knew he&apos;d never get to play first string anyway, he says, but at least his face would look better). Acne seems better, he thinks.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Inguinal hernia. Acne improving.<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Maintain on current meds<p><p><p><p><B>Follow-up and referrals: </B>Refer to surgeon for repair of hernia<p><p><p><p><B>Patient education: </B>Explained nature of inguinal hernias<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"112"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"72"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"75"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Right inguinal ring is widened and bulge felt with coughing. Left inguinal ring also wide, but no bulging appreciated with coughing or Valsalva.<p><p><p><p>Mild-to-moderate acne; fewer comedones, papules, pustules, and nodules than last time.<p><p>Papules/pustules ++/++ <p><p>Nodules 0<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Acne vulgaris"},{"name":"Misuse of anabolic steroids","state":"end"},{"name":"Inguinal hernia","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<LI>Inguinal hernia</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Anatomy of the male reproductive system (spermatic cord)</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>refer to surgeon for repair of hernia</LI>","questionindex":3}]}},{"title":"Office Visit 5","elapsed":"6 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> f/u Acne<p><p><p><p><B>History of Present Illness:</B><p><p><p><p>Acne: Acne seems much better, he thinks, since he stopped using the steroids. It still bothers him, though, to see even the few lesions that remain.<p><p><p><p>Hernia: Pt. saw surgeon who confirmed the diagnosis of bilateral inguinal hernia. Surgery has been deferred until school vacation. Pt. has quit the football team, but has joined the cross-country track team.<p><p><p><p><p><p><p><p><p><p><p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Acne quite a bit better, but patient seems unusually preoccupied by his appearance<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Maintain on current meds<p><p><p><p><B>Follow-up and referrals: </B>Return in 4-6 weeks<p><p><p><p><B>Patient education: </B>Provided encouragement<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"110"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"68"},{"name":"Height","units":"cm","ident":"height","value":"178"},{"name":"Weight","units":"kg","ident":"weight","value":"74"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>Mild acne; No nodules and only rare pustules.<p><p>Papules/pustules +/+ <p><p>Nodules 0<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Acne vulgaris"},{"name":"Misuse of anabolic steroids"},{"name":"Inguinal hernia"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>No new problems</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Risk-taking behavior in adolescents</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>refer to surgeon for repair of hernia</LI>","questionindex":3}]}},{"title":"Office Visit 6","elapsed":"3 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> f/u Acne<p><p><p><p><B>History of Present Illness: </B>Patient says his acne is fine and he&apos;s stopped worrying about it. He did bring up another concern--his sexual orientation. He finds that he&apos;s attracted to other boys and at times becomes sexually aroused in the showers after track practice. He also has erotic dreams and fantasies about having sex with another boy on the team. He hasn&apos;t actually had any homosexual experiences, but thinks he&apos;s probably gay or maybe bisexual because he has had crushes on girls before, too. He wondered if the hernia condition he had was associated with a gay sexual orientation. He hasn&apos;t discussed this concern with anyone else. He thinks his father would &quot;kill him&quot; if he found out he was gay.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Psychosexual concerns about sexual orientation. No evidence of depression or panic.<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Maintain on current meds for acne<p><p><p><p><B>Follow-up and referrals: </B>Return in 6-12 weeks<p><p><p><p><B>Patient education: </B>Counseled the patient about normal psychosexual development and offered empathetic listener; also, told him that there is no connection between having an inguinal hernia and sexual orientation<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"110"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"66"},{"name":"Height","units":"cm","ident":"height","value":"179"},{"name":"Weight","units":"kg","ident":"weight","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Phyiscal Examination","body":"<p>Patient discussed the topic with some obvious embarrassment and awkwardness, but did not exhibit any signs of depression, though he was obviously concerned and worried. Acne status quo.<p><p>Papules/pustules +/rare<p><p>Nodules 0<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Acne vulgaris"},{"name":"Misuse of anabolic steroids"},{"name":"Inguinal hernia"},{"name":"Psychosexual concerns","state":"start"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Psychosexual concerns</LI>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Psychosexual development</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>counseling the patient about normal psychosexual development and offering him someone who is an empathetic listener; also, telling him that there is no connection between having an inguinal hernia and sexual orientation</LI>","questionindex":3}]}},{"title":"Office Visit 7","elapsed":"14 weeks later","data":{"inbox":{"visible":true,"items":[]},"history":{"visible":true,"items":[{"title":"","body":"<p><B>Chief Complaint:</B> Breast Lump<p><p><B></B><p><p><B>History of Present Illness: </B>Patient noticed a lump under his left breast and is concerned. It&apos;s slightly uncomfortable when he pushes on it or someone else does. He first noticed it when he had his first sexual experience with the other boy on the track team he previously talked about. His partner squeezed his breast hard and felt the lump, telling him that he was &quot;growing a tit.&quot; This upset him. They had oral sex. He says he&apos;s pretty sure that he is gay and he&apos;s feeling more comfortable about that, but he hasn&apos;t told his parents or anyone else, for that matter. He said all this stuff (the hernia, his growing awareness of his sexual orientation, and now this breast lump) is really &quot;messing up&quot; his head.<p>"}]},"procedure":{"visible":false,"items":[]},"management":{"visible":true,"items":[{"title":"","body":"<p><B>Assessment: </B>Gynecomastia, benign<p><p><p><p><B>Investigations:</B> None<p><p><p><p><B>Medications and treatments:</B> Maintain on current meds for acne<p><p><p><p><B>Follow-up and referrals: </B>Return as needed<p><p><p><p><B>Patient education: </B>Counseled the patient about gynecomastia, its common occurrence in males, and its likely natural history and prognosis. Also, counseled the patient about safe sex practices.<p>"}]},"physical":{"sign":[{"name":"Blood Pressure Systolic","units":"mmHg","ident":"BPs","value":"110"},{"name":"Blood Pressure Diastolic","units":"mmHg","ident":"BPd","value":"70"},{"name":"Pulses","units":"/mn","ident":"pulse","value":"66"},{"name":"Height","units":"cm","ident":"height","value":"180"},{"name":"Weight","units":"kg","ident":"weight","value":"72"},{"name":"Temperature","units":"&deg;C","ident":"temperature","value":"37"}],"data":{"title":"Physical Examination","body":"<p>A 3 cm. slightly tender firm disc-shaped mass is felt in the subareolar area in the left breast. No clear-cut mass is felt on the right. No lymphadenopathy is palpable. While patient is clearly worried about the mass, his speech is calm, his thoughts lucid and appropriate, and his mood is not overly anxious or depressed.<p>"},"visible":true},"investigate":{"data":[],"results":[],"visible":true},"druglist":[],"problemlist":[{"name":"Acne vulgaris"},{"name":"Misuse of anabolic steroids"},{"name":"Inguinal hernia"},{"name":"Psychosexual concerns"}],"guidelist":[{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What new problems would you put on the problem list?<p>","responsetext":"<p>Any of the following entries on the problem list would be acceptable:<p><LI></LI><LI>Gynecomastia</LI><LI></LI><p>At this level in your education, you might only feel confident in stating that a left breast mass is present. That&apos;s fine.<p>","questionindex":1},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>What learning objectives do you have?<p>","responsetext":"<p>Be sure that the following learning objectives are also included on your list.<p><LI></LI><LI>Physiology of benign gynecomastia in males</LI>","questionindex":2},{"name":"openquestion","type":"cdata","title":"","questiontext":"<p>After investigating your learning objectives, complete a management plan for Carl.<p>","responsetext":"<p>Your management plan should have included the following:<p><LI></LI><LI>counseling the patient about gynecomastia, its common occurrence in males, and its likely natural history and prognosis. Also, counsel the patient about safe sex practices.</LI>","questionindex":3}]}}]}]
 
 /***/ }),
 /* 176 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(177);
+/***/ (function(module, exports, __webpack_require__) {
 
 
+// import Vue from 'vue'
+var Vue = __webpack_require__(177).default
 const { bb } = __webpack_require__(180)
 
 function assert(t) {
@@ -9737,7 +9776,7 @@ class App {
 
     function loadapp(self) {
 
-      const tmpl = __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].compile(__webpack_require__(510))
+      const tmpl = Vue.compile(__webpack_require__(513))
       const data = { 
         event   : 0, 
         person  : 0,
@@ -9761,7 +9800,7 @@ class App {
         staticRenderFns : tmpl.staticRenderFns,
       }
 
-      return new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */](options)
+      return new Vue(options)
     }
 
     function main(self) {
@@ -9862,7 +9901,7 @@ class App {
     return table
   }
 
- // TODO: Modify Charts Here
+  // TODO Modify Charts Here
 
   charts() {
     const l = this.data[this.vue.person]
@@ -9880,94 +9919,97 @@ class App {
 
     const run = () => {
       for (let key in measurements) {
-      	console.log(key)
-      	if (key === 'bps' || key === 'bpd') {
-      		console.log("In here")
-      		console.log(key)
-      	} else {
-      		console.log("Trying to render " + key)
-      		const m = measurements[key].filter(i => i.event <= this.vue.event)
-	        const name = `#charts-${key}`
-	        const cats = m.map(i => this.vue.p.event[i.event].title)
-	        const cols = [key].concat(m.map(i => parseInt(i.value)))
-	        const unit = m[0].units.replace("&deg;C", "Celcius")
-	        bb.generate({
-	          bindto: name,
-	          axis: {
-	            x: { 
-	              type: "category",
-	              categories: cats,
-	              tick : { width : 50 },
-	              height : 50
-	            },
-	            y: { tick: { format: i => `${i} ${unit}` } }
-	          },
-	          data: {
-	            columns: [ cols ],
-	            types: { [key]: "spline", },
-	            colors: { [key] : "red", },
-	          },
-	          grid: {
-			    x: {
-			      show: true
-			    },
-			    y: {
-			      show: true
-			    }
-			  },
-	          legend : { show: false }
-	        })
-      	}
+        // console.log(key)
+        // Patch to combine blood pressure
+        if (key === 'bps' || key === 'bpd') {
+          console.log("In here")
+          console.log(key)
+        } else {
+          // console.log("Trying to render " + key)
+          const m = measurements[key].filter(i => i.event <= this.vue.event)
+          const name = `#charts-${key}`
+          const cats = m.map(i => this.vue.p.event[i.event].title)
+          const cols = [key].concat(m.map(i => parseInt(i.value)))
+          const unit = m[0].units.replace("&deg;C", "Celcius")
+          // Change to Line Graphs
+          bb.generate({
+            bindto: name,
+            axis: {
+              x: { 
+                type: "category",
+                categories: cats,
+                tick : { width : 50 },
+                height : 50
+              },
+              y: { tick: { format: i => `${i} ${unit}` } }
+            },
+            data: {
+              columns: [ cols ],
+              types: { [key]: "spline", },
+              colors: { [key] : "red", },
+            },
+            grid: {
+          x: {
+            show: true
+          },
+          y: {
+            show: true
+          }
+        },
+            legend : { show: false }
+          })
+        }
       }
+      // Make one blood pressure chart
       var columns = []
       var cats = []
-	  var unit = []
+      var unit = []
       for (let key in measurements) {
-      	if (key === 'bps' || key === 'bpd') {
-      		const m = measurements[key].filter(i => i.event <= this.vue.event)
-      		unit = m[0].units
-      		console.log(m)
-      		cats = m.map(i => this.vue.p.event[i.event].title)
-      		const cols = [key].concat(m.map(i => parseInt(i.value)))
-      		columns.push(cols)
+        if (key === 'bps' || key === 'bpd') {
+          const m = measurements[key].filter(i => i.event <= this.vue.event)
+          unit = m[0].units
+          console.log(m)
+          cats = m.map(i => this.vue.p.event[i.event].title)
+          const cols = [key].concat(m.map(i => parseInt(i.value)))
+          columns.push(cols)
 
-      	}
+        }
       }
       const name = '#charts-bps'
       console.log(cats)
       console.log(columns)
       bb.generate({
-	          bindto: name,
-	          axis: {
-	            x: { 
-	              type: "category",
-	              categories: cats,
-	              tick : { width : 50 },
-	              height : 50
-	            },
-	            y: { tick: { format: i => `${i} ${unit}` } }
-	          },
-	          data: {
-	            columns: columns,
-	            types: { 'bps': "spline", 
-	        				'bpd': "spline"},
-	            colors: { 'bps' : "red", 
-	        				'bpd' : "blue"},
-	          },
-	          grid: {
-			    x: {
-			      show: true
-			    },
-			    y: {
-			      show: true
-			    }
-			  },
-	          legend : { show: false }
-	        })
-    	var x = document.getElementsByClassName("chart");
-	    x[0].innerHTML = "Blood Pressure";
-	    var element = x[1]
-	    element.parentNode.removeChild(element)
+            bindto: name,
+            axis: {
+              x: { 
+                type: "category",
+                categories: cats,
+                tick : { width : 50 },
+                height : 50
+              },
+              y: { tick: { format: i => `${i} ${unit}` } }
+            },
+            data: {
+              columns: columns,
+              types: { 'bps': "spline", 
+                  'bpd': "spline"},
+              colors: { 'bps' : "red", 
+                  'bpd' : "blue"},
+            },
+            grid: {
+          x: {
+            show: true
+          },
+          y: {
+            show: true
+          }
+        },
+            legend : { show: false }
+          })
+      var x = document.getElementsByClassName("chart");
+      x[0].innerHTML = "Blood Pressure";
+      var element = x[1]
+      element.parentNode.removeChild(element)
     }
 
     setTimeout(run, 0)
@@ -9988,9 +10030,10 @@ console.log(data)
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(process, global, setImmediate) {/*!
- * Vue.js v2.5.13
- * (c) 2014-2017 Evan You
+ * Vue.js v2.5.16
+ * (c) 2014-2018 Evan You
  * Released under the MIT License.
  */
 /*  */
@@ -10169,9 +10212,15 @@ var hyphenate = cached(function (str) {
 });
 
 /**
- * Simple bind, faster than native
+ * Simple bind polyfill for environments that do not support it... e.g.
+ * PhantomJS 1.x. Technically we don't need this anymore since native bind is
+ * now more performant in most browsers, but removing it would be breaking for
+ * code that was able to run in PhantomJS 1.x, so this must be kept for
+ * backwards compatibility.
  */
-function bind (fn, ctx) {
+
+/* istanbul ignore next */
+function polyfillBind (fn, ctx) {
   function boundFn (a) {
     var l = arguments.length;
     return l
@@ -10180,10 +10229,18 @@ function bind (fn, ctx) {
         : fn.call(ctx, a)
       : fn.call(ctx)
   }
-  // record original fn length
+
   boundFn._length = fn.length;
   return boundFn
 }
+
+function nativeBind (fn, ctx) {
+  return fn.bind(ctx)
+}
+
+var bind = Function.prototype.bind
+  ? nativeBind
+  : polyfillBind;
 
 /**
  * Convert an Array-like object to a real Array.
@@ -10414,7 +10471,7 @@ var config = ({
    * Exposed for legacy reasons
    */
   _lifecycleHooks: LIFECYCLE_HOOKS
-});
+})
 
 /*  */
 
@@ -10458,7 +10515,6 @@ function parsePath (path) {
 
 /*  */
 
-
 // can we use __proto__?
 var hasProto = '__proto__' in {};
 
@@ -10497,7 +10553,7 @@ var _isServer;
 var isServerRendering = function () {
   if (_isServer === undefined) {
     /* istanbul ignore if */
-    if (!inBrowser && typeof global !== 'undefined') {
+    if (!inBrowser && !inWeex && typeof global !== 'undefined') {
       // detect presence of vue-server-renderer and avoid
       // Webpack shimming the process
       _isServer = global['process'].env.VUE_ENV === 'server';
@@ -10754,8 +10810,7 @@ function createTextVNode (val) {
 // used for static nodes and slot nodes because they may be reused across
 // multiple renders, cloning them avoids errors when DOM manipulations rely
 // on their elm reference.
-function cloneVNode (vnode, deep) {
-  var componentOptions = vnode.componentOptions;
+function cloneVNode (vnode) {
   var cloned = new VNode(
     vnode.tag,
     vnode.data,
@@ -10763,7 +10818,7 @@ function cloneVNode (vnode, deep) {
     vnode.text,
     vnode.elm,
     vnode.context,
-    componentOptions,
+    vnode.componentOptions,
     vnode.asyncFactory
   );
   cloned.ns = vnode.ns;
@@ -10774,24 +10829,7 @@ function cloneVNode (vnode, deep) {
   cloned.fnOptions = vnode.fnOptions;
   cloned.fnScopeId = vnode.fnScopeId;
   cloned.isCloned = true;
-  if (deep) {
-    if (vnode.children) {
-      cloned.children = cloneVNodes(vnode.children, true);
-    }
-    if (componentOptions && componentOptions.children) {
-      componentOptions.children = cloneVNodes(componentOptions.children, true);
-    }
-  }
   return cloned
-}
-
-function cloneVNodes (vnodes, deep) {
-  var len = vnodes.length;
-  var res = new Array(len);
-  for (var i = 0; i < len; i++) {
-    res[i] = cloneVNode(vnodes[i], deep);
-  }
-  return res
 }
 
 /*
@@ -10800,7 +10838,9 @@ function cloneVNodes (vnodes, deep) {
  */
 
 var arrayProto = Array.prototype;
-var arrayMethods = Object.create(arrayProto);[
+var arrayMethods = Object.create(arrayProto);
+
+var methodsToPatch = [
   'push',
   'pop',
   'shift',
@@ -10808,7 +10848,12 @@ var arrayMethods = Object.create(arrayProto);[
   'splice',
   'sort',
   'reverse'
-].forEach(function (method) {
+];
+
+/**
+ * Intercept mutating methods and emit events
+ */
+methodsToPatch.forEach(function (method) {
   // cache original method
   var original = arrayProto[method];
   def(arrayMethods, method, function mutator () {
@@ -10839,20 +10884,20 @@ var arrayMethods = Object.create(arrayProto);[
 var arrayKeys = Object.getOwnPropertyNames(arrayMethods);
 
 /**
- * By default, when a reactive property is set, the new value is
- * also converted to become reactive. However when passing down props,
- * we don't want to force conversion because the value may be a nested value
- * under a frozen data structure. Converting it would defeat the optimization.
+ * In some cases we may want to disable observation inside a component's
+ * update computation.
  */
-var observerState = {
-  shouldConvert: true
-};
+var shouldObserve = true;
+
+function toggleObserving (value) {
+  shouldObserve = value;
+}
 
 /**
- * Observer class that are attached to each observed
- * object. Once attached, the observer converts target
+ * Observer class that is attached to each observed
+ * object. Once attached, the observer converts the target
  * object's property keys into getter/setters that
- * collect dependencies and dispatches updates.
+ * collect dependencies and dispatch updates.
  */
 var Observer = function Observer (value) {
   this.value = value;
@@ -10878,7 +10923,7 @@ var Observer = function Observer (value) {
 Observer.prototype.walk = function walk (obj) {
   var keys = Object.keys(obj);
   for (var i = 0; i < keys.length; i++) {
-    defineReactive(obj, keys[i], obj[keys[i]]);
+    defineReactive(obj, keys[i]);
   }
 };
 
@@ -10928,7 +10973,7 @@ function observe (value, asRootData) {
   if (hasOwn(value, '__ob__') && value.__ob__ instanceof Observer) {
     ob = value.__ob__;
   } else if (
-    observerState.shouldConvert &&
+    shouldObserve &&
     !isServerRendering() &&
     (Array.isArray(value) || isPlainObject(value)) &&
     Object.isExtensible(value) &&
@@ -10961,6 +11006,9 @@ function defineReactive (
 
   // cater for pre-defined getter/setters
   var getter = property && property.get;
+  if (!getter && arguments.length === 2) {
+    val = obj[key];
+  }
   var setter = property && property.set;
 
   var childOb = !shallow && observe(val);
@@ -11007,6 +11055,11 @@ function defineReactive (
  * already exist.
  */
 function set (target, key, val) {
+  if (process.env.NODE_ENV !== 'production' &&
+    (isUndef(target) || isPrimitive(target))
+  ) {
+    warn(("Cannot set reactive property on undefined, null, or primitive value: " + ((target))));
+  }
   if (Array.isArray(target) && isValidArrayIndex(key)) {
     target.length = Math.max(target.length, key);
     target.splice(key, 1, val);
@@ -11037,6 +11090,11 @@ function set (target, key, val) {
  * Delete a property and trigger change if necessary.
  */
 function del (target, key) {
+  if (process.env.NODE_ENV !== 'production' &&
+    (isUndef(target) || isPrimitive(target))
+  ) {
+    warn(("Cannot delete reactive property on undefined, null, or primitive value: " + ((target))));
+  }
   if (Array.isArray(target) && isValidArrayIndex(key)) {
     target.splice(key, 1);
     return
@@ -11503,12 +11561,18 @@ function validateProp (
   var prop = propOptions[key];
   var absent = !hasOwn(propsData, key);
   var value = propsData[key];
-  // handle boolean props
-  if (isType(Boolean, prop.type)) {
+  // boolean casting
+  var booleanIndex = getTypeIndex(Boolean, prop.type);
+  if (booleanIndex > -1) {
     if (absent && !hasOwn(prop, 'default')) {
       value = false;
-    } else if (!isType(String, prop.type) && (value === '' || value === hyphenate(key))) {
-      value = true;
+    } else if (value === '' || value === hyphenate(key)) {
+      // only cast empty string / same name to boolean if
+      // boolean has higher priority
+      var stringIndex = getTypeIndex(String, prop.type);
+      if (stringIndex < 0 || booleanIndex < stringIndex) {
+        value = true;
+      }
     }
   }
   // check default value
@@ -11516,10 +11580,10 @@ function validateProp (
     value = getPropDefaultValue(vm, prop, key);
     // since the default value is a fresh copy,
     // make sure to observe it.
-    var prevShouldConvert = observerState.shouldConvert;
-    observerState.shouldConvert = true;
+    var prevShouldObserve = shouldObserve;
+    toggleObserving(true);
     observe(value);
-    observerState.shouldConvert = prevShouldConvert;
+    toggleObserving(prevShouldObserve);
   }
   if (
     process.env.NODE_ENV !== 'production' &&
@@ -11652,17 +11716,20 @@ function getType (fn) {
   return match ? match[1] : ''
 }
 
-function isType (type, fn) {
-  if (!Array.isArray(fn)) {
-    return getType(fn) === getType(type)
+function isSameType (a, b) {
+  return getType(a) === getType(b)
+}
+
+function getTypeIndex (type, expectedTypes) {
+  if (!Array.isArray(expectedTypes)) {
+    return isSameType(expectedTypes, type) ? 0 : -1
   }
-  for (var i = 0, len = fn.length; i < len; i++) {
-    if (getType(fn[i]) === getType(type)) {
-      return true
+  for (var i = 0, len = expectedTypes.length; i < len; i++) {
+    if (isSameType(expectedTypes[i], type)) {
+      return i
     }
   }
-  /* istanbul ignore next */
-  return false
+  return -1
 }
 
 /*  */
@@ -11725,19 +11792,19 @@ function flushCallbacks () {
   }
 }
 
-// Here we have async deferring wrappers using both micro and macro tasks.
-// In < 2.4 we used micro tasks everywhere, but there are some scenarios where
-// micro tasks have too high a priority and fires in between supposedly
+// Here we have async deferring wrappers using both microtasks and (macro) tasks.
+// In < 2.4 we used microtasks everywhere, but there are some scenarios where
+// microtasks have too high a priority and fire in between supposedly
 // sequential events (e.g. #4521, #6690) or even between bubbling of the same
-// event (#6566). However, using macro tasks everywhere also has subtle problems
+// event (#6566). However, using (macro) tasks everywhere also has subtle problems
 // when state is changed right before repaint (e.g. #6813, out-in transitions).
-// Here we use micro task by default, but expose a way to force macro task when
+// Here we use microtask by default, but expose a way to force (macro) task when
 // needed (e.g. in event handlers attached by v-on).
 var microTimerFunc;
 var macroTimerFunc;
 var useMacroTask = false;
 
-// Determine (macro) Task defer implementation.
+// Determine (macro) task defer implementation.
 // Technically setImmediate should be the ideal choice, but it's only available
 // in IE. The only polyfill that consistently queues the callback after all DOM
 // events triggered in the same loop is by using MessageChannel.
@@ -11764,7 +11831,7 @@ if (typeof setImmediate !== 'undefined' && isNative(setImmediate)) {
   };
 }
 
-// Determine MicroTask defer implementation.
+// Determine microtask defer implementation.
 /* istanbul ignore next, $flow-disable-line */
 if (typeof Promise !== 'undefined' && isNative(Promise)) {
   var p = Promise.resolve();
@@ -11784,7 +11851,7 @@ if (typeof Promise !== 'undefined' && isNative(Promise)) {
 
 /**
  * Wrap a function so that if any code inside triggers state change,
- * the changes are queued using a Task instead of a MicroTask.
+ * the changes are queued using a (macro) task instead of a microtask.
  */
 function withMacroTask (fn) {
   return fn._withTask || (fn._withTask = function () {
@@ -11873,8 +11940,7 @@ if (process.env.NODE_ENV !== 'production') {
   };
 
   var hasProxy =
-    typeof Proxy !== 'undefined' &&
-    Proxy.toString().match(/native code/);
+    typeof Proxy !== 'undefined' && isNative(Proxy);
 
   if (hasProxy) {
     var isBuiltInModifier = makeMap('stop,prevent,self,ctrl,shift,alt,meta,exact');
@@ -11942,7 +12008,7 @@ function traverse (val) {
 function _traverse (val, seen) {
   var i, keys;
   var isA = Array.isArray(val);
-  if ((!isA && !isObject(val)) || Object.isFrozen(val)) {
+  if ((!isA && !isObject(val)) || Object.isFrozen(val) || val instanceof VNode) {
     return
   }
   if (val.__ob__) {
@@ -12802,29 +12868,30 @@ function updateChildComponent (
   // update $attrs and $listeners hash
   // these are also reactive so they may trigger child update if the child
   // used them during render
-  vm.$attrs = (parentVnode.data && parentVnode.data.attrs) || emptyObject;
+  vm.$attrs = parentVnode.data.attrs || emptyObject;
   vm.$listeners = listeners || emptyObject;
 
   // update props
   if (propsData && vm.$options.props) {
-    observerState.shouldConvert = false;
+    toggleObserving(false);
     var props = vm._props;
     var propKeys = vm.$options._propKeys || [];
     for (var i = 0; i < propKeys.length; i++) {
       var key = propKeys[i];
-      props[key] = validateProp(key, vm.$options.props, propsData, vm);
+      var propOptions = vm.$options.props; // wtf flow?
+      props[key] = validateProp(key, propOptions, propsData, vm);
     }
-    observerState.shouldConvert = true;
+    toggleObserving(true);
     // keep a copy of raw propsData
     vm.$options.propsData = propsData;
   }
 
   // update listeners
-  if (listeners) {
-    var oldListeners = vm.$options._parentListeners;
-    vm.$options._parentListeners = listeners;
-    updateComponentListeners(vm, listeners, oldListeners);
-  }
+  listeners = listeners || emptyObject;
+  var oldListeners = vm.$options._parentListeners;
+  vm.$options._parentListeners = listeners;
+  updateComponentListeners(vm, listeners, oldListeners);
+
   // resolve slots + force update if has children
   if (hasChildren) {
     vm.$slots = resolveSlots(renderChildren, parentVnode.context);
@@ -12878,6 +12945,8 @@ function deactivateChildComponent (vm, direct) {
 }
 
 function callHook (vm, hook) {
+  // #7573 disable dep collection when invoking lifecycle hooks
+  pushTarget();
   var handlers = vm.$options[hook];
   if (handlers) {
     for (var i = 0, j = handlers.length; i < j; i++) {
@@ -12891,6 +12960,7 @@ function callHook (vm, hook) {
   if (vm._hasHookEvent) {
     vm.$emit('hook:' + hook);
   }
+  popTarget();
 }
 
 /*  */
@@ -13035,7 +13105,7 @@ function queueWatcher (watcher) {
 
 /*  */
 
-var uid$2 = 0;
+var uid$1 = 0;
 
 /**
  * A watcher parses an expression, collects dependencies,
@@ -13064,7 +13134,7 @@ var Watcher = function Watcher (
     this.deep = this.user = this.lazy = this.sync = false;
   }
   this.cb = cb;
-  this.id = ++uid$2; // uid for batching
+  this.id = ++uid$1; // uid for batching
   this.active = true;
   this.dirty = this.lazy; // for lazy watchers
   this.deps = [];
@@ -13289,7 +13359,9 @@ function initProps (vm, propsOptions) {
   var keys = vm.$options._propKeys = [];
   var isRoot = !vm.$parent;
   // root instance props should be converted
-  observerState.shouldConvert = isRoot;
+  if (!isRoot) {
+    toggleObserving(false);
+  }
   var loop = function ( key ) {
     keys.push(key);
     var value = validateProp(key, propsOptions, propsData, vm);
@@ -13326,7 +13398,7 @@ function initProps (vm, propsOptions) {
   };
 
   for (var key in propsOptions) loop( key );
-  observerState.shouldConvert = true;
+  toggleObserving(true);
 }
 
 function initData (vm) {
@@ -13372,11 +13444,15 @@ function initData (vm) {
 }
 
 function getData (data, vm) {
+  // #7573 disable dep collection when invoking data getters
+  pushTarget();
   try {
     return data.call(vm, vm)
   } catch (e) {
     handleError(e, vm, "data()");
     return {}
+  } finally {
+    popTarget();
   }
 }
 
@@ -13514,7 +13590,7 @@ function initWatch (vm, watch) {
 
 function createWatcher (
   vm,
-  keyOrFn,
+  expOrFn,
   handler,
   options
 ) {
@@ -13525,7 +13601,7 @@ function createWatcher (
   if (typeof handler === 'string') {
     handler = vm[handler];
   }
-  return vm.$watch(keyOrFn, handler, options)
+  return vm.$watch(expOrFn, handler, options)
 }
 
 function stateMixin (Vue) {
@@ -13589,7 +13665,7 @@ function initProvide (vm) {
 function initInjections (vm) {
   var result = resolveInject(vm.$options.inject, vm);
   if (result) {
-    observerState.shouldConvert = false;
+    toggleObserving(false);
     Object.keys(result).forEach(function (key) {
       /* istanbul ignore else */
       if (process.env.NODE_ENV !== 'production') {
@@ -13605,7 +13681,7 @@ function initInjections (vm) {
         defineReactive(vm, key, result[key]);
       }
     });
-    observerState.shouldConvert = true;
+    toggleObserving(true);
   }
 }
 
@@ -13625,7 +13701,7 @@ function resolveInject (inject, vm) {
       var provideKey = inject[key].from;
       var source = vm;
       while (source) {
-        if (source._provided && provideKey in source._provided) {
+        if (source._provided && hasOwn(source._provided, provideKey)) {
           result[key] = source._provided[provideKey];
           break
         }
@@ -13740,6 +13816,14 @@ function resolveFilter (id) {
 
 /*  */
 
+function isKeyNotMatch (expect, actual) {
+  if (Array.isArray(expect)) {
+    return expect.indexOf(actual) === -1
+  } else {
+    return expect !== actual
+  }
+}
+
 /**
  * Runtime helper for checking keyCodes from config.
  * exposed as Vue.prototype._k
@@ -13748,16 +13832,15 @@ function resolveFilter (id) {
 function checkKeyCodes (
   eventKeyCode,
   key,
-  builtInAlias,
-  eventKeyName
+  builtInKeyCode,
+  eventKeyName,
+  builtInKeyName
 ) {
-  var keyCodes = config.keyCodes[key] || builtInAlias;
-  if (keyCodes) {
-    if (Array.isArray(keyCodes)) {
-      return keyCodes.indexOf(eventKeyCode) === -1
-    } else {
-      return keyCodes !== eventKeyCode
-    }
+  var mappedKeyCode = config.keyCodes[key] || builtInKeyCode;
+  if (builtInKeyName && eventKeyName && !config.keyCodes[key]) {
+    return isKeyNotMatch(builtInKeyName, eventKeyName)
+  } else if (mappedKeyCode) {
+    return isKeyNotMatch(mappedKeyCode, eventKeyCode)
   } else if (eventKeyName) {
     return hyphenate(eventKeyName) !== key
   }
@@ -13829,11 +13912,9 @@ function renderStatic (
   var cached = this._staticTrees || (this._staticTrees = []);
   var tree = cached[index];
   // if has already-rendered static tree and not inside v-for,
-  // we can reuse the same tree by doing a shallow clone.
+  // we can reuse the same tree.
   if (tree && !isInFor) {
-    return Array.isArray(tree)
-      ? cloneVNodes(tree)
-      : cloneVNode(tree)
+    return tree
   }
   // otherwise, render a fresh tree.
   tree = cached[index] = this.$options.staticRenderFns[index].call(
@@ -13931,6 +14012,24 @@ function FunctionalRenderContext (
   Ctor
 ) {
   var options = Ctor.options;
+  // ensure the createElement function in functional components
+  // gets a unique context - this is necessary for correct named slot check
+  var contextVm;
+  if (hasOwn(parent, '_uid')) {
+    contextVm = Object.create(parent);
+    // $flow-disable-line
+    contextVm._original = parent;
+  } else {
+    // the context vm passed in is a functional context as well.
+    // in this case we want to make sure we are able to get a hold to the
+    // real context instance.
+    contextVm = parent;
+    // $flow-disable-line
+    parent = parent._original;
+  }
+  var isCompiled = isTrue(options._compiled);
+  var needNormalization = !isCompiled;
+
   this.data = data;
   this.props = props;
   this.children = children;
@@ -13938,12 +14037,6 @@ function FunctionalRenderContext (
   this.listeners = data.on || emptyObject;
   this.injections = resolveInject(options.inject, parent);
   this.slots = function () { return resolveSlots(children, parent); };
-
-  // ensure the createElement function in functional components
-  // gets a unique context - this is necessary for correct named slot check
-  var contextVm = Object.create(parent);
-  var isCompiled = isTrue(options._compiled);
-  var needNormalization = !isCompiled;
 
   // support for compiled functional template
   if (isCompiled) {
@@ -13957,7 +14050,7 @@ function FunctionalRenderContext (
   if (options._scopeId) {
     this._c = function (a, b, c, d) {
       var vnode = createElement(contextVm, a, b, c, d, needNormalization);
-      if (vnode) {
+      if (vnode && !Array.isArray(vnode)) {
         vnode.fnScopeId = options._scopeId;
         vnode.fnContext = parent;
       }
@@ -14000,14 +14093,28 @@ function createFunctionalComponent (
   var vnode = options.render.call(null, renderContext._c, renderContext);
 
   if (vnode instanceof VNode) {
-    vnode.fnContext = contextVm;
-    vnode.fnOptions = options;
-    if (data.slot) {
-      (vnode.data || (vnode.data = {})).slot = data.slot;
+    return cloneAndMarkFunctionalResult(vnode, data, renderContext.parent, options)
+  } else if (Array.isArray(vnode)) {
+    var vnodes = normalizeChildren(vnode) || [];
+    var res = new Array(vnodes.length);
+    for (var i = 0; i < vnodes.length; i++) {
+      res[i] = cloneAndMarkFunctionalResult(vnodes[i], data, renderContext.parent, options);
     }
+    return res
   }
+}
 
-  return vnode
+function cloneAndMarkFunctionalResult (vnode, data, contextVm, options) {
+  // #7817 clone node before setting fnContext, otherwise if the node is reused
+  // (e.g. it was from a cached normal slot) the fnContext causes named slots
+  // that should not be matched to match.
+  var clone = cloneVNode(vnode);
+  clone.fnContext = contextVm;
+  clone.fnOptions = options;
+  if (data.slot) {
+    (clone.data || (clone.data = {})).slot = data.slot;
+  }
+  return clone
 }
 
 function mergeProps (to, from) {
@@ -14037,7 +14144,7 @@ function mergeProps (to, from) {
 
 /*  */
 
-// hooks to be invoked on component VNodes during patch
+// inline hooks to be invoked on component VNodes during patch
 var componentVNodeHooks = {
   init: function init (
     vnode,
@@ -14045,7 +14152,15 @@ var componentVNodeHooks = {
     parentElm,
     refElm
   ) {
-    if (!vnode.componentInstance || vnode.componentInstance._isDestroyed) {
+    if (
+      vnode.componentInstance &&
+      !vnode.componentInstance._isDestroyed &&
+      vnode.data.keepAlive
+    ) {
+      // kept-alive components, treat as a patch
+      var mountedNode = vnode; // work around flow
+      componentVNodeHooks.prepatch(mountedNode, mountedNode);
+    } else {
       var child = vnode.componentInstance = createComponentInstanceForVnode(
         vnode,
         activeInstance,
@@ -14053,10 +14168,6 @@ var componentVNodeHooks = {
         refElm
       );
       child.$mount(hydrating ? vnode.elm : undefined, hydrating);
-    } else if (vnode.data.keepAlive) {
-      // kept-alive components, treat as a patch
-      var mountedNode = vnode; // work around flow
-      componentVNodeHooks.prepatch(mountedNode, mountedNode);
     }
   },
 
@@ -14191,8 +14302,8 @@ function createComponent (
     }
   }
 
-  // merge component management hooks onto the placeholder node
-  mergeHooks(data);
+  // install component management hooks onto the placeholder node
+  installComponentHooks(data);
 
   // return a placeholder vnode
   var name = Ctor.options.name || tag;
@@ -14232,22 +14343,11 @@ function createComponentInstanceForVnode (
   return new vnode.componentOptions.Ctor(options)
 }
 
-function mergeHooks (data) {
-  if (!data.hook) {
-    data.hook = {};
-  }
+function installComponentHooks (data) {
+  var hooks = data.hook || (data.hook = {});
   for (var i = 0; i < hooksToMerge.length; i++) {
     var key = hooksToMerge[i];
-    var fromParent = data.hook[key];
-    var ours = componentVNodeHooks[key];
-    data.hook[key] = fromParent ? mergeHook$1(ours, fromParent) : ours;
-  }
-}
-
-function mergeHook$1 (one, two) {
-  return function (a, b, c, d) {
-    one(a, b, c, d);
-    two(a, b, c, d);
+    hooks[key] = componentVNodeHooks[key];
   }
 }
 
@@ -14364,8 +14464,11 @@ function _createElement (
     // direct component options / constructor
     vnode = createComponent(tag, data, context, children);
   }
-  if (isDef(vnode)) {
-    if (ns) { applyNS(vnode, ns); }
+  if (Array.isArray(vnode)) {
+    return vnode
+  } else if (isDef(vnode)) {
+    if (isDef(ns)) { applyNS(vnode, ns); }
+    if (isDef(data)) { registerDeepBindings(data); }
     return vnode
   } else {
     return createEmptyVNode()
@@ -14382,10 +14485,23 @@ function applyNS (vnode, ns, force) {
   if (isDef(vnode.children)) {
     for (var i = 0, l = vnode.children.length; i < l; i++) {
       var child = vnode.children[i];
-      if (isDef(child.tag) && (isUndef(child.ns) || isTrue(force))) {
+      if (isDef(child.tag) && (
+        isUndef(child.ns) || (isTrue(force) && child.tag !== 'svg'))) {
         applyNS(child, ns, force);
       }
     }
+  }
+}
+
+// ref #5318
+// necessary to ensure parent re-render when deep bindings like :style and
+// :class are used on slot nodes
+function registerDeepBindings (data) {
+  if (isObject(data.style)) {
+    traverse(data.style);
+  }
+  if (isObject(data.class)) {
+    traverse(data.class);
   }
 }
 
@@ -14440,20 +14556,17 @@ function renderMixin (Vue) {
     var render = ref.render;
     var _parentVnode = ref._parentVnode;
 
-    if (vm._isMounted) {
-      // if the parent didn't update, the slot nodes will be the ones from
-      // last render. They need to be cloned to ensure "freshness" for this render.
+    // reset _rendered flag on slots for duplicate slot check
+    if (process.env.NODE_ENV !== 'production') {
       for (var key in vm.$slots) {
-        var slot = vm.$slots[key];
-        // _rendered is a flag added by renderSlot, but may not be present
-        // if the slot is passed from manually written render functions
-        if (slot._rendered || (slot[0] && slot[0].elm)) {
-          vm.$slots[key] = cloneVNodes(slot, true /* deep */);
-        }
+        // $flow-disable-line
+        vm.$slots[key]._rendered = false;
       }
     }
 
-    vm.$scopedSlots = (_parentVnode && _parentVnode.data.scopedSlots) || emptyObject;
+    if (_parentVnode) {
+      vm.$scopedSlots = _parentVnode.data.scopedSlots || emptyObject;
+    }
 
     // set parent vnode. this allows render functions to have access
     // to the data on the placeholder node.
@@ -14501,13 +14614,13 @@ function renderMixin (Vue) {
 
 /*  */
 
-var uid$1 = 0;
+var uid$3 = 0;
 
 function initMixin (Vue) {
   Vue.prototype._init = function (options) {
     var vm = this;
     // a uid
-    vm._uid = uid$1++;
+    vm._uid = uid$3++;
 
     var startTag, endTag;
     /* istanbul ignore if */
@@ -14640,20 +14753,20 @@ function dedupe (latest, extended, sealed) {
   }
 }
 
-function Vue$3 (options) {
+function Vue (options) {
   if (process.env.NODE_ENV !== 'production' &&
-    !(this instanceof Vue$3)
+    !(this instanceof Vue)
   ) {
     warn('Vue is a constructor and should be called with the `new` keyword');
   }
   this._init(options);
 }
 
-initMixin(Vue$3);
-stateMixin(Vue$3);
-eventsMixin(Vue$3);
-lifecycleMixin(Vue$3);
-renderMixin(Vue$3);
+initMixin(Vue);
+stateMixin(Vue);
+eventsMixin(Vue);
+lifecycleMixin(Vue);
+renderMixin(Vue);
 
 /*  */
 
@@ -14882,13 +14995,15 @@ var KeepAlive = {
     }
   },
 
-  watch: {
-    include: function include (val) {
-      pruneCache(this, function (name) { return matches(val, name); });
-    },
-    exclude: function exclude (val) {
-      pruneCache(this, function (name) { return !matches(val, name); });
-    }
+  mounted: function mounted () {
+    var this$1 = this;
+
+    this.$watch('include', function (val) {
+      pruneCache(this$1, function (name) { return matches(val, name); });
+    });
+    this.$watch('exclude', function (val) {
+      pruneCache(this$1, function (name) { return !matches(val, name); });
+    });
   },
 
   render: function render () {
@@ -14936,11 +15051,11 @@ var KeepAlive = {
     }
     return vnode || (slot && slot[0])
   }
-};
+}
 
 var builtInComponents = {
   KeepAlive: KeepAlive
-};
+}
 
 /*  */
 
@@ -14988,20 +15103,25 @@ function initGlobalAPI (Vue) {
   initAssetRegisters(Vue);
 }
 
-initGlobalAPI(Vue$3);
+initGlobalAPI(Vue);
 
-Object.defineProperty(Vue$3.prototype, '$isServer', {
+Object.defineProperty(Vue.prototype, '$isServer', {
   get: isServerRendering
 });
 
-Object.defineProperty(Vue$3.prototype, '$ssrContext', {
+Object.defineProperty(Vue.prototype, '$ssrContext', {
   get: function get () {
     /* istanbul ignore next */
     return this.$vnode && this.$vnode.ssrContext
   }
 });
 
-Vue$3.version = '2.5.13';
+// expose FunctionalRenderContext for ssr runtime helper installation
+Object.defineProperty(Vue, 'FunctionalRenderContext', {
+  value: FunctionalRenderContext
+});
+
+Vue.version = '2.5.16';
 
 /*  */
 
@@ -15275,8 +15395,8 @@ function setTextContent (node, text) {
   node.textContent = text;
 }
 
-function setAttribute (node, key, val) {
-  node.setAttribute(key, val);
+function setStyleScope (node, scopeId) {
+  node.setAttribute(scopeId, '');
 }
 
 
@@ -15292,7 +15412,7 @@ var nodeOps = Object.freeze({
 	nextSibling: nextSibling,
 	tagName: tagName,
 	setTextContent: setTextContent,
-	setAttribute: setAttribute
+	setStyleScope: setStyleScope
 });
 
 /*  */
@@ -15310,11 +15430,11 @@ var ref = {
   destroy: function destroy (vnode) {
     registerRef(vnode, true);
   }
-};
+}
 
 function registerRef (vnode, isRemoval) {
   var key = vnode.data.ref;
-  if (!key) { return }
+  if (!isDef(key)) { return }
 
   var vm = vnode.context;
   var ref = vnode.componentInstance || vnode.elm;
@@ -15445,7 +15565,25 @@ function createPatchFunction (backend) {
   }
 
   var creatingElmInVPre = 0;
-  function createElm (vnode, insertedVnodeQueue, parentElm, refElm, nested) {
+
+  function createElm (
+    vnode,
+    insertedVnodeQueue,
+    parentElm,
+    refElm,
+    nested,
+    ownerArray,
+    index
+  ) {
+    if (isDef(vnode.elm) && isDef(ownerArray)) {
+      // This vnode was used in a previous render!
+      // now it's used as a new node, overwriting its elm would cause
+      // potential patch errors down the road when it's used as an insertion
+      // reference node. Instead, we clone the node on-demand before creating
+      // associated DOM element for it.
+      vnode = ownerArray[index] = cloneVNode(vnode);
+    }
+
     vnode.isRootInsert = !nested; // for transition enter check
     if (createComponent(vnode, insertedVnodeQueue, parentElm, refElm)) {
       return
@@ -15468,6 +15606,7 @@ function createPatchFunction (backend) {
           );
         }
       }
+
       vnode.elm = vnode.ns
         ? nodeOps.createElementNS(vnode.ns, tag)
         : nodeOps.createElement(tag, vnode);
@@ -15573,7 +15712,7 @@ function createPatchFunction (backend) {
         checkDuplicateKeys(children);
       }
       for (var i = 0; i < children.length; ++i) {
-        createElm(children[i], insertedVnodeQueue, vnode.elm, null, true);
+        createElm(children[i], insertedVnodeQueue, vnode.elm, null, true, children, i);
       }
     } else if (isPrimitive(vnode.text)) {
       nodeOps.appendChild(vnode.elm, nodeOps.createTextNode(String(vnode.text)));
@@ -15604,12 +15743,12 @@ function createPatchFunction (backend) {
   function setScope (vnode) {
     var i;
     if (isDef(i = vnode.fnScopeId)) {
-      nodeOps.setAttribute(vnode.elm, i, '');
+      nodeOps.setStyleScope(vnode.elm, i);
     } else {
       var ancestor = vnode;
       while (ancestor) {
         if (isDef(i = ancestor.context) && isDef(i = i.$options._scopeId)) {
-          nodeOps.setAttribute(vnode.elm, i, '');
+          nodeOps.setStyleScope(vnode.elm, i);
         }
         ancestor = ancestor.parent;
       }
@@ -15620,13 +15759,13 @@ function createPatchFunction (backend) {
       i !== vnode.fnContext &&
       isDef(i = i.$options._scopeId)
     ) {
-      nodeOps.setAttribute(vnode.elm, i, '');
+      nodeOps.setStyleScope(vnode.elm, i);
     }
   }
 
   function addVnodes (parentElm, refElm, vnodes, startIdx, endIdx, insertedVnodeQueue) {
     for (; startIdx <= endIdx; ++startIdx) {
-      createElm(vnodes[startIdx], insertedVnodeQueue, parentElm, refElm);
+      createElm(vnodes[startIdx], insertedVnodeQueue, parentElm, refElm, false, vnodes, startIdx);
     }
   }
 
@@ -15736,7 +15875,7 @@ function createPatchFunction (backend) {
           ? oldKeyToIdx[newStartVnode.key]
           : findIdxInOld(newStartVnode, oldCh, oldStartIdx, oldEndIdx);
         if (isUndef(idxInOld)) { // New element
-          createElm(newStartVnode, insertedVnodeQueue, parentElm, oldStartVnode.elm);
+          createElm(newStartVnode, insertedVnodeQueue, parentElm, oldStartVnode.elm, false, newCh, newStartIdx);
         } else {
           vnodeToMove = oldCh[idxInOld];
           if (sameVnode(vnodeToMove, newStartVnode)) {
@@ -15745,7 +15884,7 @@ function createPatchFunction (backend) {
             canMove && nodeOps.insertBefore(parentElm, vnodeToMove.elm, oldStartVnode.elm);
           } else {
             // same key but different element. treat as new element
-            createElm(newStartVnode, insertedVnodeQueue, parentElm, oldStartVnode.elm);
+            createElm(newStartVnode, insertedVnodeQueue, parentElm, oldStartVnode.elm, false, newCh, newStartIdx);
           }
         }
         newStartVnode = newCh[++newStartIdx];
@@ -16083,7 +16222,7 @@ var directives = {
   destroy: function unbindDirectives (vnode) {
     updateDirectives(vnode, emptyNode);
   }
-};
+}
 
 function updateDirectives (oldVnode, vnode) {
   if (oldVnode.data.directives || vnode.data.directives) {
@@ -16194,7 +16333,7 @@ function callHook$1 (dir, hook, vnode, oldVnode, isDestroy) {
 var baseModules = [
   ref,
   directives
-];
+]
 
 /*  */
 
@@ -16240,7 +16379,9 @@ function updateAttrs (oldVnode, vnode) {
 }
 
 function setAttr (el, key, value) {
-  if (isBooleanAttr(key)) {
+  if (el.tagName.indexOf('-') > -1) {
+    baseSetAttr(el, key, value);
+  } else if (isBooleanAttr(key)) {
     // set attribute for blank value
     // e.g. <option disabled>Select one</option>
     if (isFalsyAttrValue(value)) {
@@ -16262,35 +16403,39 @@ function setAttr (el, key, value) {
       el.setAttributeNS(xlinkNS, key, value);
     }
   } else {
-    if (isFalsyAttrValue(value)) {
-      el.removeAttribute(key);
-    } else {
-      // #7138: IE10 & 11 fires input event when setting placeholder on
-      // <textarea>... block the first input event and remove the blocker
-      // immediately.
-      /* istanbul ignore if */
-      if (
-        isIE && !isIE9 &&
-        el.tagName === 'TEXTAREA' &&
-        key === 'placeholder' && !el.__ieph
-      ) {
-        var blocker = function (e) {
-          e.stopImmediatePropagation();
-          el.removeEventListener('input', blocker);
-        };
-        el.addEventListener('input', blocker);
-        // $flow-disable-line
-        el.__ieph = true; /* IE placeholder patched */
-      }
-      el.setAttribute(key, value);
+    baseSetAttr(el, key, value);
+  }
+}
+
+function baseSetAttr (el, key, value) {
+  if (isFalsyAttrValue(value)) {
+    el.removeAttribute(key);
+  } else {
+    // #7138: IE10 & 11 fires input event when setting placeholder on
+    // <textarea>... block the first input event and remove the blocker
+    // immediately.
+    /* istanbul ignore if */
+    if (
+      isIE && !isIE9 &&
+      el.tagName === 'TEXTAREA' &&
+      key === 'placeholder' && !el.__ieph
+    ) {
+      var blocker = function (e) {
+        e.stopImmediatePropagation();
+        el.removeEventListener('input', blocker);
+      };
+      el.addEventListener('input', blocker);
+      // $flow-disable-line
+      el.__ieph = true; /* IE placeholder patched */
     }
+    el.setAttribute(key, value);
   }
 }
 
 var attrs = {
   create: updateAttrs,
   update: updateAttrs
-};
+}
 
 /*  */
 
@@ -16328,7 +16473,7 @@ function updateClass (oldVnode, vnode) {
 var klass = {
   create: updateClass,
   update: updateClass
-};
+}
 
 /*  */
 
@@ -16424,7 +16569,7 @@ function wrapFilter (exp, filter) {
   } else {
     var name = filter.slice(0, i);
     var args = filter.slice(i + 1);
-    return ("_f(\"" + name + "\")(" + exp + "," + args)
+    return ("_f(\"" + name + "\")(" + exp + (args !== ')' ? ',' + args : args))
   }
 }
 
@@ -16527,7 +16672,9 @@ function addHandler (
     events = el.events || (el.events = {});
   }
 
-  var newHandler = { value: value };
+  var newHandler = {
+    value: value.trim()
+  };
   if (modifiers !== emptyObject) {
     newHandler.modifiers = modifiers;
   }
@@ -16607,8 +16754,8 @@ function genComponentModel (
   if (trim) {
     valueExpression =
       "(typeof " + baseValueExpression + " === 'string'" +
-        "? " + baseValueExpression + ".trim()" +
-        ": " + baseValueExpression + ")";
+      "? " + baseValueExpression + ".trim()" +
+      ": " + baseValueExpression + ")";
   }
   if (number) {
     valueExpression = "_n(" + valueExpression + ")";
@@ -16662,6 +16809,9 @@ var expressionEndPos;
 
 
 function parseModel (val) {
+  // Fix https://github.com/vuejs/vue/pull/7730
+  // allow v-model="obj.val " (trailing whitespace)
+  val = val.trim();
   len = val.length;
 
   if (val.indexOf('[') < 0 || val.lastIndexOf(']') < len - 1) {
@@ -16822,8 +16972,8 @@ function genCheckboxModel (
     'if(Array.isArray($$a)){' +
       "var $$v=" + (number ? '_n(' + valueBinding + ')' : valueBinding) + "," +
           '$$i=_i($$a,$$v);' +
-      "if($$el.checked){$$i<0&&(" + value + "=$$a.concat([$$v]))}" +
-      "else{$$i>-1&&(" + value + "=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}" +
+      "if($$el.checked){$$i<0&&(" + (genAssignmentCode(value, '$$a.concat([$$v])')) + ")}" +
+      "else{$$i>-1&&(" + (genAssignmentCode(value, '$$a.slice(0,$$i).concat($$a.slice($$i+1))')) + ")}" +
     "}else{" + (genAssignmentCode(value, '$$c')) + "}",
     null, true
   );
@@ -16866,9 +17016,11 @@ function genDefaultModel (
   var type = el.attrsMap.type;
 
   // warn if v-bind:value conflicts with v-model
+  // except for inputs with v-bind:type
   if (process.env.NODE_ENV !== 'production') {
     var value$1 = el.attrsMap['v-bind:value'] || el.attrsMap[':value'];
-    if (value$1) {
+    var typeBinding = el.attrsMap['v-bind:type'] || el.attrsMap[':type'];
+    if (value$1 && !typeBinding) {
       var binding = el.attrsMap['v-bind:value'] ? 'v-bind:value' : ':value';
       warn$1(
         binding + "=\"" + value$1 + "\" conflicts with v-model on the same element " +
@@ -16989,7 +17141,7 @@ function updateDOMListeners (oldVnode, vnode) {
 var events = {
   create: updateDOMListeners,
   update: updateDOMListeners
-};
+}
 
 /*  */
 
@@ -17083,7 +17235,7 @@ function isDirtyWithModifiers (elm, newVal) {
 var domProps = {
   create: updateDOMProps,
   update: updateDOMProps
-};
+}
 
 /*  */
 
@@ -17244,7 +17396,7 @@ function updateStyle (oldVnode, vnode) {
 var style = {
   create: updateStyle,
   update: updateStyle
-};
+}
 
 /*  */
 
@@ -17617,13 +17769,15 @@ function enter (vnode, toggleDisplay) {
     addTransitionClass(el, startClass);
     addTransitionClass(el, activeClass);
     nextFrame(function () {
-      addTransitionClass(el, toClass);
       removeTransitionClass(el, startClass);
-      if (!cb.cancelled && !userWantsControl) {
-        if (isValidDuration(explicitEnterDuration)) {
-          setTimeout(cb, explicitEnterDuration);
-        } else {
-          whenTransitionEnds(el, type, cb);
+      if (!cb.cancelled) {
+        addTransitionClass(el, toClass);
+        if (!userWantsControl) {
+          if (isValidDuration(explicitEnterDuration)) {
+            setTimeout(cb, explicitEnterDuration);
+          } else {
+            whenTransitionEnds(el, type, cb);
+          }
         }
       }
     });
@@ -17723,13 +17877,15 @@ function leave (vnode, rm) {
       addTransitionClass(el, leaveClass);
       addTransitionClass(el, leaveActiveClass);
       nextFrame(function () {
-        addTransitionClass(el, leaveToClass);
         removeTransitionClass(el, leaveClass);
-        if (!cb.cancelled && !userWantsControl) {
-          if (isValidDuration(explicitLeaveDuration)) {
-            setTimeout(cb, explicitLeaveDuration);
-          } else {
-            whenTransitionEnds(el, type, cb);
+        if (!cb.cancelled) {
+          addTransitionClass(el, leaveToClass);
+          if (!userWantsControl) {
+            if (isValidDuration(explicitLeaveDuration)) {
+              setTimeout(cb, explicitLeaveDuration);
+            } else {
+              whenTransitionEnds(el, type, cb);
+            }
           }
         }
       });
@@ -17802,7 +17958,7 @@ var transition = inBrowser ? {
       rm();
     }
   }
-} : {};
+} : {}
 
 var platformModules = [
   attrs,
@@ -17811,7 +17967,7 @@ var platformModules = [
   domProps,
   style,
   transition
-];
+]
 
 /*  */
 
@@ -17852,15 +18008,13 @@ var directive = {
     } else if (vnode.tag === 'textarea' || isTextInputType(el.type)) {
       el._vModifiers = binding.modifiers;
       if (!binding.modifiers.lazy) {
+        el.addEventListener('compositionstart', onCompositionStart);
+        el.addEventListener('compositionend', onCompositionEnd);
         // Safari < 10.2 & UIWebView doesn't fire compositionend when
         // switching focus before confirming composition choice
         // this also fixes the issue where some browsers e.g. iOS Chrome
         // fires "change" instead of "input" on autocomplete.
         el.addEventListener('change', onCompositionEnd);
-        if (!isAndroid) {
-          el.addEventListener('compositionstart', onCompositionStart);
-          el.addEventListener('compositionend', onCompositionEnd);
-        }
         /* istanbul ignore if */
         if (isIE9) {
           el.vmodel = true;
@@ -17994,7 +18148,7 @@ var show = {
     var oldValue = ref.oldValue;
 
     /* istanbul ignore if */
-    if (value === oldValue) { return }
+    if (!value === !oldValue) { return }
     vnode = locateNode(vnode);
     var transition$$1 = vnode.data && vnode.data.transition;
     if (transition$$1) {
@@ -18024,12 +18178,12 @@ var show = {
       el.style.display = el.__vOriginalDisplay;
     }
   }
-};
+}
 
 var platformDirectives = {
   model: directive,
   show: show
-};
+}
 
 /*  */
 
@@ -18218,7 +18372,7 @@ var Transition = {
 
     return rawChild
   }
-};
+}
 
 /*  */
 
@@ -18292,7 +18446,7 @@ var TransitionGroup = {
       this._vnode,
       this.kept,
       false, // hydrating
-      true // removeOnly (!important avoids unnecessary moves)
+      true // removeOnly (!important, avoids unnecessary moves)
     );
     this._vnode = this.kept;
   },
@@ -18359,7 +18513,7 @@ var TransitionGroup = {
       return (this._hasMove = info.hasTransform)
     }
   }
-};
+}
 
 function callPendingCbs (c) {
   /* istanbul ignore if */
@@ -18392,26 +18546,26 @@ function applyTranslation (c) {
 var platformComponents = {
   Transition: Transition,
   TransitionGroup: TransitionGroup
-};
+}
 
 /*  */
 
 // install platform specific utils
-Vue$3.config.mustUseProp = mustUseProp;
-Vue$3.config.isReservedTag = isReservedTag;
-Vue$3.config.isReservedAttr = isReservedAttr;
-Vue$3.config.getTagNamespace = getTagNamespace;
-Vue$3.config.isUnknownElement = isUnknownElement;
+Vue.config.mustUseProp = mustUseProp;
+Vue.config.isReservedTag = isReservedTag;
+Vue.config.isReservedAttr = isReservedAttr;
+Vue.config.getTagNamespace = getTagNamespace;
+Vue.config.isUnknownElement = isUnknownElement;
 
 // install platform runtime directives & components
-extend(Vue$3.options.directives, platformDirectives);
-extend(Vue$3.options.components, platformComponents);
+extend(Vue.options.directives, platformDirectives);
+extend(Vue.options.components, platformComponents);
 
 // install platform patch function
-Vue$3.prototype.__patch__ = inBrowser ? patch : noop;
+Vue.prototype.__patch__ = inBrowser ? patch : noop;
 
 // public mount method
-Vue$3.prototype.$mount = function (
+Vue.prototype.$mount = function (
   el,
   hydrating
 ) {
@@ -18421,28 +18575,35 @@ Vue$3.prototype.$mount = function (
 
 // devtools global hook
 /* istanbul ignore next */
-Vue$3.nextTick(function () {
-  if (config.devtools) {
-    if (devtools) {
-      devtools.emit('init', Vue$3);
-    } else if (process.env.NODE_ENV !== 'production' && isChrome) {
+if (inBrowser) {
+  setTimeout(function () {
+    if (config.devtools) {
+      if (devtools) {
+        devtools.emit('init', Vue);
+      } else if (
+        process.env.NODE_ENV !== 'production' &&
+        process.env.NODE_ENV !== 'test' &&
+        isChrome
+      ) {
+        console[console.info ? 'info' : 'log'](
+          'Download the Vue Devtools extension for a better development experience:\n' +
+          'https://github.com/vuejs/vue-devtools'
+        );
+      }
+    }
+    if (process.env.NODE_ENV !== 'production' &&
+      process.env.NODE_ENV !== 'test' &&
+      config.productionTip !== false &&
+      typeof console !== 'undefined'
+    ) {
       console[console.info ? 'info' : 'log'](
-        'Download the Vue Devtools extension for a better development experience:\n' +
-        'https://github.com/vuejs/vue-devtools'
+        "You are running Vue in development mode.\n" +
+        "Make sure to turn on production mode when deploying for production.\n" +
+        "See more tips at https://vuejs.org/guide/deployment.html"
       );
     }
-  }
-  if (process.env.NODE_ENV !== 'production' &&
-    config.productionTip !== false &&
-    inBrowser && typeof console !== 'undefined'
-  ) {
-    console[console.info ? 'info' : 'log'](
-      "You are running Vue in development mode.\n" +
-      "Make sure to turn on production mode when deploying for production.\n" +
-      "See more tips at https://vuejs.org/guide/deployment.html"
-    );
-  }
-}, 0);
+  }, 0);
+}
 
 /*  */
 
@@ -18532,7 +18693,7 @@ var klass$1 = {
   staticKeys: ['staticClass'],
   transformNode: transformNode,
   genData: genData
-};
+}
 
 /*  */
 
@@ -18576,7 +18737,7 @@ var style$1 = {
   staticKeys: ['staticStyle'],
   transformNode: transformNode$1,
   genData: genData$1
-};
+}
 
 /*  */
 
@@ -18588,7 +18749,7 @@ var he = {
     decoder.innerHTML = html;
     return decoder.textContent
   }
-};
+}
 
 /*  */
 
@@ -18634,7 +18795,8 @@ var startTagOpen = new RegExp(("^<" + qnameCapture));
 var startTagClose = /^\s*(\/?)>/;
 var endTag = new RegExp(("^<\\/" + qnameCapture + "[^>]*>"));
 var doctype = /^<!DOCTYPE [^>]+>/i;
-var comment = /^<!--/;
+// #7298: escape - to avoid being pased as HTML comment when inlined in page
+var comment = /^<!\--/;
 var conditionalComment = /^<!\[/;
 
 var IS_REGEX_CAPTURING_BROKEN = false;
@@ -18764,7 +18926,7 @@ function parseHTML (html, options) {
         endTagLength = endTag.length;
         if (!isPlainTextElement(stackedTag) && stackedTag !== 'noscript') {
           text = text
-            .replace(/<!--([\s\S]*?)-->/g, '$1')
+            .replace(/<!\--([\s\S]*?)-->/g, '$1') // #7298
             .replace(/<!\[CDATA\[([\s\S]*?)]]>/g, '$1');
         }
         if (shouldIgnoreFirstNewline(stackedTag, text)) {
@@ -18924,7 +19086,7 @@ function parseHTML (html, options) {
 
 var onRE = /^@|^v-on:/;
 var dirRE = /^v-|^@|^:/;
-var forAliasRE = /(.*?)\s+(?:in|of)\s+(.*)/;
+var forAliasRE = /([^]*?)\s+(?:in|of)\s+([^]*)/;
 var forIteratorRE = /,([^,\}\]]*)(?:,([^,\}\]]*))?$/;
 var stripParensRE = /^\(|\)$/g;
 
@@ -19262,6 +19424,8 @@ function processFor (el) {
   }
 }
 
+
+
 function parseFor (exp) {
   var inMatch = exp.match(forAliasRE);
   if (!inMatch) { return }
@@ -19584,8 +19748,19 @@ function checkForAliasModel (el, value) {
 function preTransformNode (el, options) {
   if (el.tag === 'input') {
     var map = el.attrsMap;
-    if (map['v-model'] && (map['v-bind:type'] || map[':type'])) {
-      var typeBinding = getBindingAttr(el, 'type');
+    if (!map['v-model']) {
+      return
+    }
+
+    var typeBinding;
+    if (map[':type'] || map['v-bind:type']) {
+      typeBinding = getBindingAttr(el, 'type');
+    }
+    if (!map.type && !typeBinding && map['v-bind']) {
+      typeBinding = "(" + (map['v-bind']) + ").type";
+    }
+
+    if (typeBinding) {
       var ifCondition = getAndRemoveAttr(el, 'v-if', true);
       var ifConditionExtra = ifCondition ? ("&&(" + ifCondition + ")") : "";
       var hasElse = getAndRemoveAttr(el, 'v-else', true) != null;
@@ -19638,13 +19813,13 @@ function cloneASTElement (el) {
 
 var model$2 = {
   preTransformNode: preTransformNode
-};
+}
 
 var modules$1 = [
   klass$1,
   style$1,
   model$2
-];
+]
 
 /*  */
 
@@ -19666,7 +19841,7 @@ var directives$1 = {
   model: model,
   text: text,
   html: html
-};
+}
 
 /*  */
 
@@ -19812,10 +19987,10 @@ function isDirectChildOfTemplateFor (node) {
 
 /*  */
 
-var fnExpRE = /^\s*([\w$_]+|\([^)]*?\))\s*=>|^function\s*\(/;
-var simplePathRE = /^\s*[A-Za-z_$][\w$]*(?:\.[A-Za-z_$][\w$]*|\['.*?']|\[".*?"]|\[\d+]|\[[A-Za-z_$][\w$]*])*\s*$/;
+var fnExpRE = /^([\w$_]+|\([^)]*?\))\s*=>|^function\s*\(/;
+var simplePathRE = /^[A-Za-z_$][\w$]*(?:\.[A-Za-z_$][\w$]*|\['[^']*?']|\["[^"]*?"]|\[\d+]|\[[A-Za-z_$][\w$]*])*$/;
 
-// keyCode aliases
+// KeyboardEvent.keyCode aliases
 var keyCodes = {
   esc: 27,
   tab: 9,
@@ -19826,6 +20001,20 @@ var keyCodes = {
   right: 39,
   down: 40,
   'delete': [8, 46]
+};
+
+// KeyboardEvent.key aliases
+var keyNames = {
+  esc: 'Escape',
+  tab: 'Tab',
+  enter: 'Enter',
+  space: ' ',
+  // #7806: IE11 uses key names without `Arrow` prefix for arrow keys.
+  up: ['Up', 'ArrowUp'],
+  left: ['Left', 'ArrowLeft'],
+  right: ['Right', 'ArrowRight'],
+  down: ['Down', 'ArrowDown'],
+  'delete': ['Backspace', 'Delete']
 };
 
 // #4868: modifiers that prevent the execution of the listener
@@ -19910,9 +20099,9 @@ function genHandler (
       code += genModifierCode;
     }
     var handlerCode = isMethodPath
-      ? handler.value + '($event)'
+      ? ("return " + (handler.value) + "($event)")
       : isFunctionExpression
-        ? ("(" + (handler.value) + ")($event)")
+        ? ("return (" + (handler.value) + ")($event)")
         : handler.value;
     /* istanbul ignore if */
     return ("function($event){" + code + handlerCode + "}")
@@ -19928,12 +20117,15 @@ function genFilterCode (key) {
   if (keyVal) {
     return ("$event.keyCode!==" + keyVal)
   }
-  var code = keyCodes[key];
+  var keyCode = keyCodes[key];
+  var keyName = keyNames[key];
   return (
     "_k($event.keyCode," +
     (JSON.stringify(key)) + "," +
-    (JSON.stringify(code)) + "," +
-    "$event.key)"
+    (JSON.stringify(keyCode)) + "," +
+    "$event.key," +
+    "" + (JSON.stringify(keyName)) +
+    ")"
   )
 }
 
@@ -19960,7 +20152,7 @@ var baseDirectives = {
   on: on,
   bind: bind$1,
   cloak: noop
-};
+}
 
 /*  */
 
@@ -20711,8 +20903,8 @@ var idToTemplate = cached(function (id) {
   return el && el.innerHTML
 });
 
-var mount = Vue$3.prototype.$mount;
-Vue$3.prototype.$mount = function (
+var mount = Vue.prototype.$mount;
+Vue.prototype.$mount = function (
   el,
   hydrating
 ) {
@@ -20794,11 +20986,11 @@ function getOuterHTML (el) {
   }
 }
 
-Vue$3.compile = compileToFunctions;
+Vue.compile = compileToFunctions;
 
-/* harmony default export */ __webpack_exports__["a"] = (Vue$3);
+/* harmony default export */ __webpack_exports__["default"] = (Vue);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(90), __webpack_require__(49), __webpack_require__(178).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(90), __webpack_require__(50), __webpack_require__(178).setImmediate))
 
 /***/ }),
 /* 178 */
@@ -20865,7 +21057,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (typeof global !== "undefined" && global.clearImmediate) ||
                          (this && this.clearImmediate);
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(49)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(50)))
 
 /***/ }),
 /* 179 */
@@ -21058,7 +21250,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(49), __webpack_require__(90)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(50), __webpack_require__(90)))
 
 /***/ }),
 /* 180 */
@@ -33116,10 +33308,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "brushX", function() { return __WEBPACK_IMPORTED_MODULE_3_d3_brush__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "brushY", function() { return __WEBPACK_IMPORTED_MODULE_3_d3_brush__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "brushSelection", function() { return __WEBPACK_IMPORTED_MODULE_3_d3_brush__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_chord__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_chord__ = __webpack_require__(291);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "chord", function() { return __WEBPACK_IMPORTED_MODULE_4_d3_chord__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ribbon", function() { return __WEBPACK_IMPORTED_MODULE_4_d3_chord__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_d3_collection__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_d3_collection__ = __webpack_require__(38);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "nest", function() { return __WEBPACK_IMPORTED_MODULE_5_d3_collection__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "set", function() { return __WEBPACK_IMPORTED_MODULE_5_d3_collection__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "map", function() { return __WEBPACK_IMPORTED_MODULE_5_d3_collection__["c"]; });
@@ -33128,21 +33320,23 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "entries", function() { return __WEBPACK_IMPORTED_MODULE_5_d3_collection__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_d3_color__ = __webpack_require__(8);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "color", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["a"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "rgb", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["f"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "hsl", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["d"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "lab", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["e"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "hcl", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["c"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "rgb", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["h"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "hsl", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["e"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "lab", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["f"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "hcl", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["d"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "lch", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["g"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "gray", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "cubehelix", function() { return __WEBPACK_IMPORTED_MODULE_6_d3_color__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_d3_contour__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_d3_contour__ = __webpack_require__(302);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "contours", function() { return __WEBPACK_IMPORTED_MODULE_7_d3_contour__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "contourDensity", function() { return __WEBPACK_IMPORTED_MODULE_7_d3_contour__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_d3_dispatch__ = __webpack_require__(19);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "dispatch", function() { return __WEBPACK_IMPORTED_MODULE_8_d3_dispatch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_d3_drag__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_d3_drag__ = __webpack_require__(52);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "drag", function() { return __WEBPACK_IMPORTED_MODULE_9_d3_drag__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "dragDisable", function() { return __WEBPACK_IMPORTED_MODULE_9_d3_drag__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "dragEnable", function() { return __WEBPACK_IMPORTED_MODULE_9_d3_drag__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_d3_dsv__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_d3_dsv__ = __webpack_require__(126);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "dsvFormat", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_dsv__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "csvParse", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_dsv__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "csvParseRows", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_dsv__["d"]; });
@@ -33152,7 +33346,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "tsvParseRows", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_dsv__["i"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "tsvFormat", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_dsv__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "tsvFormatRows", function() { return __WEBPACK_IMPORTED_MODULE_10_d3_dsv__["g"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_d3_ease__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_d3_ease__ = __webpack_require__(121);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeLinear", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_ease__["y"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeQuad", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_ease__["D"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeQuadIn", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_ease__["E"]; });
@@ -33190,7 +33384,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeElasticIn", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_ease__["r"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeElasticOut", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_ease__["t"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "easeElasticInOut", function() { return __WEBPACK_IMPORTED_MODULE_11_d3_ease__["s"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_d3_fetch__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_d3_fetch__ = __webpack_require__(311);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "blob", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_fetch__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "buffer", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_fetch__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "dsv", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_fetch__["d"]; });
@@ -33202,7 +33396,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "xml", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_fetch__["k"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "html", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_fetch__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "svg", function() { return __WEBPACK_IMPORTED_MODULE_12_d3_fetch__["h"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_d3_force__ = __webpack_require__(316);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_d3_force__ = __webpack_require__(318);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "forceCenter", function() { return __WEBPACK_IMPORTED_MODULE_13_d3_force__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "forceCollide", function() { return __WEBPACK_IMPORTED_MODULE_13_d3_force__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "forceLink", function() { return __WEBPACK_IMPORTED_MODULE_13_d3_force__["c"]; });
@@ -33220,7 +33414,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "precisionFixed", function() { return __WEBPACK_IMPORTED_MODULE_14_d3_format__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "precisionPrefix", function() { return __WEBPACK_IMPORTED_MODULE_14_d3_format__["g"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "precisionRound", function() { return __WEBPACK_IMPORTED_MODULE_14_d3_format__["h"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_d3_geo__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_d3_geo__ = __webpack_require__(349);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoArea", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_geo__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoBounds", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_geo__["h"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoCentroid", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_geo__["i"]; });
@@ -33268,7 +33462,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoRotation", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_geo__["O"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoStream", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_geo__["R"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "geoTransform", function() { return __WEBPACK_IMPORTED_MODULE_15_d3_geo__["S"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_d3_hierarchy__ = __webpack_require__(374);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_d3_hierarchy__ = __webpack_require__(377);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "cluster", function() { return __WEBPACK_IMPORTED_MODULE_16_d3_hierarchy__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "hierarchy", function() { return __WEBPACK_IMPORTED_MODULE_16_d3_hierarchy__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "pack", function() { return __WEBPACK_IMPORTED_MODULE_16_d3_hierarchy__["c"]; });
@@ -33307,10 +33501,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolateHclLong", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_interpolate__["i"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolateCubehelix", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_interpolate__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolateCubehelixLong", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_interpolate__["f"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "quantize", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_interpolate__["w"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "piecewise", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_interpolate__["w"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "quantize", function() { return __WEBPACK_IMPORTED_MODULE_17_d3_interpolate__["x"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_d3_path__ = __webpack_require__(14);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "path", function() { return __WEBPACK_IMPORTED_MODULE_18_d3_path__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_d3_polygon__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_d3_polygon__ = __webpack_require__(399);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "polygonArea", function() { return __WEBPACK_IMPORTED_MODULE_19_d3_polygon__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "polygonCentroid", function() { return __WEBPACK_IMPORTED_MODULE_19_d3_polygon__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "polygonHull", function() { return __WEBPACK_IMPORTED_MODULE_19_d3_polygon__["d"]; });
@@ -33318,14 +33513,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "polygonLength", function() { return __WEBPACK_IMPORTED_MODULE_19_d3_polygon__["e"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_d3_quadtree__ = __webpack_require__(69);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "quadtree", function() { return __WEBPACK_IMPORTED_MODULE_20_d3_quadtree__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_d3_random__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_d3_random__ = __webpack_require__(406);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomUniform", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_random__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomNormal", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_random__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomLogNormal", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_random__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomBates", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_random__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomIrwinHall", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_random__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "randomExponential", function() { return __WEBPACK_IMPORTED_MODULE_21_d3_random__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_d3_scale__ = __webpack_require__(408);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22_d3_scale__ = __webpack_require__(411);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "scaleBand", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "scalePoint", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["g"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "scaleIdentity", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["b"]; });
@@ -33341,7 +33536,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "scaleTime", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["n"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "scaleUtc", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["o"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "scaleSequential", function() { return __WEBPACK_IMPORTED_MODULE_22_d3_scale__["k"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_d3_scale_chromatic__ = __webpack_require__(434);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23_d3_scale_chromatic__ = __webpack_require__(437);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "schemeCategory10", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_scale_chromatic__["P"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "schemeAccent", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_scale_chromatic__["K"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "schemeDark2", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_scale_chromatic__["Q"]; });
@@ -33415,25 +33610,26 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolateInferno", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_scale_chromatic__["j"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interpolatePlasma", function() { return __WEBPACK_IMPORTED_MODULE_23_d3_scale_chromatic__["p"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24_d3_selection__ = __webpack_require__(3);
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "creator", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["b"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "local", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["e"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "matcher", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["f"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "mouse", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["g"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "namespace", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["h"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "namespaces", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["i"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "create", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["b"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "creator", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["c"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "local", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["f"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "matcher", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["g"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "mouse", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["h"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "namespace", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["i"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "namespaces", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["j"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "clientPoint", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["a"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "select", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["j"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "selectAll", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["k"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "selection", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["l"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "selector", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["m"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "selectorAll", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["n"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "style", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["o"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "touch", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["p"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "touches", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["q"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "window", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["r"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "event", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["d"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "customEvent", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_d3_shape__ = __webpack_require__(475);
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "select", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["k"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "selectAll", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["l"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "selection", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["m"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "selector", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["n"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "selectorAll", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["o"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "style", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["p"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "touch", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["q"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "touches", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["r"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "window", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["s"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "event", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["e"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "customEvent", function() { return __WEBPACK_IMPORTED_MODULE_24_d3_selection__["d"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_d3_shape__ = __webpack_require__(478);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "arc", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_shape__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "area", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_shape__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "line", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_shape__["v"]; });
@@ -33484,7 +33680,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "stackOrderInsideOut", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_shape__["M"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "stackOrderNone", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_shape__["N"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "stackOrderReverse", function() { return __WEBPACK_IMPORTED_MODULE_25_d3_shape__["O"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_d3_time__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_d3_time__ = __webpack_require__(45);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeInterval", function() { return __WEBPACK_IMPORTED_MODULE_26_d3_time__["g"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeMillisecond", function() { return __WEBPACK_IMPORTED_MODULE_26_d3_time__["h"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeMilliseconds", function() { return __WEBPACK_IMPORTED_MODULE_26_d3_time__["i"]; });
@@ -33555,7 +33751,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timeFormatLocale", function() { return __WEBPACK_IMPORTED_MODULE_27_d3_time_format__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "isoFormat", function() { return __WEBPACK_IMPORTED_MODULE_27_d3_time_format__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "isoParse", function() { return __WEBPACK_IMPORTED_MODULE_27_d3_time_format__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28_d3_timer__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28_d3_timer__ = __webpack_require__(36);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "now", function() { return __WEBPACK_IMPORTED_MODULE_28_d3_timer__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timer", function() { return __WEBPACK_IMPORTED_MODULE_28_d3_timer__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "timerFlush", function() { return __WEBPACK_IMPORTED_MODULE_28_d3_timer__["e"]; });
@@ -33565,9 +33761,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "transition", function() { return __WEBPACK_IMPORTED_MODULE_29_d3_transition__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "active", function() { return __WEBPACK_IMPORTED_MODULE_29_d3_transition__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "interrupt", function() { return __WEBPACK_IMPORTED_MODULE_29_d3_transition__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30_d3_voronoi__ = __webpack_require__(500);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30_d3_voronoi__ = __webpack_require__(503);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "voronoi", function() { return __WEBPACK_IMPORTED_MODULE_30_d3_voronoi__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_d3_zoom__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_d3_zoom__ = __webpack_require__(508);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "zoom", function() { return __WEBPACK_IMPORTED_MODULE_31_d3_zoom__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "zoomTransform", function() { return __WEBPACK_IMPORTED_MODULE_31_d3_zoom__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "zoomIdentity", function() { return __WEBPACK_IMPORTED_MODULE_31_d3_zoom__["b"]; });
@@ -33801,7 +33997,7 @@ var dependencies = {"d3-array":"1","d3-axis":"1","d3-brush":"1","d3-chord":"1","
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ascending__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__number__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__quantile__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__quantile__ = __webpack_require__(51);
 
 
 
@@ -33907,7 +34103,7 @@ var dependencies = {"d3-array":"1","d3-axis":"1","d3-brush":"1","d3-chord":"1","
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ascending__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__number__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quantile__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__quantile__ = __webpack_require__(51);
 
 
 
@@ -34308,13 +34504,13 @@ var slice = Array.prototype.slice;
 /* harmony export (immutable) */ __webpack_exports__["b"] = brushX;
 /* harmony export (immutable) */ __webpack_exports__["c"] = brushY;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_drag__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_drag__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_interpolate__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_selection__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_transition__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__constant__ = __webpack_require__(286);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__event__ = __webpack_require__(287);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__noevent__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__constant__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__event__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__noevent__ = __webpack_require__(290);
 
 
 
@@ -34413,7 +34609,7 @@ function type(t) {
 
 // Ignore right-click, since that should open the context menu.
 function defaultFilter() {
-  return !__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].button;
+  return !__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].button;
 }
 
 function defaultExtent() {
@@ -34469,7 +34665,7 @@ function brush(dim) {
       .merge(overlay)
         .each(function() {
           var extent = local(this).extent;
-          Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["j" /* select */])(this)
+          Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["k" /* select */])(this)
               .attr("x", extent[0][0])
               .attr("y", extent[0][1])
               .attr("width", extent[1][0] - extent[0][0])
@@ -34542,7 +34738,7 @@ function brush(dim) {
   };
 
   function redraw() {
-    var group = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["j" /* select */])(this),
+    var group = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["k" /* select */])(this),
         selection = local(this).selection;
 
     if (selection) {
@@ -34600,18 +34796,18 @@ function brush(dim) {
       return this;
     },
     emit: function(type) {
-      Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["c" /* customEvent */])(new __WEBPACK_IMPORTED_MODULE_6__event__["a" /* default */](brush, type, dim.output(this.state.selection)), listeners.apply, listeners, [type, this.that, this.args]);
+      Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* customEvent */])(new __WEBPACK_IMPORTED_MODULE_6__event__["a" /* default */](brush, type, dim.output(this.state.selection)), listeners.apply, listeners, [type, this.that, this.args]);
     }
   };
 
   function started() {
-    if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].touches) { if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].changedTouches.length < __WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].touches.length) return Object(__WEBPACK_IMPORTED_MODULE_7__noevent__["a" /* default */])(); }
+    if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].touches) { if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].changedTouches.length < __WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].touches.length) return Object(__WEBPACK_IMPORTED_MODULE_7__noevent__["a" /* default */])(); }
     else if (touchending) return;
     if (!filter.apply(this, arguments)) return;
 
     var that = this,
-        type = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].target.__data__.type,
-        mode = (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].metaKey ? type = "overlay" : type) === "selection" ? MODE_DRAG : (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].altKey ? MODE_CENTER : MODE_HANDLE),
+        type = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].target.__data__.type,
+        mode = (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].metaKey ? type = "overlay" : type) === "selection" ? MODE_DRAG : (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].altKey ? MODE_CENTER : MODE_HANDLE),
         signX = dim === Y ? null : signsX[type],
         signY = dim === X ? null : signsY[type],
         state = local(that),
@@ -34624,10 +34820,10 @@ function brush(dim) {
         dx,
         dy,
         moving,
-        shifting = signX && signY && __WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].shiftKey,
+        shifting = signX && signY && __WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].shiftKey,
         lockX,
         lockY,
-        point0 = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["g" /* mouse */])(that),
+        point0 = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["h" /* mouse */])(that),
         point = point0,
         emit = emitter(that, arguments).beforestart();
 
@@ -34648,24 +34844,24 @@ function brush(dim) {
     e1 = e0;
     s1 = s0;
 
-    var group = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["j" /* select */])(that)
+    var group = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["k" /* select */])(that)
         .attr("pointer-events", "none");
 
     var overlay = group.selectAll(".overlay")
         .attr("cursor", cursors[type]);
 
-    if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].touches) {
+    if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].touches) {
       group
           .on("touchmove.brush", moved, true)
           .on("touchend.brush touchcancel.brush", ended, true);
     } else {
-      var view = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["j" /* select */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].view)
+      var view = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["k" /* select */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].view)
           .on("keydown.brush", keydowned, true)
           .on("keyup.brush", keyupped, true)
           .on("mousemove.brush", moved, true)
           .on("mouseup.brush", ended, true);
 
-      Object(__WEBPACK_IMPORTED_MODULE_1_d3_drag__["b" /* dragDisable */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].view);
+      Object(__WEBPACK_IMPORTED_MODULE_1_d3_drag__["b" /* dragDisable */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].view);
     }
 
     Object(__WEBPACK_IMPORTED_MODULE_7__noevent__["b" /* nopropagation */])();
@@ -34674,7 +34870,7 @@ function brush(dim) {
     emit.start();
 
     function moved() {
-      var point1 = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["g" /* mouse */])(that);
+      var point1 = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["h" /* mouse */])(that);
       if (shifting && !lockX && !lockY) {
         if (Math.abs(point1[0] - point[0]) > Math.abs(point1[1] - point[1])) lockY = true;
         else lockX = true;
@@ -34742,13 +34938,13 @@ function brush(dim) {
 
     function ended() {
       Object(__WEBPACK_IMPORTED_MODULE_7__noevent__["b" /* nopropagation */])();
-      if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].touches) {
-        if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].touches.length) return;
+      if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].touches) {
+        if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].touches.length) return;
         if (touchending) clearTimeout(touchending);
         touchending = setTimeout(function() { touchending = null; }, 500); // Ghost clicks are delayed!
         group.on("touchmove.brush touchend.brush touchcancel.brush", null);
       } else {
-        Object(__WEBPACK_IMPORTED_MODULE_1_d3_drag__["c" /* dragEnable */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].view, moving);
+        Object(__WEBPACK_IMPORTED_MODULE_1_d3_drag__["c" /* dragEnable */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].view, moving);
         view.on("keydown.brush keyup.brush mousemove.brush mouseup.brush", null);
       }
       group.attr("pointer-events", "all");
@@ -34759,7 +34955,7 @@ function brush(dim) {
     }
 
     function keydowned() {
-      switch (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].keyCode) {
+      switch (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].keyCode) {
         case 16: { // SHIFT
           shifting = signX && signY;
           break;
@@ -34789,7 +34985,7 @@ function brush(dim) {
     }
 
     function keyupped() {
-      switch (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].keyCode) {
+      switch (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].keyCode) {
         case 16: { // SHIFT
           if (shifting) {
             lockX = lockY = shifting = false;
@@ -34808,7 +35004,7 @@ function brush(dim) {
         }
         case 32: { // SPACE
           if (mode === MODE_SPACE) {
-            if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].altKey) {
+            if (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].altKey) {
               if (signX) e0 = e1 - dx * signX, w0 = w1 + dx * signX;
               if (signY) s0 = s1 - dy * signY, n0 = n1 + dy * signY;
               mode = MODE_CENTER;
@@ -34954,10 +35150,10 @@ function set(type, name, callback) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_selection__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nodrag__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__noevent__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__constant__ = __webpack_require__(240);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__event__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nodrag__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__noevent__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__constant__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__event__ = __webpack_require__(242);
 
 
 
@@ -34967,7 +35163,7 @@ function set(type, name, callback) {
 
 // Ignore right-click, since that should open the context menu.
 function defaultFilter() {
-  return !__WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].button;
+  return !__WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].button;
 }
 
 function defaultContainer() {
@@ -34975,7 +35171,7 @@ function defaultContainer() {
 }
 
 function defaultSubject(d) {
-  return d == null ? {x: __WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].x, y: __WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].y} : d;
+  return d == null ? {x: __WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].x, y: __WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].y} : d;
 }
 
 function defaultTouchable() {
@@ -35009,41 +35205,41 @@ function defaultTouchable() {
 
   function mousedowned() {
     if (touchending || !filter.apply(this, arguments)) return;
-    var gesture = beforestart("mouse", container.apply(this, arguments), __WEBPACK_IMPORTED_MODULE_1_d3_selection__["g" /* mouse */], this, arguments);
+    var gesture = beforestart("mouse", container.apply(this, arguments), __WEBPACK_IMPORTED_MODULE_1_d3_selection__["h" /* mouse */], this, arguments);
     if (!gesture) return;
-    Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["j" /* select */])(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].view).on("mousemove.drag", mousemoved, true).on("mouseup.drag", mouseupped, true);
-    Object(__WEBPACK_IMPORTED_MODULE_2__nodrag__["a" /* default */])(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].view);
+    Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["k" /* select */])(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].view).on("mousemove.drag", mousemoved, true).on("mouseup.drag", mouseupped, true);
+    Object(__WEBPACK_IMPORTED_MODULE_2__nodrag__["a" /* default */])(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].view);
     Object(__WEBPACK_IMPORTED_MODULE_3__noevent__["b" /* nopropagation */])();
     mousemoving = false;
-    mousedownx = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].clientX;
-    mousedowny = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].clientY;
+    mousedownx = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].clientX;
+    mousedowny = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].clientY;
     gesture("start");
   }
 
   function mousemoved() {
     Object(__WEBPACK_IMPORTED_MODULE_3__noevent__["a" /* default */])();
     if (!mousemoving) {
-      var dx = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].clientX - mousedownx, dy = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].clientY - mousedowny;
+      var dx = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].clientX - mousedownx, dy = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].clientY - mousedowny;
       mousemoving = dx * dx + dy * dy > clickDistance2;
     }
     gestures.mouse("drag");
   }
 
   function mouseupped() {
-    Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["j" /* select */])(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].view).on("mousemove.drag mouseup.drag", null);
-    Object(__WEBPACK_IMPORTED_MODULE_2__nodrag__["b" /* yesdrag */])(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].view, mousemoving);
+    Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["k" /* select */])(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].view).on("mousemove.drag mouseup.drag", null);
+    Object(__WEBPACK_IMPORTED_MODULE_2__nodrag__["b" /* yesdrag */])(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].view, mousemoving);
     Object(__WEBPACK_IMPORTED_MODULE_3__noevent__["a" /* default */])();
     gestures.mouse("end");
   }
 
   function touchstarted() {
     if (!filter.apply(this, arguments)) return;
-    var touches = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].changedTouches,
+    var touches = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].changedTouches,
         c = container.apply(this, arguments),
         n = touches.length, i, gesture;
 
     for (i = 0; i < n; ++i) {
-      if (gesture = beforestart(touches[i].identifier, c, __WEBPACK_IMPORTED_MODULE_1_d3_selection__["p" /* touch */], this, arguments)) {
+      if (gesture = beforestart(touches[i].identifier, c, __WEBPACK_IMPORTED_MODULE_1_d3_selection__["q" /* touch */], this, arguments)) {
         Object(__WEBPACK_IMPORTED_MODULE_3__noevent__["b" /* nopropagation */])();
         gesture("start");
       }
@@ -35051,7 +35247,7 @@ function defaultTouchable() {
   }
 
   function touchmoved() {
-    var touches = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].changedTouches,
+    var touches = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].changedTouches,
         n = touches.length, i, gesture;
 
     for (i = 0; i < n; ++i) {
@@ -35063,7 +35259,7 @@ function defaultTouchable() {
   }
 
   function touchended() {
-    var touches = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].changedTouches,
+    var touches = __WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].changedTouches,
         n = touches.length, i, gesture;
 
     if (touchending) clearTimeout(touchending);
@@ -35080,8 +35276,8 @@ function defaultTouchable() {
     var p = point(container, id), s, dx, dy,
         sublisteners = listeners.copy();
 
-    if (!Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["c" /* customEvent */])(new __WEBPACK_IMPORTED_MODULE_5__event__["a" /* default */](drag, "beforestart", s, id, active, p[0], p[1], 0, 0, sublisteners), function() {
-      if ((__WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* event */].subject = s = subject.apply(that, args)) == null) return false;
+    if (!Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* customEvent */])(new __WEBPACK_IMPORTED_MODULE_5__event__["a" /* default */](drag, "beforestart", s, id, active, p[0], p[1], 0, 0, sublisteners), function() {
+      if ((__WEBPACK_IMPORTED_MODULE_1_d3_selection__["e" /* event */].subject = s = subject.apply(that, args)) == null) return false;
       dx = s.x - p[0] || 0;
       dy = s.y - p[1] || 0;
       return true;
@@ -35094,7 +35290,7 @@ function defaultTouchable() {
         case "end": delete gestures[id], --active; // nobreak
         case "drag": p = point(container, id), n = active; break;
       }
-      Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["c" /* customEvent */])(new __WEBPACK_IMPORTED_MODULE_5__event__["a" /* default */](drag, type, s, id, n, p[0] + dx, p[1] + dy, p[0] - p0[0], p[1] - p0[1], sublisteners), sublisteners.apply, sublisteners, [type, that, args]);
+      Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["d" /* customEvent */])(new __WEBPACK_IMPORTED_MODULE_5__event__["a" /* default */](drag, type, s, id, n, p[0] + dx, p[1] + dy, p[0] - p0[0], p[1] - p0[1], sublisteners), sublisteners.apply, sublisteners, [type, that, args]);
     };
   }
 
@@ -35132,34 +35328,14 @@ function defaultTouchable() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = local;
-var nextId = 0;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__creator__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__select__ = __webpack_require__(103);
 
-function local() {
-  return new Local;
-}
 
-function Local() {
-  this._ = "@" + (++nextId).toString(36);
-}
 
-Local.prototype = local.prototype = {
-  constructor: Local,
-  get: function(node) {
-    var id = this._;
-    while (!(id in node)) if (!(node = node.parentNode)) return;
-    return node[id];
-  },
-  set: function(node, value) {
-    return node[this._] = value;
-  },
-  remove: function(node) {
-    return this._ in node && delete node[this._];
-  },
-  toString: function() {
-    return this._;
-  }
-};
+/* harmony default export */ __webpack_exports__["a"] = (function(name) {
+  return Object(__WEBPACK_IMPORTED_MODULE_1__select__["a" /* default */])(Object(__WEBPACK_IMPORTED_MODULE_0__creator__["a" /* default */])(name).call(document.documentElement));
+});
 
 
 /***/ }),
@@ -35167,40 +35343,8 @@ Local.prototype = local.prototype = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(33);
-
-
-
-/* harmony default export */ __webpack_exports__["a"] = (function(node) {
-  var event = Object(__WEBPACK_IMPORTED_MODULE_0__sourceEvent__["a" /* default */])();
-  if (event.changedTouches) event = event.changedTouches[0];
-  return Object(__WEBPACK_IMPORTED_MODULE_1__point__["a" /* default */])(node, event);
-});
-
-
-/***/ }),
-/* 209 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection_index__ = __webpack_require__(7);
-
-
-/* harmony default export */ __webpack_exports__["a"] = (function(selector) {
-  return typeof selector === "string"
-      ? new __WEBPACK_IMPORTED_MODULE_0__selection_index__["a" /* Selection */]([[document.querySelector(selector)]], [document.documentElement])
-      : new __WEBPACK_IMPORTED_MODULE_0__selection_index__["a" /* Selection */]([[selector]], __WEBPACK_IMPORTED_MODULE_0__selection_index__["c" /* root */]);
-});
-
-
-/***/ }),
-/* 210 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selector__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selector__ = __webpack_require__(55);
 
 
 
@@ -35221,7 +35365,7 @@ Local.prototype = local.prototype = {
 
 
 /***/ }),
-/* 211 */
+/* 209 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35247,12 +35391,12 @@ Local.prototype = local.prototype = {
 
 
 /***/ }),
-/* 212 */
+/* 210 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__matcher__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__matcher__ = __webpack_require__(105);
 
 
 
@@ -35272,13 +35416,13 @@ Local.prototype = local.prototype = {
 
 
 /***/ }),
-/* 213 */
+/* 211 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__enter__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__enter__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(212);
 
 
 
@@ -35400,7 +35544,7 @@ function bindKey(parent, group, enter, update, exit, data, key) {
 
 
 /***/ }),
-/* 214 */
+/* 212 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35412,11 +35556,11 @@ function bindKey(parent, group, enter, update, exit, data, key) {
 
 
 /***/ }),
-/* 215 */
+/* 213 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sparse__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sparse__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(7);
 
 
@@ -35427,7 +35571,7 @@ function bindKey(parent, group, enter, update, exit, data, key) {
 
 
 /***/ }),
-/* 216 */
+/* 214 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35453,7 +35597,7 @@ function bindKey(parent, group, enter, update, exit, data, key) {
 
 
 /***/ }),
-/* 217 */
+/* 215 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35473,7 +35617,7 @@ function bindKey(parent, group, enter, update, exit, data, key) {
 
 
 /***/ }),
-/* 218 */
+/* 216 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35505,7 +35649,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 219 */
+/* 217 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35518,7 +35662,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 220 */
+/* 218 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35530,7 +35674,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 221 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35548,7 +35692,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 222 */
+/* 220 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35560,7 +35704,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 223 */
+/* 221 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35570,7 +35714,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 224 */
+/* 222 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35587,7 +35731,7 @@ function ascending(a, b) {
 
 
 /***/ }),
-/* 225 */
+/* 223 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35652,7 +35796,7 @@ function attrFunctionNS(fullname, value) {
 
 
 /***/ }),
-/* 226 */
+/* 224 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35687,7 +35831,7 @@ function propertyFunction(name, value) {
 
 
 /***/ }),
-/* 227 */
+/* 225 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35769,7 +35913,7 @@ function classedFunction(names, value) {
 
 
 /***/ }),
-/* 228 */
+/* 226 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35801,7 +35945,7 @@ function textFunction(value) {
 
 
 /***/ }),
-/* 229 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35833,7 +35977,7 @@ function htmlFunction(value) {
 
 
 /***/ }),
-/* 230 */
+/* 228 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35847,7 +35991,7 @@ function raise() {
 
 
 /***/ }),
-/* 231 */
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35861,11 +36005,11 @@ function lower() {
 
 
 /***/ }),
-/* 232 */
+/* 230 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__creator__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__creator__ = __webpack_require__(33);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(name) {
@@ -35877,12 +36021,12 @@ function lower() {
 
 
 /***/ }),
-/* 233 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__creator__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selector__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__creator__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selector__ = __webpack_require__(55);
 
 
 
@@ -35900,7 +36044,7 @@ function constantNull() {
 
 
 /***/ }),
-/* 234 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35915,7 +36059,25 @@ function remove() {
 
 
 /***/ }),
-/* 235 */
+/* 233 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+function selection_cloneShallow() {
+  return this.parentNode.insertBefore(this.cloneNode(false), this.nextSibling);
+}
+
+function selection_cloneDeep() {
+  return this.parentNode.insertBefore(this.cloneNode(true), this.nextSibling);
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (function(deep) {
+  return this.select(deep ? selection_cloneDeep : selection_cloneShallow);
+});
+
+
+/***/ }),
+/* 234 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35927,11 +36089,11 @@ function remove() {
 
 
 /***/ }),
-/* 236 */
+/* 235 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__window__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__window__ = __webpack_require__(56);
 
 
 function dispatchEvent(node, type, params) {
@@ -35969,7 +36131,59 @@ function dispatchFunction(type, params) {
 
 
 /***/ }),
+/* 236 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = local;
+var nextId = 0;
+
+function local() {
+  return new Local;
+}
+
+function Local() {
+  this._ = "@" + (++nextId).toString(36);
+}
+
+Local.prototype = local.prototype = {
+  constructor: Local,
+  get: function(node) {
+    var id = this._;
+    while (!(id in node)) if (!(node = node.parentNode)) return;
+    return node[id];
+  },
+  set: function(node, value) {
+    return node[this._] = value;
+  },
+  remove: function(node) {
+    return this._ in node && delete node[this._];
+  },
+  toString: function() {
+    return this._;
+  }
+};
+
+
+/***/ }),
 /* 237 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(34);
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function(node) {
+  var event = Object(__WEBPACK_IMPORTED_MODULE_0__sourceEvent__["a" /* default */])();
+  if (event.changedTouches) event = event.changedTouches[0];
+  return Object(__WEBPACK_IMPORTED_MODULE_1__point__["a" /* default */])(node, event);
+});
+
+
+/***/ }),
+/* 238 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35984,12 +36198,12 @@ function dispatchFunction(type, params) {
 
 
 /***/ }),
-/* 238 */
+/* 239 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(34);
 
 
 
@@ -36007,12 +36221,12 @@ function dispatchFunction(type, params) {
 
 
 /***/ }),
-/* 239 */
+/* 240 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sourceEvent__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(34);
 
 
 
@@ -36028,7 +36242,7 @@ function dispatchFunction(type, params) {
 
 
 /***/ }),
-/* 240 */
+/* 241 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36040,7 +36254,7 @@ function dispatchFunction(type, params) {
 
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36065,25 +36279,28 @@ DragEvent.prototype.on = function() {
 
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (immutable) */ __webpack_exports__["b"] = gray;
 /* harmony export (immutable) */ __webpack_exports__["a"] = lab;
 /* unused harmony export Lab */
-/* harmony export (immutable) */ __webpack_exports__["b"] = hcl;
+/* harmony export (immutable) */ __webpack_exports__["d"] = lch;
+/* harmony export (immutable) */ __webpack_exports__["c"] = hcl;
 /* unused harmony export Hcl */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(111);
 
 
 
 
-var Kn = 18,
-    Xn = 0.950470, // D65 standard referent
+// https://beta.observablehq.com/@mbostock/lab-and-rgb
+var K = 18,
+    Xn = 0.96422,
     Yn = 1,
-    Zn = 1.088830,
+    Zn = 0.82521,
     t0 = 4 / 29,
     t1 = 6 / 29,
     t2 = 3 * t1 * t1,
@@ -36092,17 +36309,24 @@ var Kn = 18,
 function labConvert(o) {
   if (o instanceof Lab) return new Lab(o.l, o.a, o.b, o.opacity);
   if (o instanceof Hcl) {
+    if (isNaN(o.h)) return new Lab(o.l, 0, 0, o.opacity);
     var h = o.h * __WEBPACK_IMPORTED_MODULE_2__math__["a" /* deg2rad */];
     return new Lab(o.l, Math.cos(h) * o.c, Math.sin(h) * o.c, o.opacity);
   }
   if (!(o instanceof __WEBPACK_IMPORTED_MODULE_1__color__["b" /* Rgb */])) o = Object(__WEBPACK_IMPORTED_MODULE_1__color__["h" /* rgbConvert */])(o);
-  var b = rgb2xyz(o.r),
-      a = rgb2xyz(o.g),
-      l = rgb2xyz(o.b),
-      x = xyz2lab((0.4124564 * b + 0.3575761 * a + 0.1804375 * l) / Xn),
-      y = xyz2lab((0.2126729 * b + 0.7151522 * a + 0.0721750 * l) / Yn),
-      z = xyz2lab((0.0193339 * b + 0.1191920 * a + 0.9503041 * l) / Zn);
+  var r = rgb2lrgb(o.r),
+      g = rgb2lrgb(o.g),
+      b = rgb2lrgb(o.b),
+      y = xyz2lab((0.2225045 * r + 0.7168786 * g + 0.0606169 * b) / Yn), x, z;
+  if (r === g && g === b) x = z = y; else {
+    x = xyz2lab((0.4360747 * r + 0.3850649 * g + 0.1430804 * b) / Xn);
+    z = xyz2lab((0.0139322 * r + 0.0971045 * g + 0.7141733 * b) / Zn);
+  }
   return new Lab(116 * y - 16, 500 * (x - y), 200 * (y - z), o.opacity);
+}
+
+function gray(l, opacity) {
+  return new Lab(l, 0, 0, opacity == null ? 1 : opacity);
 }
 
 function lab(l, a, b, opacity) {
@@ -36118,22 +36342,22 @@ function Lab(l, a, b, opacity) {
 
 Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Lab, lab, Object(__WEBPACK_IMPORTED_MODULE_0__define__["b" /* extend */])(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* Color */], {
   brighter: function(k) {
-    return new Lab(this.l + Kn * (k == null ? 1 : k), this.a, this.b, this.opacity);
+    return new Lab(this.l + K * (k == null ? 1 : k), this.a, this.b, this.opacity);
   },
   darker: function(k) {
-    return new Lab(this.l - Kn * (k == null ? 1 : k), this.a, this.b, this.opacity);
+    return new Lab(this.l - K * (k == null ? 1 : k), this.a, this.b, this.opacity);
   },
   rgb: function() {
     var y = (this.l + 16) / 116,
         x = isNaN(this.a) ? y : y + this.a / 500,
         z = isNaN(this.b) ? y : y - this.b / 200;
-    y = Yn * lab2xyz(y);
     x = Xn * lab2xyz(x);
+    y = Yn * lab2xyz(y);
     z = Zn * lab2xyz(z);
     return new __WEBPACK_IMPORTED_MODULE_1__color__["b" /* Rgb */](
-      xyz2rgb( 3.2404542 * x - 1.5371385 * y - 0.4985314 * z), // D65 -> sRGB
-      xyz2rgb(-0.9692660 * x + 1.8760108 * y + 0.0415560 * z),
-      xyz2rgb( 0.0556434 * x - 0.2040259 * y + 1.0572252 * z),
+      lrgb2rgb( 3.1338561 * x - 1.6168667 * y - 0.4906146 * z),
+      lrgb2rgb(-0.9787684 * x + 1.9161415 * y + 0.0334540 * z),
+      lrgb2rgb( 0.0719453 * x - 0.2289914 * y + 1.4052427 * z),
       this.opacity
     );
   }
@@ -36147,19 +36371,24 @@ function lab2xyz(t) {
   return t > t1 ? t * t * t : t2 * (t - t0);
 }
 
-function xyz2rgb(x) {
+function lrgb2rgb(x) {
   return 255 * (x <= 0.0031308 ? 12.92 * x : 1.055 * Math.pow(x, 1 / 2.4) - 0.055);
 }
 
-function rgb2xyz(x) {
+function rgb2lrgb(x) {
   return (x /= 255) <= 0.04045 ? x / 12.92 : Math.pow((x + 0.055) / 1.055, 2.4);
 }
 
 function hclConvert(o) {
   if (o instanceof Hcl) return new Hcl(o.h, o.c, o.l, o.opacity);
   if (!(o instanceof Lab)) o = labConvert(o);
+  if (o.a === 0 && o.b === 0) return new Hcl(NaN, 0, o.l, o.opacity);
   var h = Math.atan2(o.b, o.a) * __WEBPACK_IMPORTED_MODULE_2__math__["b" /* rad2deg */];
   return new Hcl(h < 0 ? h + 360 : h, Math.sqrt(o.a * o.a + o.b * o.b), o.l, o.opacity);
+}
+
+function lch(l, c, h, opacity) {
+  return arguments.length === 1 ? hclConvert(l) : new Hcl(h, c, l, opacity == null ? 1 : opacity);
 }
 
 function hcl(h, c, l, opacity) {
@@ -36175,10 +36404,10 @@ function Hcl(h, c, l, opacity) {
 
 Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Hcl, hcl, Object(__WEBPACK_IMPORTED_MODULE_0__define__["b" /* extend */])(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* Color */], {
   brighter: function(k) {
-    return new Hcl(this.h, this.c, this.l + Kn * (k == null ? 1 : k), this.opacity);
+    return new Hcl(this.h, this.c, this.l + K * (k == null ? 1 : k), this.opacity);
   },
   darker: function(k) {
-    return new Hcl(this.h, this.c, this.l - Kn * (k == null ? 1 : k), this.opacity);
+    return new Hcl(this.h, this.c, this.l - K * (k == null ? 1 : k), this.opacity);
   },
   rgb: function() {
     return labConvert(this).rgb();
@@ -36187,7 +36416,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Hcl, hcl, Objec
 
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36195,7 +36424,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Hcl, hcl, Objec
 /* unused harmony export Cubehelix */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__define__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__color__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(111);
 
 
 
@@ -36260,7 +36489,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Cubehelix, cube
 
 
 /***/ }),
-/* 244 */
+/* 245 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36272,14 +36501,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(Cubehelix, cube
 
 
 /***/ }),
-/* 245 */
+/* 246 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return interpolateTransformCss; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return interpolateTransformSvg; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse__ = __webpack_require__(247);
 
 
 
@@ -36346,13 +36575,13 @@ var interpolateTransformSvg = interpolateTransform(__WEBPACK_IMPORTED_MODULE_1__
 
 
 /***/ }),
-/* 246 */
+/* 247 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = parseCss;
 /* harmony export (immutable) */ __webpack_exports__["b"] = parseSvg;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decompose__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decompose__ = __webpack_require__(248);
 
 
 var cssNode,
@@ -36381,7 +36610,7 @@ function parseSvg(value) {
 
 
 /***/ }),
-/* 247 */
+/* 248 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36415,7 +36644,7 @@ var identity = {
 
 
 /***/ }),
-/* 248 */
+/* 249 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36486,7 +36715,7 @@ function tanh(x) {
 
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36498,7 +36727,7 @@ function tanh(x) {
 
 function hsl(hue) {
   return function(start, end) {
-    var h = hue((start = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["d" /* hsl */])(start)).h, (end = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["d" /* hsl */])(end)).h),
+    var h = hue((start = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["e" /* hsl */])(start)).h, (end = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["e" /* hsl */])(end)).h),
         s = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])(start.s, end.s),
         l = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])(start.l, end.l),
         opacity = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])(start.opacity, end.opacity);
@@ -36517,7 +36746,7 @@ var hslLong = hsl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36528,7 +36757,7 @@ var hslLong = hsl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 function lab(start, end) {
-  var l = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])((start = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["e" /* lab */])(start)).l, (end = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["e" /* lab */])(end)).l),
+  var l = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])((start = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["f" /* lab */])(start)).l, (end = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["f" /* lab */])(end)).l),
       a = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])(start.a, end.a),
       b = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])(start.b, end.b),
       opacity = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])(start.opacity, end.opacity);
@@ -36543,7 +36772,7 @@ function lab(start, end) {
 
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36555,7 +36784,7 @@ function lab(start, end) {
 
 function hcl(hue) {
   return function(start, end) {
-    var h = hue((start = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["c" /* hcl */])(start)).h, (end = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["c" /* hcl */])(end)).h),
+    var h = hue((start = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["d" /* hcl */])(start)).h, (end = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["d" /* hcl */])(end)).h),
         c = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])(start.c, end.c),
         l = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])(start.l, end.l),
         opacity = Object(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */])(start.opacity, end.opacity);
@@ -36574,7 +36803,7 @@ var hclLong = hcl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36613,7 +36842,23 @@ var cubehelixLong = cubehelix(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* defaul
 
 
 /***/ }),
-/* 253 */
+/* 254 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = piecewise;
+function piecewise(interpolate, values) {
+  var i = 0, n = values.length - 1, v = values[0], I = new Array(n < 0 ? 0 : n);
+  while (i < n) I[i] = interpolate(v, v = values[++i]);
+  return function(t) {
+    var i = Math.max(0, Math.min(n - 1, Math.floor(t *= n)));
+    return I[i](t - i);
+  };
+}
+
+
+/***/ }),
+/* 255 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36625,27 +36870,27 @@ var cubehelixLong = cubehelix(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* defaul
 
 
 /***/ }),
-/* 254 */
+/* 256 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__interrupt__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transition__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__interrupt__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transition__ = __webpack_require__(260);
 
 
 
 
-__WEBPACK_IMPORTED_MODULE_0_d3_selection__["l" /* selection */].prototype.interrupt = __WEBPACK_IMPORTED_MODULE_1__interrupt__["a" /* default */];
-__WEBPACK_IMPORTED_MODULE_0_d3_selection__["l" /* selection */].prototype.transition = __WEBPACK_IMPORTED_MODULE_2__transition__["a" /* default */];
+__WEBPACK_IMPORTED_MODULE_0_d3_selection__["m" /* selection */].prototype.interrupt = __WEBPACK_IMPORTED_MODULE_1__interrupt__["a" /* default */];
+__WEBPACK_IMPORTED_MODULE_0_d3_selection__["m" /* selection */].prototype.transition = __WEBPACK_IMPORTED_MODULE_2__transition__["a" /* default */];
 
 
 /***/ }),
-/* 255 */
+/* 257 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interrupt__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interrupt__ = __webpack_require__(119);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(name) {
@@ -36656,7 +36901,7 @@ __WEBPACK_IMPORTED_MODULE_0_d3_selection__["l" /* selection */].prototype.transi
 
 
 /***/ }),
-/* 256 */
+/* 258 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36675,7 +36920,7 @@ __WEBPACK_IMPORTED_MODULE_0_d3_selection__["l" /* selection */].prototype.transi
 
 
 /***/ }),
-/* 257 */
+/* 259 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36696,14 +36941,14 @@ __WEBPACK_IMPORTED_MODULE_0_d3_selection__["l" /* selection */].prototype.transi
 
 
 /***/ }),
-/* 258 */
+/* 260 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transition_index__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__transition_schedule__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_ease__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_timer__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_ease__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_timer__ = __webpack_require__(36);
 
 
 
@@ -36749,14 +36994,14 @@ function inherit(node, id) {
 
 
 /***/ }),
-/* 259 */
+/* 261 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_interpolate__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_selection__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tween__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__interpolate__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tween__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__interpolate__ = __webpack_require__(120);
 
 
 
@@ -36825,7 +37070,7 @@ function attrFunctionNS(fullname, interpolate, value) {
 }
 
 /* harmony default export */ __webpack_exports__["a"] = (function(name, value) {
-  var fullname = Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["h" /* namespace */])(name), i = fullname === "transform" ? __WEBPACK_IMPORTED_MODULE_0_d3_interpolate__["u" /* interpolateTransformSvg */] : __WEBPACK_IMPORTED_MODULE_3__interpolate__["a" /* default */];
+  var fullname = Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["i" /* namespace */])(name), i = fullname === "transform" ? __WEBPACK_IMPORTED_MODULE_0_d3_interpolate__["u" /* interpolateTransformSvg */] : __WEBPACK_IMPORTED_MODULE_3__interpolate__["a" /* default */];
   return this.attrTween(name, typeof value === "function"
       ? (fullname.local ? attrFunctionNS : attrFunction)(fullname, i, Object(__WEBPACK_IMPORTED_MODULE_2__tween__["b" /* tweenValue */])(this, "attr." + name, value))
       : value == null ? (fullname.local ? attrRemoveNS : attrRemove)(fullname)
@@ -36834,7 +37079,7 @@ function attrFunctionNS(fullname, interpolate, value) {
 
 
 /***/ }),
-/* 260 */
+/* 262 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36868,13 +37113,13 @@ function attrTween(name, value) {
   if (arguments.length < 2) return (key = this.tween(key)) && key._value;
   if (value == null) return this.tween(key, null);
   if (typeof value !== "function") throw new Error;
-  var fullname = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["h" /* namespace */])(name);
+  var fullname = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["i" /* namespace */])(name);
   return this.tween(key, (fullname.local ? attrTweenNS : attrTween)(fullname, value));
 });
 
 
 /***/ }),
-/* 261 */
+/* 263 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36905,7 +37150,7 @@ function delayConstant(id, value) {
 
 
 /***/ }),
-/* 262 */
+/* 264 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36936,7 +37181,7 @@ function durationConstant(id, value) {
 
 
 /***/ }),
-/* 263 */
+/* 265 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36960,7 +37205,7 @@ function easeConstant(id, value) {
 
 
 /***/ }),
-/* 264 */
+/* 266 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36970,7 +37215,7 @@ function easeConstant(id, value) {
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(match) {
-  if (typeof match !== "function") match = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["f" /* matcher */])(match);
+  if (typeof match !== "function") match = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["g" /* matcher */])(match);
 
   for (var groups = this._groups, m = groups.length, subgroups = new Array(m), j = 0; j < m; ++j) {
     for (var group = groups[j], n = group.length, subgroup = subgroups[j] = [], node, i = 0; i < n; ++i) {
@@ -36985,7 +37230,7 @@ function easeConstant(id, value) {
 
 
 /***/ }),
-/* 265 */
+/* 267 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37012,7 +37257,7 @@ function easeConstant(id, value) {
 
 
 /***/ }),
-/* 266 */
+/* 268 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37052,7 +37297,7 @@ function onFunction(id, name, listener) {
 
 
 /***/ }),
-/* 267 */
+/* 269 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37070,7 +37315,7 @@ function removeFunction(id) {
 
 
 /***/ }),
-/* 268 */
+/* 270 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37085,7 +37330,7 @@ function removeFunction(id) {
   var name = this._name,
       id = this._id;
 
-  if (typeof select !== "function") select = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["m" /* selector */])(select);
+  if (typeof select !== "function") select = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["n" /* selector */])(select);
 
   for (var groups = this._groups, m = groups.length, subgroups = new Array(m), j = 0; j < m; ++j) {
     for (var group = groups[j], n = group.length, subgroup = subgroups[j] = new Array(n), node, subnode, i = 0; i < n; ++i) {
@@ -37102,7 +37347,7 @@ function removeFunction(id) {
 
 
 /***/ }),
-/* 269 */
+/* 271 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37117,7 +37362,7 @@ function removeFunction(id) {
   var name = this._name,
       id = this._id;
 
-  if (typeof select !== "function") select = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["n" /* selectorAll */])(select);
+  if (typeof select !== "function") select = Object(__WEBPACK_IMPORTED_MODULE_0_d3_selection__["o" /* selectorAll */])(select);
 
   for (var groups = this._groups, m = groups.length, subgroups = [], parents = [], j = 0; j < m; ++j) {
     for (var group = groups[j], n = group.length, node, i = 0; i < n; ++i) {
@@ -37138,14 +37383,14 @@ function removeFunction(id) {
 
 
 /***/ }),
-/* 270 */
+/* 272 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_selection__ = __webpack_require__(3);
 
 
-var Selection = __WEBPACK_IMPORTED_MODULE_0_d3_selection__["l" /* selection */].prototype.constructor;
+var Selection = __WEBPACK_IMPORTED_MODULE_0_d3_selection__["m" /* selection */].prototype.constructor;
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
   return new Selection(this._groups, this._parents);
@@ -37153,14 +37398,14 @@ var Selection = __WEBPACK_IMPORTED_MODULE_0_d3_selection__["l" /* selection */].
 
 
 /***/ }),
-/* 271 */
+/* 273 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_interpolate__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_selection__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tween__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__interpolate__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tween__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__interpolate__ = __webpack_require__(120);
 
 
 
@@ -37171,8 +37416,8 @@ function styleRemove(name, interpolate) {
       value10,
       interpolate0;
   return function() {
-    var value0 = Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["o" /* style */])(this, name),
-        value1 = (this.style.removeProperty(name), Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["o" /* style */])(this, name));
+    var value0 = Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["p" /* style */])(this, name),
+        value1 = (this.style.removeProperty(name), Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["p" /* style */])(this, name));
     return value0 === value1 ? null
         : value0 === value00 && value1 === value10 ? interpolate0
         : interpolate0 = interpolate(value00 = value0, value10 = value1);
@@ -37189,7 +37434,7 @@ function styleConstant(name, interpolate, value1) {
   var value00,
       interpolate0;
   return function() {
-    var value0 = Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["o" /* style */])(this, name);
+    var value0 = Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["p" /* style */])(this, name);
     return value0 === value1 ? null
         : value0 === value00 ? interpolate0
         : interpolate0 = interpolate(value00 = value0, value1);
@@ -37201,9 +37446,9 @@ function styleFunction(name, interpolate, value) {
       value10,
       interpolate0;
   return function() {
-    var value0 = Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["o" /* style */])(this, name),
+    var value0 = Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["p" /* style */])(this, name),
         value1 = value(this);
-    if (value1 == null) value1 = (this.style.removeProperty(name), Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["o" /* style */])(this, name));
+    if (value1 == null) value1 = (this.style.removeProperty(name), Object(__WEBPACK_IMPORTED_MODULE_1_d3_selection__["p" /* style */])(this, name));
     return value0 === value1 ? null
         : value0 === value00 && value1 === value10 ? interpolate0
         : interpolate0 = interpolate(value00 = value0, value10 = value1);
@@ -37222,7 +37467,7 @@ function styleFunction(name, interpolate, value) {
 
 
 /***/ }),
-/* 272 */
+/* 274 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37247,11 +37492,11 @@ function styleTween(name, value, priority) {
 
 
 /***/ }),
-/* 273 */
+/* 275 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tween__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tween__ = __webpack_require__(37);
 
 
 function textConstant(value) {
@@ -37275,7 +37520,7 @@ function textFunction(value) {
 
 
 /***/ }),
-/* 274 */
+/* 276 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37308,7 +37553,7 @@ function textFunction(value) {
 
 
 /***/ }),
-/* 275 */
+/* 277 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37319,7 +37564,7 @@ function linear(t) {
 
 
 /***/ }),
-/* 276 */
+/* 278 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37340,7 +37585,7 @@ function quadInOut(t) {
 
 
 /***/ }),
-/* 277 */
+/* 279 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37361,7 +37606,7 @@ function cubicInOut(t) {
 
 
 /***/ }),
-/* 278 */
+/* 280 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37408,7 +37653,7 @@ var polyInOut = (function custom(e) {
 
 
 /***/ }),
-/* 279 */
+/* 281 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37432,7 +37677,7 @@ function sinInOut(t) {
 
 
 /***/ }),
-/* 280 */
+/* 282 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37453,7 +37698,7 @@ function expInOut(t) {
 
 
 /***/ }),
-/* 281 */
+/* 283 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37474,7 +37719,7 @@ function circleInOut(t) {
 
 
 /***/ }),
-/* 282 */
+/* 284 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37506,7 +37751,7 @@ function bounceInOut(t) {
 
 
 /***/ }),
-/* 283 */
+/* 285 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37553,7 +37798,7 @@ var backInOut = (function custom(s) {
 
 
 /***/ }),
-/* 284 */
+/* 286 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37607,7 +37852,7 @@ var elasticInOut = (function custom(a, p) {
 
 
 /***/ }),
-/* 285 */
+/* 287 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37637,7 +37882,7 @@ var root = [null];
 
 
 /***/ }),
-/* 286 */
+/* 288 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37649,7 +37894,7 @@ var root = [null];
 
 
 /***/ }),
-/* 287 */
+/* 289 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37661,7 +37906,7 @@ var root = [null];
 
 
 /***/ }),
-/* 288 */
+/* 290 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37670,35 +37915,35 @@ var root = [null];
 
 
 function nopropagation() {
-  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["d" /* event */].stopImmediatePropagation();
+  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["e" /* event */].stopImmediatePropagation();
 }
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
-  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["d" /* event */].preventDefault();
-  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["d" /* event */].stopImmediatePropagation();
+  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["e" /* event */].preventDefault();
+  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["e" /* event */].stopImmediatePropagation();
 });
 
 
 /***/ }),
-/* 289 */
+/* 291 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_chord__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_chord__ = __webpack_require__(292);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_chord__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ribbon__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_ribbon__ = __webpack_require__(293);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ribbon__["a"]; });
 
 
 
 
 /***/ }),
-/* 290 */
+/* 292 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(122);
 
 
 
@@ -37823,13 +38068,13 @@ function compareValue(compare) {
 
 
 /***/ }),
-/* 291 */
+/* 293 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(292);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(293);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constant__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__math__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_path__ = __webpack_require__(14);
 
 
@@ -37921,7 +38166,7 @@ function defaultEndAngle(d) {
 
 
 /***/ }),
-/* 292 */
+/* 294 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37930,7 +38175,7 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 293 */
+/* 295 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -37942,7 +38187,7 @@ var slice = Array.prototype.slice;
 
 
 /***/ }),
-/* 294 */
+/* 296 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38079,7 +38324,7 @@ Path.prototype = path.prototype = {
 
 
 /***/ }),
-/* 295 */
+/* 297 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38160,7 +38405,7 @@ function setMap(map, key, value) {
 
 
 /***/ }),
-/* 296 */
+/* 298 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38207,7 +38452,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 297 */
+/* 299 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38219,7 +38464,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 298 */
+/* 300 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38231,7 +38476,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 299 */
+/* 301 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38243,20 +38488,20 @@ function set(object, f) {
 
 
 /***/ }),
-/* 300 */
+/* 302 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_contours__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_contours__ = __webpack_require__(123);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__src_contours__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_density__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_density__ = __webpack_require__(307);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__src_density__["a"]; });
 
 
 
 
 /***/ }),
-/* 301 */
+/* 303 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38266,7 +38511,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 302 */
+/* 304 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38278,7 +38523,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 303 */
+/* 305 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38312,7 +38557,7 @@ function within(p, q, r) {
 
 
 /***/ }),
-/* 304 */
+/* 306 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38320,15 +38565,15 @@ function within(p, q, r) {
 
 
 /***/ }),
-/* 305 */
+/* 307 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blur__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constant__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__contours__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__array__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__blur__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constant__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__contours__ = __webpack_require__(123);
 
 
 
@@ -38455,7 +38700,7 @@ function defaultY(d) {
 
 
 /***/ }),
-/* 306 */
+/* 308 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38507,7 +38752,7 @@ function blurY(source, target, r) {
 
 
 /***/ }),
-/* 307 */
+/* 309 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38527,7 +38772,7 @@ var csvFormatRows = csv.formatRows;
 
 
 /***/ }),
-/* 308 */
+/* 310 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38547,25 +38792,25 @@ var tsvFormatRows = tsv.formatRows;
 
 
 /***/ }),
-/* 309 */
+/* 311 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_blob__ = __webpack_require__(310);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_blob__ = __webpack_require__(312);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_blob__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_buffer__ = __webpack_require__(311);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_buffer__ = __webpack_require__(313);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_buffer__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_dsv__ = __webpack_require__(312);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_dsv__ = __webpack_require__(314);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__src_dsv__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_dsv__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_2__src_dsv__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_image__ = __webpack_require__(313);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_image__ = __webpack_require__(315);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_3__src_image__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_json__ = __webpack_require__(314);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_json__ = __webpack_require__(316);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_4__src_json__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_text__ = __webpack_require__(67);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_5__src_text__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_xml__ = __webpack_require__(315);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_xml__ = __webpack_require__(317);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_6__src_xml__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_6__src_xml__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_6__src_xml__["c"]; });
@@ -38579,7 +38824,7 @@ var tsvFormatRows = tsv.formatRows;
 
 
 /***/ }),
-/* 310 */
+/* 312 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38594,7 +38839,7 @@ function responseBlob(response) {
 
 
 /***/ }),
-/* 311 */
+/* 313 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38609,14 +38854,14 @@ function responseArrayBuffer(response) {
 
 
 /***/ }),
-/* 312 */
+/* 314 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = dsv;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return csv; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return tsv; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dsv__ = __webpack_require__(126);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__text__ = __webpack_require__(67);
 
 
@@ -38643,7 +38888,7 @@ var tsv = dsvParse(__WEBPACK_IMPORTED_MODULE_0_d3_dsv__["h" /* tsvParse */]);
 
 
 /***/ }),
-/* 313 */
+/* 315 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38659,7 +38904,7 @@ var tsv = dsvParse(__WEBPACK_IMPORTED_MODULE_0_d3_dsv__["h" /* tsvParse */]);
 
 
 /***/ }),
-/* 314 */
+/* 316 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38674,7 +38919,7 @@ function responseJson(response) {
 
 
 /***/ }),
-/* 315 */
+/* 317 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38699,25 +38944,25 @@ var svg = parser("image/svg+xml");
 
 
 /***/ }),
-/* 316 */
+/* 318 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_center__ = __webpack_require__(317);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_center__ = __webpack_require__(319);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_center__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_collide__ = __webpack_require__(318);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_collide__ = __webpack_require__(320);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_collide__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_link__ = __webpack_require__(332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_link__ = __webpack_require__(334);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_manyBody__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_manyBody__ = __webpack_require__(335);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_3__src_manyBody__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_radial__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_radial__ = __webpack_require__(336);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__src_radial__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_simulation__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_simulation__ = __webpack_require__(127);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_5__src_simulation__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_x__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_x__ = __webpack_require__(337);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_6__src_x__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_y__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_y__ = __webpack_require__(338);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_7__src_y__["a"]; });
 
 
@@ -38730,7 +38975,7 @@ var svg = parser("image/svg+xml");
 
 
 /***/ }),
-/* 317 */
+/* 319 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38773,7 +39018,7 @@ var svg = parser("image/svg+xml");
 
 
 /***/ }),
-/* 318 */
+/* 320 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -38881,23 +39126,23 @@ function y(d) {
 
 
 /***/ }),
-/* 319 */
+/* 321 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = quadtree;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__add__ = __webpack_require__(320);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cover__ = __webpack_require__(321);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data__ = __webpack_require__(322);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(323);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find__ = __webpack_require__(324);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__remove__ = __webpack_require__(325);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__root__ = __webpack_require__(326);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__size__ = __webpack_require__(327);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__visit__ = __webpack_require__(328);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__visitAfter__ = __webpack_require__(329);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__x__ = __webpack_require__(330);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__y__ = __webpack_require__(331);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__add__ = __webpack_require__(322);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cover__ = __webpack_require__(323);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(325);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__find__ = __webpack_require__(326);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__remove__ = __webpack_require__(327);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__root__ = __webpack_require__(328);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__size__ = __webpack_require__(329);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__visit__ = __webpack_require__(330);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__visitAfter__ = __webpack_require__(331);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__x__ = __webpack_require__(332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__y__ = __webpack_require__(333);
 
 
 
@@ -38974,7 +39219,7 @@ treeProto.y = __WEBPACK_IMPORTED_MODULE_11__y__["a" /* default */];
 
 
 /***/ }),
-/* 320 */
+/* 322 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39067,7 +39312,7 @@ function addAll(data) {
 
 
 /***/ }),
-/* 321 */
+/* 323 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39132,7 +39377,7 @@ function addAll(data) {
 
 
 /***/ }),
-/* 322 */
+/* 324 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39146,7 +39391,7 @@ function addAll(data) {
 
 
 /***/ }),
-/* 323 */
+/* 325 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39158,7 +39403,7 @@ function addAll(data) {
 
 
 /***/ }),
-/* 324 */
+/* 326 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39236,7 +39481,7 @@ function addAll(data) {
 
 
 /***/ }),
-/* 325 */
+/* 327 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39306,7 +39551,7 @@ function removeAll(data) {
 
 
 /***/ }),
-/* 326 */
+/* 328 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39316,7 +39561,7 @@ function removeAll(data) {
 
 
 /***/ }),
-/* 327 */
+/* 329 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39330,7 +39575,7 @@ function removeAll(data) {
 
 
 /***/ }),
-/* 328 */
+/* 330 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39354,7 +39599,7 @@ function removeAll(data) {
 
 
 /***/ }),
-/* 329 */
+/* 331 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39383,7 +39628,7 @@ function removeAll(data) {
 
 
 /***/ }),
-/* 330 */
+/* 332 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39398,7 +39643,7 @@ function defaultX(d) {
 
 
 /***/ }),
-/* 331 */
+/* 333 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39413,13 +39658,13 @@ function defaultY(d) {
 
 
 /***/ }),
-/* 332 */
+/* 334 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jiggle__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_collection__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_collection__ = __webpack_require__(38);
 
 
 
@@ -39539,14 +39784,14 @@ function find(nodeById, nodeId) {
 
 
 /***/ }),
-/* 333 */
+/* 335 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jiggle__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_quadtree__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__simulation__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__simulation__ = __webpack_require__(127);
 
 
 
@@ -39664,7 +39909,7 @@ function find(nodeById, nodeId) {
 
 
 /***/ }),
-/* 334 */
+/* 336 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39729,7 +39974,7 @@ function find(nodeById, nodeId) {
 
 
 /***/ }),
-/* 335 */
+/* 337 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39778,7 +40023,7 @@ function find(nodeById, nodeId) {
 
 
 /***/ }),
-/* 336 */
+/* 338 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39827,14 +40072,14 @@ function find(nodeById, nodeId) {
 
 
 /***/ }),
-/* 337 */
+/* 339 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return format; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return formatPrefix; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = defaultLocale;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__locale__ = __webpack_require__(128);
 
 
 var locale;
@@ -39857,7 +40102,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 338 */
+/* 340 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39882,7 +40127,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 339 */
+/* 341 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39896,28 +40141,52 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 340 */
+/* 342 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony default export */ __webpack_exports__["a"] = (function(x, p) {
-  x = x.toPrecision(p);
-
-  out: for (var n = x.length, i = 1, i0 = -1, i1; i < n; ++i) {
-    switch (x[i]) {
+// Trims insignificant zeros, e.g., replaces 1.2000k with 1.2k.
+/* harmony default export */ __webpack_exports__["a"] = (function(s) {
+  out: for (var n = s.length, i = 1, i0 = -1, i1; i < n; ++i) {
+    switch (s[i]) {
       case ".": i0 = i1 = i; break;
       case "0": if (i0 === 0) i0 = i; i1 = i; break;
-      case "e": break out;
-      default: if (i0 > 0) i0 = 0; break;
+      default: if (i0 > 0) { if (!+s[i]) break out; i0 = 0; } break;
     }
   }
-
-  return i0 > 0 ? x.slice(0, i0) + x.slice(i1 + 1) : x;
+  return i0 > 0 ? s.slice(0, i0) + s.slice(i1 + 1) : s;
 });
 
 
 /***/ }),
-/* 341 */
+/* 343 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatPrefixAuto__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatRounded__ = __webpack_require__(344);
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+  "%": function(x, p) { return (x * 100).toFixed(p); },
+  "b": function(x) { return Math.round(x).toString(2); },
+  "c": function(x) { return x + ""; },
+  "d": function(x) { return Math.round(x).toString(10); },
+  "e": function(x, p) { return x.toExponential(p); },
+  "f": function(x, p) { return x.toFixed(p); },
+  "g": function(x, p) { return x.toPrecision(p); },
+  "o": function(x) { return Math.round(x).toString(8); },
+  "p": function(x, p) { return Object(__WEBPACK_IMPORTED_MODULE_1__formatRounded__["a" /* default */])(x * 100, p); },
+  "r": __WEBPACK_IMPORTED_MODULE_1__formatRounded__["a" /* default */],
+  "s": __WEBPACK_IMPORTED_MODULE_0__formatPrefixAuto__["a" /* default */],
+  "X": function(x) { return Math.round(x).toString(16).toUpperCase(); },
+  "x": function(x) { return Math.round(x).toString(16); }
+});
+
+
+/***/ }),
+/* 344 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39936,7 +40205,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 342 */
+/* 345 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39946,11 +40215,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 343 */
+/* 346 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(39);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(step) {
@@ -39959,11 +40228,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 344 */
+/* 347 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(39);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(step, value) {
@@ -39972,11 +40241,11 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 345 */
+/* 348 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(39);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function(step, max) {
@@ -39986,15 +40255,15 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 346 */
+/* 349 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_area__ = __webpack_require__(131);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_area__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_bounds__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_bounds__ = __webpack_require__(350);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__src_bounds__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_centroid__ = __webpack_require__(348);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_centroid__ = __webpack_require__(351);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_2__src_centroid__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_circle__ = __webpack_require__(132);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_3__src_circle__["b"]; });
@@ -40002,49 +40271,49 @@ function defaultLocale(definition) {
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_4__src_clip_antimeridian__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_clip_circle__ = __webpack_require__(140);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_5__src_clip_circle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_clip_extent__ = __webpack_require__(350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_clip_extent__ = __webpack_require__(353);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_6__src_clip_extent__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_clip_rectangle__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_clip_rectangle__ = __webpack_require__(41);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_7__src_clip_rectangle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_contains__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_contains__ = __webpack_require__(355);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_8__src_contains__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_distance__ = __webpack_require__(141);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_9__src_distance__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_graticule__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_graticule__ = __webpack_require__(356);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_10__src_graticule__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_10__src_graticule__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_interpolate__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_interpolate__ = __webpack_require__(357);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_11__src_interpolate__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_length__ = __webpack_require__(142);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_12__src_length__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_path_index__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_path_index__ = __webpack_require__(358);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_13__src_path_index__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_projection_albers__ = __webpack_require__(144);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_14__src_projection_albers__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_projection_albersUsa__ = __webpack_require__(363);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_projection_albersUsa__ = __webpack_require__(366);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_15__src_projection_albersUsa__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_projection_azimuthalEqualArea__ = __webpack_require__(364);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_projection_azimuthalEqualArea__ = __webpack_require__(367);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_16__src_projection_azimuthalEqualArea__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_16__src_projection_azimuthalEqualArea__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_projection_azimuthalEquidistant__ = __webpack_require__(365);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_projection_azimuthalEquidistant__ = __webpack_require__(368);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_17__src_projection_azimuthalEquidistant__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_17__src_projection_azimuthalEquidistant__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_projection_conicConformal__ = __webpack_require__(366);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_projection_conicConformal__ = __webpack_require__(369);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_18__src_projection_conicConformal__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_18__src_projection_conicConformal__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_projection_conicEqualArea__ = __webpack_require__(74);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_19__src_projection_conicEqualArea__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_19__src_projection_conicEqualArea__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_projection_conicEquidistant__ = __webpack_require__(367);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_projection_conicEquidistant__ = __webpack_require__(370);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_20__src_projection_conicEquidistant__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_20__src_projection_conicEquidistant__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_projection_equirectangular__ = __webpack_require__(145);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_21__src_projection_equirectangular__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_21__src_projection_equirectangular__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_projection_gnomonic__ = __webpack_require__(368);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_projection_gnomonic__ = __webpack_require__(371);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_22__src_projection_gnomonic__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_22__src_projection_gnomonic__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_projection_identity__ = __webpack_require__(369);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_projection_identity__ = __webpack_require__(372);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_23__src_projection_identity__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_projection_index__ = __webpack_require__(10);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_24__src_projection_index__["a"]; });
@@ -40052,23 +40321,23 @@ function defaultLocale(definition) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_projection_mercator__ = __webpack_require__(77);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_25__src_projection_mercator__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_25__src_projection_mercator__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_projection_naturalEarth1__ = __webpack_require__(370);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_projection_naturalEarth1__ = __webpack_require__(373);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_26__src_projection_naturalEarth1__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_26__src_projection_naturalEarth1__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_projection_orthographic__ = __webpack_require__(371);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_projection_orthographic__ = __webpack_require__(374);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_27__src_projection_orthographic__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_27__src_projection_orthographic__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_projection_stereographic__ = __webpack_require__(372);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_projection_stereographic__ = __webpack_require__(375);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_28__src_projection_stereographic__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Q", function() { return __WEBPACK_IMPORTED_MODULE_28__src_projection_stereographic__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_projection_transverseMercator__ = __webpack_require__(373);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_projection_transverseMercator__ = __webpack_require__(376);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_29__src_projection_transverseMercator__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_29__src_projection_transverseMercator__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_rotation__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_rotation__ = __webpack_require__(40);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_30__src_rotation__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_stream__ = __webpack_require__(15);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_31__src_stream__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_transform__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_transform__ = __webpack_require__(42);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_32__src_transform__["a"]; });
 
 
@@ -40106,7 +40375,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 347 */
+/* 350 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40294,7 +40563,7 @@ function rangeContains(range, x) {
 
 
 /***/ }),
-/* 348 */
+/* 351 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40444,7 +40713,7 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 349 */
+/* 352 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40456,11 +40725,11 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 350 */
+/* 353 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__rectangle__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__rectangle__ = __webpack_require__(41);
 
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
@@ -40484,7 +40753,7 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 351 */
+/* 354 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40550,7 +40819,7 @@ function centroidRingPoint(lambda, phi) {
 
 
 /***/ }),
-/* 352 */
+/* 355 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40644,7 +40913,7 @@ function pointRadians(point) {
 
 
 /***/ }),
-/* 353 */
+/* 356 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40760,7 +41029,7 @@ function graticule10() {
 
 
 /***/ }),
-/* 354 */
+/* 357 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40804,18 +41073,18 @@ function graticule10() {
 
 
 /***/ }),
-/* 355 */
+/* 358 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__identity__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__stream__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__area__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__area__ = __webpack_require__(359);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__bounds__ = __webpack_require__(143);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__centroid__ = __webpack_require__(357);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__context__ = __webpack_require__(358);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__measure__ = __webpack_require__(359);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__string__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__centroid__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__context__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__measure__ = __webpack_require__(362);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__string__ = __webpack_require__(363);
 
 
 
@@ -40880,7 +41149,7 @@ function graticule10() {
 
 
 /***/ }),
-/* 356 */
+/* 359 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40940,7 +41209,7 @@ function areaRingEnd() {
 
 
 /***/ }),
-/* 357 */
+/* 360 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41048,7 +41317,7 @@ function centroidPointRing(x, y) {
 
 
 /***/ }),
-/* 358 */
+/* 361 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41103,7 +41372,7 @@ PathContext.prototype = {
 
 
 /***/ }),
-/* 359 */
+/* 362 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41158,7 +41427,7 @@ function lengthPoint(x, y) {
 
 
 /***/ }),
-/* 360 */
+/* 363 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41225,13 +41494,13 @@ function circle(radius) {
 
 
 /***/ }),
-/* 361 */
+/* 364 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cartesian__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__math__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(42);
 
 
 
@@ -41337,7 +41606,7 @@ function resample(project, delta2) {
 
 
 /***/ }),
-/* 362 */
+/* 365 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41361,7 +41630,7 @@ function cylindricalEqualAreaRaw(phi0) {
 
 
 /***/ }),
-/* 363 */
+/* 366 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41483,7 +41752,7 @@ function multiplex(streams) {
 
 
 /***/ }),
-/* 364 */
+/* 367 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41511,7 +41780,7 @@ azimuthalEqualAreaRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["
 
 
 /***/ }),
-/* 365 */
+/* 368 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41539,7 +41808,7 @@ azimuthalEquidistantRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__
 
 
 /***/ }),
-/* 366 */
+/* 369 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41585,7 +41854,7 @@ function conicConformalRaw(y0, y1) {
 
 
 /***/ }),
-/* 367 */
+/* 370 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41625,7 +41894,7 @@ function conicEquidistantRaw(y0, y1) {
 
 
 /***/ }),
-/* 368 */
+/* 371 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41652,13 +41921,13 @@ gnomonicRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["a" /* azim
 
 
 /***/ }),
-/* 369 */
+/* 372 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_rectangle__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__clip_rectangle__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__identity__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__transform__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fit__ = __webpack_require__(76);
 
 
@@ -41725,7 +41994,7 @@ function scaleTranslate(kx, ky, tx, ty) {
 
 
 /***/ }),
-/* 370 */
+/* 373 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41763,7 +42032,7 @@ naturalEarth1Raw.invert = function(x, y) {
 
 
 /***/ }),
-/* 371 */
+/* 374 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41789,7 +42058,7 @@ orthographicRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["a" /* 
 
 
 /***/ }),
-/* 372 */
+/* 375 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41818,7 +42087,7 @@ stereographicRaw.invert = Object(__WEBPACK_IMPORTED_MODULE_1__azimuthal__["a" /*
 
 
 /***/ }),
-/* 373 */
+/* 376 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41855,39 +42124,39 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 374 */
+/* 377 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_cluster__ = __webpack_require__(375);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_cluster__ = __webpack_require__(378);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_cluster__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_hierarchy_index__ = __webpack_require__(78);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_hierarchy_index__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_pack_index__ = __webpack_require__(387);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_pack_index__ = __webpack_require__(390);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__src_pack_index__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_pack_siblings__ = __webpack_require__(146);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__src_pack_siblings__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_pack_enclose__ = __webpack_require__(147);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_4__src_pack_enclose__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_partition__ = __webpack_require__(389);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_partition__ = __webpack_require__(392);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_5__src_partition__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_stratify__ = __webpack_require__(390);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_stratify__ = __webpack_require__(393);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_6__src_stratify__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_tree__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_tree__ = __webpack_require__(394);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_7__src_tree__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_treemap_index__ = __webpack_require__(392);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_treemap_index__ = __webpack_require__(395);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_8__src_treemap_index__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_treemap_binary__ = __webpack_require__(393);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_treemap_binary__ = __webpack_require__(396);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_9__src_treemap_binary__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_treemap_dice__ = __webpack_require__(27);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_10__src_treemap_dice__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_treemap_slice__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_treemap_slice__ = __webpack_require__(43);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_11__src_treemap_slice__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_treemap_sliceDice__ = __webpack_require__(394);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_treemap_sliceDice__ = __webpack_require__(397);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_12__src_treemap_sliceDice__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_treemap_squarify__ = __webpack_require__(80);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_13__src_treemap_squarify__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_treemap_resquarify__ = __webpack_require__(395);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_treemap_resquarify__ = __webpack_require__(398);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_14__src_treemap_resquarify__["a"]; });
 
 
@@ -41907,7 +42176,7 @@ transverseMercatorRaw.invert = function(x, y) {
 
 
 /***/ }),
-/* 375 */
+/* 378 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41998,7 +42267,7 @@ function leafRight(node) {
 
 
 /***/ }),
-/* 376 */
+/* 379 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42017,7 +42286,7 @@ function count(node) {
 
 
 /***/ }),
-/* 377 */
+/* 380 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42037,7 +42306,7 @@ function count(node) {
 
 
 /***/ }),
-/* 378 */
+/* 381 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42054,7 +42323,7 @@ function count(node) {
 
 
 /***/ }),
-/* 379 */
+/* 382 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42074,7 +42343,7 @@ function count(node) {
 
 
 /***/ }),
-/* 380 */
+/* 383 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42090,7 +42359,7 @@ function count(node) {
 
 
 /***/ }),
-/* 381 */
+/* 384 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42104,7 +42373,7 @@ function count(node) {
 
 
 /***/ }),
-/* 382 */
+/* 385 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42141,7 +42410,7 @@ function leastCommonAncestor(a, b) {
 
 
 /***/ }),
-/* 383 */
+/* 386 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42155,7 +42424,7 @@ function leastCommonAncestor(a, b) {
 
 
 /***/ }),
-/* 384 */
+/* 387 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42169,7 +42438,7 @@ function leastCommonAncestor(a, b) {
 
 
 /***/ }),
-/* 385 */
+/* 388 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42185,7 +42454,7 @@ function leastCommonAncestor(a, b) {
 
 
 /***/ }),
-/* 386 */
+/* 389 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42201,7 +42470,7 @@ function leastCommonAncestor(a, b) {
 
 
 /***/ }),
-/* 387 */
+/* 390 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42290,7 +42559,7 @@ function translateChild(k) {
 
 
 /***/ }),
-/* 388 */
+/* 391 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42315,7 +42584,7 @@ function shuffle(array) {
 
 
 /***/ }),
-/* 389 */
+/* 392 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42376,7 +42645,7 @@ function shuffle(array) {
 
 
 /***/ }),
-/* 390 */
+/* 393 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42458,7 +42727,7 @@ function defaultParentId(d) {
 
 
 /***/ }),
-/* 391 */
+/* 394 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42703,7 +42972,7 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 392 */
+/* 395 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42808,7 +43077,7 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 393 */
+/* 396 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42861,12 +43130,12 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 394 */
+/* 397 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dice__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(43);
 
 
 
@@ -42876,12 +43145,12 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 395 */
+/* 398 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dice__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slice__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__squarify__ = __webpack_require__(80);
 
 
@@ -42922,19 +43191,19 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 396 */
+/* 399 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_area__ = __webpack_require__(397);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_area__ = __webpack_require__(400);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_area__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_centroid__ = __webpack_require__(398);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_centroid__ = __webpack_require__(401);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_centroid__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_hull__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_hull__ = __webpack_require__(402);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__src_hull__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_contains__ = __webpack_require__(401);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_contains__ = __webpack_require__(404);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_3__src_contains__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_length__ = __webpack_require__(402);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_length__ = __webpack_require__(405);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__src_length__["a"]; });
 
 
@@ -42944,7 +43213,7 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 397 */
+/* 400 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42966,7 +43235,7 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 398 */
+/* 401 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42993,11 +43262,11 @@ function treeRoot(root) {
 
 
 /***/ }),
-/* 399 */
+/* 402 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cross__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cross__ = __webpack_require__(403);
 
 
 function lexicographicOrder(a, b) {
@@ -43050,7 +43319,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 400 */
+/* 403 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43064,7 +43333,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 401 */
+/* 404 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43087,7 +43356,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 402 */
+/* 405 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43117,21 +43386,21 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 403 */
+/* 406 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_uniform__ = __webpack_require__(404);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_uniform__ = __webpack_require__(407);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__src_uniform__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_normal__ = __webpack_require__(150);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__src_normal__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_logNormal__ = __webpack_require__(405);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_logNormal__ = __webpack_require__(408);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__src_logNormal__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_bates__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_bates__ = __webpack_require__(409);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__src_bates__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_irwinHall__ = __webpack_require__(151);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_4__src_irwinHall__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_exponential__ = __webpack_require__(407);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_exponential__ = __webpack_require__(410);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__src_exponential__["a"]; });
 
 
@@ -43142,7 +43411,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 404 */
+/* 407 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43167,7 +43436,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 405 */
+/* 408 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43191,7 +43460,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 406 */
+/* 409 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43215,7 +43484,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 407 */
+/* 410 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43236,36 +43505,36 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 408 */
+/* 411 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_band__ = __webpack_require__(409);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_band__ = __webpack_require__(412);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_identity__ = __webpack_require__(410);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_identity__ = __webpack_require__(413);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_identity__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_linear__ = __webpack_require__(28);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__src_linear__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_log__ = __webpack_require__(412);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_log__ = __webpack_require__(415);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__src_log__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_ordinal__ = __webpack_require__(152);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_4__src_ordinal__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_4__src_ordinal__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_pow__ = __webpack_require__(413);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_pow__ = __webpack_require__(416);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_5__src_pow__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_5__src_pow__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_quantile__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_quantile__ = __webpack_require__(417);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_6__src_quantile__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_quantize__ = __webpack_require__(415);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_quantize__ = __webpack_require__(418);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_7__src_quantize__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold__ = __webpack_require__(416);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold__ = __webpack_require__(419);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_8__src_threshold__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_time__ = __webpack_require__(155);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_9__src_time__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcTime__ = __webpack_require__(432);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcTime__ = __webpack_require__(435);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcTime__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_sequential__ = __webpack_require__(433);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_sequential__ = __webpack_require__(436);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_11__src_sequential__["a"]; });
 
 
@@ -43293,7 +43562,7 @@ function computeUpperHullIndexes(points) {
 
 
 /***/ }),
-/* 409 */
+/* 412 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43405,7 +43674,7 @@ function point() {
 
 
 /***/ }),
-/* 410 */
+/* 413 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43439,7 +43708,7 @@ function identity() {
 
 
 /***/ }),
-/* 411 */
+/* 414 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43479,7 +43748,7 @@ function identity() {
 
 
 /***/ }),
-/* 412 */
+/* 415 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43488,7 +43757,7 @@ function identity() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_format__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nice__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__continuous__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__continuous__ = __webpack_require__(44);
 
 
 
@@ -43620,7 +43889,7 @@ function log() {
 
 
 /***/ }),
-/* 413 */
+/* 416 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43628,7 +43897,7 @@ function log() {
 /* harmony export (immutable) */ __webpack_exports__["b"] = sqrt;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__linear__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(44);
 
 
 
@@ -43670,7 +43939,7 @@ function sqrt() {
 
 
 /***/ }),
-/* 414 */
+/* 417 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43731,7 +44000,7 @@ function quantile() {
 
 
 /***/ }),
-/* 415 */
+/* 418 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43788,7 +44057,7 @@ function quantize() {
 
 
 /***/ }),
-/* 416 */
+/* 419 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43831,7 +44100,7 @@ function threshold() {
 
 
 /***/ }),
-/* 417 */
+/* 420 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43866,7 +44135,7 @@ var milliseconds = millisecond.range;
 
 
 /***/ }),
-/* 418 */
+/* 421 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43891,7 +44160,7 @@ var seconds = second.range;
 
 
 /***/ }),
-/* 419 */
+/* 422 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43916,7 +44185,7 @@ var minutes = minute.range;
 
 
 /***/ }),
-/* 420 */
+/* 423 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43943,7 +44212,7 @@ var hours = hour.range;
 
 
 /***/ }),
-/* 421 */
+/* 424 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43968,7 +44237,7 @@ var days = day.range;
 
 
 /***/ }),
-/* 422 */
+/* 425 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44020,7 +44289,7 @@ var saturdays = saturday.range;
 
 
 /***/ }),
-/* 423 */
+/* 426 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44044,7 +44313,7 @@ var months = month.range;
 
 
 /***/ }),
-/* 424 */
+/* 427 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44079,7 +44348,7 @@ var years = year.range;
 
 
 /***/ }),
-/* 425 */
+/* 428 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44104,7 +44373,7 @@ var utcMinutes = utcMinute.range;
 
 
 /***/ }),
-/* 426 */
+/* 429 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44129,7 +44398,7 @@ var utcHours = utcHour.range;
 
 
 /***/ }),
-/* 427 */
+/* 430 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44154,7 +44423,7 @@ var utcDays = utcDay.range;
 
 
 /***/ }),
-/* 428 */
+/* 431 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44206,7 +44475,7 @@ var utcSaturdays = utcSaturday.range;
 
 
 /***/ }),
-/* 429 */
+/* 432 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44230,7 +44499,7 @@ var utcMonths = utcMonth.range;
 
 
 /***/ }),
-/* 430 */
+/* 433 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44265,7 +44534,7 @@ var utcYears = utcYear.range;
 
 
 /***/ }),
-/* 431 */
+/* 434 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44287,13 +44556,13 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 432 */
+/* 435 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__time__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_time_format__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_time__ = __webpack_require__(45);
 
 
 
@@ -44304,7 +44573,7 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 433 */
+/* 436 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44343,118 +44612,118 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 434 */
+/* 437 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_categorical_category10__ = __webpack_require__(435);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_categorical_category10__ = __webpack_require__(438);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_0__src_categorical_category10__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_categorical_Accent__ = __webpack_require__(436);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_categorical_Accent__ = __webpack_require__(439);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_1__src_categorical_Accent__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_categorical_Dark2__ = __webpack_require__(437);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_categorical_Dark2__ = __webpack_require__(440);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Q", function() { return __WEBPACK_IMPORTED_MODULE_2__src_categorical_Dark2__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_categorical_Paired__ = __webpack_require__(438);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_categorical_Paired__ = __webpack_require__(441);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "X", function() { return __WEBPACK_IMPORTED_MODULE_3__src_categorical_Paired__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_categorical_Pastel1__ = __webpack_require__(439);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_categorical_Pastel1__ = __webpack_require__(442);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Y", function() { return __WEBPACK_IMPORTED_MODULE_4__src_categorical_Pastel1__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_categorical_Pastel2__ = __webpack_require__(440);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_categorical_Pastel2__ = __webpack_require__(443);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Z", function() { return __WEBPACK_IMPORTED_MODULE_5__src_categorical_Pastel2__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_categorical_Set1__ = __webpack_require__(441);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_categorical_Set1__ = __webpack_require__(444);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_12", function() { return __WEBPACK_IMPORTED_MODULE_6__src_categorical_Set1__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_categorical_Set2__ = __webpack_require__(442);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_categorical_Set2__ = __webpack_require__(445);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_13", function() { return __WEBPACK_IMPORTED_MODULE_7__src_categorical_Set2__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_categorical_Set3__ = __webpack_require__(443);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_categorical_Set3__ = __webpack_require__(446);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_14", function() { return __WEBPACK_IMPORTED_MODULE_8__src_categorical_Set3__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_diverging_BrBG__ = __webpack_require__(444);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_diverging_BrBG__ = __webpack_require__(447);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_9__src_diverging_BrBG__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_9__src_diverging_BrBG__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_diverging_PRGn__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_diverging_PRGn__ = __webpack_require__(448);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_10__src_diverging_PRGn__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "W", function() { return __WEBPACK_IMPORTED_MODULE_10__src_diverging_PRGn__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_diverging_PiYG__ = __webpack_require__(446);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_diverging_PiYG__ = __webpack_require__(449);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_11__src_diverging_PiYG__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_0", function() { return __WEBPACK_IMPORTED_MODULE_11__src_diverging_PiYG__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_diverging_PuOr__ = __webpack_require__(447);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_diverging_PuOr__ = __webpack_require__(450);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_12__src_diverging_PuOr__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_3", function() { return __WEBPACK_IMPORTED_MODULE_12__src_diverging_PuOr__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdBu__ = __webpack_require__(448);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdBu__ = __webpack_require__(451);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdBu__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_6", function() { return __WEBPACK_IMPORTED_MODULE_13__src_diverging_RdBu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdGy__ = __webpack_require__(449);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdGy__ = __webpack_require__(452);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdGy__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_7", function() { return __WEBPACK_IMPORTED_MODULE_14__src_diverging_RdGy__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlBu__ = __webpack_require__(450);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlBu__ = __webpack_require__(453);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlBu__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_9", function() { return __WEBPACK_IMPORTED_MODULE_15__src_diverging_RdYlBu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_diverging_RdYlGn__ = __webpack_require__(451);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_diverging_RdYlGn__ = __webpack_require__(454);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_16__src_diverging_RdYlGn__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_10", function() { return __WEBPACK_IMPORTED_MODULE_16__src_diverging_RdYlGn__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_diverging_Spectral__ = __webpack_require__(452);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_diverging_Spectral__ = __webpack_require__(455);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_17__src_diverging_Spectral__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_15", function() { return __WEBPACK_IMPORTED_MODULE_17__src_diverging_Spectral__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuGn__ = __webpack_require__(453);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuGn__ = __webpack_require__(456);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuGn__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_18__src_sequential_multi_BuGn__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_BuPu__ = __webpack_require__(454);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_BuPu__ = __webpack_require__(457);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_BuPu__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_19__src_sequential_multi_BuPu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_GnBu__ = __webpack_require__(455);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_GnBu__ = __webpack_require__(458);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_GnBu__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "R", function() { return __WEBPACK_IMPORTED_MODULE_20__src_sequential_multi_GnBu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_OrRd__ = __webpack_require__(456);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_OrRd__ = __webpack_require__(459);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_OrRd__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "U", function() { return __WEBPACK_IMPORTED_MODULE_21__src_sequential_multi_OrRd__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBuGn__ = __webpack_require__(457);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBuGn__ = __webpack_require__(460);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBuGn__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_2", function() { return __WEBPACK_IMPORTED_MODULE_22__src_sequential_multi_PuBuGn__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuBu__ = __webpack_require__(458);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuBu__ = __webpack_require__(461);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuBu__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_1", function() { return __WEBPACK_IMPORTED_MODULE_23__src_sequential_multi_PuBu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_PuRd__ = __webpack_require__(459);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_PuRd__ = __webpack_require__(462);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_PuRd__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_4", function() { return __WEBPACK_IMPORTED_MODULE_24__src_sequential_multi_PuRd__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_RdPu__ = __webpack_require__(460);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_RdPu__ = __webpack_require__(463);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_RdPu__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_8", function() { return __WEBPACK_IMPORTED_MODULE_25__src_sequential_multi_RdPu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGnBu__ = __webpack_require__(461);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGnBu__ = __webpack_require__(464);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGnBu__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_17", function() { return __WEBPACK_IMPORTED_MODULE_26__src_sequential_multi_YlGnBu__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlGn__ = __webpack_require__(462);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlGn__ = __webpack_require__(465);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlGn__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_16", function() { return __WEBPACK_IMPORTED_MODULE_27__src_sequential_multi_YlGn__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrBr__ = __webpack_require__(463);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrBr__ = __webpack_require__(466);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrBr__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_18", function() { return __WEBPACK_IMPORTED_MODULE_28__src_sequential_multi_YlOrBr__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_sequential_multi_YlOrRd__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_sequential_multi_YlOrRd__ = __webpack_require__(467);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_29__src_sequential_multi_YlOrRd__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_19", function() { return __WEBPACK_IMPORTED_MODULE_29__src_sequential_multi_YlOrRd__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Blues__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Blues__ = __webpack_require__(468);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Blues__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_30__src_sequential_single_Blues__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greens__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greens__ = __webpack_require__(469);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greens__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return __WEBPACK_IMPORTED_MODULE_31__src_sequential_single_Greens__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Greys__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Greys__ = __webpack_require__(470);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Greys__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "T", function() { return __WEBPACK_IMPORTED_MODULE_32__src_sequential_single_Greys__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Purples__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Purples__ = __webpack_require__(471);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Purples__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_5", function() { return __WEBPACK_IMPORTED_MODULE_33__src_sequential_single_Purples__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Reds__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Reds__ = __webpack_require__(472);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Reds__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "_11", function() { return __WEBPACK_IMPORTED_MODULE_34__src_sequential_single_Reds__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__src_sequential_single_Oranges__ = __webpack_require__(470);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__src_sequential_single_Oranges__ = __webpack_require__(473);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_35__src_sequential_single_Oranges__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "V", function() { return __WEBPACK_IMPORTED_MODULE_35__src_sequential_single_Oranges__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__src_sequential_multi_cubehelix__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__src_sequential_multi_cubehelix__ = __webpack_require__(474);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_36__src_sequential_multi_cubehelix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__src_sequential_multi_rainbow__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__src_sequential_multi_rainbow__ = __webpack_require__(475);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_37__src_sequential_multi_rainbow__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_37__src_sequential_multi_rainbow__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_37__src_sequential_multi_rainbow__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__src_sequential_multi_sinebow__ = __webpack_require__(473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__src_sequential_multi_sinebow__ = __webpack_require__(476);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_38__src_sequential_multi_sinebow__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__src_sequential_multi_viridis__ = __webpack_require__(474);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__src_sequential_multi_viridis__ = __webpack_require__(477);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_39__src_sequential_multi_viridis__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_39__src_sequential_multi_viridis__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_39__src_sequential_multi_viridis__["b"]; });
@@ -44502,7 +44771,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 435 */
+/* 438 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44513,7 +44782,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 436 */
+/* 439 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44524,7 +44793,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 437 */
+/* 440 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44535,7 +44804,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 438 */
+/* 441 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44546,7 +44815,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 439 */
+/* 442 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44557,7 +44826,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 440 */
+/* 443 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44568,7 +44837,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 441 */
+/* 444 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44579,7 +44848,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 442 */
+/* 445 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44590,7 +44859,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 443 */
+/* 446 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44601,7 +44870,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 444 */
+/* 447 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44627,7 +44896,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 445 */
+/* 448 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44653,7 +44922,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 446 */
+/* 449 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44679,7 +44948,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 447 */
+/* 450 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44705,7 +44974,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 448 */
+/* 451 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44731,7 +45000,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 449 */
+/* 452 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44757,7 +45026,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 450 */
+/* 453 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44783,7 +45052,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 451 */
+/* 454 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44809,7 +45078,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 452 */
+/* 455 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44835,7 +45104,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 453 */
+/* 456 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44859,7 +45128,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 454 */
+/* 457 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44883,7 +45152,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 455 */
+/* 458 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44907,7 +45176,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 456 */
+/* 459 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44931,7 +45200,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 457 */
+/* 460 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44955,7 +45224,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 458 */
+/* 461 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44979,7 +45248,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 459 */
+/* 462 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45003,7 +45272,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 460 */
+/* 463 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45027,7 +45296,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 461 */
+/* 464 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45051,7 +45320,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 462 */
+/* 465 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45075,7 +45344,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 463 */
+/* 466 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45099,7 +45368,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 464 */
+/* 467 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45123,7 +45392,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 465 */
+/* 468 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45147,7 +45416,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 466 */
+/* 469 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45171,7 +45440,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 467 */
+/* 470 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45195,7 +45464,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 468 */
+/* 471 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45219,7 +45488,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 469 */
+/* 472 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45243,7 +45512,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 470 */
+/* 473 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45267,7 +45536,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 471 */
+/* 474 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45280,7 +45549,7 @@ var scheme = new Array(3).concat(
 
 
 /***/ }),
-/* 472 */
+/* 475 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45308,14 +45577,14 @@ var c = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["b" /* cubehelix */])();
 
 
 /***/ }),
-/* 473 */
+/* 476 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_color__ = __webpack_require__(8);
 
 
-var c = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["f" /* rgb */])(),
+var c = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["h" /* rgb */])(),
     pi_1_3 = Math.PI / 3,
     pi_2_3 = Math.PI * 2 / 3;
 
@@ -45330,7 +45599,7 @@ var c = Object(__WEBPACK_IMPORTED_MODULE_0_d3_color__["f" /* rgb */])(),
 
 
 /***/ }),
-/* 474 */
+/* 477 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45357,19 +45626,19 @@ var plasma = ramp(Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */
 
 
 /***/ }),
-/* 475 */
+/* 478 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_arc__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_arc__ = __webpack_require__(479);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_arc__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_area__ = __webpack_require__(158);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_area__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_line__ = __webpack_require__(84);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_2__src_line__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_pie__ = __webpack_require__(477);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_pie__ = __webpack_require__(480);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_3__src_pie__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_areaRadial__ = __webpack_require__(480);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_areaRadial__ = __webpack_require__(483);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_4__src_areaRadial__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_4__src_areaRadial__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_lineRadial__ = __webpack_require__(160);
@@ -45377,11 +45646,11 @@ var plasma = ramp(Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_5__src_lineRadial__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_pointRadial__ = __webpack_require__(161);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_6__src_pointRadial__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_link_index__ = __webpack_require__(481);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_link_index__ = __webpack_require__(484);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_7__src_link_index__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_7__src_link_index__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_7__src_link_index__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_symbol__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_symbol__ = __webpack_require__(485);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "P", function() { return __WEBPACK_IMPORTED_MODULE_8__src_symbol__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "X", function() { return __WEBPACK_IMPORTED_MODULE_8__src_symbol__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_symbol_circle__ = __webpack_require__(163);
@@ -45398,60 +45667,60 @@ var plasma = ramp(Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "V", function() { return __WEBPACK_IMPORTED_MODULE_14__src_symbol_triangle__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_symbol_wye__ = __webpack_require__(169);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "W", function() { return __WEBPACK_IMPORTED_MODULE_15__src_symbol_wye__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_curve_basisClosed__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_curve_basisClosed__ = __webpack_require__(486);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_16__src_curve_basisClosed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_curve_basisOpen__ = __webpack_require__(484);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_curve_basisOpen__ = __webpack_require__(487);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_17__src_curve_basisOpen__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_curve_basis__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_curve_basis__ = __webpack_require__(48);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_18__src_curve_basis__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_curve_bundle__ = __webpack_require__(485);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_curve_bundle__ = __webpack_require__(488);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_19__src_curve_bundle__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_curve_cardinalClosed__ = __webpack_require__(170);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_20__src_curve_cardinalClosed__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_curve_cardinalOpen__ = __webpack_require__(171);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_21__src_curve_cardinalOpen__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_curve_cardinal__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_curve_cardinal__ = __webpack_require__(49);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_22__src_curve_cardinal__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_curve_catmullRomClosed__ = __webpack_require__(486);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_curve_catmullRomClosed__ = __webpack_require__(489);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_23__src_curve_catmullRomClosed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_curve_catmullRomOpen__ = __webpack_require__(487);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__src_curve_catmullRomOpen__ = __webpack_require__(490);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_24__src_curve_catmullRomOpen__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_curve_catmullRom__ = __webpack_require__(86);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_25__src_curve_catmullRom__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_curve_linearClosed__ = __webpack_require__(488);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_curve_linearClosed__ = __webpack_require__(491);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_26__src_curve_linearClosed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_curve_linear__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_curve_linear__ = __webpack_require__(46);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_27__src_curve_linear__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_curve_monotone__ = __webpack_require__(489);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__src_curve_monotone__ = __webpack_require__(492);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_28__src_curve_monotone__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_28__src_curve_monotone__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_curve_natural__ = __webpack_require__(490);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__src_curve_natural__ = __webpack_require__(493);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_29__src_curve_natural__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_curve_step__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__src_curve_step__ = __webpack_require__(494);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_30__src_curve_step__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_30__src_curve_step__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_30__src_curve_step__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_stack__ = __webpack_require__(492);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__src_stack__ = __webpack_require__(495);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return __WEBPACK_IMPORTED_MODULE_31__src_stack__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_offset_expand__ = __webpack_require__(493);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__src_offset_expand__ = __webpack_require__(496);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return __WEBPACK_IMPORTED_MODULE_32__src_offset_expand__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_offset_diverging__ = __webpack_require__(494);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__src_offset_diverging__ = __webpack_require__(497);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return __WEBPACK_IMPORTED_MODULE_33__src_offset_diverging__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__src_offset_none__ = __webpack_require__(30);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return __WEBPACK_IMPORTED_MODULE_34__src_offset_none__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__src_offset_silhouette__ = __webpack_require__(495);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__src_offset_silhouette__ = __webpack_require__(498);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return __WEBPACK_IMPORTED_MODULE_35__src_offset_silhouette__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__src_offset_wiggle__ = __webpack_require__(496);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__src_offset_wiggle__ = __webpack_require__(499);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return __WEBPACK_IMPORTED_MODULE_36__src_offset_wiggle__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__src_order_ascending__ = __webpack_require__(87);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return __WEBPACK_IMPORTED_MODULE_37__src_order_ascending__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__src_order_descending__ = __webpack_require__(497);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__src_order_descending__ = __webpack_require__(500);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return __WEBPACK_IMPORTED_MODULE_38__src_order_descending__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__src_order_insideOut__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__src_order_insideOut__ = __webpack_require__(501);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return __WEBPACK_IMPORTED_MODULE_39__src_order_insideOut__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__src_order_none__ = __webpack_require__(31);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return __WEBPACK_IMPORTED_MODULE_40__src_order_none__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__src_order_reverse__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__src_order_reverse__ = __webpack_require__(502);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return __WEBPACK_IMPORTED_MODULE_41__src_order_reverse__["a"]; });
 
 
@@ -45501,7 +45770,7 @@ var plasma = ramp(Object(__WEBPACK_IMPORTED_MODULE_0__colors__["a" /* default */
 
 
 /***/ }),
-/* 476 */
+/* 479 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45770,13 +46039,13 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 477 */
+/* 480 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__descending__ = __webpack_require__(478);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identity__ = __webpack_require__(479);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__descending__ = __webpack_require__(481);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identity__ = __webpack_require__(482);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__math__ = __webpack_require__(29);
 
 
@@ -45860,7 +46129,7 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 478 */
+/* 481 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45870,7 +46139,7 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 479 */
+/* 482 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45880,7 +46149,7 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 480 */
+/* 483 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45919,7 +46188,7 @@ function cornerTangents(x0, y0, x1, y1, r1, rc, cw) {
 
 
 /***/ }),
-/* 481 */
+/* 484 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46018,7 +46287,7 @@ function linkRadial() {
 
 
 /***/ }),
-/* 482 */
+/* 485 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46081,12 +46350,12 @@ var symbols = [
 
 
 /***/ }),
-/* 483 */
+/* 486 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basis__ = __webpack_require__(48);
 
 
 
@@ -46142,11 +46411,11 @@ BasisClosed.prototype = {
 
 
 /***/ }),
-/* 484 */
+/* 487 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(48);
 
 
 function BasisOpen(context) {
@@ -46189,11 +46458,11 @@ BasisOpen.prototype = {
 
 
 /***/ }),
-/* 485 */
+/* 488 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basis__ = __webpack_require__(48);
 
 
 function Bundle(context, beta) {
@@ -46253,12 +46522,12 @@ Bundle.prototype = {
 
 
 /***/ }),
-/* 486 */
+/* 489 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cardinalClosed__ = __webpack_require__(170);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catmullRom__ = __webpack_require__(86);
 
 
@@ -46337,7 +46606,7 @@ CatmullRomClosed.prototype = {
 
 
 /***/ }),
-/* 487 */
+/* 490 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46408,11 +46677,11 @@ CatmullRomOpen.prototype = {
 
 
 /***/ }),
-/* 488 */
+/* 491 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__noop__ = __webpack_require__(47);
 
 
 function LinearClosed(context) {
@@ -46441,7 +46710,7 @@ LinearClosed.prototype = {
 
 
 /***/ }),
-/* 489 */
+/* 492 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46554,7 +46823,7 @@ function monotoneY(context) {
 
 
 /***/ }),
-/* 490 */
+/* 493 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46626,7 +46895,7 @@ function controlPoints(x) {
 
 
 /***/ }),
-/* 491 */
+/* 494 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46688,7 +46957,7 @@ function stepAfter(context) {
 
 
 /***/ }),
-/* 492 */
+/* 495 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46756,7 +47025,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 493 */
+/* 496 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46774,7 +47043,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 494 */
+/* 497 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46795,7 +47064,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 495 */
+/* 498 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46813,7 +47082,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 496 */
+/* 499 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46845,7 +47114,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 497 */
+/* 500 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46858,7 +47127,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 498 */
+/* 501 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46894,7 +47163,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 499 */
+/* 502 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46907,22 +47176,22 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 500 */
+/* 503 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_voronoi__ = __webpack_require__(501);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_voronoi__ = __webpack_require__(504);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_voronoi__["a"]; });
 
 
 
 /***/ }),
-/* 501 */
+/* 504 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(502);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(503);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__point__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Diagram__ = __webpack_require__(32);
 
 
@@ -46975,7 +47244,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 502 */
+/* 505 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46987,7 +47256,7 @@ function stackValue(d, key) {
 
 
 /***/ }),
-/* 503 */
+/* 506 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47003,7 +47272,7 @@ function y(d) {
 
 
 /***/ }),
-/* 504 */
+/* 507 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47210,11 +47479,11 @@ function rightBreakPoint(arc, directrix) {
 
 
 /***/ }),
-/* 505 */
+/* 508 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_zoom__ = __webpack_require__(506);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_zoom__ = __webpack_require__(509);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__src_zoom__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_transform__ = __webpack_require__(174);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_transform__["b"]; });
@@ -47224,19 +47493,19 @@ function rightBreakPoint(arc, directrix) {
 
 
 /***/ }),
-/* 506 */
+/* 509 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_dispatch__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_drag__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_drag__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3_interpolate__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_d3_selection__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_d3_transition__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__constant__ = __webpack_require__(507);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__event__ = __webpack_require__(508);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__constant__ = __webpack_require__(510);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__event__ = __webpack_require__(511);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__transform__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__noevent__ = __webpack_require__(509);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__noevent__ = __webpack_require__(512);
 
 
 
@@ -47249,7 +47518,7 @@ function rightBreakPoint(arc, directrix) {
 
 // Ignore right-click, since that should open the context menu.
 function defaultFilter() {
-  return !__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].button;
+  return !__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].button;
 }
 
 function defaultExtent() {
@@ -47270,7 +47539,7 @@ function defaultTransform() {
 }
 
 function defaultWheelDelta() {
-  return -__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].deltaY * (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].deltaMode ? 120 : 1) / 500;
+  return -__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].deltaY * (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].deltaMode ? 120 : 1) / 500;
 }
 
 function defaultTouchable() {
@@ -47453,7 +47722,7 @@ function defaultConstrain(transform, extent, translateExtent) {
       return this;
     },
     emit: function(type) {
-      Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["c" /* customEvent */])(new __WEBPACK_IMPORTED_MODULE_6__event__["a" /* default */](zoom, type, this.that.__zoom), listeners.apply, listeners, [type, this.that, this.args]);
+      Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* customEvent */])(new __WEBPACK_IMPORTED_MODULE_6__event__["a" /* default */](zoom, type, this.that.__zoom), listeners.apply, listeners, [type, this.that, this.args]);
     }
   };
 
@@ -47462,7 +47731,7 @@ function defaultConstrain(transform, extent, translateExtent) {
     var g = gesture(this, arguments),
         t = this.__zoom,
         k = Math.max(scaleExtent[0], Math.min(scaleExtent[1], t.k * Math.pow(2, wheelDelta.apply(this, arguments)))),
-        p = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["g" /* mouse */])(this);
+        p = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["h" /* mouse */])(this);
 
     // If the mouse is in the same location as before, reuse it.
     // If there were recent wheel events, reset the wheel idle timeout.
@@ -47496,12 +47765,12 @@ function defaultConstrain(transform, extent, translateExtent) {
   function mousedowned() {
     if (touchending || !filter.apply(this, arguments)) return;
     var g = gesture(this, arguments),
-        v = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["j" /* select */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].view).on("mousemove.zoom", mousemoved, true).on("mouseup.zoom", mouseupped, true),
-        p = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["g" /* mouse */])(this),
-        x0 = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].clientX,
-        y0 = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].clientY;
+        v = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["k" /* select */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].view).on("mousemove.zoom", mousemoved, true).on("mouseup.zoom", mouseupped, true),
+        p = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["h" /* mouse */])(this),
+        x0 = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].clientX,
+        y0 = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].clientY;
 
-    Object(__WEBPACK_IMPORTED_MODULE_1_d3_drag__["b" /* dragDisable */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].view);
+    Object(__WEBPACK_IMPORTED_MODULE_1_d3_drag__["b" /* dragDisable */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].view);
     Object(__WEBPACK_IMPORTED_MODULE_8__noevent__["b" /* nopropagation */])();
     g.mouse = [p, this.__zoom.invert(p)];
     Object(__WEBPACK_IMPORTED_MODULE_4_d3_transition__["b" /* interrupt */])(this);
@@ -47510,15 +47779,15 @@ function defaultConstrain(transform, extent, translateExtent) {
     function mousemoved() {
       Object(__WEBPACK_IMPORTED_MODULE_8__noevent__["a" /* default */])();
       if (!g.moved) {
-        var dx = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].clientX - x0, dy = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].clientY - y0;
+        var dx = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].clientX - x0, dy = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].clientY - y0;
         g.moved = dx * dx + dy * dy > clickDistance2;
       }
-      g.zoom("mouse", constrain(translate(g.that.__zoom, g.mouse[0] = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["g" /* mouse */])(g.that), g.mouse[1]), g.extent, translateExtent));
+      g.zoom("mouse", constrain(translate(g.that.__zoom, g.mouse[0] = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["h" /* mouse */])(g.that), g.mouse[1]), g.extent, translateExtent));
     }
 
     function mouseupped() {
       v.on("mousemove.zoom mouseup.zoom", null);
-      Object(__WEBPACK_IMPORTED_MODULE_1_d3_drag__["c" /* dragEnable */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].view, g.moved);
+      Object(__WEBPACK_IMPORTED_MODULE_1_d3_drag__["c" /* dragEnable */])(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].view, g.moved);
       Object(__WEBPACK_IMPORTED_MODULE_8__noevent__["a" /* default */])();
       g.end();
     }
@@ -47527,26 +47796,26 @@ function defaultConstrain(transform, extent, translateExtent) {
   function dblclicked() {
     if (!filter.apply(this, arguments)) return;
     var t0 = this.__zoom,
-        p0 = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["g" /* mouse */])(this),
+        p0 = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["h" /* mouse */])(this),
         p1 = t0.invert(p0),
-        k1 = t0.k * (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].shiftKey ? 0.5 : 2),
+        k1 = t0.k * (__WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].shiftKey ? 0.5 : 2),
         t1 = constrain(translate(scale(t0, k1), p0, p1), extent.apply(this, arguments), translateExtent);
 
     Object(__WEBPACK_IMPORTED_MODULE_8__noevent__["a" /* default */])();
-    if (duration > 0) Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["j" /* select */])(this).transition().duration(duration).call(schedule, t1, p0);
-    else Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["j" /* select */])(this).call(zoom.transform, t1);
+    if (duration > 0) Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["k" /* select */])(this).transition().duration(duration).call(schedule, t1, p0);
+    else Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["k" /* select */])(this).call(zoom.transform, t1);
   }
 
   function touchstarted() {
     if (!filter.apply(this, arguments)) return;
     var g = gesture(this, arguments),
-        touches = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].changedTouches,
+        touches = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].changedTouches,
         started,
         n = touches.length, i, t, p;
 
     Object(__WEBPACK_IMPORTED_MODULE_8__noevent__["b" /* nopropagation */])();
     for (i = 0; i < n; ++i) {
-      t = touches[i], p = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["p" /* touch */])(this, touches, t.identifier);
+      t = touches[i], p = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["q" /* touch */])(this, touches, t.identifier);
       p = [p, this.__zoom.invert(p), t.identifier];
       if (!g.touch0) g.touch0 = p, started = true;
       else if (!g.touch1) g.touch1 = p;
@@ -47557,7 +47826,7 @@ function defaultConstrain(transform, extent, translateExtent) {
       touchstarting = clearTimeout(touchstarting);
       if (!g.touch1) {
         g.end();
-        p = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["j" /* select */])(this).on("dblclick.zoom");
+        p = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["k" /* select */])(this).on("dblclick.zoom");
         if (p) p.apply(this, arguments);
         return;
       }
@@ -47572,13 +47841,13 @@ function defaultConstrain(transform, extent, translateExtent) {
 
   function touchmoved() {
     var g = gesture(this, arguments),
-        touches = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].changedTouches,
+        touches = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].changedTouches,
         n = touches.length, i, t, p, l;
 
     Object(__WEBPACK_IMPORTED_MODULE_8__noevent__["a" /* default */])();
     if (touchstarting) touchstarting = clearTimeout(touchstarting);
     for (i = 0; i < n; ++i) {
-      t = touches[i], p = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["p" /* touch */])(this, touches, t.identifier);
+      t = touches[i], p = Object(__WEBPACK_IMPORTED_MODULE_3_d3_selection__["q" /* touch */])(this, touches, t.identifier);
       if (g.touch0 && g.touch0[2] === t.identifier) g.touch0[0] = p;
       else if (g.touch1 && g.touch1[2] === t.identifier) g.touch1[0] = p;
     }
@@ -47599,7 +47868,7 @@ function defaultConstrain(transform, extent, translateExtent) {
 
   function touchended() {
     var g = gesture(this, arguments),
-        touches = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["d" /* event */].changedTouches,
+        touches = __WEBPACK_IMPORTED_MODULE_3_d3_selection__["e" /* event */].changedTouches,
         n = touches.length, i, t;
 
     Object(__WEBPACK_IMPORTED_MODULE_8__noevent__["b" /* nopropagation */])();
@@ -47665,7 +47934,7 @@ function defaultConstrain(transform, extent, translateExtent) {
 
 
 /***/ }),
-/* 507 */
+/* 510 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47677,7 +47946,7 @@ function defaultConstrain(transform, extent, translateExtent) {
 
 
 /***/ }),
-/* 508 */
+/* 511 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47690,7 +47959,7 @@ function ZoomEvent(target, type, transform) {
 
 
 /***/ }),
-/* 509 */
+/* 512 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47699,20 +47968,20 @@ function ZoomEvent(target, type, transform) {
 
 
 function nopropagation() {
-  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["d" /* event */].stopImmediatePropagation();
+  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["e" /* event */].stopImmediatePropagation();
 }
 
 /* harmony default export */ __webpack_exports__["a"] = (function() {
-  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["d" /* event */].preventDefault();
-  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["d" /* event */].stopImmediatePropagation();
+  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["e" /* event */].preventDefault();
+  __WEBPACK_IMPORTED_MODULE_0_d3_selection__["e" /* event */].stopImmediatePropagation();
 });
 
 
 /***/ }),
-/* 510 */
+/* 513 */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"h-100 ph-3\">\n  <div class=\"fixed top-5 h-middle vh-center\"><big><b>Patient Viewer</b></big></div>\n\n  <select\n    v-model=\"person\"\n    class=\"p-choose fixed top-5 left-3 v-center\"\n    @change=\"event = 0, active = ''\">\n    <option v-for=\"(p, i) in data\" v-bind:value=\"i\">\n      {{ p.person.name }}\n    </option>\n  </select>\n\n  <select\n    v-model=\"event\"\n    class=\"e-choose fixed top-5 right-5 v-center\"\n    @change=\"app.setactive(active)\">\n    <option v-for=\"(ev, i) in p.event\" v-bind:value=\"i\">\n      {{ ev.title }}{{ ev.elapsed ? ' - ' + ev.elapsed : '' }}\n    </option>\n  </select>\n\n  <div class=\"flex-column\">\n    <div class=\"flex-top pv-5\"></div>\n    <div class=\"flex-mid relative\">\n      <div class=\"flex-row\">\n        <div class=\"flex-left person relative\">\n          <table>\n            <tr><td colspan=\"2\" class=\"text-center\">\n              <img class=\"face\" v-bind:src=\"p.person.face\"/>\n            </td></tr>\n            <tr><td class=\"text-center p-1\" colspan=\"2\">\n              {{ p.person.name }} ({{ p.person.sex }}, {{ p.person.age }})\n            </td></tr>\n            <tr class=\"v-top\">\n              <td class=\" key\"><b>Marital Status</b></td>\n              <td class=\"value\">{{ p.person.marital_status || p.person.maritalstatus }}</td>\n            </tr><tr class=\"v-top\">\n              <td class=\" key\"><b>Education</b></td>\n              <td class=\"value\">{{ p.person.education }}</td>\n            </tr><tr class=\"v-top\">\n              <td class=\" key\"><b>Occupation</b></td>\n              <td class=\"value\">{{ p.person.occupation }}</td>\n            </tr><!-- <tr class=\"v-top\">\n              <td class=\" key\"> Language: </td>\n              <td class=\"value\">{{ p.person.language }}</td>\n            </tr> --><tr class=\"v-top\">\n              <td class=\" key\"><b>Race/Ethnicity</b></td>\n              <td class=\"value\">\n                {{ p.person.race }}{{ p.person.ethnicity ? '/'+p.person.ethnicity : '' }}\n              </td>\n            </tr>\n            <tr><td></td></tr>\n            <tr><td colspan=\"2\">{{ p.person.social }}</td></tr>\n          </table>\n\n        <!-- THESE ARE THE FOUR BUTTONS ON THE LEFT -->\n          <div class=\"absolute w-100 bottom-1 text-center\">\n            <input type=\"button\"\n              @click=\"app.setactive('records')\"\n              class=\"pointer pastinfo\"\n              value=\"Patient Records\">\n            <input type=\"button\"\n              @click=\"app.setactive('problemlist')\"\n              class=\"pointer pastinfo\"\n              value=\"Problem List\">\n            <input type=\"button\"\n              @click=\"app.setactive('druglist')\"\n              class=\"pointer pastinfo\"\n              value=\"Drug History\">\n            <input type=\"button\"\n              @click=\"app.setactive('charts')\"\n              class=\"pointer pastinfo\"\n              value=\"Patient Charts\">\n          </div>\n        </div>\n\n        <!-- THESE ARE THE BUTTONS ON THE TOP -->\n        <div class=\"flex-mid relative\">\n          <div class=\"flex-column ph-3\">\n            <div class=\"flex-top\">\n              <!-- INBOX BUTTON -->\n              <input\n                v-if=\"e.data.inbox.visible\"\n                v-bind:class=\"\n                  [!e.data.inbox.items.length\n                   ? 'disabled'\n                   :('inbox' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"e.data.inbox.items.length\n                    ? app.setactive('inbox')\n                    : undefined\"\n                value=\"Inbox\">\n              <!-- HISTORY BUTTON -->\n              <input\n                v-if=\"e.data.history.visible\"\n                v-bind:class=\"\n                  [!e.data.history.items.length\n                   ? 'disabled'\n                   :('history' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"e.data.history.items.length\n                      ? app.setactive('history')\n                      : undefined\"\n                value=\"History\">\n              <!-- PHYSICAL BUTTON -->\n              <input\n                v-if=\"e.data.physical.visible\"\n                v-bind:class=\"\n                  [!(e.data.physical.data.body || e.data.physical.sign.length)\n                   ? 'disabled'\n                   :('physical' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"(e.data.physical.data.body\n                    || e.data.physical.sign.length)\n                     ? app.setactive('physical')\n                     : undefined\"\n                value=\"Physical\">\n              <!-- PROCEDURE BUTTON -->\n              <input\n                v-if=\"e.data.procedure.visible\"\n                v-bind:class=\"\n                  [!e.data.procedure.items.length\n                   ? 'disabled'\n                   :('procedure' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"e.data.procedure.items.length\n                      ? app.setactive('procedure')\n                      : undefined\"\n                value=\"Procedure\">\n              <!-- INVESTIGATE BUTTON -->\n              <input\n                v-if=\"e.data.investigate.visible\"\n                v-bind:class=\"\n                  [!(e.data.investigate.data.length || e.data.investigate.results.length)\n                   ? 'disabled'\n                   :('investigate' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"(e.data.investigate.data.length\n                    || e.data.investigate.results.length)\n                       ? app.setactive('investigate')\n                       : undefined\"\n                value=\"Investigate\">\n              <!-- MANAGEMENT BUTTON -->\n              <input\n                v-if=\"e.data.management.visible\"\n                v-bind:class=\"\n                  [!e.data.management.items.length\n                   ? 'disabled'\n                   :('management' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"e.data.management.items.length ? app.setactive('management') : 0\"\n                value=\"Management\">\n\n              <!-- STUDY GUIDES -->\n              <input\n                v-if=\"e.data.guidelist.length\"\n                v-bind:class=\"\n                  [('studyguide' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"app.setactive('studyguide')\"\n                value=\"Study Guide\">\n            </div>\n\n\n            <!-- THESE ARE WHAT ARE DISPLAYED IN THE MAIN BOX -->\n            <div class=\"flex-mid scroll pv-3 ph-1\">\n              <!-- MISCELLANEOUS -->\n              <div v-if=\"['inbox', 'history', 'procedure', 'management'].includes(active)\">\n                <div v-for=\"item in e.data[active].items\">\n                  <p class=\"inherit-text\" v-if=\"item.title\"><b>{{ item.title }}</b><br></p>\n                  <div\n                      class=\"inherit-text\"\n                      v-if=\"item.body\"\n                      v-bind:style=\"{ 'font-family': 'cmu-serif' }\"\n                      v-html=\"item.body\"></div>\n                </div>\n              </div>\n              <!-- PHYSICAL -->\n              <div v-if=\"active==='physical'\">\n                <div v-if=\"e.data.physical.sign.length\">\n                  <p><b> Vital Signs </b></p>\n                  <div class=\"ph-3\">\n                    <table style=\"width:60%\">\n                      <tr v-for='item in e.data.physical.sign'>\n                        <td class=\" ph-1\"><b>{{ item.name }}</b></td>\n                        <td class=\"value text-left\" v-html=\"`${item.value} ${item.units}`\"></td>\n                      </tr>\n                    </table>\n                  </div>\n                  <br>\n                </div>\n\n                <div v-if=\"e.data.physical.data.title\">\n                  <b>{{ e.data.physical.data.title }}</b><br><br>\n                </div>\n                <div\n                    v-if=\"e.data.physical.data.body\"\n                    v-html=\"e.data.physical.data.body\">\n                </div>\n              </div>\n              <!-- INVESTIGATE -->\n              <div v-if=\"active==='investigate'\">\n                <div\n                    v-for=\"r in e.data.investigate.results\"\n                    v-if=\"e.data.investigate.results.length\">\n                  <p><b>{{ r.title }}</b></p>\n                  <div class=\"ph-3\">\n                    <table style=\"width:100%\">\n                      <tr>\n                        <th class=\"text-left v-top ph-1\"> Test </th>\n                        <th class=\"text-left v-top value\"> Result </th>\n                        <th class=\"text-left v-top value\"> Normal Range </th>\n                      </tr>\n                      <tr v-for='item in r.data'>\n                        <td class=\"v-top ph-1\"><b>{{ item.name }}</b></td>\n                        <td class=\"v-top text-left value\" v-html=\"`${item.value} ${item.units}`\"></td>\n                        <td class=\"v-top text-left value\" v-html=\"`${item.range} ${item.units}`\"></td>\n                      </tr>\n                    </table>\n                  </div>\n                </div>\n                <div v-if=\"e.data.investigate.data.length\" v-for=\"d in e.data.investigate.data\">\n                  <div v-if=\"d.title\"><b> {{ d.title }} </b><br></div>\n                  <div v-if=\"d.data\" v-html=\"d.data\"></div>\n                </div>\n              </div>\n\n              <!-- PATIENT RECORDS -->\n              <div v-if=\"active==='records'\">\n                <div v-for=\"e of p.event.slice(0, event+1)\">\n                  <div></div>\n                  <div class=\"record-title\"\n                    v-on:click=\"e.recordshown = !e.recordshown, $forceUpdate()\">\n                    <h1>{{ e.title }}</h1>\n                  </div>\n                  <div class=\"record-body\" v-if=\"e.recordshown\">\n                    <!-- MISCELLANEOUS -->\n                    <div v-for=\"name in ['Inbox', 'History', 'Procedure', 'Management']\"\n                      v-if=\"e.data[name.toLowerCase()] !== undefined\n                         && e.data[name.toLowerCase()].items.length > 0\">\n                      <hr><h2> {{ name }} </h2><hr>\n                      <div v-for=\"item in e.data[name.toLowerCase()].items\" v-if=\"item.body\">\n                        <p class=\"inherit-text\" v-if=\"item.title\"><b>{{ item.title }}</b><br></p>\n                        <div\n                            class=\"inherit-text\"\n                            v-if=\"item.body\"\n                            v-bind:style=\"{ 'font-family': 'cmu-serif' }\"\n                            v-html=\"item.body\"></div>\n                      </div>\n                    </div>\n\n                    <div v-if=\"e.data.physical.data.body || e.data.physical.sign.length\">\n                      <hr><h2> Physical </h2><hr>\n                      <div>\n                        <p><b> Vital Signs </b></p>\n                        <div class=\"ph-3\">\n                          <table style=\"width:60%\">\n                            <tr v-for='item in e.data.physical.sign'>\n                              <td class=\" ph-1\"><b>{{ item.name }}</b></td>\n                              <td class=\"value text-left\" v-html=\"`${item.value} ${item.units}`\"></td>\n                            </tr>\n                          </table>\n                        </div>\n                        <br>\n                      </div>\n                      <div v-if=\"e.data.physical.data.title\">\n                        <b>{{ e.data.physical.data.title }}</b><br><br>\n                      </div>\n                      <div v-if=\"e.data.physical.data.body\" v-html=\"e.data.physical.data.body\"></div>\n                    </div>\n                    <div v-if=\"e.data.investigate.data.length || e.data.investigate.results.length\">\n                      <hr><h2> Investigate </h2><hr>\n                      <div\n                          v-for=\"r in e.data.investigate.results\"\n                          v-if=\"e.data.investigate.results.length\">\n                        <p><b>{{ r.title }}</b></p>\n                        <div class=\"ph-3\">\n                          <table style=\"width:100%\">\n                            <tr>\n                              <th class=\"text-left v-top ph-1\"> Test </th>\n                              <th class=\"text-left v-top value\"> Result </th>\n                              <th class=\"text-left v-top value\"> Normal Range </th>\n                            </tr>\n                            <tr v-for='item in r.data'>\n                              <td class=\"v-top ph-1\"><b>{{ item.name }}</b></td>\n                              <td class=\"v-top text-left value\" v-html=\"`${item.value} ${item.units}`\"></td>\n                              <td class=\"v-top text-left value\" v-html=\"`${item.range} ${item.units}`\"></td>\n                            </tr>\n                          </table>\n                        </div>\n                      </div>\n                      <div v-if=\"e.data.investigate.data.length\" v-for=\"d in e.data.investigate.data\">\n                        <div v-if=\"d.title\"><b> {{ d.title }} </b><br></div>\n                        <div v-if=\"d.data\" v-html=\"d.data\"></div>\n                      </div>\n                    </div>\n                    <br><br>\n                  </div>\n                </div>\n              </div>\n              <!-- PROBLEM LIST -->\n              <div v-if=\"active==='problemlist'\">\n                <table style=\"width:100%\">\n                  <tr>\n                    <td style=\"width:25%\"><b>Name</b></td>\n                    <td style=\"width:25%\"><b>Start</b></td>\n                    <td style=\"width:25%\"><b>End</b></td>\n                  </tr>\n                  <tr v-for=\"item of app.problemlist()\" v-if=\"item.start <= event || item.start === undefined\">\n                    <td><b>{{ item.name }}</b></td>\n                    <td>{{ item.start === undefined ? '' : p.event[item.start].title }}</td>\n                    <td>{{ item.end === undefined || item.end > event ? '' : p.event[item.end].title }}</td>\n                  </tr>\n                </table>\n              </div>\n              <!-- DRUG HISTORY -->\n              <div v-if=\"active==='druglist'\">\n                <table style=\"width:100%\">\n                  <tr>\n                    <td style=\"width:25%\"><b>Name</b></td>\n                    <td style=\"width:25%\"><b>Dose</b></td>\n                    <td style=\"width:25%\"><b>Start</b></td>\n                    <td style=\"width:25%\"><b>End</b></td>\n                  </tr>\n                  <tr v-for=\"item of app.druglist()\" v-if=\"item.start <= event || item.start === undefined\">\n                    <td><b>{{ item.name }}</b></td>\n                    <td>{{ item.dose }}</td>\n                    <td>{{ item.start === undefined ? '' : p.event[item.start].title }}</td>\n                    <td>{{ item.end === undefined || item.end > event ? '' : p.event[item.end].title }}</td>\n                  </tr>\n                </table>\n              </div>\n              <!-- CHARTS -->\n              <div v-if=\"active==='charts'\">\n                <div\n                  v-for=\"[key, values] in app.charts()\">\n                  <div> <h3 class=\"chart\">{{ values[0].name }}</h3> </div>\n                  <div v-bind:id=\"`charts-${key}`\"></div>\n                </div>\n              </div>\n\n              <!-- STUDY GUIDES -->\n              <div v-if=\"active==='studyguide'\">\n                <div v-for=\"(g, indg) in e.data.guidelist\">\n\n                  <div\n                    class=\"record-title\"\n                    v-on:click=\"g.recordshown = (g.answershown=false, !g.recordshown), $forceUpdate()\">\n                    <h4> {{ g.questionindex ? `Question : ${g.questionindex}` : \"Study Guide\" }} </h4>\n                  </div>\n\n                  <div class=\"record-body\" v-if=\"g.recordshown\">\n                    <div v-if=\"g.title\"><br><b>{{ g.title }}</b><br></div>\n                    <div v-if=\"g.name=='openquestion'\">\n                      <div \n                        style=\"margin-top: 1em; margin-bottom: 1em;\" \n                        v-if=\"g.type=='text'\"> {{ g.questiontext }} </div>\n                      <div v-if=\"g.type=='cdata'\" v-html=\"g.questiontext\">\n                        {{ app.log(g) }}\n                      </div>\n                      <textarea width=\"100%\"></textarea>\n                      <br><br>\n                      <button\n                        v-if=\"!g.answershown\"\n                        v-on:click=\"g.answershown = true, $forceUpdate()\">\n                        Submit\n                      </button>\n                      <div v-if=\"g.answershown\" v-html=\"g.responsetext\"></div>\n                      <br><br>\n                    </div>\n\n                    <div v-if=\"g.name=='data'\" v-html=\"g.cdata\"> {{ app.log(g), app.log(p) }}</div>\n                  </div>\n\n\n                </div>\n              </div>\n\n\n            </div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n"
+module.exports = "\n<div class=\"h-100 ph-3\">\n  <div class=\"fixed top-5 h-middle vh-center\"><big><b>Patient Viewer</b></big></div>\n\n  <select\n    v-model=\"person\"\n    class=\"p-choose fixed top-5 left-3 v-center\"\n    @change=\"event = 0, active = ''\">\n    <option v-for=\"(p, i) in data\" v-bind:value=\"i\">\n      {{ p.person.name }}\n    </option>\n  </select>\n\n  <select\n    v-model=\"event\"\n    class=\"e-choose fixed top-5 right-5 v-center\"\n    @change=\"app.setactive(active)\">\n    <option v-for=\"(ev, i) in p.event\" v-bind:value=\"i\">\n      {{ ev.title }}{{ ev.elapsed ? ' - ' + ev.elapsed : '' }}\n    </option>\n  </select>\n\n  <div class=\"flex-column\">\n    <div class=\"flex-top pv-5\"></div>\n    <div class=\"flex-mid relative\">\n      <div class=\"flex-row\">\n        <div class=\"flex-left person relative\">\n          <table>\n            <tr><td colspan=\"2\" class=\"text-center\">\n              <img class=\"face\" v-bind:src=\"p.person.face\"/>\n            </td></tr>\n            <tr><td class=\"text-center p-1\" colspan=\"2\">\n              {{ p.person.name }} ({{ p.person.sex }}, {{ p.person.age }})\n            </td></tr>\n            <tr class=\"v-top\">\n              <td class=\" key\"><b>Marital Status</b></td>\n              <td class=\"value\">{{ p.person.marital_status || p.person.maritalstatus }}</td>\n            </tr><tr class=\"v-top\">\n              <td class=\" key\"><b>Education</b></td>\n              <td class=\"value\">{{ p.person.education }}</td>\n            </tr><tr class=\"v-top\">\n              <td class=\" key\"><b>Occupation</b></td>\n              <td class=\"value\">{{ p.person.occupation }}</td>\n            </tr><!-- <tr class=\"v-top\">\n              <td class=\" key\"> Language: </td>\n              <td class=\"value\">{{ p.person.language }}</td>\n            </tr> --><tr class=\"v-top\">\n              <td class=\" key\"><b>Race/Ethnicity</b></td>\n              <td class=\"value\">\n                {{ p.person.race }}{{ p.person.ethnicity ? '/'+p.person.ethnicity : '' }}\n              </td>\n            </tr>\n            <tr><td></td></tr>\n            <tr><td colspan=\"2\">{{ p.person.social }}</td></tr>\n          </table>\n\n        <!-- THESE ARE THE FOUR BUTTONS ON THE LEFT -->\n          <div class=\"absolute w-100 bottom-1 text-center\">\n            <input type=\"button\"\n              @click=\"app.setactive('records')\"\n              class=\"pointer pastinfo\"\n              value=\"Patient Records\">\n            <input type=\"button\"\n              @click=\"app.setactive('problemlist')\"\n              class=\"pointer pastinfo\"\n              value=\"Problem List\">\n            <input type=\"button\"\n              @click=\"app.setactive('druglist')\"\n              class=\"pointer pastinfo\"\n              value=\"Drug History\">\n            <input type=\"button\"\n              @click=\"app.setactive('charts')\"\n              class=\"pointer pastinfo\"\n              value=\"Patient Charts\">\n          </div>\n        </div>\n\n        <!-- THESE ARE THE BUTTONS ON THE TOP -->\n        <div class=\"flex-mid relative\">\n          <div class=\"flex-column ph-3\">\n            <div class=\"flex-top\">\n              <!-- INBOX BUTTON -->\n              <input\n                v-if=\"e.data.inbox.visible\"\n                v-bind:class=\"\n                  [!e.data.inbox.items.length\n                   ? 'disabled'\n                   :('inbox' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"e.data.inbox.items.length\n                    ? app.setactive('inbox')\n                    : undefined\"\n                value=\"Inbox\">\n              <!-- HISTORY BUTTON -->\n              <input\n                v-if=\"e.data.history.visible\"\n                v-bind:class=\"\n                  [!e.data.history.items.length\n                   ? 'disabled'\n                   :('history' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"e.data.history.items.length\n                      ? app.setactive('history')\n                      : undefined\"\n                value=\"History\">\n              <!-- PHYSICAL BUTTON -->\n              <input\n                v-if=\"e.data.physical.visible\"\n                v-bind:class=\"\n                  [!(e.data.physical.data.body || e.data.physical.sign.length)\n                   ? 'disabled'\n                   :('physical' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"(e.data.physical.data.body\n                    || e.data.physical.sign.length)\n                     ? app.setactive('physical')\n                     : undefined\"\n                value=\"Physical\">\n              <!-- PROCEDURE BUTTON -->\n              <input\n                v-if=\"e.data.procedure.visible\"\n                v-bind:class=\"\n                  [!e.data.procedure.items.length\n                   ? 'disabled'\n                   :('procedure' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"e.data.procedure.items.length\n                      ? app.setactive('procedure')\n                      : undefined\"\n                value=\"Procedure\">\n              <!-- INVESTIGATE BUTTON -->\n              <input\n                v-if=\"e.data.investigate.visible\"\n                v-bind:class=\"\n                  [!(e.data.investigate.data.length || e.data.investigate.results.length)\n                   ? 'disabled'\n                   :('investigate' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"(e.data.investigate.data.length\n                    || e.data.investigate.results.length)\n                       ? app.setactive('investigate')\n                       : undefined\"\n                value=\"Investigate\">\n              <!-- MANAGEMENT BUTTON -->\n              <input\n                v-if=\"e.data.management.visible\"\n                v-bind:class=\"\n                  [!e.data.management.items.length\n                   ? 'disabled'\n                   :('management' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"e.data.management.items.length ? app.setactive('management') : 0\"\n                value=\"Management\">\n\n              <!-- STUDY GUIDES -->\n              <input\n                v-if=\"e.data.guidelist.length\"\n                v-bind:class=\"\n                  [('studyguide' === active\n                   ? 'active'\n                   : 'passive')]\"\n                type=\"button\"\n                class=\"pointer currinfo\"\n                @click=\"app.setactive('studyguide')\"\n                value=\"Study Guide\">\n            </div>\n\n\n            <!-- THESE ARE WHAT ARE DISPLAYED IN THE MAIN BOX -->\n            <div class=\"flex-mid scroll pv-3 ph-1\">\n              <!-- MISCELLANEOUS -->\n              <div v-if=\"['inbox', 'history', 'procedure', 'management'].includes(active)\">\n                <div v-for=\"item in e.data[active].items\">\n                  <p class=\"inherit-text\" v-if=\"item.title\"><b>{{ item.title }}</b><br></p>\n                  <div\n                      class=\"inherit-text\"\n                      v-if=\"item.body\"\n                      v-bind:style=\"{ 'font-family': 'cmu-serif' }\"\n                      v-html=\"item.body\"></div>\n                </div>\n              </div>\n              <!-- PHYSICAL -->\n              <div v-if=\"active==='physical'\">\n                <div v-if=\"e.data.physical.sign.length\">\n                  <p><b> Vital Signs </b></p>\n                  <div class=\"ph-3\">\n                    <table style=\"width:60%\">\n                      <tr v-for='item in e.data.physical.sign'>\n                        <td class=\" ph-1\"><b>{{ item.name }}</b></td>\n                        <td class=\"value text-left\" v-html=\"`${item.value} ${item.units}`\"></td>\n                      </tr>\n                    </table>\n                  </div>\n                  <br>\n                </div>\n\n                <div v-if=\"e.data.physical.data.title\">\n                  <b>{{ e.data.physical.data.title }}</b><br><br>\n                </div>\n                <div\n                    v-if=\"e.data.physical.data.body\"\n                    v-html=\"e.data.physical.data.body\">\n                </div>\n              </div>\n              <!-- INVESTIGATE -->\n              <div v-if=\"active==='investigate'\">\n                <div\n                    v-for=\"r in e.data.investigate.results\"\n                    v-if=\"e.data.investigate.results.length\">\n                  <p><b>{{ r.title }}</b></p>\n                  <div class=\"ph-3\">\n                    <table style=\"width:100%\">\n                      <tr>\n                        <th class=\"text-left v-top ph-1\"> Test </th>\n                        <th class=\"text-left v-top value\"> Result </th>\n                        <th class=\"text-left v-top value\"> Normal Range </th>\n                      </tr>\n                      <tr v-for='item in r.data'>\n                        <td class=\"v-top ph-1\"><b>{{ item.name }}</b></td>\n                        <td class=\"v-top text-left value\" v-html=\"`${item.value} ${item.units}`\"></td>\n                        <td class=\"v-top text-left value\" v-html=\"`${item.range} ${item.units}`\"></td>\n                      </tr>\n                    </table>\n                  </div>\n                </div>\n                <div v-if=\"e.data.investigate.data.length\" v-for=\"d in e.data.investigate.data\">\n                  <div v-if=\"d.title\"><b> {{ d.title }} </b><br></div>\n                  <div v-if=\"d.data\" v-html=\"d.data\"></div>\n                </div>\n              </div>\n\n              <!-- PATIENT RECORDS -->\n              <div v-if=\"active==='records'\">\n                <div v-for=\"e of p.event.slice(0, event+1)\">\n                  <div></div>\n                  <div class=\"record-title\"\n                    v-on:click=\"e.recordshown = !e.recordshown, $forceUpdate()\">\n                    <h1>{{ e.title }}</h1>\n                  </div>\n                  <div class=\"record-body\" v-if=\"e.recordshown\">\n                    <!-- MISCELLANEOUS -->\n                    <div v-for=\"name in ['Inbox', 'History', 'Procedure', 'Management']\"\n                      v-if=\"e.data[name.toLowerCase()] !== undefined\n                         && e.data[name.toLowerCase()].items.length > 0\">\n                      <hr><h2> {{ name }} </h2><hr>\n                      <div v-for=\"item in e.data[name.toLowerCase()].items\" v-if=\"item.body\">\n                        <p class=\"inherit-text\" v-if=\"item.title\"><b>{{ item.title }}</b><br></p>\n                        <div\n                            class=\"inherit-text\"\n                            v-if=\"item.body\"\n                            v-bind:style=\"{ 'font-family': 'cmu-serif' }\"\n                            v-html=\"item.body\"></div>\n                      </div>\n                    </div>\n\n                    <div v-if=\"e.data.physical.data.body || e.data.physical.sign.length\">\n                      <hr><h2> Physical </h2><hr>\n                      <div>\n                        <p><b> Vital Signs </b></p>\n                        <div class=\"ph-3\">\n                          <table style=\"width:60%\">\n                            <tr v-for='item in e.data.physical.sign'>\n                              <td class=\" ph-1\"><b>{{ item.name }}</b></td>\n                              <td class=\"value text-left\" v-html=\"`${item.value} ${item.units}`\"></td>\n                            </tr>\n                          </table>\n                        </div>\n                        <br>\n                      </div>\n                      <div v-if=\"e.data.physical.data.title\">\n                        <b>{{ e.data.physical.data.title }}</b><br><br>\n                      </div>\n                      <div v-if=\"e.data.physical.data.body\" v-html=\"e.data.physical.data.body\"></div>\n                    </div>\n                    <div v-if=\"e.data.investigate.data.length || e.data.investigate.results.length\">\n                      <hr><h2> Investigate </h2><hr>\n                      <div\n                          v-for=\"r in e.data.investigate.results\"\n                          v-if=\"e.data.investigate.results.length\">\n                        <p><b>{{ r.title }}</b></p>\n                        <div class=\"ph-3\">\n                          <table style=\"width:100%\">\n                            <tr>\n                              <th class=\"text-left v-top ph-1\"> Test </th>\n                              <th class=\"text-left v-top value\"> Result </th>\n                              <th class=\"text-left v-top value\"> Normal Range </th>\n                            </tr>\n                            <tr v-for='item in r.data'>\n                              <td class=\"v-top ph-1\"><b>{{ item.name }}</b></td>\n                              <td class=\"v-top text-left value\" v-html=\"`${item.value} ${item.units}`\"></td>\n                              <td class=\"v-top text-left value\" v-html=\"`${item.range} ${item.units}`\"></td>\n                            </tr>\n                          </table>\n                        </div>\n                      </div>\n                      <div v-if=\"e.data.investigate.data.length\" v-for=\"d in e.data.investigate.data\">\n                        <div v-if=\"d.title\"><b> {{ d.title }} </b><br></div>\n                        <div v-if=\"d.data\" v-html=\"d.data\"></div>\n                      </div>\n                    </div>\n                    <br><br>\n                  </div>\n                </div>\n              </div>\n              <!-- PROBLEM LIST -->\n              <div v-if=\"active==='problemlist'\">\n                <table style=\"width:100%\">\n                  <tr>\n                    <td style=\"width:25%\"><b>Name</b></td>\n                    <td style=\"width:25%\"><b>Start</b></td>\n                    <td style=\"width:25%\"><b>End</b></td>\n                  </tr>\n                  <tr v-for=\"item of app.problemlist()\" v-if=\"item.start <= event || item.start === undefined\">\n                    <td><b>{{ item.name }}</b></td>\n                    <td>{{ item.start === undefined ? '' : p.event[item.start].title }}</td>\n                    <td>{{ item.end === undefined || item.end > event ? '' : p.event[item.end].title }}</td>\n                  </tr>\n                </table>\n              </div>\n              <!-- DRUG HISTORY -->\n              <div v-if=\"active==='druglist'\">\n                <table style=\"width:100%\">\n                  <tr>\n                    <td style=\"width:25%\"><b>Name</b></td>\n                    <td style=\"width:25%\"><b>Dose</b></td>\n                    <td style=\"width:25%\"><b>Start</b></td>\n                    <td style=\"width:25%\"><b>End</b></td>\n                  </tr>\n                  <tr v-for=\"item of app.druglist()\" v-if=\"item.start <= event || item.start === undefined\">\n                    <td><b>{{ item.name }}</b></td>\n                    <td>{{ item.dose }}</td>\n                    <td>{{ item.start === undefined ? '' : p.event[item.start].title }}</td>\n                    <td>{{ item.end === undefined || item.end > event ? '' : p.event[item.end].title }}</td>\n                  </tr>\n                </table>\n              </div>\n              <!-- CHARTS -->\n              <div v-if=\"active==='charts'\">\n                <div\n                  v-for=\"[key, values] in app.charts()\">\n                  <div> <h3>{{ values[0].name }}</h3> </div>\n                  <div v-bind:id=\"`charts-${key}`\"></div>\n                </div>\n              </div>\n\n              <!-- STUDY GUIDES -->\n              <div v-if=\"active==='studyguide'\">\n                <div v-for=\"(g, indg) in e.data.guidelist\">\n\n                  <div\n                    class=\"record-title\"\n                    v-on:click=\"g.recordshown = (g.answershown=false, !g.recordshown), $forceUpdate()\">\n                    <h4> {{ g.questionindex ? `Question : ${g.questionindex}` : \"Study Guide\" }} </h4>\n                  </div>\n\n                  <div class=\"record-body\" v-if=\"g.recordshown\">\n                    <div v-if=\"g.title\"><br><b>{{ g.title }}</b><br></div>\n                    <div v-if=\"g.name=='openquestion'\">\n                      <div \n                        style=\"margin-top: 1em; margin-bottom: 1em;\" \n                        v-if=\"g.type=='text'\"> {{ g.questiontext }} </div>\n                      <div v-if=\"g.type=='cdata'\" v-html=\"g.questiontext\">\n                        {{ app.log(g) }}\n                      </div>\n                      <textarea width=\"100%\"></textarea>\n                      <br><br>\n                      <button\n                        v-if=\"!g.answershown\"\n                        v-on:click=\"g.answershown = true, $forceUpdate()\">\n                        Submit\n                      </button>\n                      <div v-if=\"g.answershown\" v-html=\"g.responsetext\"></div>\n                      <br><br>\n                    </div>\n\n                    <div v-if=\"g.name=='data'\" v-html=\"g.cdata\"> {{ app.log(g), app.log(p) }}</div>\n                  </div>\n\n\n                </div>\n              </div>\n\n\n            </div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n"
 
 /***/ })
 /******/ ]);

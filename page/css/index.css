@@ -20,7 +20,7 @@ body {
   width: 100%;
   margin: 0;
   font-family: "cmu-serif";
-  
+
   font-size: 90%;
   position: fixed;
 }
@@ -186,7 +186,7 @@ input { font-family: "cmu-serif"; }
 select {
   font-size: 100%;
   font-family: "cmu-serif";
-  
+
   background: none;
   border: solid thin lightgray;
   outline: none;
@@ -219,7 +219,7 @@ input[type="button"].currinfo {
 }
 
 input[type="button"]:hover {
-  background: lightblue; 
+  background: lightblue;
 }
 
 td {
@@ -255,7 +255,7 @@ td.value { width: 12em; }
 
 .currinfo.disabled:hover {
   background: #eee;
-  border-color: #eee; 
+  border-color: #eee;
 }
 
 .currinfo.active {
@@ -285,6 +285,11 @@ img {
 
 }
 
+.record-body textarea{
+  width: 550px;
+  height: 200px;
+}
+
 .record-title:hover {
   background: #cccccc;
 }
@@ -298,7 +303,7 @@ img {
     z-index: 100;
     width: 100%;
     height: 100%;
-    background: rgba(100, 100, 100, 0.5); 
+    background: rgba(100, 100, 100, 0.5);
   }
 
   .submodal {
@@ -308,7 +313,6 @@ img {
     transform: translate(-50%, -50%);
     width: 80%;
     height: 80%;
-    background: rgba(100, 100, 100, 1.0); 
+    background: rgba(100, 100, 100, 1.0);
   }
 */
-
