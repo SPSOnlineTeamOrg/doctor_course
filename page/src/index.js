@@ -1,5 +1,6 @@
 
-import Vue from 'vue'
+// import Vue from 'vue'
+var Vue = require('vue').default
 const { bb } = require('billboard.js')
 
 function assert(t) {
@@ -158,36 +159,97 @@ class App {
 
     const run = () => {
       for (let key in measurements) {
-        const m = measurements[key].filter(i => i.event <= this.vue.event)
-        const name = `#charts-${key}`
-        const cats = m.map(i => this.vue.p.event[i.event].title)
-        const cols = [key].concat(m.map(i => parseInt(i.value)))
-        const unit = m[0].units.replace("&deg;C", "Celcius")
-        bb.generate({
-          bindto: name,
-          axis: {
-            x: { 
-              type: "category",
-              categories: cats,
-              tick : { width : 50 },
-              height : 50
+        // console.log(key)
+        // Patch to combine blood pressure
+        if (key === 'bps' || key === 'bpd') {
+          console.log("In here")
+          console.log(key)
+        } else {
+          // console.log("Trying to render " + key)
+          const m = measurements[key].filter(i => i.event <= this.vue.event)
+          const name = `#charts-${key}`
+          const cats = m.map(i => this.vue.p.event[i.event].title)
+          const cols = [key].concat(m.map(i => parseInt(i.value)))
+          const unit = m[0].units.replace("&deg;C", "Celcius")
+          // Change to Line Graphs
+          bb.generate({
+            bindto: name,
+            axis: {
+              x: { 
+                type: "category",
+                categories: cats,
+                tick : { width : 50 },
+                height : 50
+              },
+              y: { tick: { format: i => `${i} ${unit}` } }
             },
-            y: { tick: { format: i => `${i} ${unit}` } }
-          },
-          data: {
-            columns: [ cols ],
-            types: { [key]: "bar", },
-            colors: { [key] : "#ccffff", },
-          },
-          bar: {
-              width: {
-                ratio: 0.1,
-                max: 20
-              }
+            data: {
+              columns: [ cols ],
+              types: { [key]: "spline", },
+              colors: { [key] : "red", },
             },
-          legend : { show: false }
-        })
+            grid: {
+          x: {
+            show: true
+          },
+          y: {
+            show: true
+          }
+        },
+            legend : { show: false }
+          })
+        }
       }
+      // Make one blood pressure chart
+      var columns = []
+      var cats = []
+      var unit = []
+      for (let key in measurements) {
+        if (key === 'bps' || key === 'bpd') {
+          const m = measurements[key].filter(i => i.event <= this.vue.event)
+          unit = m[0].units
+          console.log(m)
+          cats = m.map(i => this.vue.p.event[i.event].title)
+          const cols = [key].concat(m.map(i => parseInt(i.value)))
+          columns.push(cols)
+
+        }
+      }
+      const name = '#charts-bps'
+      console.log(cats)
+      console.log(columns)
+      bb.generate({
+            bindto: name,
+            axis: {
+              x: { 
+                type: "category",
+                categories: cats,
+                tick : { width : 50 },
+                height : 50
+              },
+              y: { tick: { format: i => `${i} ${unit}` } }
+            },
+            data: {
+              columns: columns,
+              types: { 'bps': "spline", 
+                  'bpd': "spline"},
+              colors: { 'bps' : "red", 
+                  'bpd' : "blue"},
+            },
+            grid: {
+          x: {
+            show: true
+          },
+          y: {
+            show: true
+          }
+        },
+            legend : { show: false }
+          })
+      var x = document.getElementsByClassName("chart");
+      x[0].innerHTML = "Blood Pressure";
+      var element = x[1]
+      element.parentNode.removeChild(element)
     }
 
     setTimeout(run, 0)
